@@ -1,14 +1,14 @@
 # core/log.py
 import os
 import sys
-from json import load, dump
+import functools
+from json import dump, load
 from subprocess import run
 from typing import Optional
 
-from loguru import logger as logger_
+from loguru import logger as log
 from markupsafe import Markup, escape
 from tqdm.auto import tqdm
-
 
 #.############################################################
 #.                                                          .#
@@ -170,9 +170,9 @@ def console_flt(record:dict):
         return record
     
 #. Initiallize Console Sink
-logger_.remove() # removes the default logger profided by loguru
+log.remove() # removes the default logger profided by loguru
 sinks = {}
-logger_.configure(
+log.configure(
     handlers=[
         dict(
             sink=(lambda msg: tqdm.write(msg, end="")),
@@ -304,7 +304,7 @@ def multiline(record):
         
         
 
-logger = logger_.bind(scope="main")
+logger = log.bind(scope="main")
 logger.add(
     sink="/Users/maxludden/dev/py/superforge/logs/log.md",
     colorize=False,
@@ -331,12 +331,12 @@ def test_logger():
     logger.warning("Test the logger WARNING log.")
     logger.error("Test the logger ERROR log.")
 
-def test_logger_():
-    logger_.debug("Test the DEBUG console log.")
-    logger_.info("Test the INFO console log.")
-    logger_.warning("Test the WARTNING console log.")
+def test_log():
+    log.debug("Test the DEBUG console log.")
+    log.info("Test the INFO console log.")
+    log.warning("Test the WARTNING console log.")
 
-    @logger_.catch
+    @log.catch
     def test_exception():
         return 34/0
 
@@ -349,5 +349,37 @@ def new_run(test_loggers: bool=False):
     if test_loggers:
         test_logger()
     fix_tags()
+
+
+def errwrap(*, entry=True, exit=True, level="DEBUG"):
+    """Create a decorator that can be used to record the entry, *args, **kwargs,as well ass the exit and results of a decorated function.
+
+    Args:
+        entry (bool, optional): 
+            Should the entry , *args, and **kwargs of given decorated function be logged? Defaults to True.
+            
+        exit (bool, optional): 
+            Should the exitand the result of given decorated function be logged? Defaults to True.
+            
+        level (str, optional): 
+            The level at which to log to be recorded.. Defaults to "DEBUG".
+    """
     
-log = logger_
+    def wrapper(func):
+        name = func.__name__
+        
+        @functools.wraps(func)
+        def wrapped(*args, **kwargs):
+            xylog = log.opt(depth=1)
+            if entry:
+                xylog.log (level, "Entering '{}' (args= '{}', kwargs={}", name, args, kwargs)
+            result = func(*args, **kwargs)
+            if exit:
+                xylog.log(level, "Exiting '{}' (result={}", name, result)
+            return result
+        return wrapped
+    return wrapper
+
+
+
+
