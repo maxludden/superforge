@@ -20,8 +20,8 @@ new_run()
 # make_titlepages()
 
 #. EndOfBook
-make_endofboo
+#make_endofbooks()
 
-
+#. Section Pages
 
 fix_tags()

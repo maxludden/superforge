@@ -359,7 +359,7 @@ def errwrap(*, entry=True, exit=True, level="DEBUG"):
             Should the entry , *args, and **kwargs of given decorated function be logged? Defaults to True.
             
         exit (bool, optional): 
-            Should the exitand the result of given decorated function be logged? Defaults to True.
+            Should the exit and the result of given decorated function be logged? Defaults to True.
             
         level (str, optional): 
             The level at which to log to be recorded.. Defaults to "DEBUG".
@@ -375,7 +375,7 @@ def errwrap(*, entry=True, exit=True, level="DEBUG"):
                 xylog.log (level, "Entering '{}' (args= '{}', kwargs={}", name, args, kwargs)
             result = func(*args, **kwargs)
             if exit:
-                xylog.log(level, "Exiting '{}' (result={}", name, result)
+                xylog.log(level, "Exiting '{}' (result=\n{}", name, result)
             return result
         return wrapped
     return wrapper

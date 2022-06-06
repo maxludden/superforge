@@ -269,10 +269,11 @@
             Run 115 | 4:53:38 AM | titlepage.py | Line 288
         </div>
         <div class="container-debug">
-            Exiting 'get_mmd' (result=Title: Third God's Sanctuary
-Book: 3
-viewport: width=device-width
-CSS: ../Styles/style.css
+            <p>Exiting 'get_mmd' (result=</p>
+            <p>Title: Third God's Sanctuary</p>
+            <p>Book: 3</p>
+            <p>viewport: width=device-width</p>
+            <p>CSS: ../Styles/style.css</p>
 
 ## Third God's Sanctuary
 
@@ -518,14 +519,14 @@ CSS: ../Styles/style.css
             Run 115 | 4:53:39 AM | titlepage.py | Line 288
         </div>
         <div class="container-debug">
-            Exiting 'get_mmd' (result=Title: Fourth and Fifth God's Sanctuary
-Book: 4
-viewport: width=device-width
-CSS: ../Styles/style.css
-
-## Fourth and Fifth God's Sanctuary
-
-### Book Four
+            Exiting 'get_mmd' 
+            (result=Title: Fourth and Fifth God's Sanctuary
+            Book: 4
+            viewport: width=device-width
+            CSS: ../Styles/style.css
+            
+            <h2>Fourth and Fifth God's Sanctuary</h2>
+            <h3>Book Four</h3>
 
 <figure>
 
@@ -5546,6 +5547,316 @@ CSS: ../Styles/style.css
         </div>
         <div class="container-debug">
             Exiting 'make_endofbooks' (result=None
+        </div>
+    </div>
+</a>
+
+<br><br>
+
+
+## Run 121
+<br>
+<img src="/Users/maxludden/dev/py/superforge/books/book01/Images/gem.gif" alt="gem" id="gem" width="120" height="60" />
+
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/main.py:23:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 121 | 8:17:00 AM | main.py | Line 23
+        </div>
+        <div class="container-debug">
+            Entering 'make_endofbooks' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/endofbook.py:291:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 121 | 8:17:00 AM | endofbook.py | Line 291
+        </div>
+        <div class="container-debug">
+            Entering 'sg' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:62:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 121 | 8:17:00 AM | atlas.py | Line 62
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/endofbook.py:291:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 121 | 8:17:00 AM | endofbook.py | Line 291
+        </div>
+        <div class="container-debug">
+            Exiting 'sg' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/endofbook.py:296:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 121 | 8:17:01 AM | endofbook.py | Line 296
+        </div>
+        <div class="container-debug">
+            Wrote Book {book}'s EndOfBook's multimarkdown to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/endofbook.py:299:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 121 | 8:17:01 AM | endofbook.py | Line 299
+        </div>
+        <div class="container-debug">
+            rote Book {book}'s EndOfBook's HTML to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/endofbook.py:296:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 121 | 8:17:01 AM | endofbook.py | Line 296
+        </div>
+        <div class="container-debug">
+            Wrote Book {book}'s EndOfBook's multimarkdown to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/endofbook.py:299:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 121 | 8:17:01 AM | endofbook.py | Line 299
+        </div>
+        <div class="container-debug">
+            rote Book {book}'s EndOfBook's HTML to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/endofbook.py:296:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 121 | 8:17:01 AM | endofbook.py | Line 296
+        </div>
+        <div class="container-debug">
+            Wrote Book {book}'s EndOfBook's multimarkdown to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/endofbook.py:299:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 121 | 8:17:01 AM | endofbook.py | Line 299
+        </div>
+        <div class="container-debug">
+            rote Book {book}'s EndOfBook's HTML to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/endofbook.py:296:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 121 | 8:17:01 AM | endofbook.py | Line 296
+        </div>
+        <div class="container-debug">
+            Wrote Book {book}'s EndOfBook's multimarkdown to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/endofbook.py:299:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 121 | 8:17:01 AM | endofbook.py | Line 299
+        </div>
+        <div class="container-debug">
+            rote Book {book}'s EndOfBook's HTML to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/endofbook.py:296:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 121 | 8:17:01 AM | endofbook.py | Line 296
+        </div>
+        <div class="container-debug">
+            Wrote Book {book}'s EndOfBook's multimarkdown to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/endofbook.py:299:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 121 | 8:17:01 AM | endofbook.py | Line 299
+        </div>
+        <div class="container-debug">
+            rote Book {book}'s EndOfBook's HTML to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/endofbook.py:296:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 121 | 8:17:01 AM | endofbook.py | Line 296
+        </div>
+        <div class="container-debug">
+            Wrote Book {book}'s EndOfBook's multimarkdown to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/endofbook.py:299:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 121 | 8:17:01 AM | endofbook.py | Line 299
+        </div>
+        <div class="container-debug">
+            rote Book {book}'s EndOfBook's HTML to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/endofbook.py:296:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 121 | 8:17:01 AM | endofbook.py | Line 296
+        </div>
+        <div class="container-debug">
+            Wrote Book {book}'s EndOfBook's multimarkdown to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/endofbook.py:299:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 121 | 8:17:01 AM | endofbook.py | Line 299
+        </div>
+        <div class="container-debug">
+            rote Book {book}'s EndOfBook's HTML to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/endofbook.py:296:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 121 | 8:17:01 AM | endofbook.py | Line 296
+        </div>
+        <div class="container-debug">
+            Wrote Book {book}'s EndOfBook's multimarkdown to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/endofbook.py:299:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 121 | 8:17:01 AM | endofbook.py | Line 299
+        </div>
+        <div class="container-debug">
+            rote Book {book}'s EndOfBook's HTML to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/endofbook.py:296:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 121 | 8:17:01 AM | endofbook.py | Line 296
+        </div>
+        <div class="container-debug">
+            Wrote Book {book}'s EndOfBook's multimarkdown to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/endofbook.py:299:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 121 | 8:17:01 AM | endofbook.py | Line 299
+        </div>
+        <div class="container-debug">
+            rote Book {book}'s EndOfBook's HTML to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/endofbook.py:296:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 121 | 8:17:01 AM | endofbook.py | Line 296
+        </div>
+        <div class="container-debug">
+            Wrote Book {book}'s EndOfBook's multimarkdown to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/endofbook.py:299:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 121 | 8:17:01 AM | endofbook.py | Line 299
+        </div>
+        <div class="container-debug">
+            rote Book {book}'s EndOfBook's HTML to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/main.py:23:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 121 | 8:17:01 AM | main.py | Line 23
+        </div>
+        <div class="container-debug">
+            Exiting 'make_endofbooks' (result=
+None
         </div>
     </div>
 </a>
