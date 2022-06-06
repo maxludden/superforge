@@ -1,0 +1,582 @@
+---
+from: html
+to: epub
+
+output-file: Meeting God and Fighting Sacred.epub
+
+input-files:
+- titlepage.html
+- section-14.html
+- chapter-2766.html
+- chapter-2767.html
+- chapter-2768.html
+- chapter-2769.html
+- chapter-2770.html
+- chapter-2771.html
+- chapter-2772.html
+- chapter-2773.html
+- chapter-2774.html
+- chapter-2775.html
+- chapter-2776.html
+- chapter-2777.html
+- chapter-2778.html
+- chapter-2779.html
+- chapter-2780.html
+- chapter-2781.html
+- chapter-2782.html
+- chapter-2783.html
+- chapter-2784.html
+- chapter-2785.html
+- chapter-2786.html
+- chapter-2787.html
+- chapter-2788.html
+- chapter-2789.html
+- chapter-2790.html
+- chapter-2791.html
+- chapter-2792.html
+- chapter-2793.html
+- chapter-2794.html
+- chapter-2795.html
+- chapter-2796.html
+- chapter-2797.html
+- chapter-2798.html
+- chapter-2799.html
+- chapter-2800.html
+- chapter-2801.html
+- chapter-2802.html
+- chapter-2803.html
+- chapter-2804.html
+- chapter-2805.html
+- chapter-2806.html
+- chapter-2807.html
+- chapter-2808.html
+- chapter-2809.html
+- chapter-2810.html
+- chapter-2811.html
+- chapter-2812.html
+- chapter-2813.html
+- chapter-2814.html
+- chapter-2815.html
+- chapter-2816.html
+- chapter-2817.html
+- chapter-2818.html
+- chapter-2819.html
+- chapter-2820.html
+- chapter-2821.html
+- chapter-2822.html
+- chapter-2823.html
+- chapter-2824.html
+- chapter-2825.html
+- chapter-2826.html
+- chapter-2827.html
+- chapter-2828.html
+- chapter-2829.html
+- chapter-2830.html
+- chapter-2831.html
+- chapter-2832.html
+- chapter-2833.html
+- chapter-2834.html
+- chapter-2835.html
+- chapter-2836.html
+- chapter-2837.html
+- chapter-2838.html
+- chapter-2839.html
+- chapter-2840.html
+- chapter-2841.html
+- chapter-2842.html
+- chapter-2843.html
+- chapter-2844.html
+- chapter-2845.html
+- chapter-2846.html
+- chapter-2847.html
+- chapter-2848.html
+- chapter-2849.html
+- chapter-2850.html
+- chapter-2851.html
+- chapter-2852.html
+- chapter-2853.html
+- chapter-2854.html
+- chapter-2855.html
+- chapter-2856.html
+- chapter-2857.html
+- chapter-2858.html
+- chapter-2859.html
+- chapter-2860.html
+- chapter-2861.html
+- chapter-2862.html
+- chapter-2863.html
+- chapter-2864.html
+- chapter-2865.html
+- chapter-2866.html
+- chapter-2867.html
+- chapter-2868.html
+- chapter-2869.html
+- chapter-2870.html
+- chapter-2871.html
+- chapter-2872.html
+- chapter-2873.html
+- chapter-2874.html
+- chapter-2875.html
+- chapter-2876.html
+- chapter-2877.html
+- chapter-2878.html
+- chapter-2879.html
+- chapter-2880.html
+- chapter-2881.html
+- chapter-2882.html
+- chapter-2883.html
+- chapter-2884.html
+- chapter-2885.html
+- chapter-2886.html
+- chapter-2887.html
+- chapter-2888.html
+- chapter-2889.html
+- chapter-2890.html
+- chapter-2891.html
+- section-15.html
+- chapter-2892.html
+- chapter-2893.html
+- chapter-2894.html
+- chapter-2895.html
+- chapter-2896.html
+- chapter-2897.html
+- chapter-2898.html
+- chapter-2899.html
+- chapter-2900.html
+- chapter-2901.html
+- chapter-2902.html
+- chapter-2903.html
+- chapter-2904.html
+- chapter-2905.html
+- chapter-2906.html
+- chapter-2907.html
+- chapter-2908.html
+- chapter-2909.html
+- chapter-2910.html
+- chapter-2911.html
+- chapter-2912.html
+- chapter-2913.html
+- chapter-2914.html
+- chapter-2915.html
+- chapter-2916.html
+- chapter-2917.html
+- chapter-2918.html
+- chapter-2919.html
+- chapter-2920.html
+- chapter-2921.html
+- chapter-2922.html
+- chapter-2923.html
+- chapter-2924.html
+- chapter-2925.html
+- chapter-2926.html
+- chapter-2927.html
+- chapter-2928.html
+- chapter-2929.html
+- chapter-2930.html
+- chapter-2931.html
+- chapter-2932.html
+- chapter-2933.html
+- chapter-2934.html
+- chapter-2935.html
+- chapter-2936.html
+- chapter-2937.html
+- chapter-2938.html
+- chapter-2939.html
+- chapter-2940.html
+- chapter-2941.html
+- chapter-2942.html
+- chapter-2943.html
+- chapter-2944.html
+- chapter-2945.html
+- chapter-2946.html
+- chapter-2947.html
+- chapter-2948.html
+- chapter-2949.html
+- chapter-2950.html
+- chapter-2951.html
+- chapter-2952.html
+- chapter-2953.html
+- chapter-2954.html
+- chapter-2955.html
+- chapter-2956.html
+- chapter-2957.html
+- chapter-2958.html
+- chapter-2959.html
+- chapter-2960.html
+- chapter-2961.html
+- chapter-2962.html
+- chapter-2963.html
+- chapter-2964.html
+- chapter-2965.html
+- chapter-2966.html
+- chapter-2967.html
+- chapter-2968.html
+- chapter-2969.html
+- chapter-2970.html
+- chapter-2971.html
+- chapter-2972.html
+- chapter-2973.html
+- chapter-2974.html
+- chapter-2975.html
+- chapter-2976.html
+- chapter-2977.html
+- chapter-2978.html
+- chapter-2979.html
+- chapter-2980.html
+- chapter-2981.html
+- chapter-2982.html
+- chapter-2983.html
+- chapter-2984.html
+- chapter-2985.html
+- chapter-2986.html
+- chapter-2987.html
+- chapter-2988.html
+- chapter-2989.html
+- chapter-2990.html
+- chapter-2991.html
+- chapter-2992.html
+- chapter-2993.html
+- chapter-2994.html
+- chapter-2995.html
+- chapter-2996.html
+- chapter-2997.html
+- chapter-2998.html
+- chapter-2999.html
+- chapter-3000.html
+- chapter-3001.html
+- chapter-3002.html
+- chapter-3003.html
+- chapter-3004.html
+- chapter-3005.html
+- chapter-3006.html
+- chapter-3007.html
+- chapter-3008.html
+- chapter-3009.html
+- chapter-3010.html
+- chapter-3011.html
+- chapter-3012.html
+- chapter-3013.html
+- chapter-3014.html
+- chapter-3015.html
+- chapter-3016.html
+- chapter-3017.html
+- chapter-3018.html
+- chapter-3019.html
+- chapter-3020.html
+- chapter-3021.html
+- chapter-3022.html
+- chapter-3023.html
+- chapter-3024.html
+- chapter-3025.html
+- chapter-3026.html
+- chapter-3027.html
+- chapter-3028.html
+- chapter-3029.html
+- chapter-3030.html
+- chapter-3031.html
+- chapter-3032.html
+- chapter-3033.html
+
+standalone: true
+self-contained: true
+
+resource-path:
+- .
+- /Users/maxludden/dev/supergene/Images/cover9.png
+- /Users/maxludden/dev/supergene/Images/title.png
+- /Users/maxludden/dev/supergene/Images/gem.gif
+- /Users/maxludden/dev/supergene/Styles/abeatbykai.TTF
+- /Users/maxludden/dev/supergene/Styles/Photograph Signature.ttf
+- /Users/maxludden/dev/supergene/Styles/style.css
+- /Users/maxludden/dev/supergene/yaml/meta9.yaml
+- /Users/maxludden/dev/supergene/yaml/epub-meta9.yaml
+- /Users/maxludden/dev/supergene/html/Book 9/titlepage.html
+- /Users/maxludden/dev/supergene/html/Book 9/section-14.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2766.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2767.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2768.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2769.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2770.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2771.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2772.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2773.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2774.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2775.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2776.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2777.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2778.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2779.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2780.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2781.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2782.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2783.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2784.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2785.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2786.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2787.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2788.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2789.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2790.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2791.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2792.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2793.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2794.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2795.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2796.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2797.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2798.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2799.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2800.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2801.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2802.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2803.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2804.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2805.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2806.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2807.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2808.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2809.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2810.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2811.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2812.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2813.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2814.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2815.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2816.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2817.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2818.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2819.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2820.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2821.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2822.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2823.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2824.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2825.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2826.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2827.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2828.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2829.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2830.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2831.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2832.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2833.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2834.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2835.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2836.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2837.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2838.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2839.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2840.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2841.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2842.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2843.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2844.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2845.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2846.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2847.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2848.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2849.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2850.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2851.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2852.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2853.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2854.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2855.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2856.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2857.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2858.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2859.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2860.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2861.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2862.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2863.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2864.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2865.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2866.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2867.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2868.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2869.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2870.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2871.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2872.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2873.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2874.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2875.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2876.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2877.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2878.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2879.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2880.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2881.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2882.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2883.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2884.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2885.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2886.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2887.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2888.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2889.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2890.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2891.html
+- /Users/maxludden/dev/supergene/html/Book 9/section-15.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2892.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2893.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2894.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2895.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2896.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2897.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2898.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2899.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2900.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2901.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2902.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2903.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2904.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2905.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2906.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2907.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2908.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2909.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2910.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2911.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2912.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2913.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2914.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2915.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2916.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2917.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2918.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2919.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2920.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2921.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2922.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2923.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2924.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2925.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2926.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2927.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2928.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2929.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2930.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2931.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2932.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2933.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2934.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2935.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2936.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2937.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2938.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2939.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2940.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2941.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2942.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2943.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2944.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2945.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2946.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2947.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2948.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2949.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2950.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2951.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2952.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2953.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2954.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2955.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2956.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2957.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2958.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2959.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2960.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2961.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2962.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2963.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2964.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2965.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2966.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2967.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2968.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2969.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2970.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2971.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2972.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2973.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2974.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2975.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2976.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2977.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2978.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2979.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2980.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2981.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2982.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2983.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2984.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2985.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2986.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2987.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2988.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2989.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2990.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2991.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2992.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2993.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2994.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2995.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2996.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2997.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2998.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-2999.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-3000.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-3001.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-3002.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-3003.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-3004.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-3005.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-3006.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-3007.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-3008.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-3009.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-3010.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-3011.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-3012.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-3013.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-3014.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-3015.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-3016.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-3017.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-3018.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-3019.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-3020.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-3021.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-3022.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-3023.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-3024.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-3025.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-3026.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-3027.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-3028.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-3029.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-3030.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-3031.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-3032.html
+- /Users/maxludden/dev/supergene/html/Book 9/chapter-3033.html
+
+toc: true
+toc-depth: 2
+
+epub-chapter-level: 2
+epub-cover-image: cover9.png
+epub-fonts:
+- abeatbykai.TTF
+- Photograph Signature.ttf
+
+epub-metadata: epub-meta9.yaml
+
+metadata-files:
+- epub-meta9.yaml
+- meta9.yaml
+
+css:
+- style.css
+...

@@ -1,0 +1,199 @@
+        @charset "utf-8";
+         :root {
+            --main-bg-color: #222222;
+            --main-color: #eeeeee;
+            --alternate-bg-color: #444444;
+            --alternate-color: #cccccc;
+            --main-border-color: #AAAAAA;
+            --table-header-bg-color: #e2e2e2;
+            --link-color: #22ee22;
+        }
+        
+        @media (prefers-color-scheme: light) {
+             :root {
+                --main-bg-color: white;
+                --main-color: black;
+                --alternate-bg-color: #efefef;
+                --alternate-color: #222222;
+                --main-border-color: #BBBBBB;
+                --table-header-bg-color: #2e2e2e;
+                --link-color: #22ee22;
+            }
+        }
+        /**** Fonts *******/
+        
+        @font-face {
+            font-family: "Century Gothic";
+            src: "abeatbykai.ttf";
+        }
+        
+        @font-face {
+            font-family: "Photograph Signature";
+            font-style: normal;
+            font-weight: normal;
+            src: "Photograph Signature.ttf"
+        }
+        /************ HTML ****************/
+        
+        html {
+            font-size: 1em;
+            font-family: -apple-system, BlinkMacSystemFont, "helvetica neue", helvetica, roboto, noto, "segoe ui", arial, sans-serif;
+            line-height: 1.2em;
+            background-color: var(--main-bg-color);
+            color: var(--main-color);
+        }
+        /*********** Headers *************/
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            display: block;
+            text-align: center;
+            font-family: "Century Gothic", helvetica, sans-serif;
+            font-style: normal;
+            font-weight: lighter;
+            
+        }
+        
+        h1 {
+            font-size: 2em;
+            line-height: 1.3em;
+        }
+        
+        h2 {
+            font-size: 1.25em;
+            line-height: 1.1em;
+            color: var(--alternate-color);
+        }
+        
+        h3,
+        h4 {
+            font-size: 0.6em;
+            line-height: 0.65em;
+        }
+        
+        h5 {
+            font-size: 0.6em;
+            line-height: 0.65em;
+            color: #0a87ff
+        }
+        
+        h6 {
+            font-size: 0.6em;
+            line-height: 0.65em;
+            color: #0a87ff
+        }
+        /************* Images **************/
+        
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        /************** Body ***************/
+        
+        body {
+            margin: 0;
+            padding: 1em;
+            background-color: var(--main-bg-color);
+            color: var(--main-color);
+        }
+        
+        @media (max-device-width: 480px) {
+            body {
+                margin: auto;
+            }
+            table {
+                width: 95%;
+            }
+        }
+        
+        @media (min-device-width: 481px) {
+            body {
+                margin: auto;
+                max-width: 600px;
+            }
+            table {
+                width: 70%;
+            }
+        }
+        /************ VOG ******************/
+        
+        blockquote {
+            font-style: italic;
+            margin: 4em 2em;
+            padding: 1em;
+            text-align: center;
+            background-color: var(--alternate-bg-color);
+            color: var(--alternate-color);
+        }
+        /********** HR *********************/
+        
+        hr {
+            margin: 50px;
+        }
+        
+        /********* pre **********************/
+        pre, code {
+            font-family: "MesloLGLDZ NF", Menlo
+        }
+        /************ Table ****************/
+        
+        table {
+            display: table;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px solid var(--main-border-color);
+            border-collapse: collapse;
+        }
+        
+        th {
+            padding: .5em;
+            color: var(--main-bg-color);
+            background: var(--table-header-bg-color);
+            border: 1px solid var(--main-border-color);
+            font-family: "abeatbykai", "Lemon/Milk", "Myriad Pro", helvetica, sans-serif;
+            font-size: 1.5em;
+            font-weight: lighter;
+            text-align: center;
+        }
+        
+        td {
+            font-size: 1em;
+            padding: 10px;
+            border: 1px solid var(--main-border-color);
+        }
+        
+        td:nth-child(odd) {
+            text-align: left;
+            border-right: none;
+        }
+        
+        td:nth-child(even) {
+            text-align: right;
+            border-left: none;
+        }
+        /* alternate line color */
+        
+        tr:nth-child(odd) {
+            background-color: var(--alternate-bg-color);
+        }
+        /* Status Table */
+        
+        .status {
+            display: table;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 0px;
+        }
+        
+        .debug {
+            color: #0a87ff
+        }
+        
+        .info {
+            color: #82ff0a
+        }

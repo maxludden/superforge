@@ -1,0 +1,42 @@
+---
+from: html
+to: epub
+
+output-file: OUTPUT_FILE
+
+input-files:
+INPUT_FILES
+
+standalone: true
+self-contained: true
+
+resource-path:
+- .
+- BASEStyles/style.css
+- BASEhtml/titlepage.html
+- BASEStyles/abeatbykai.TTF
+- BASEStyles/Photograph Signature.ttf
+- BASEImages/gem.gif
+- BASEImages/title.png
+- BASEImages/COVER
+FULL_CHAPTERS
+- BASEyaml/meta.yaml
+- EPUB_META_PATH
+
+toc: true
+toc-depth: 2
+
+epub-chapter-level: 2
+epub-cover-image: COVER
+epub-fonts:
+- abeatbykai.TTF
+
+epub-metadata: EPUB_META
+
+metadata-files:
+- EPUB_META
+- META
+
+css:
+- style.css
+...

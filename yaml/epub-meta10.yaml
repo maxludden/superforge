@@ -1,0 +1,15 @@
+title:
+- type: main
+  text: The Universe of Kingdoms and Quin Xiu
+- type: subtitle
+  text: Super Gene
+creator:
+- role: author
+  text: Twelve Winged Dark Seraphim
+stylesheet: 
+- style.css
+cover-image: cover10.png
+ibooks:
+- version: 4.0
+- specified-fonts: true
+- iphone-orientation-lock: portrait-only

@@ -1,0 +1,544 @@
+---
+from: html
+to: epub
+
+output-file: Planet Kate and Narrow Moon.epub
+
+input-files:
+- titlepage.html
+- section-06.html
+- chapter-1712.html
+- chapter-1713.html
+- chapter-1714.html
+- chapter-1715.html
+- chapter-1716.html
+- chapter-1717.html
+- chapter-1718.html
+- chapter-1719.html
+- chapter-1720.html
+- chapter-1721.html
+- chapter-1722.html
+- chapter-1723.html
+- chapter-1724.html
+- chapter-1725.html
+- chapter-1726.html
+- chapter-1727.html
+- chapter-1728.html
+- chapter-1729.html
+- chapter-1730.html
+- chapter-1731.html
+- chapter-1732.html
+- chapter-1733.html
+- chapter-1734.html
+- chapter-1735.html
+- chapter-1736.html
+- chapter-1737.html
+- chapter-1738.html
+- chapter-1739.html
+- chapter-1740.html
+- chapter-1741.html
+- chapter-1742.html
+- chapter-1743.html
+- chapter-1744.html
+- chapter-1745.html
+- chapter-1746.html
+- chapter-1747.html
+- chapter-1748.html
+- chapter-1749.html
+- chapter-1750.html
+- chapter-1751.html
+- chapter-1752.html
+- chapter-1753.html
+- chapter-1754.html
+- chapter-1755.html
+- chapter-1756.html
+- chapter-1757.html
+- chapter-1758.html
+- chapter-1759.html
+- chapter-1760.html
+- chapter-1761.html
+- chapter-1762.html
+- chapter-1763.html
+- chapter-1764.html
+- chapter-1765.html
+- chapter-1766.html
+- chapter-1767.html
+- chapter-1768.html
+- chapter-1769.html
+- chapter-1770.html
+- chapter-1771.html
+- chapter-1772.html
+- chapter-1773.html
+- chapter-1774.html
+- chapter-1775.html
+- chapter-1776.html
+- chapter-1777.html
+- chapter-1778.html
+- chapter-1779.html
+- chapter-1780.html
+- chapter-1781.html
+- chapter-1782.html
+- chapter-1783.html
+- chapter-1784.html
+- chapter-1785.html
+- chapter-1786.html
+- chapter-1787.html
+- chapter-1788.html
+- chapter-1789.html
+- chapter-1790.html
+- chapter-1791.html
+- chapter-1792.html
+- chapter-1793.html
+- chapter-1794.html
+- chapter-1795.html
+- chapter-1796.html
+- chapter-1797.html
+- chapter-1798.html
+- chapter-1799.html
+- chapter-1800.html
+- chapter-1801.html
+- chapter-1802.html
+- chapter-1803.html
+- chapter-1804.html
+- chapter-1805.html
+- chapter-1806.html
+- chapter-1807.html
+- chapter-1808.html
+- chapter-1809.html
+- chapter-1810.html
+- chapter-1811.html
+- chapter-1812.html
+- chapter-1813.html
+- chapter-1814.html
+- chapter-1815.html
+- chapter-1816.html
+- chapter-1817.html
+- chapter-1818.html
+- chapter-1819.html
+- chapter-1820.html
+- chapter-1821.html
+- section-07.html
+- chapter-1822.html
+- chapter-1823.html
+- chapter-1824.html
+- chapter-1825.html
+- chapter-1826.html
+- chapter-1827.html
+- chapter-1828.html
+- chapter-1829.html
+- chapter-1830.html
+- chapter-1831.html
+- chapter-1832.html
+- chapter-1833.html
+- chapter-1834.html
+- chapter-1835.html
+- chapter-1836.html
+- chapter-1837.html
+- chapter-1838.html
+- chapter-1839.html
+- chapter-1840.html
+- chapter-1841.html
+- chapter-1842.html
+- chapter-1843.html
+- chapter-1844.html
+- chapter-1845.html
+- chapter-1846.html
+- chapter-1847.html
+- chapter-1848.html
+- chapter-1849.html
+- chapter-1850.html
+- chapter-1851.html
+- chapter-1852.html
+- chapter-1853.html
+- chapter-1854.html
+- chapter-1855.html
+- chapter-1856.html
+- chapter-1857.html
+- chapter-1858.html
+- chapter-1859.html
+- chapter-1860.html
+- chapter-1861.html
+- chapter-1862.html
+- chapter-1863.html
+- chapter-1864.html
+- chapter-1865.html
+- chapter-1866.html
+- chapter-1867.html
+- chapter-1868.html
+- chapter-1869.html
+- chapter-1870.html
+- chapter-1871.html
+- chapter-1872.html
+- chapter-1873.html
+- chapter-1874.html
+- chapter-1875.html
+- chapter-1876.html
+- chapter-1877.html
+- chapter-1878.html
+- chapter-1879.html
+- chapter-1880.html
+- chapter-1881.html
+- chapter-1882.html
+- chapter-1883.html
+- chapter-1884.html
+- chapter-1885.html
+- chapter-1886.html
+- chapter-1887.html
+- chapter-1888.html
+- chapter-1889.html
+- chapter-1890.html
+- chapter-1891.html
+- chapter-1892.html
+- chapter-1893.html
+- chapter-1894.html
+- chapter-1895.html
+- chapter-1896.html
+- chapter-1897.html
+- chapter-1898.html
+- chapter-1899.html
+- chapter-1900.html
+- chapter-1901.html
+- chapter-1902.html
+- chapter-1903.html
+- chapter-1904.html
+- chapter-1905.html
+- chapter-1906.html
+- chapter-1907.html
+- chapter-1908.html
+- chapter-1909.html
+- chapter-1910.html
+- chapter-1911.html
+- chapter-1912.html
+- chapter-1913.html
+- chapter-1914.html
+- chapter-1915.html
+- chapter-1916.html
+- chapter-1917.html
+- chapter-1918.html
+- chapter-1919.html
+- chapter-1920.html
+- chapter-1921.html
+- chapter-1922.html
+- chapter-1923.html
+- chapter-1924.html
+- chapter-1925.html
+- chapter-1926.html
+- chapter-1927.html
+- chapter-1928.html
+- chapter-1929.html
+- chapter-1930.html
+- chapter-1931.html
+- chapter-1932.html
+- chapter-1933.html
+- chapter-1934.html
+- chapter-1935.html
+- chapter-1936.html
+- chapter-1937.html
+- chapter-1938.html
+- chapter-1939.html
+- chapter-1940.html
+- chapter-1941.html
+- chapter-1942.html
+- chapter-1943.html
+- chapter-1944.html
+- chapter-1945.html
+- chapter-1946.html
+- chapter-1947.html
+- chapter-1948.html
+- chapter-1949.html
+- chapter-1950.html
+- chapter-1951.html
+- chapter-1952.html
+- chapter-1953.html
+- chapter-1954.html
+- chapter-1955.html
+- chapter-1956.html
+- chapter-1957.html
+- chapter-1958.html
+- chapter-1959.html
+- chapter-1960.html
+
+standalone: true
+self-contained: true
+
+resource-path:
+- .
+- /Users/maxludden/dev/supergene/Images/cover5.png
+- /Users/maxludden/dev/supergene/Images/title.png
+- /Users/maxludden/dev/supergene/Images/gem.gif
+- /Users/maxludden/dev/supergene/Styles/abeatbykai.TTF
+- /Users/maxludden/dev/supergene/Styles/Photograph Signature.ttf
+- /Users/maxludden/dev/supergene/Styles/style.css
+- /Users/maxludden/dev/supergene/yaml/meta5.yaml
+- /Users/maxludden/dev/supergene/yaml/epub-meta5.yaml
+- /Users/maxludden/dev/supergene/html/Book 5/titlepage.html
+- /Users/maxludden/dev/supergene/html/Book 5/section-06.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1712.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1713.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1714.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1715.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1716.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1717.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1718.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1719.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1720.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1721.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1722.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1723.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1724.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1725.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1726.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1727.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1728.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1729.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1730.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1731.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1732.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1733.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1734.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1735.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1736.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1737.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1738.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1739.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1740.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1741.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1742.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1743.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1744.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1745.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1746.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1747.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1748.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1749.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1750.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1751.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1752.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1753.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1754.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1755.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1756.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1757.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1758.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1759.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1760.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1761.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1762.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1763.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1764.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1765.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1766.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1767.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1768.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1769.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1770.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1771.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1772.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1773.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1774.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1775.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1776.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1777.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1778.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1779.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1780.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1781.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1782.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1783.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1784.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1785.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1786.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1787.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1788.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1789.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1790.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1791.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1792.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1793.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1794.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1795.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1796.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1797.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1798.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1799.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1800.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1801.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1802.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1803.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1804.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1805.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1806.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1807.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1808.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1809.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1810.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1811.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1812.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1813.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1814.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1815.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1816.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1817.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1818.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1819.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1820.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1821.html
+- /Users/maxludden/dev/supergene/html/Book 5/section-07.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1822.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1823.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1824.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1825.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1826.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1827.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1828.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1829.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1830.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1831.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1832.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1833.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1834.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1835.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1836.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1837.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1838.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1839.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1840.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1841.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1842.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1843.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1844.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1845.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1846.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1847.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1848.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1849.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1850.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1851.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1852.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1853.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1854.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1855.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1856.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1857.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1858.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1859.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1860.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1861.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1862.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1863.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1864.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1865.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1866.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1867.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1868.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1869.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1870.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1871.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1872.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1873.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1874.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1875.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1876.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1877.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1878.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1879.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1880.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1881.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1882.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1883.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1884.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1885.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1886.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1887.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1888.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1889.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1890.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1891.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1892.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1893.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1894.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1895.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1896.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1897.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1898.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1899.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1900.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1901.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1902.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1903.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1904.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1905.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1906.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1907.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1908.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1909.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1910.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1911.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1912.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1913.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1914.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1915.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1916.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1917.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1918.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1919.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1920.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1921.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1922.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1923.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1924.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1925.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1926.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1927.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1928.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1929.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1930.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1931.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1932.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1933.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1934.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1935.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1936.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1937.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1938.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1939.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1940.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1941.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1942.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1943.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1944.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1945.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1946.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1947.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1948.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1949.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1950.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1951.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1952.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1953.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1954.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1955.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1956.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1957.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1958.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1959.html
+- /Users/maxludden/dev/supergene/html/Book 5/chapter-1960.html
+
+toc: true
+toc-depth: 2
+
+epub-chapter-level: 2
+epub-cover-image: cover5.png
+epub-fonts:
+- abeatbykai.TTF
+- Photograph Signature.ttf
+
+epub-metadata: epub-meta5.yaml
+
+metadata-files:
+- epub-meta5.yaml
+- meta5.yaml
+
+css:
+- style.css
+...

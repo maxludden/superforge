@@ -1,0 +1,524 @@
+---
+from: html
+to: epub
+
+output-file: The Ice Blue Knights and The Extreme Kings.epub
+
+input-files:
+- titlepage.html
+- section-10.html
+- chapter-2205.html
+- chapter-2206.html
+- chapter-2207.html
+- chapter-2208.html
+- chapter-2209.html
+- chapter-2210.html
+- chapter-2211.html
+- chapter-2212.html
+- chapter-2213.html
+- chapter-2214.html
+- chapter-2215.html
+- chapter-2216.html
+- chapter-2217.html
+- chapter-2218.html
+- chapter-2219.html
+- chapter-2220.html
+- chapter-2221.html
+- chapter-2222.html
+- chapter-2223.html
+- chapter-2224.html
+- chapter-2225.html
+- chapter-2226.html
+- chapter-2227.html
+- chapter-2228.html
+- chapter-2229.html
+- chapter-2230.html
+- chapter-2231.html
+- chapter-2232.html
+- chapter-2233.html
+- chapter-2234.html
+- chapter-2235.html
+- chapter-2236.html
+- chapter-2237.html
+- chapter-2238.html
+- chapter-2239.html
+- chapter-2240.html
+- chapter-2241.html
+- chapter-2242.html
+- chapter-2243.html
+- chapter-2244.html
+- chapter-2245.html
+- chapter-2246.html
+- chapter-2247.html
+- chapter-2248.html
+- chapter-2249.html
+- chapter-2250.html
+- chapter-2251.html
+- chapter-2252.html
+- chapter-2253.html
+- chapter-2254.html
+- chapter-2255.html
+- chapter-2256.html
+- chapter-2257.html
+- chapter-2258.html
+- chapter-2259.html
+- chapter-2260.html
+- chapter-2261.html
+- chapter-2262.html
+- chapter-2263.html
+- chapter-2264.html
+- chapter-2265.html
+- chapter-2266.html
+- chapter-2267.html
+- chapter-2268.html
+- chapter-2269.html
+- chapter-2270.html
+- chapter-2271.html
+- chapter-2272.html
+- chapter-2273.html
+- chapter-2274.html
+- chapter-2275.html
+- chapter-2276.html
+- chapter-2277.html
+- chapter-2278.html
+- chapter-2279.html
+- chapter-2280.html
+- chapter-2281.html
+- chapter-2282.html
+- chapter-2283.html
+- chapter-2284.html
+- chapter-2285.html
+- chapter-2286.html
+- chapter-2287.html
+- chapter-2288.html
+- chapter-2289.html
+- chapter-2290.html
+- chapter-2291.html
+- chapter-2292.html
+- chapter-2293.html
+- chapter-2294.html
+- chapter-2295.html
+- chapter-2296.html
+- chapter-2297.html
+- chapter-2298.html
+- chapter-2299.html
+- section-11.html
+- chapter-2300.html
+- chapter-2301.html
+- chapter-2302.html
+- chapter-2303.html
+- chapter-2304.html
+- chapter-2305.html
+- chapter-2306.html
+- chapter-2307.html
+- chapter-2308.html
+- chapter-2309.html
+- chapter-2310.html
+- chapter-2311.html
+- chapter-2312.html
+- chapter-2313.html
+- chapter-2314.html
+- chapter-2315.html
+- chapter-2316.html
+- chapter-2317.html
+- chapter-2318.html
+- chapter-2319.html
+- chapter-2320.html
+- chapter-2321.html
+- chapter-2322.html
+- chapter-2323.html
+- chapter-2324.html
+- chapter-2325.html
+- chapter-2326.html
+- chapter-2327.html
+- chapter-2328.html
+- chapter-2329.html
+- chapter-2330.html
+- chapter-2331.html
+- chapter-2332.html
+- chapter-2333.html
+- chapter-2334.html
+- chapter-2335.html
+- chapter-2336.html
+- chapter-2337.html
+- chapter-2338.html
+- chapter-2339.html
+- chapter-2340.html
+- chapter-2341.html
+- chapter-2342.html
+- chapter-2343.html
+- chapter-2344.html
+- chapter-2345.html
+- chapter-2346.html
+- chapter-2347.html
+- chapter-2348.html
+- chapter-2349.html
+- chapter-2350.html
+- chapter-2351.html
+- chapter-2352.html
+- chapter-2353.html
+- chapter-2354.html
+- chapter-2355.html
+- chapter-2356.html
+- chapter-2357.html
+- chapter-2358.html
+- chapter-2359.html
+- chapter-2360.html
+- chapter-2361.html
+- chapter-2362.html
+- chapter-2363.html
+- chapter-2364.html
+- chapter-2365.html
+- chapter-2366.html
+- chapter-2367.html
+- chapter-2368.html
+- chapter-2369.html
+- chapter-2370.html
+- chapter-2371.html
+- chapter-2372.html
+- chapter-2373.html
+- chapter-2374.html
+- chapter-2375.html
+- chapter-2376.html
+- chapter-2377.html
+- chapter-2378.html
+- chapter-2379.html
+- chapter-2380.html
+- chapter-2381.html
+- chapter-2382.html
+- chapter-2383.html
+- chapter-2384.html
+- chapter-2385.html
+- chapter-2386.html
+- chapter-2387.html
+- chapter-2388.html
+- chapter-2389.html
+- chapter-2390.html
+- chapter-2391.html
+- chapter-2392.html
+- chapter-2393.html
+- chapter-2394.html
+- chapter-2395.html
+- chapter-2396.html
+- chapter-2397.html
+- chapter-2398.html
+- chapter-2399.html
+- chapter-2400.html
+- chapter-2401.html
+- chapter-2402.html
+- chapter-2403.html
+- chapter-2404.html
+- chapter-2405.html
+- chapter-2406.html
+- chapter-2407.html
+- chapter-2408.html
+- chapter-2409.html
+- chapter-2410.html
+- chapter-2411.html
+- chapter-2412.html
+- chapter-2413.html
+- chapter-2414.html
+- chapter-2415.html
+- chapter-2416.html
+- chapter-2417.html
+- chapter-2418.html
+- chapter-2419.html
+- chapter-2420.html
+- chapter-2421.html
+- chapter-2422.html
+- chapter-2423.html
+- chapter-2424.html
+- chapter-2425.html
+- chapter-2426.html
+- chapter-2427.html
+- chapter-2428.html
+- chapter-2429.html
+- chapter-2430.html
+- chapter-2431.html
+- chapter-2432.html
+- chapter-2433.html
+- chapter-2434.html
+- chapter-2435.html
+- chapter-2436.html
+- chapter-2437.html
+- chapter-2438.html
+- chapter-2439.html
+- chapter-2440.html
+- chapter-2441.html
+- chapter-2442.html
+- chapter-2443.html
+
+standalone: true
+self-contained: true
+
+resource-path:
+- .
+- /Users/maxludden/dev/supergene/Images/cover7.png
+- /Users/maxludden/dev/supergene/Images/title.png
+- /Users/maxludden/dev/supergene/Images/gem.gif
+- /Users/maxludden/dev/supergene/Styles/abeatbykai.TTF
+- /Users/maxludden/dev/supergene/Styles/Photograph Signature.ttf
+- /Users/maxludden/dev/supergene/Styles/style.css
+- /Users/maxludden/dev/supergene/yaml/meta7.yaml
+- /Users/maxludden/dev/supergene/yaml/epub-meta7.yaml
+- /Users/maxludden/dev/supergene/html/Book 7/titlepage.html
+- /Users/maxludden/dev/supergene/html/Book 7/section-10.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2205.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2206.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2207.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2208.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2209.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2210.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2211.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2212.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2213.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2214.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2215.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2216.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2217.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2218.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2219.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2220.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2221.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2222.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2223.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2224.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2225.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2226.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2227.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2228.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2229.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2230.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2231.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2232.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2233.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2234.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2235.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2236.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2237.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2238.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2239.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2240.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2241.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2242.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2243.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2244.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2245.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2246.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2247.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2248.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2249.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2250.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2251.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2252.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2253.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2254.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2255.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2256.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2257.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2258.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2259.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2260.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2261.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2262.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2263.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2264.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2265.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2266.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2267.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2268.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2269.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2270.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2271.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2272.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2273.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2274.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2275.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2276.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2277.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2278.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2279.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2280.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2281.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2282.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2283.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2284.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2285.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2286.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2287.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2288.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2289.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2290.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2291.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2292.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2293.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2294.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2295.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2296.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2297.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2298.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2299.html
+- /Users/maxludden/dev/supergene/html/Book 7/section-11.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2300.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2301.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2302.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2303.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2304.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2305.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2306.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2307.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2308.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2309.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2310.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2311.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2312.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2313.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2314.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2315.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2316.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2317.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2318.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2319.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2320.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2321.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2322.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2323.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2324.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2325.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2326.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2327.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2328.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2329.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2330.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2331.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2332.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2333.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2334.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2335.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2336.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2337.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2338.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2339.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2340.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2341.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2342.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2343.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2344.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2345.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2346.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2347.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2348.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2349.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2350.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2351.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2352.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2353.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2354.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2355.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2356.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2357.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2358.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2359.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2360.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2361.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2362.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2363.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2364.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2365.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2366.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2367.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2368.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2369.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2370.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2371.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2372.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2373.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2374.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2375.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2376.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2377.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2378.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2379.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2380.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2381.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2382.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2383.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2384.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2385.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2386.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2387.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2388.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2389.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2390.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2391.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2392.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2393.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2394.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2395.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2396.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2397.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2398.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2399.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2400.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2401.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2402.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2403.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2404.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2405.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2406.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2407.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2408.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2409.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2410.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2411.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2412.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2413.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2414.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2415.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2416.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2417.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2418.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2419.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2420.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2421.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2422.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2423.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2424.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2425.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2426.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2427.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2428.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2429.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2430.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2431.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2432.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2433.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2434.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2435.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2436.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2437.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2438.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2439.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2440.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2441.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2442.html
+- /Users/maxludden/dev/supergene/html/Book 7/chapter-2443.html
+
+toc: true
+toc-depth: 2
+
+epub-chapter-level: 2
+epub-cover-image: cover7.png
+epub-fonts:
+- abeatbykai.TTF
+- Photograph Signature.ttf
+
+epub-metadata: epub-meta7.yaml
+
+metadata-files:
+- epub-meta7.yaml
+- meta7.yaml
+
+css:
+- style.css
+...

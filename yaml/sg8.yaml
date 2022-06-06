@@ -1,0 +1,690 @@
+---
+from: html
+to: epub
+
+output-file: The Systems of Chaos and The Very High.epub
+
+input-files:
+- titlepage.html
+- section-12.html
+- chapter-2444.html
+- chapter-2445.html
+- chapter-2446.html
+- chapter-2447.html
+- chapter-2448.html
+- chapter-2449.html
+- chapter-2450.html
+- chapter-2451.html
+- chapter-2452.html
+- chapter-2453.html
+- chapter-2454.html
+- chapter-2455.html
+- chapter-2456.html
+- chapter-2457.html
+- chapter-2458.html
+- chapter-2459.html
+- chapter-2460.html
+- chapter-2461.html
+- chapter-2462.html
+- chapter-2463.html
+- chapter-2464.html
+- chapter-2465.html
+- chapter-2466.html
+- chapter-2467.html
+- chapter-2468.html
+- chapter-2469.html
+- chapter-2470.html
+- chapter-2471.html
+- chapter-2472.html
+- chapter-2473.html
+- chapter-2474.html
+- chapter-2475.html
+- chapter-2476.html
+- chapter-2477.html
+- chapter-2478.html
+- chapter-2479.html
+- chapter-2480.html
+- chapter-2481.html
+- chapter-2482.html
+- chapter-2483.html
+- chapter-2484.html
+- chapter-2485.html
+- chapter-2486.html
+- chapter-2487.html
+- chapter-2488.html
+- chapter-2489.html
+- chapter-2490.html
+- chapter-2491.html
+- chapter-2492.html
+- chapter-2493.html
+- chapter-2494.html
+- chapter-2495.html
+- chapter-2496.html
+- chapter-2497.html
+- chapter-2498.html
+- chapter-2499.html
+- chapter-2500.html
+- chapter-2501.html
+- chapter-2502.html
+- chapter-2503.html
+- chapter-2504.html
+- chapter-2505.html
+- chapter-2506.html
+- chapter-2507.html
+- chapter-2508.html
+- chapter-2509.html
+- chapter-2510.html
+- chapter-2511.html
+- chapter-2512.html
+- chapter-2513.html
+- chapter-2514.html
+- chapter-2515.html
+- chapter-2516.html
+- chapter-2517.html
+- chapter-2518.html
+- chapter-2519.html
+- chapter-2520.html
+- chapter-2521.html
+- chapter-2522.html
+- chapter-2523.html
+- chapter-2524.html
+- chapter-2525.html
+- chapter-2526.html
+- chapter-2527.html
+- chapter-2528.html
+- chapter-2529.html
+- chapter-2530.html
+- chapter-2531.html
+- chapter-2532.html
+- chapter-2533.html
+- chapter-2534.html
+- chapter-2535.html
+- chapter-2536.html
+- chapter-2537.html
+- chapter-2538.html
+- chapter-2539.html
+- chapter-2540.html
+- chapter-2541.html
+- chapter-2542.html
+- chapter-2543.html
+- chapter-2544.html
+- chapter-2545.html
+- chapter-2546.html
+- chapter-2547.html
+- chapter-2548.html
+- chapter-2549.html
+- chapter-2550.html
+- chapter-2551.html
+- chapter-2552.html
+- chapter-2553.html
+- chapter-2554.html
+- chapter-2555.html
+- chapter-2556.html
+- chapter-2557.html
+- chapter-2558.html
+- chapter-2559.html
+- chapter-2560.html
+- chapter-2561.html
+- chapter-2562.html
+- chapter-2563.html
+- chapter-2564.html
+- chapter-2565.html
+- chapter-2566.html
+- chapter-2567.html
+- chapter-2568.html
+- chapter-2569.html
+- chapter-2570.html
+- chapter-2571.html
+- chapter-2572.html
+- chapter-2573.html
+- chapter-2574.html
+- chapter-2575.html
+- chapter-2576.html
+- chapter-2577.html
+- chapter-2578.html
+- chapter-2579.html
+- chapter-2580.html
+- chapter-2581.html
+- chapter-2582.html
+- chapter-2583.html
+- chapter-2584.html
+- chapter-2585.html
+- chapter-2586.html
+- chapter-2587.html
+- chapter-2588.html
+- chapter-2589.html
+- chapter-2590.html
+- chapter-2591.html
+- chapter-2592.html
+- chapter-2593.html
+- chapter-2594.html
+- chapter-2595.html
+- chapter-2596.html
+- chapter-2597.html
+- chapter-2598.html
+- chapter-2599.html
+- chapter-2600.html
+- chapter-2601.html
+- chapter-2602.html
+- chapter-2603.html
+- chapter-2604.html
+- chapter-2605.html
+- chapter-2606.html
+- chapter-2607.html
+- chapter-2608.html
+- chapter-2609.html
+- chapter-2610.html
+- chapter-2611.html
+- chapter-2612.html
+- chapter-2613.html
+- chapter-2614.html
+- chapter-2615.html
+- chapter-2616.html
+- chapter-2617.html
+- chapter-2618.html
+- chapter-2619.html
+- chapter-2620.html
+- chapter-2621.html
+- chapter-2622.html
+- chapter-2623.html
+- chapter-2624.html
+- chapter-2625.html
+- chapter-2626.html
+- chapter-2627.html
+- chapter-2628.html
+- chapter-2629.html
+- chapter-2630.html
+- chapter-2631.html
+- chapter-2632.html
+- chapter-2633.html
+- chapter-2634.html
+- chapter-2635.html
+- chapter-2636.html
+- chapter-2637.html
+- chapter-2638.html
+- chapter-2639.html
+- section-13.html
+- chapter-2640.html
+- chapter-2641.html
+- chapter-2642.html
+- chapter-2643.html
+- chapter-2644.html
+- chapter-2645.html
+- chapter-2646.html
+- chapter-2647.html
+- chapter-2648.html
+- chapter-2649.html
+- chapter-2650.html
+- chapter-2651.html
+- chapter-2652.html
+- chapter-2653.html
+- chapter-2654.html
+- chapter-2655.html
+- chapter-2656.html
+- chapter-2657.html
+- chapter-2658.html
+- chapter-2659.html
+- chapter-2660.html
+- chapter-2661.html
+- chapter-2662.html
+- chapter-2663.html
+- chapter-2664.html
+- chapter-2665.html
+- chapter-2666.html
+- chapter-2667.html
+- chapter-2668.html
+- chapter-2669.html
+- chapter-2670.html
+- chapter-2671.html
+- chapter-2672.html
+- chapter-2673.html
+- chapter-2674.html
+- chapter-2675.html
+- chapter-2676.html
+- chapter-2677.html
+- chapter-2678.html
+- chapter-2679.html
+- chapter-2680.html
+- chapter-2681.html
+- chapter-2682.html
+- chapter-2683.html
+- chapter-2684.html
+- chapter-2685.html
+- chapter-2686.html
+- chapter-2687.html
+- chapter-2688.html
+- chapter-2689.html
+- chapter-2690.html
+- chapter-2691.html
+- chapter-2692.html
+- chapter-2693.html
+- chapter-2694.html
+- chapter-2695.html
+- chapter-2696.html
+- chapter-2697.html
+- chapter-2698.html
+- chapter-2699.html
+- chapter-2700.html
+- chapter-2701.html
+- chapter-2702.html
+- chapter-2703.html
+- chapter-2704.html
+- chapter-2705.html
+- chapter-2706.html
+- chapter-2707.html
+- chapter-2708.html
+- chapter-2709.html
+- chapter-2710.html
+- chapter-2711.html
+- chapter-2712.html
+- chapter-2713.html
+- chapter-2714.html
+- chapter-2715.html
+- chapter-2716.html
+- chapter-2717.html
+- chapter-2718.html
+- chapter-2719.html
+- chapter-2720.html
+- chapter-2721.html
+- chapter-2722.html
+- chapter-2723.html
+- chapter-2724.html
+- chapter-2725.html
+- chapter-2726.html
+- chapter-2727.html
+- chapter-2728.html
+- chapter-2729.html
+- chapter-2730.html
+- chapter-2731.html
+- chapter-2732.html
+- chapter-2733.html
+- chapter-2734.html
+- chapter-2735.html
+- chapter-2736.html
+- chapter-2737.html
+- chapter-2738.html
+- chapter-2739.html
+- chapter-2740.html
+- chapter-2741.html
+- chapter-2742.html
+- chapter-2743.html
+- chapter-2744.html
+- chapter-2745.html
+- chapter-2746.html
+- chapter-2747.html
+- chapter-2748.html
+- chapter-2749.html
+- chapter-2750.html
+- chapter-2751.html
+- chapter-2752.html
+- chapter-2753.html
+- chapter-2754.html
+- chapter-2755.html
+- chapter-2756.html
+- chapter-2757.html
+- chapter-2758.html
+- chapter-2759.html
+- chapter-2760.html
+- chapter-2761.html
+- chapter-2762.html
+- chapter-2763.html
+- chapter-2764.html
+- chapter-2765.html
+
+standalone: true
+self-contained: true
+
+resource-path:
+- .
+- /Users/maxludden/dev/supergene/Images/cover8.png
+- /Users/maxludden/dev/supergene/Images/title.png
+- /Users/maxludden/dev/supergene/Images/gem.gif
+- /Users/maxludden/dev/supergene/Styles/abeatbykai.TTF
+- /Users/maxludden/dev/supergene/Styles/Photograph Signature.ttf
+- /Users/maxludden/dev/supergene/Styles/style.css
+- /Users/maxludden/dev/supergene/yaml/meta8.yaml
+- /Users/maxludden/dev/supergene/yaml/epub-meta8.yaml
+- /Users/maxludden/dev/supergene/html/Book 8/titlepage.html
+- /Users/maxludden/dev/supergene/html/Book 8/section-12.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2444.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2445.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2446.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2447.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2448.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2449.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2450.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2451.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2452.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2453.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2454.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2455.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2456.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2457.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2458.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2459.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2460.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2461.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2462.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2463.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2464.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2465.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2466.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2467.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2468.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2469.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2470.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2471.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2472.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2473.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2474.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2475.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2476.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2477.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2478.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2479.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2480.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2481.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2482.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2483.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2484.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2485.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2486.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2487.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2488.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2489.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2490.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2491.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2492.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2493.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2494.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2495.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2496.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2497.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2498.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2499.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2500.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2501.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2502.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2503.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2504.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2505.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2506.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2507.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2508.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2509.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2510.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2511.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2512.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2513.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2514.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2515.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2516.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2517.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2518.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2519.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2520.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2521.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2522.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2523.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2524.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2525.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2526.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2527.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2528.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2529.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2530.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2531.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2532.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2533.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2534.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2535.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2536.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2537.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2538.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2539.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2540.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2541.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2542.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2543.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2544.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2545.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2546.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2547.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2548.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2549.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2550.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2551.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2552.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2553.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2554.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2555.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2556.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2557.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2558.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2559.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2560.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2561.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2562.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2563.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2564.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2565.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2566.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2567.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2568.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2569.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2570.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2571.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2572.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2573.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2574.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2575.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2576.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2577.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2578.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2579.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2580.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2581.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2582.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2583.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2584.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2585.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2586.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2587.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2588.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2589.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2590.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2591.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2592.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2593.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2594.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2595.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2596.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2597.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2598.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2599.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2600.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2601.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2602.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2603.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2604.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2605.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2606.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2607.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2608.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2609.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2610.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2611.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2612.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2613.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2614.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2615.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2616.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2617.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2618.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2619.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2620.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2621.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2622.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2623.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2624.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2625.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2626.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2627.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2628.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2629.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2630.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2631.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2632.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2633.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2634.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2635.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2636.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2637.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2638.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2639.html
+- /Users/maxludden/dev/supergene/html/Book 8/section-13.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2640.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2641.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2642.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2643.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2644.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2645.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2646.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2647.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2648.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2649.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2650.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2651.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2652.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2653.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2654.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2655.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2656.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2657.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2658.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2659.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2660.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2661.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2662.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2663.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2664.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2665.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2666.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2667.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2668.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2669.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2670.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2671.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2672.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2673.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2674.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2675.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2676.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2677.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2678.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2679.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2680.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2681.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2682.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2683.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2684.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2685.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2686.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2687.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2688.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2689.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2690.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2691.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2692.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2693.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2694.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2695.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2696.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2697.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2698.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2699.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2700.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2701.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2702.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2703.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2704.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2705.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2706.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2707.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2708.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2709.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2710.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2711.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2712.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2713.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2714.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2715.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2716.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2717.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2718.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2719.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2720.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2721.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2722.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2723.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2724.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2725.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2726.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2727.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2728.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2729.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2730.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2731.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2732.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2733.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2734.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2735.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2736.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2737.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2738.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2739.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2740.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2741.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2742.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2743.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2744.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2745.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2746.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2747.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2748.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2749.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2750.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2751.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2752.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2753.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2754.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2755.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2756.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2757.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2758.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2759.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2760.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2761.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2762.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2763.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2764.html
+- /Users/maxludden/dev/supergene/html/Book 8/chapter-2765.html
+
+toc: true
+toc-depth: 2
+
+epub-chapter-level: 2
+epub-cover-image: cover8.png
+epub-fonts:
+- abeatbykai.TTF
+- Photograph Signature.ttf
+
+epub-metadata: epub-meta8.yaml
+
+metadata-files:
+- epub-meta8.yaml
+- meta8.yaml
+
+css:
+- style.css
+...

@@ -1,0 +1,366 @@
+@charset "utf-8";
+
+:root {
+    --vs-bg: #141a1f;
+    --alt-bg: #32404c;
+    --vs-light-blue: #9faeca;
+    --vs-teal: #44bfd0;
+    --vs-purple: #cc6be9;
+    --vs-green: #95d16a;
+    --yellow: #fbff00;
+    --red: #ff0000;
+    --off-white: #eeeeee;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+/**** Fonts *******/
+@font-face {
+    font-family: "Century Gothic";
+    src: "Century Gothic.ttf";
+}
+
+@font-face {
+    font-family: "abeatbykai";
+    font-style: normal;
+    font-weight: normal;
+    src: "abeatbykai.ttf"
+}
+
+@font-face {
+    font-family: "MMesloLGS NF";
+    font-style: normal;
+    font-weight: normal;
+    src: "MesloLGS NF.ttf"
+}
+
+@media (max-device-width: 480px) {
+    body {
+        margin: auto;
+    }
+
+    table {
+        width: 95%;
+    }
+}
+
+@media (min-device-width: 481px) {
+    body {
+        margin: auto;
+        max-width: 600px;
+    }
+
+    table {
+        width: 70%;
+    }
+}
+/************ HTML ****************/
+
+html {
+    font-size: 12px;
+    font-family: "Century Gothic", "abeatbykai", sans-serif;
+    line-height: 1em;
+    background-color: var(--vs-bg);
+    color: var(--vs-light-blue);
+}
+
+/*********** Headers *************/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    display: block;
+    text-align: center;
+    font-family: "Century Gothic", "abeatbykai", helvetica, sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+
+}
+
+/* Log Main Header*/
+h1 {
+    color: var(--vs-bg);
+    background-color: var(--vs-light-blue);
+    font-size: 2em;
+    line-height: 1.3em;
+}
+
+/* Run Header */
+h2 {
+    font-size: 1.9m;
+    line-height: 1.3em;
+    color: var(--vs-light-blue);
+}
+
+/* Debug */
+h3 {
+    font-size: 1em;
+    line-height: 1.1em;
+    color: var(--vs-light-blue);
+    padding: 1px;
+}
+
+/* Info */
+h4 {
+    font-size: 1em;
+    line-height: 1em;
+    color: var(--vs-light-blue)
+}
+
+/************* Images **************/
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/************** Body ***************/
+body {
+    padding: 1em;
+    font-size: 12px;
+    background-color: var(--vs-bg);
+    color: var(--vs-light-blue);
+}
+/************ VOG ******************/
+blockquote {
+    font-family: "MesloLGS NF", 'Courier New', Courier, monospace;
+    text-align: left;
+    width: 75%;
+    background-color: var(--vs-light-blue);
+    color: var(--vs-bg);
+    border: 1px, var(--vs-light-blue);
+}
+
+/********** HR *********************/
+hr {
+    margin: 50px;
+}
+
+/********* link ********************/
+a {
+    padding: 0px 0px 0px 0px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+a:link {
+    box-shadow: 0 4px 8px 0 rgba(255,255,255, 0.2), 0 6px 20px 0 rgba(255,255,255, 0.19);
+}
+a:visited {
+    box-shadow: 0 4px 8px 0 rgba(255,255,255, 0.7), 0 6px 20px 0 rgba(255,255,255, 0.19);
+
+}
+a:hover, a:active {
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.8), 0 6px 20px 0 rgba(0, 157, 255, 0.75);
+    text-decoration: none;
+}
+
+a.debug:link {
+    box-shadow: 0 4px 8px 0 #9faeca33, 0 6px 20px 0 #9faeca30;
+}
+
+a.debug:visited {
+    box-shadow: 0 4px 8px 0 #9faeca80, 0 6px 20px 0 #9faeca33;
+
+}
+a.debug:hover, a.debug:active {
+    box-shadow: 0 8px 16px 0 #9faecacc, 0 6px 20px 0 #9faecabf;
+    text-decoration: none;
+}
+
+a.info:link {
+    box-shadow: 0 4px 8px 0 #95d16a33, 0 6px 20px 0 #95d16a30;
+}
+
+a.info:visited {
+    box-shadow: 0 4px 8px 0 #95d16a80, 0 6px 20px 0 #95d16a33;
+
+}
+a.info:hover, a.info:active {
+    box-shadow: 0 8px 16px 0 #95d16acc, 0 6px 20px 0 #95d16abf;
+    text-decoration: none;
+}
+
+a.warn:link {
+    box-shadow: 0 4px 8px 0 #fbff0033, 0 6px 20px 0 #fbff0030;
+}
+
+a.warn:visited {
+    box-shadow: 0 4px 8px 0 #fbff0080, 0 6px 20px 0 #fbff0033;
+
+}
+a.warn:hover, a.warn:active {
+    box-shadow: 0 8px 16px 0 #fbff00cc, 0 6px 20px 0 #fbff00bf;
+    text-decoration: none;
+}
+
+a.error:link {
+    box-shadow: 0 4px 8px 0 #ff000033, 0 6px 20px 0 #ff000030;
+}
+
+a.error:visited {
+    box-shadow: 0 4px 8px 0 #ff000080, 0 6px 20px 0 #ff000033;
+
+}
+a.error:hover, a.error:active {
+    box-shadow: 0 8px 16px 0 #ff0000cc, 0 6px 20px 0 #ff0000bf;
+    text-decoration: none;
+}
+
+/********* pre **********************/
+pre,
+code {
+    font-family: "Meslo LGLDZ", Menlo
+}
+
+/************ Table ****************/
+
+table {
+    display: table;
+    width: 80%;
+    border: 1px solid var(--main-border-color);
+    border-collapse: collapse;
+}
+
+th {
+    padding: .5em;
+    color: var(--vs-bg);
+    background: var(--vs-light-blue);
+    font-family: "Meslo LGLDZ", 'Courier New', monospace;
+    font-size: 1.2em;
+    text-align: center;
+    border: 1px solid var(--white);
+    border-collapse: collapse;
+}
+
+td {
+    font-size: 1em;
+    text-align: left;
+    padding: 10px;
+
+}
+
+/* alternate line color */
+tr:nth-child(odd) {
+    background-color: var(--alt-bg);
+}
+
+.card-debug {
+    width: 100%;
+    margin: 2.5px;
+    /* box-shadow: 0 4px 8px 0 rgba(255,255,255, 0.2), 0 6px 20px 0 rgba(255,255,255, 0.19); */
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-debug {
+    background-color: var(--vs-light-blue);
+    color: var(--vs-bg);
+    padding: 5px;
+    font-size: .8em;
+    text-align: center;
+}
+
+.container-debug {
+    background-image: linear-gradient(to top left, var(--black), var(--vs-bg));
+    color: var(--vs-light-blue);
+    padding: 20px;
+    text-align: left;
+    font-family: "MesloLGS NF";
+    vertical-align: center;
+}
+
+.card-info {
+    width: 100%;
+    margin: 2.5px;
+    /* box-shadow: 0 4px 8px 0 rgba(255,255,255, 0.2), 0 6px 20px 0 rgba(255,255,255, 0.19); */
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-info {
+    background-color: var(--vs-green);
+    color: var(--vs-bg);
+    padding: 5px;
+    font-size: .8em;
+    text-align: center;
+}
+
+.container-info {
+    background-image: linear-gradient(to top left, var(--black), var(--vs-bg));
+    color: var(--vs-green);
+    padding: 20px;
+    text-align: left;
+    font-family: "MesloLGS NF";
+    vertical-align: center;
+}
+
+.card-warn {
+    width: 100%;
+    margin: 2.5px;
+    /* box-shadow: 0 4px 8px 0 rgba(255,255,255, 0.2), 0 6px 20px 0 rgba(255,255,255, 0.19); */
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-warn {
+    background-color: var(--yellow);
+    color: var(--black);
+    padding: 5px;
+    font-size: .8em;
+    text-align: center;
+}
+
+.container-warn {
+    background-image: linear-gradient(to top left, var(--black), var(--vs-bg));
+    color: var(--yellow);
+    text-shadow: 2px 2px 4px var(--black);
+    padding: 20px;
+    text-align: left;
+    font-family: "MesloLGS NF";
+    vertical-align: center;
+}
+
+.card-error {
+    width: 100%;
+    margin: 2.5px;
+    /* box-shadow: 0 4px 8px 0 rgba(255,255,255, 0.2), 0 6px 20px 0 rgba(255,255,255, 0.19); */
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-error {
+    background-color: var(--red);
+    color: var(--white);
+    padding: 5px;
+    font-size: .8em;
+    text-align: center;
+}
+
+.container-error {
+    background-image: linear-gradient(to top left, var(--white),var(--off-white));
+    color: var(--red);
+    text-shadow: 2px 2px 4px #0000001a;
+    padding: 20px;
+    text-align: left;
+    font-family: "MesloLGS NF";
+    vertical-align: center;
+}
+
+
+.icon{
+    font-size: 2em;
+    vertical-align: center;
+    text-align: center;
+}

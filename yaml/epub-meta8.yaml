@@ -1,0 +1,15 @@
+title:
+- type: main
+  text: The Systems of Chaos and the Very High
+- type: subtitle
+  text: Super Gene
+creator:
+- role: author
+  text: Twelve Winged Dark Seraphim
+stylesheet: 
+- style.css
+cover-image: cover8.png
+ibooks:
+- version: 4.0
+- specified-fonts: true
+- iphone-orientation-lock: portrait-only

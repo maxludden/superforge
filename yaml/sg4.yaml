@@ -1,0 +1,792 @@
+---
+from: html
+to: epub
+
+output-file: Fourth and Fifth God's Sanctuary.epub
+
+input-files:
+- titlepage.html
+- section-04.html
+- chapter-1339.html
+- chapter-1340.html
+- chapter-1341.html
+- chapter-1342.html
+- chapter-1343.html
+- chapter-1344.html
+- chapter-1345.html
+- chapter-1346.html
+- chapter-1347.html
+- chapter-1348.html
+- chapter-1349.html
+- chapter-1350.html
+- chapter-1351.html
+- chapter-1352.html
+- chapter-1353.html
+- chapter-1354.html
+- chapter-1355.html
+- chapter-1356.html
+- chapter-1357.html
+- chapter-1358.html
+- chapter-1359.html
+- chapter-1360.html
+- chapter-1361.html
+- chapter-1362.html
+- chapter-1363.html
+- chapter-1364.html
+- chapter-1365.html
+- chapter-1366.html
+- chapter-1367.html
+- chapter-1368.html
+- chapter-1369.html
+- chapter-1370.html
+- chapter-1371.html
+- chapter-1372.html
+- chapter-1373.html
+- chapter-1374.html
+- chapter-1375.html
+- chapter-1376.html
+- chapter-1377.html
+- chapter-1378.html
+- chapter-1379.html
+- chapter-1380.html
+- chapter-1381.html
+- chapter-1382.html
+- chapter-1383.html
+- chapter-1384.html
+- chapter-1385.html
+- chapter-1386.html
+- chapter-1387.html
+- chapter-1388.html
+- chapter-1389.html
+- chapter-1390.html
+- chapter-1391.html
+- chapter-1392.html
+- chapter-1393.html
+- chapter-1394.html
+- chapter-1395.html
+- chapter-1396.html
+- chapter-1397.html
+- chapter-1398.html
+- chapter-1399.html
+- chapter-1400.html
+- chapter-1401.html
+- chapter-1402.html
+- chapter-1403.html
+- chapter-1404.html
+- chapter-1405.html
+- chapter-1406.html
+- chapter-1407.html
+- chapter-1408.html
+- chapter-1409.html
+- chapter-1410.html
+- chapter-1411.html
+- chapter-1412.html
+- chapter-1413.html
+- chapter-1414.html
+- chapter-1415.html
+- chapter-1416.html
+- chapter-1417.html
+- chapter-1418.html
+- chapter-1419.html
+- chapter-1420.html
+- chapter-1421.html
+- chapter-1422.html
+- chapter-1423.html
+- chapter-1424.html
+- chapter-1425.html
+- chapter-1426.html
+- chapter-1427.html
+- chapter-1428.html
+- chapter-1429.html
+- chapter-1430.html
+- chapter-1431.html
+- chapter-1432.html
+- chapter-1433.html
+- chapter-1434.html
+- chapter-1435.html
+- chapter-1436.html
+- chapter-1437.html
+- chapter-1438.html
+- chapter-1439.html
+- chapter-1440.html
+- chapter-1441.html
+- chapter-1442.html
+- chapter-1443.html
+- chapter-1444.html
+- chapter-1445.html
+- chapter-1446.html
+- chapter-1447.html
+- chapter-1448.html
+- chapter-1449.html
+- chapter-1450.html
+- chapter-1451.html
+- chapter-1452.html
+- chapter-1453.html
+- chapter-1454.html
+- chapter-1455.html
+- chapter-1456.html
+- chapter-1457.html
+- chapter-1458.html
+- chapter-1459.html
+- chapter-1460.html
+- chapter-1461.html
+- chapter-1462.html
+- chapter-1463.html
+- chapter-1464.html
+- chapter-1465.html
+- chapter-1466.html
+- chapter-1467.html
+- chapter-1468.html
+- chapter-1469.html
+- chapter-1470.html
+- chapter-1471.html
+- chapter-1472.html
+- chapter-1473.html
+- chapter-1474.html
+- chapter-1475.html
+- chapter-1476.html
+- chapter-1477.html
+- chapter-1478.html
+- chapter-1479.html
+- chapter-1480.html
+- chapter-1481.html
+- chapter-1482.html
+- chapter-1483.html
+- chapter-1484.html
+- chapter-1485.html
+- chapter-1486.html
+- chapter-1487.html
+- chapter-1488.html
+- chapter-1489.html
+- chapter-1490.html
+- chapter-1491.html
+- chapter-1492.html
+- chapter-1493.html
+- chapter-1494.html
+- chapter-1495.html
+- chapter-1496.html
+- chapter-1497.html
+- chapter-1498.html
+- chapter-1499.html
+- chapter-1500.html
+- chapter-1501.html
+- chapter-1502.html
+- chapter-1503.html
+- chapter-1504.html
+- chapter-1505.html
+- chapter-1506.html
+- chapter-1507.html
+- chapter-1508.html
+- chapter-1509.html
+- chapter-1510.html
+- chapter-1511.html
+- chapter-1512.html
+- chapter-1513.html
+- chapter-1514.html
+- chapter-1515.html
+- chapter-1516.html
+- chapter-1517.html
+- chapter-1518.html
+- chapter-1519.html
+- chapter-1520.html
+- chapter-1521.html
+- chapter-1522.html
+- chapter-1523.html
+- chapter-1524.html
+- chapter-1525.html
+- chapter-1526.html
+- chapter-1527.html
+- chapter-1528.html
+- chapter-1529.html
+- chapter-1530.html
+- chapter-1531.html
+- chapter-1532.html
+- chapter-1533.html
+- chapter-1534.html
+- chapter-1535.html
+- chapter-1536.html
+- chapter-1537.html
+- chapter-1538.html
+- chapter-1539.html
+- chapter-1540.html
+- chapter-1541.html
+- chapter-1542.html
+- chapter-1543.html
+- chapter-1544.html
+- chapter-1545.html
+- chapter-1546.html
+- chapter-1547.html
+- chapter-1548.html
+- chapter-1549.html
+- chapter-1550.html
+- chapter-1551.html
+- chapter-1552.html
+- chapter-1553.html
+- chapter-1554.html
+- chapter-1555.html
+- chapter-1556.html
+- chapter-1557.html
+- chapter-1558.html
+- chapter-1559.html
+- chapter-1560.html
+- chapter-1561.html
+- chapter-1562.html
+- chapter-1563.html
+- chapter-1564.html
+- chapter-1565.html
+- chapter-1566.html
+- chapter-1567.html
+- chapter-1568.html
+- chapter-1569.html
+- chapter-1570.html
+- chapter-1571.html
+- chapter-1572.html
+- chapter-1573.html
+- chapter-1574.html
+- chapter-1575.html
+- chapter-1576.html
+- chapter-1577.html
+- chapter-1578.html
+- chapter-1579.html
+- chapter-1580.html
+- chapter-1581.html
+- chapter-1582.html
+- chapter-1583.html
+- chapter-1584.html
+- chapter-1585.html
+- chapter-1586.html
+- chapter-1587.html
+- chapter-1588.html
+- chapter-1589.html
+- chapter-1590.html
+- chapter-1591.html
+- chapter-1592.html
+- chapter-1593.html
+- chapter-1594.html
+- chapter-1595.html
+- chapter-1596.html
+- chapter-1597.html
+- chapter-1598.html
+- chapter-1599.html
+- chapter-1600.html
+- chapter-1601.html
+- chapter-1602.html
+- chapter-1603.html
+- chapter-1604.html
+- chapter-1605.html
+- chapter-1606.html
+- chapter-1607.html
+- chapter-1608.html
+- chapter-1609.html
+- chapter-1610.html
+- chapter-1611.html
+- chapter-1612.html
+- chapter-1613.html
+- chapter-1614.html
+- chapter-1615.html
+- chapter-1616.html
+- chapter-1617.html
+- chapter-1618.html
+- chapter-1619.html
+- chapter-1620.html
+- chapter-1621.html
+- chapter-1622.html
+- chapter-1623.html
+- chapter-1624.html
+- chapter-1625.html
+- chapter-1626.html
+- chapter-1627.html
+- chapter-1628.html
+- chapter-1629.html
+- chapter-1630.html
+- chapter-1631.html
+- chapter-1632.html
+- chapter-1633.html
+- chapter-1634.html
+- chapter-1635.html
+- chapter-1636.html
+- chapter-1637.html
+- chapter-1638.html
+- chapter-1639.html
+- chapter-1640.html
+- chapter-1641.html
+- chapter-1642.html
+- chapter-1643.html
+- chapter-1644.html
+- chapter-1645.html
+- chapter-1646.html
+- chapter-1647.html
+- chapter-1648.html
+- chapter-1649.html
+- chapter-1650.html
+- chapter-1651.html
+- chapter-1652.html
+- chapter-1653.html
+- chapter-1654.html
+- chapter-1655.html
+- chapter-1656.html
+- chapter-1657.html
+- chapter-1658.html
+- chapter-1659.html
+- chapter-1660.html
+- chapter-1661.html
+- chapter-1662.html
+- chapter-1663.html
+- chapter-1664.html
+- chapter-1665.html
+- chapter-1666.html
+- chapter-1667.html
+- chapter-1668.html
+- chapter-1669.html
+- chapter-1670.html
+- chapter-1671.html
+- chapter-1672.html
+- chapter-1673.html
+- chapter-1674.html
+- chapter-1675.html
+- chapter-1676.html
+- chapter-1677.html
+- chapter-1678.html
+- chapter-1679.html
+- section-05.html
+- chapter-1680.html
+- chapter-1681.html
+- chapter-1682.html
+- chapter-1683.html
+- chapter-1684.html
+- chapter-1685.html
+- chapter-1686.html
+- chapter-1687.html
+- chapter-1688.html
+- chapter-1689.html
+- chapter-1690.html
+- chapter-1691.html
+- chapter-1692.html
+- chapter-1693.html
+- chapter-1694.html
+- chapter-1695.html
+- chapter-1696.html
+- chapter-1697.html
+- chapter-1698.html
+- chapter-1699.html
+- chapter-1700.html
+- chapter-1701.html
+- chapter-1702.html
+- chapter-1703.html
+- chapter-1704.html
+- chapter-1705.html
+- chapter-1706.html
+- chapter-1707.html
+- chapter-1708.html
+- chapter-1709.html
+- chapter-1710.html
+- chapter-1711.html
+
+standalone: true
+self-contained: true
+
+resource-path:
+- .
+- /Users/maxludden/dev/supergene/Images/cover4.png
+- /Users/maxludden/dev/supergene/Images/title.png
+- /Users/maxludden/dev/supergene/Images/gem.gif
+- /Users/maxludden/dev/supergene/Styles/abeatbykai.TTF
+- /Users/maxludden/dev/supergene/Styles/Photograph Signature.ttf
+- /Users/maxludden/dev/supergene/Styles/style.css
+- /Users/maxludden/dev/supergene/yaml/meta4.yaml
+- /Users/maxludden/dev/supergene/yaml/epub-meta4.yaml
+- /Users/maxludden/dev/supergene/html/Book 4/titlepage.html
+- /Users/maxludden/dev/supergene/html/Book 4/section-04.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1339.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1340.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1341.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1342.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1343.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1344.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1345.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1346.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1347.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1348.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1349.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1350.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1351.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1352.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1353.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1354.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1355.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1356.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1357.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1358.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1359.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1360.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1361.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1362.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1363.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1364.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1365.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1366.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1367.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1368.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1369.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1370.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1371.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1372.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1373.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1374.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1375.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1376.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1377.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1378.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1379.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1380.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1381.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1382.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1383.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1384.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1385.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1386.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1387.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1388.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1389.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1390.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1391.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1392.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1393.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1394.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1395.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1396.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1397.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1398.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1399.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1400.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1401.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1402.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1403.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1404.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1405.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1406.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1407.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1408.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1409.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1410.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1411.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1412.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1413.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1414.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1415.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1416.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1417.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1418.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1419.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1420.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1421.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1422.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1423.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1424.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1425.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1426.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1427.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1428.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1429.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1430.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1431.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1432.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1433.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1434.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1435.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1436.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1437.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1438.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1439.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1440.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1441.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1442.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1443.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1444.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1445.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1446.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1447.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1448.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1449.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1450.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1451.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1452.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1453.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1454.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1455.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1456.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1457.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1458.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1459.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1460.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1461.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1462.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1463.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1464.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1465.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1466.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1467.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1468.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1469.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1470.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1471.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1472.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1473.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1474.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1475.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1476.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1477.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1478.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1479.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1480.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1481.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1482.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1483.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1484.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1485.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1486.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1487.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1488.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1489.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1490.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1491.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1492.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1493.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1494.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1495.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1496.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1497.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1498.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1499.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1500.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1501.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1502.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1503.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1504.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1505.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1506.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1507.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1508.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1509.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1510.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1511.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1512.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1513.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1514.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1515.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1516.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1517.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1518.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1519.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1520.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1521.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1522.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1523.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1524.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1525.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1526.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1527.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1528.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1529.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1530.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1531.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1532.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1533.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1534.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1535.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1536.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1537.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1538.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1539.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1540.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1541.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1542.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1543.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1544.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1545.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1546.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1547.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1548.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1549.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1550.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1551.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1552.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1553.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1554.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1555.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1556.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1557.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1558.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1559.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1560.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1561.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1562.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1563.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1564.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1565.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1566.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1567.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1568.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1569.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1570.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1571.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1572.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1573.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1574.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1575.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1576.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1577.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1578.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1579.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1580.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1581.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1582.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1583.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1584.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1585.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1586.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1587.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1588.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1589.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1590.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1591.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1592.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1593.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1594.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1595.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1596.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1597.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1598.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1599.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1600.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1601.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1602.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1603.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1604.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1605.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1606.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1607.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1608.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1609.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1610.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1611.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1612.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1613.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1614.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1615.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1616.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1617.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1618.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1619.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1620.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1621.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1622.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1623.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1624.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1625.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1626.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1627.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1628.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1629.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1630.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1631.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1632.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1633.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1634.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1635.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1636.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1637.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1638.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1639.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1640.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1641.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1642.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1643.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1644.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1645.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1646.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1647.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1648.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1649.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1650.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1651.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1652.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1653.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1654.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1655.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1656.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1657.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1658.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1659.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1660.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1661.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1662.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1663.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1664.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1665.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1666.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1667.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1668.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1669.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1670.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1671.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1672.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1673.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1674.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1675.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1676.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1677.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1678.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1679.html
+- /Users/maxludden/dev/supergene/html/Book 4/section-05.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1680.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1681.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1682.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1683.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1684.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1685.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1686.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1687.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1688.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1689.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1690.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1691.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1692.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1693.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1694.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1695.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1696.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1697.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1698.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1699.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1700.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1701.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1702.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1703.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1704.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1705.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1706.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1707.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1708.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1709.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1710.html
+- /Users/maxludden/dev/supergene/html/Book 4/chapter-1711.html
+
+toc: true
+toc-depth: 2
+
+epub-chapter-level: 2
+epub-cover-image: cover4.png
+epub-fonts:
+- abeatbykai.TTF
+- Photograph Signature.ttf
+
+epub-metadata: epub-meta4.yaml
+
+metadata-files:
+- epub-meta4.yaml
+- meta4.yaml
+
+css:
+- style.css
+...
