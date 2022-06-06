@@ -20,7 +20,7 @@ new_run()
 # make_titlepages()
 
 #. EndOfBook
-make_endofbooks()
+make_endofboo
 
 
 
