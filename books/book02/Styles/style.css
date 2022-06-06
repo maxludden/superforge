@@ -47,7 +47,8 @@ html {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
    display: block;
    text-align: center;
    font-family: "Century Gothic", "Myriad Pro", helvetica, sans-serif;
@@ -70,6 +71,11 @@ h3,
 h4 {
    font-size: 1.1em;
    line-height: 1em;
+}
+
+h5 {
+   font-size: 1em;
+   line-height: 0.9;
 }
 /************* Images **************/
 

@@ -47,10 +47,11 @@ html {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
    display: block;
    text-align: center;
-   font-family: "abeatbykai", "Myriad Pro", helvetica, sans-serif;
+   font-family: "Century Gothic", "Myriad Pro", helvetica, sans-serif;
    font-style: normal;
    font-weight: lighter;
 }
@@ -70,6 +71,11 @@ h3,
 h4 {
    font-size: 1.1em;
    line-height: 1em;
+}
+
+h5 {
+   font-size: 1em;
+   line-height: 0.9;
 }
 /************* Images **************/
 
@@ -135,7 +141,7 @@ th {
    color: var(--main-bg-color);
    background: var(--table-header-bg-color);
    border: 1px solid var(--main-border-color);
-   font-family: "abeatbykai", "Lemon/Milk", "Myriad Pro", helvetica, sans-serif;
+   font-family: "Century Gothic", "Lemon/Milk", "Myriad Pro", helvetica, sans-serif;
    font-size: 1.5em;
    font-weight: lighter;
    text-align: center;

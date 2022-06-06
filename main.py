@@ -11,8 +11,17 @@ from tqdm.auto import tqdm
 from core.atlas import sg
 from core.titlepage import Titlepage, make_titlepages
 from core.log import log, new_run, fix_tags
+from core.endofbook import make_endofbooks
 
-#>Titlepages
-make_titlepages()
+#. Start a new run
+new_run()
+
+#. Titlepages
+# make_titlepages()
+
+#. EndOfBook
+make_endofbooks()
+
+
 
 fix_tags()

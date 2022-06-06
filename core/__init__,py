@@ -1,1 +1,1 @@
-__all__ = ['book', 'atlas', 'log', 'titlepage', 'clear_md', 'fix_tags']
+__all__ = ['book', 'atlas', 'endofbook', 'log', 'titlepage', 'clear_md', 'fix_tags']
