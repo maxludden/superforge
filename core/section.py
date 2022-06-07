@@ -6,13 +6,15 @@ from enum import unique
 from mailbox import MMDF
 from subprocess import run
 
-from mongoengine import Document
+from mongoengine import Document, disconnect_all
 from mongoengine.fields import IntField, ListField, StringField
 from num2words import num2words
 
 from core.atlas import max_title, sg
 from core.log import errwrap, log
 from tqdm.auto import tqdm
+from markdown2 import markdown as md
+from typing import Optional
 
 #.##########################################################
 #.                                                         #
@@ -50,40 +52,28 @@ def get_book(section: int):
         `book` (int):
             The book the given section is in.
     """
-    try:
-        if section == 1:
-            return 1
-        elif section == 2:
-            return 2
-        elif section == 3:
-            return 3
-        elif section == 4 | section == 5:
-            return 4
-        elif section == 6 | section == 7:
-            return 5
-        elif section == 8 | section == 9:
-            return 6
-        elif section == 10 | section == 11:
-            return 7
-        elif section == 12 | section == 13:
-            return 8
-        elif section == 14 | section == 15:
-            return 9
-        elif section == 16 | section == 17:
-            return 10
-        else:
-            raise ValueError("Invalid section: {section}")
-            sys.exit(
-                {
-                    "-3": {
-                        "error": "Invalid Input Error",
-                        "function": "chapter.get_book",
-                        "chapter": chapter,
-                    }
-                }
-            )
-    except:
-        raise ValueError("Invalid Section: {section}")
+    book_sections = {
+        1:1,
+        2:2,
+        3:3,
+        4:4,
+        5:4,
+        6:5,
+        7:5,
+        8:6,
+        9:6,
+        10:7,
+        11:7,
+        12:8,
+        13:8,
+        14:9,
+        15:9,
+        16:10,
+        17:10
+    }
+    book = book_sections[section]
+    return book
+
 
 
 @errwrap()
@@ -174,18 +164,12 @@ def get_part(section: int):
         `part` (int):
             The given section's part number. If the given section's book contains only one section, `get_part()` will return `0`.
     """
-    sg()
-    sections = []
-    for doc in Section.objects(book=doc.book):
-        sections.append(doc.section)
-    if len(sections) > 1:
-        part1 = min(sections)
-        if part1 == section:
-            return 1
-        else:
-            return 2
-    else:
+    if section <= 3:
         return 0
+    elif section % 2 == 0:
+        return 1
+    else:
+        return 2
     
 def get_mmd(section: int):
     """Generate the multimarkdown for the given section and save it to disk and MongoDB
@@ -205,8 +189,8 @@ def get_mmd(section: int):
         meta = f'Title: {doc.title}'
         meta = f'{meta}\nSection: {doc.section}'
         meta = f'{meta}\nPart: {part}'
-        meta = f'{meta}CSS:../Styles/style.css'
-        meta = f'{meta}viewport: width=device-width\n\n'
+        meta = f'{meta}\nCSS:../Styles/style.css'
+        meta = f'{meta}\nviewport: width=device-width\n\n'
         
         img = '\n\n<figure>\n<img src="../Images/gem.gif" alt="gem" id="gem" width="120" height="60" />\n\n</figure>'
         if part == 0:
@@ -214,9 +198,9 @@ def get_mmd(section: int):
             atx = f'## Book {book_word} of Super Gene'
             atx = f'{atx}{img}\n\n### Chapter {doc.start} - Chapter {doc.end}\n'
         elif part == 1:
-            atx = f'## Part One{img}\n\n### Chapter {doc.start} - Chapter {doc.end}\n'
+            atx = f'## Part One{img}\n\n### Chapter {doc.start} - Chapter {doc.end}\n\n<br><br><br><br>'
         else:
-            atx = f'## Part Two{img}\n\n### Chapter {doc.start} - Chapter {doc.end}\n'
+            atx = f'## Part Two{img}\n\n### Chapter {doc.start} - Chapter {doc.end}\n\n<br><br><br><br>'
             
         text = '\n\n#### Written by Twelve Winged Burning Seraphim\n#### Compiled and edited by Max Ludden.\n'
         
@@ -244,41 +228,51 @@ def get_html (section: int):
     
     sg()
     for doc in Section.objects(section=section):
-        mmd_path = doc.mmd_path
-        html_path = doc.html_path
+        mmd_path = get_mmd_path(doc.section)
+        html_path = get_html_path(doc.section)
         mmd_cmd = ['multimarkdown', '-f', '--nolabels', '-o', html_path, mmd_path]
         log.debug(f"Multimarkdown Command:\n{mmd_cmd}")
         try:
             result = run(mmd_cmd, capture_output=True, text=True)
-        except Exception as e:
-            log.error("Unable to create html from section {section}'s multimarkdown.\n\n{e}")
-            sys.exit(e)
-            
+        except:
+            write_html(section)
         else:
+            book = str(get_book(doc.section)).zfill(2)
+            zsection = str(doc.section).zfill(2)
+            html_path = f"/Users/maxludden/dev/py/superforge/books/book{book}/html/section-{zsection}.html"
             with open (html_path, 'r') as infile:
                 html = infile.read()
             doc.html = html
             doc.save()
             log.debug("Saved Section {section}'s HTML to disk and MongoDB.")
+            
+def write_html(section: int, mmd: Optional[str]):
+    if not mmd:
+        connected = True
+        sg()
+        for doc in Section.objects(section=section):
+            if doc.mmd == "":
+                mmd = get_mmd(section)
+    html = md(mmd, extras=['metadata'])
+    with open (doc.html_path, 'w') as outfile:
+        outfile.write(html)
+    
+    if connected == True:
+        disconnect_all()
+        
+    sg()
+    for doc in Section.objects(section=section):
+        doc.html = html
+        doc.save()
+        
 
 @errwrap()
 def make_sections():
     """A script to automate the generation of each section page's multimarkdown and convert it into X/HTML.
     """
     sg()
-    for doc in Section.objects():
-        section = doc.section
-        try:
+    sections = range(1,18)
+    for section in tqdm(sections, unit="section", desc="Writing section pages"):
+        for doc in Section.objects(section=section): 
             mmd = get_mmd(section)
-            log.debug(f"Generated Section {section}'s multimarkdown.")
-        except:
-            log.error(f"Unable to generate Section {section}'s multimarkdown quitting Script.")
-        else:
-            try:
-                html = get_html(section)
-                log.debug(f"Generated Section {section}'s HTML.")
-            except:
-                log.error("Unable to generate Section {section}'s HTML.")
-            else:
-                log.info(f"Saved Section {section}'s multimarkdown and HTML to Disk and to MOngoDB")
-        
+            html = get_html(section)

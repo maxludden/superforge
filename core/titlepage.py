@@ -40,7 +40,7 @@ class Titlepage(Document):
     book = IntField(Required=True, unique=True, Indexed=True)
     book_word = StringField()
     title = StringField(Required=True, max_length=500)
-    text = StringField(efault=f'{TEXT}')
+    text = StringField(default=f'{TEXT}')
     filename = StringField()
     mmd_path = StringField()
     html_path = StringField()
@@ -64,7 +64,7 @@ def get_html_path(book: int):
     book = str(book).zfill(2)
     return f"/Users/maxludden//dev/py/supergene/books/book{book}/html/{filename}.html"
 
-@errwrap(exit+false)
+@errwrap(exit=False)
 def get_mmd(book: int):
     """Generates the multimarkdown for the given book's titlepage.
     
@@ -183,14 +183,14 @@ def validate_values(book: int):
         sg()
         for doc in Book.objects(book=doc.book):
             doc.title = max.title(doc.title)
-        log.dubug(
+        log.debug(
             f"Retrieving Book {doc.book}'s title from MongoDB: {doc.title}")
         update = True
 
     log.debug(f"Book {doc.book}'s filename: {doc.filename}")
     if (doc.filename == "") | ('.' in doc.filename):
         doc.filename == get_filename(doc.book)
-        log.deubg(
+        log.debug(
             f"Generated Book {doc.book}'s titlepage's filename: {doc.filename}")
         update = True
 
@@ -239,7 +239,7 @@ def validate_html(book: int, force: bool = False):
 
 
 
-@errwrap()
+@errwrap(exit=False)
 def make_html(book: int):
     """
     Generate the HTML for a given book's titlepage from it's multimarkdown.
