@@ -64,7 +64,7 @@ def get_html_path(book: int):
     book = str(book).zfill(2)
     return f"/Users/maxludden//dev/py/supergene/books/book{book}/html/{filename}.html"
 
-@errwrap()
+@errwrap(exit+false)
 def get_mmd(book: int):
     """Generates the multimarkdown for the given book's titlepage.
     

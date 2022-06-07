@@ -12,6 +12,7 @@ from num2words import num2words
 
 from core.atlas import max_title, sg
 from core.log import errwrap, log
+from tqdm.auto import tqdm
 
 #.##########################################################
 #.                                                         #
@@ -27,7 +28,7 @@ from core.log import errwrap, log
 class Section(Document):
     section = IntField(unique=True)
     title = StringField()
-    book = IntField(),
+    book = IntField()
     chapters = ListField(IntField(unique=True))
     start = IntField()
     end = IntField()
@@ -259,3 +260,25 @@ def get_html (section: int):
             doc.html = html
             doc.save()
             log.debug("Saved Section {section}'s HTML to disk and MongoDB.")
+
+@errwrap()
+def make_sections():
+    """A script to automate the generation of each section page's multimarkdown and convert it into X/HTML.
+    """
+    sg()
+    for doc in Section.objects():
+        section = doc.section
+        try:
+            mmd = get_mmd(section)
+            log.debug(f"Generated Section {section}'s multimarkdown.")
+        except:
+            log.error(f"Unable to generate Section {section}'s multimarkdown quitting Script.")
+        else:
+            try:
+                html = get_html(section)
+                log.debug(f"Generated Section {section}'s HTML.")
+            except:
+                log.error("Unable to generate Section {section}'s HTML.")
+            else:
+                log.info(f"Saved Section {section}'s multimarkdown and HTML to Disk and to MOngoDB")
+        

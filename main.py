@@ -6,12 +6,13 @@ from json import dump, load
 from subprocess import run
 
 from dotenv import load_dotenv
-from tqdm.auto import tqdm
+from tqdm import tqdm
 
 from core.atlas import sg
 from core.titlepage import Titlepage, make_titlepages
 from core.log import log, new_run, fix_tags
 from core.endofbook import make_endofbooks
+from core.section import make_sections
 
 #. Start a new run
 new_run()
@@ -23,5 +24,6 @@ new_run()
 #make_endofbooks()
 
 #. Section Pages
+make_sections()
 
 fix_tags()
