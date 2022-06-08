@@ -22579,3 +22579,6839 @@ None
         </div>
     </div>
 </a>
+
+<br><br>
+
+
+## Run 139
+<br>
+<img src="/Users/maxludden/dev/py/superforge/books/book01/Images/gem.gif" alt="gem" id="gem" width="120" height="60" />
+
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/main.py:27:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:11 PM | main.py | Line 27
+        </div>
+        <div class="container-debug">
+            Entering 'make_sections' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:273:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:11 PM | section.py | Line 273
+        </div>
+        <div class="container-debug">
+            Entering 'sg' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:62:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:12 PM | atlas.py | Line 62
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:273:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:12 PM | section.py | Line 273
+        </div>
+        <div class="container-debug">
+            Exiting 'sg' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:185:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:12 PM | section.py | Line 185
+        </div>
+        <div class="container-debug">
+            Entering 'sg' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:62:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:12 PM | atlas.py | Line 62
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:185:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:12 PM | section.py | Line 185
+        </div>
+        <div class="container-debug">
+            Exiting 'sg' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:187:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:12 PM | section.py | Line 187
+        </div>
+        <div class="container-debug">
+            Entering 'get_part' (args= '(1,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:187:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:12 PM | section.py | Line 187
+        </div>
+        <div class="container-debug">
+            Exiting 'get_part' (result=
+0
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:208:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:12 PM | section.py | Line 208
+        </div>
+        <div class="container-debug">
+            Entering 'get_mmd_path' (args= '(1,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:12 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(1,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:12 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-01
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:12 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(1,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:12 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+1
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:208:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:12 PM | section.py | Line 208
+        </div>
+        <div class="container-debug">
+            Exiting 'get_mmd_path' (result=
+/Users/maxludden/dev/py/superforge/books/book01/mmd/section-01.mmd
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:211:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:12 PM | section.py | Line 211
+        </div>
+        <div class="container-debug">
+            Wrote Sections 1's multimarkdown to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:214:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:12 PM | section.py | Line 214
+        </div>
+        <div class="container-debug">
+            Saved Section 1's multimarkdown to MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:229:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:12 PM | section.py | Line 229
+        </div>
+        <div class="container-debug">
+            Entering 'sg' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:62:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:12 PM | atlas.py | Line 62
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:229:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:12 PM | section.py | Line 229
+        </div>
+        <div class="container-debug">
+            Exiting 'sg' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:231:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:12 PM | section.py | Line 231
+        </div>
+        <div class="container-debug">
+            Entering 'get_mmd_path' (args= '(1,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:12 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(1,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:12 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-01
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:12 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(1,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:12 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+1
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:231:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:12 PM | section.py | Line 231
+        </div>
+        <div class="container-debug">
+            Exiting 'get_mmd_path' (result=
+/Users/maxludden/dev/py/superforge/books/book01/mmd/section-01.mmd
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:232:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:12 PM | section.py | Line 232
+        </div>
+        <div class="container-debug">
+            Entering 'get_html_path' (args= '(1,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:119:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:12 PM | section.py | Line 119
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(1,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:119:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:12 PM | section.py | Line 119
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-01
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:120:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:12 PM | section.py | Line 120
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(1,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:120:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:12 PM | section.py | Line 120
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+1
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:232:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:12 PM | section.py | Line 232
+        </div>
+        <div class="container-debug">
+            Exiting 'get_html_path' (result=
+/Users/maxludden/dev/py/superforge/books/book01/html/section-01.html
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:234:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:12 PM | section.py | Line 234
+        </div>
+        <div class="container-debug">
+            Multimarkdown Command:
+['multimarkdown', '-f', '--nolabels', '-o', '/Users/maxludden/dev/py/superforge/books/book01/html/section-01.html', '/Users/maxludden/dev/py/superforge/books/book01/mmd/section-01.mmd']
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:240:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:12 PM | section.py | Line 240
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(1,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:240:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:12 PM | section.py | Line 240
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+1
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:247:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 247
+        </div>
+        <div class="container-debug">
+            Saved Section {section}'s HTML to disk and MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:185:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 185
+        </div>
+        <div class="container-debug">
+            Entering 'sg' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:62:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | atlas.py | Line 62
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:185:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 185
+        </div>
+        <div class="container-debug">
+            Exiting 'sg' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:187:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 187
+        </div>
+        <div class="container-debug">
+            Entering 'get_part' (args= '(2,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:187:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 187
+        </div>
+        <div class="container-debug">
+            Exiting 'get_part' (result=
+0
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:208:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 208
+        </div>
+        <div class="container-debug">
+            Entering 'get_mmd_path' (args= '(2,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(2,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-02
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(2,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+2
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:208:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 208
+        </div>
+        <div class="container-debug">
+            Exiting 'get_mmd_path' (result=
+/Users/maxludden/dev/py/superforge/books/book02/mmd/section-02.mmd
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:211:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 211
+        </div>
+        <div class="container-debug">
+            Wrote Sections 2's multimarkdown to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:214:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 214
+        </div>
+        <div class="container-debug">
+            Saved Section 2's multimarkdown to MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:229:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 229
+        </div>
+        <div class="container-debug">
+            Entering 'sg' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:62:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | atlas.py | Line 62
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:229:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 229
+        </div>
+        <div class="container-debug">
+            Exiting 'sg' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:231:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 231
+        </div>
+        <div class="container-debug">
+            Entering 'get_mmd_path' (args= '(2,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(2,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-02
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(2,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+2
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:231:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 231
+        </div>
+        <div class="container-debug">
+            Exiting 'get_mmd_path' (result=
+/Users/maxludden/dev/py/superforge/books/book02/mmd/section-02.mmd
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:232:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 232
+        </div>
+        <div class="container-debug">
+            Entering 'get_html_path' (args= '(2,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:119:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 119
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(2,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:119:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 119
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-02
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:120:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 120
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(2,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:120:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 120
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+2
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:232:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 232
+        </div>
+        <div class="container-debug">
+            Exiting 'get_html_path' (result=
+/Users/maxludden/dev/py/superforge/books/book02/html/section-02.html
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:234:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 234
+        </div>
+        <div class="container-debug">
+            Multimarkdown Command:
+['multimarkdown', '-f', '--nolabels', '-o', '/Users/maxludden/dev/py/superforge/books/book02/html/section-02.html', '/Users/maxludden/dev/py/superforge/books/book02/mmd/section-02.mmd']
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:240:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 240
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(2,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:240:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 240
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+2
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:247:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 247
+        </div>
+        <div class="container-debug">
+            Saved Section {section}'s HTML to disk and MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:185:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 185
+        </div>
+        <div class="container-debug">
+            Entering 'sg' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:62:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | atlas.py | Line 62
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:185:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 185
+        </div>
+        <div class="container-debug">
+            Exiting 'sg' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:187:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 187
+        </div>
+        <div class="container-debug">
+            Entering 'get_part' (args= '(3,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:187:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 187
+        </div>
+        <div class="container-debug">
+            Exiting 'get_part' (result=
+0
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:208:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 208
+        </div>
+        <div class="container-debug">
+            Entering 'get_mmd_path' (args= '(3,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(3,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-03
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(3,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+3
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:208:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 208
+        </div>
+        <div class="container-debug">
+            Exiting 'get_mmd_path' (result=
+/Users/maxludden/dev/py/superforge/books/book03/mmd/section-03.mmd
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:211:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 211
+        </div>
+        <div class="container-debug">
+            Wrote Sections 3's multimarkdown to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:214:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 214
+        </div>
+        <div class="container-debug">
+            Saved Section 3's multimarkdown to MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:229:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 229
+        </div>
+        <div class="container-debug">
+            Entering 'sg' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:62:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | atlas.py | Line 62
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:229:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 229
+        </div>
+        <div class="container-debug">
+            Exiting 'sg' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:231:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 231
+        </div>
+        <div class="container-debug">
+            Entering 'get_mmd_path' (args= '(3,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(3,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-03
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(3,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+3
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:231:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 231
+        </div>
+        <div class="container-debug">
+            Exiting 'get_mmd_path' (result=
+/Users/maxludden/dev/py/superforge/books/book03/mmd/section-03.mmd
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:232:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 232
+        </div>
+        <div class="container-debug">
+            Entering 'get_html_path' (args= '(3,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:119:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 119
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(3,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:119:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 119
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-03
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:120:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 120
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(3,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:120:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 120
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+3
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:232:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 232
+        </div>
+        <div class="container-debug">
+            Exiting 'get_html_path' (result=
+/Users/maxludden/dev/py/superforge/books/book03/html/section-03.html
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:234:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 234
+        </div>
+        <div class="container-debug">
+            Multimarkdown Command:
+['multimarkdown', '-f', '--nolabels', '-o', '/Users/maxludden/dev/py/superforge/books/book03/html/section-03.html', '/Users/maxludden/dev/py/superforge/books/book03/mmd/section-03.mmd']
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:240:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 240
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(3,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:240:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 240
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+3
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:247:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 247
+        </div>
+        <div class="container-debug">
+            Saved Section {section}'s HTML to disk and MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:185:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 185
+        </div>
+        <div class="container-debug">
+            Entering 'sg' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:62:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | atlas.py | Line 62
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:185:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 185
+        </div>
+        <div class="container-debug">
+            Exiting 'sg' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:187:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 187
+        </div>
+        <div class="container-debug">
+            Entering 'get_part' (args= '(4,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:187:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 187
+        </div>
+        <div class="container-debug">
+            Exiting 'get_part' (result=
+1
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:208:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 208
+        </div>
+        <div class="container-debug">
+            Entering 'get_mmd_path' (args= '(4,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(4,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-04
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(4,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+4
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:208:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 208
+        </div>
+        <div class="container-debug">
+            Exiting 'get_mmd_path' (result=
+/Users/maxludden/dev/py/superforge/books/book04/mmd/section-04.mmd
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:211:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 211
+        </div>
+        <div class="container-debug">
+            Wrote Sections 4's multimarkdown to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:214:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 214
+        </div>
+        <div class="container-debug">
+            Saved Section 4's multimarkdown to MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:229:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 229
+        </div>
+        <div class="container-debug">
+            Entering 'sg' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:62:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | atlas.py | Line 62
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:229:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 229
+        </div>
+        <div class="container-debug">
+            Exiting 'sg' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:231:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 231
+        </div>
+        <div class="container-debug">
+            Entering 'get_mmd_path' (args= '(4,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(4,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-04
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(4,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+4
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:231:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 231
+        </div>
+        <div class="container-debug">
+            Exiting 'get_mmd_path' (result=
+/Users/maxludden/dev/py/superforge/books/book04/mmd/section-04.mmd
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:232:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 232
+        </div>
+        <div class="container-debug">
+            Entering 'get_html_path' (args= '(4,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:119:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 119
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(4,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:119:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 119
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-04
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:120:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 120
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(4,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:120:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 120
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+4
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:232:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 232
+        </div>
+        <div class="container-debug">
+            Exiting 'get_html_path' (result=
+/Users/maxludden/dev/py/superforge/books/book04/html/section-04.html
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:234:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 234
+        </div>
+        <div class="container-debug">
+            Multimarkdown Command:
+['multimarkdown', '-f', '--nolabels', '-o', '/Users/maxludden/dev/py/superforge/books/book04/html/section-04.html', '/Users/maxludden/dev/py/superforge/books/book04/mmd/section-04.mmd']
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:240:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 240
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(4,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:240:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 240
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+4
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:247:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:13 PM | section.py | Line 247
+        </div>
+        <div class="container-debug">
+            Saved Section {section}'s HTML to disk and MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:185:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 185
+        </div>
+        <div class="container-debug">
+            Entering 'sg' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:62:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | atlas.py | Line 62
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:185:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 185
+        </div>
+        <div class="container-debug">
+            Exiting 'sg' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:187:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 187
+        </div>
+        <div class="container-debug">
+            Entering 'get_part' (args= '(5,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:187:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 187
+        </div>
+        <div class="container-debug">
+            Exiting 'get_part' (result=
+2
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:208:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 208
+        </div>
+        <div class="container-debug">
+            Entering 'get_mmd_path' (args= '(5,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(5,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-05
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(5,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+4
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:208:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 208
+        </div>
+        <div class="container-debug">
+            Exiting 'get_mmd_path' (result=
+/Users/maxludden/dev/py/superforge/books/book04/mmd/section-05.mmd
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:211:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 211
+        </div>
+        <div class="container-debug">
+            Wrote Sections 5's multimarkdown to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:214:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 214
+        </div>
+        <div class="container-debug">
+            Saved Section 5's multimarkdown to MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:229:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 229
+        </div>
+        <div class="container-debug">
+            Entering 'sg' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:62:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | atlas.py | Line 62
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:229:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 229
+        </div>
+        <div class="container-debug">
+            Exiting 'sg' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:231:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 231
+        </div>
+        <div class="container-debug">
+            Entering 'get_mmd_path' (args= '(5,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(5,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-05
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(5,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+4
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:231:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 231
+        </div>
+        <div class="container-debug">
+            Exiting 'get_mmd_path' (result=
+/Users/maxludden/dev/py/superforge/books/book04/mmd/section-05.mmd
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:232:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 232
+        </div>
+        <div class="container-debug">
+            Entering 'get_html_path' (args= '(5,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:119:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 119
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(5,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:119:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 119
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-05
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:120:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 120
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(5,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:120:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 120
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+4
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:232:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 232
+        </div>
+        <div class="container-debug">
+            Exiting 'get_html_path' (result=
+/Users/maxludden/dev/py/superforge/books/book04/html/section-05.html
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:234:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 234
+        </div>
+        <div class="container-debug">
+            Multimarkdown Command:
+['multimarkdown', '-f', '--nolabels', '-o', '/Users/maxludden/dev/py/superforge/books/book04/html/section-05.html', '/Users/maxludden/dev/py/superforge/books/book04/mmd/section-05.mmd']
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:240:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 240
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(5,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:240:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 240
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+4
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:247:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 247
+        </div>
+        <div class="container-debug">
+            Saved Section {section}'s HTML to disk and MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:185:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 185
+        </div>
+        <div class="container-debug">
+            Entering 'sg' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:62:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | atlas.py | Line 62
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:185:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 185
+        </div>
+        <div class="container-debug">
+            Exiting 'sg' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:187:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 187
+        </div>
+        <div class="container-debug">
+            Entering 'get_part' (args= '(6,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:187:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 187
+        </div>
+        <div class="container-debug">
+            Exiting 'get_part' (result=
+1
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:208:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 208
+        </div>
+        <div class="container-debug">
+            Entering 'get_mmd_path' (args= '(6,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(6,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-06
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(6,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+5
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:208:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 208
+        </div>
+        <div class="container-debug">
+            Exiting 'get_mmd_path' (result=
+/Users/maxludden/dev/py/superforge/books/book05/mmd/section-06.mmd
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:211:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 211
+        </div>
+        <div class="container-debug">
+            Wrote Sections 6's multimarkdown to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:214:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 214
+        </div>
+        <div class="container-debug">
+            Saved Section 6's multimarkdown to MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:229:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 229
+        </div>
+        <div class="container-debug">
+            Entering 'sg' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:62:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | atlas.py | Line 62
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:229:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 229
+        </div>
+        <div class="container-debug">
+            Exiting 'sg' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:231:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 231
+        </div>
+        <div class="container-debug">
+            Entering 'get_mmd_path' (args= '(6,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(6,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-06
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(6,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+5
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:231:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 231
+        </div>
+        <div class="container-debug">
+            Exiting 'get_mmd_path' (result=
+/Users/maxludden/dev/py/superforge/books/book05/mmd/section-06.mmd
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:232:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 232
+        </div>
+        <div class="container-debug">
+            Entering 'get_html_path' (args= '(6,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:119:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 119
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(6,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:119:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 119
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-06
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:120:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 120
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(6,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:120:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 120
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+5
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:232:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 232
+        </div>
+        <div class="container-debug">
+            Exiting 'get_html_path' (result=
+/Users/maxludden/dev/py/superforge/books/book05/html/section-06.html
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:234:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 234
+        </div>
+        <div class="container-debug">
+            Multimarkdown Command:
+['multimarkdown', '-f', '--nolabels', '-o', '/Users/maxludden/dev/py/superforge/books/book05/html/section-06.html', '/Users/maxludden/dev/py/superforge/books/book05/mmd/section-06.mmd']
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:240:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 240
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(6,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:240:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 240
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+5
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:247:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 247
+        </div>
+        <div class="container-debug">
+            Saved Section {section}'s HTML to disk and MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:185:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 185
+        </div>
+        <div class="container-debug">
+            Entering 'sg' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:62:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | atlas.py | Line 62
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:185:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 185
+        </div>
+        <div class="container-debug">
+            Exiting 'sg' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:187:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 187
+        </div>
+        <div class="container-debug">
+            Entering 'get_part' (args= '(7,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:187:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 187
+        </div>
+        <div class="container-debug">
+            Exiting 'get_part' (result=
+2
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:208:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 208
+        </div>
+        <div class="container-debug">
+            Entering 'get_mmd_path' (args= '(7,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(7,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-07
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(7,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+5
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:208:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 208
+        </div>
+        <div class="container-debug">
+            Exiting 'get_mmd_path' (result=
+/Users/maxludden/dev/py/superforge/books/book05/mmd/section-07.mmd
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:211:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 211
+        </div>
+        <div class="container-debug">
+            Wrote Sections 7's multimarkdown to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:214:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 214
+        </div>
+        <div class="container-debug">
+            Saved Section 7's multimarkdown to MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:229:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 229
+        </div>
+        <div class="container-debug">
+            Entering 'sg' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:62:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | atlas.py | Line 62
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:229:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 229
+        </div>
+        <div class="container-debug">
+            Exiting 'sg' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:231:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 231
+        </div>
+        <div class="container-debug">
+            Entering 'get_mmd_path' (args= '(7,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(7,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-07
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(7,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+5
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:231:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 231
+        </div>
+        <div class="container-debug">
+            Exiting 'get_mmd_path' (result=
+/Users/maxludden/dev/py/superforge/books/book05/mmd/section-07.mmd
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:232:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 232
+        </div>
+        <div class="container-debug">
+            Entering 'get_html_path' (args= '(7,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:119:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 119
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(7,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:119:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 119
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-07
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:120:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 120
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(7,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:120:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 120
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+5
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:232:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 232
+        </div>
+        <div class="container-debug">
+            Exiting 'get_html_path' (result=
+/Users/maxludden/dev/py/superforge/books/book05/html/section-07.html
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:234:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 234
+        </div>
+        <div class="container-debug">
+            Multimarkdown Command:
+['multimarkdown', '-f', '--nolabels', '-o', '/Users/maxludden/dev/py/superforge/books/book05/html/section-07.html', '/Users/maxludden/dev/py/superforge/books/book05/mmd/section-07.mmd']
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:240:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 240
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(7,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:240:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 240
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+5
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:247:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 247
+        </div>
+        <div class="container-debug">
+            Saved Section {section}'s HTML to disk and MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:185:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 185
+        </div>
+        <div class="container-debug">
+            Entering 'sg' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:62:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | atlas.py | Line 62
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:185:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:14 PM | section.py | Line 185
+        </div>
+        <div class="container-debug">
+            Exiting 'sg' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:187:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 187
+        </div>
+        <div class="container-debug">
+            Entering 'get_part' (args= '(8,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:187:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 187
+        </div>
+        <div class="container-debug">
+            Exiting 'get_part' (result=
+1
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:208:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 208
+        </div>
+        <div class="container-debug">
+            Entering 'get_mmd_path' (args= '(8,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(8,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-08
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(8,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+6
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:208:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 208
+        </div>
+        <div class="container-debug">
+            Exiting 'get_mmd_path' (result=
+/Users/maxludden/dev/py/superforge/books/book06/mmd/section-08.mmd
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:211:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 211
+        </div>
+        <div class="container-debug">
+            Wrote Sections 8's multimarkdown to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:214:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 214
+        </div>
+        <div class="container-debug">
+            Saved Section 8's multimarkdown to MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:229:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 229
+        </div>
+        <div class="container-debug">
+            Entering 'sg' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:62:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | atlas.py | Line 62
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:229:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 229
+        </div>
+        <div class="container-debug">
+            Exiting 'sg' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:231:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 231
+        </div>
+        <div class="container-debug">
+            Entering 'get_mmd_path' (args= '(8,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(8,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-08
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(8,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+6
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:231:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 231
+        </div>
+        <div class="container-debug">
+            Exiting 'get_mmd_path' (result=
+/Users/maxludden/dev/py/superforge/books/book06/mmd/section-08.mmd
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:232:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 232
+        </div>
+        <div class="container-debug">
+            Entering 'get_html_path' (args= '(8,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:119:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 119
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(8,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:119:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 119
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-08
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:120:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 120
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(8,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:120:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 120
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+6
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:232:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 232
+        </div>
+        <div class="container-debug">
+            Exiting 'get_html_path' (result=
+/Users/maxludden/dev/py/superforge/books/book06/html/section-08.html
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:234:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 234
+        </div>
+        <div class="container-debug">
+            Multimarkdown Command:
+['multimarkdown', '-f', '--nolabels', '-o', '/Users/maxludden/dev/py/superforge/books/book06/html/section-08.html', '/Users/maxludden/dev/py/superforge/books/book06/mmd/section-08.mmd']
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:240:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 240
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(8,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:240:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 240
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+6
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:247:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 247
+        </div>
+        <div class="container-debug">
+            Saved Section {section}'s HTML to disk and MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:185:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 185
+        </div>
+        <div class="container-debug">
+            Entering 'sg' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:62:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | atlas.py | Line 62
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:185:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 185
+        </div>
+        <div class="container-debug">
+            Exiting 'sg' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:187:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 187
+        </div>
+        <div class="container-debug">
+            Entering 'get_part' (args= '(9,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:187:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 187
+        </div>
+        <div class="container-debug">
+            Exiting 'get_part' (result=
+2
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:208:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 208
+        </div>
+        <div class="container-debug">
+            Entering 'get_mmd_path' (args= '(9,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(9,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-09
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(9,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+6
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:208:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 208
+        </div>
+        <div class="container-debug">
+            Exiting 'get_mmd_path' (result=
+/Users/maxludden/dev/py/superforge/books/book06/mmd/section-09.mmd
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:211:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 211
+        </div>
+        <div class="container-debug">
+            Wrote Sections 9's multimarkdown to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:214:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 214
+        </div>
+        <div class="container-debug">
+            Saved Section 9's multimarkdown to MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:229:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 229
+        </div>
+        <div class="container-debug">
+            Entering 'sg' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:62:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | atlas.py | Line 62
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:229:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 229
+        </div>
+        <div class="container-debug">
+            Exiting 'sg' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:231:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 231
+        </div>
+        <div class="container-debug">
+            Entering 'get_mmd_path' (args= '(9,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(9,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-09
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(9,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+6
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:231:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 231
+        </div>
+        <div class="container-debug">
+            Exiting 'get_mmd_path' (result=
+/Users/maxludden/dev/py/superforge/books/book06/mmd/section-09.mmd
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:232:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 232
+        </div>
+        <div class="container-debug">
+            Entering 'get_html_path' (args= '(9,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:119:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 119
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(9,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:119:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 119
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-09
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:120:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 120
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(9,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:120:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 120
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+6
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:232:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 232
+        </div>
+        <div class="container-debug">
+            Exiting 'get_html_path' (result=
+/Users/maxludden/dev/py/superforge/books/book06/html/section-09.html
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:234:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 234
+        </div>
+        <div class="container-debug">
+            Multimarkdown Command:
+['multimarkdown', '-f', '--nolabels', '-o', '/Users/maxludden/dev/py/superforge/books/book06/html/section-09.html', '/Users/maxludden/dev/py/superforge/books/book06/mmd/section-09.mmd']
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:240:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 240
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(9,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:240:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 240
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+6
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:247:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 247
+        </div>
+        <div class="container-debug">
+            Saved Section {section}'s HTML to disk and MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:185:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 185
+        </div>
+        <div class="container-debug">
+            Entering 'sg' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:62:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | atlas.py | Line 62
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:185:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 185
+        </div>
+        <div class="container-debug">
+            Exiting 'sg' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:187:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 187
+        </div>
+        <div class="container-debug">
+            Entering 'get_part' (args= '(10,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:187:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 187
+        </div>
+        <div class="container-debug">
+            Exiting 'get_part' (result=
+1
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:208:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 208
+        </div>
+        <div class="container-debug">
+            Entering 'get_mmd_path' (args= '(10,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(10,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-10
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(10,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+7
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:208:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 208
+        </div>
+        <div class="container-debug">
+            Exiting 'get_mmd_path' (result=
+/Users/maxludden/dev/py/superforge/books/book07/mmd/section-10.mmd
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:211:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 211
+        </div>
+        <div class="container-debug">
+            Wrote Sections 10's multimarkdown to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:214:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 214
+        </div>
+        <div class="container-debug">
+            Saved Section 10's multimarkdown to MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:229:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 229
+        </div>
+        <div class="container-debug">
+            Entering 'sg' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:62:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | atlas.py | Line 62
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:229:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 229
+        </div>
+        <div class="container-debug">
+            Exiting 'sg' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:231:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 231
+        </div>
+        <div class="container-debug">
+            Entering 'get_mmd_path' (args= '(10,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(10,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-10
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(10,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+7
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:231:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 231
+        </div>
+        <div class="container-debug">
+            Exiting 'get_mmd_path' (result=
+/Users/maxludden/dev/py/superforge/books/book07/mmd/section-10.mmd
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:232:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 232
+        </div>
+        <div class="container-debug">
+            Entering 'get_html_path' (args= '(10,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:119:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 119
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(10,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:119:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 119
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-10
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:120:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 120
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(10,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:120:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 120
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+7
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:232:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 232
+        </div>
+        <div class="container-debug">
+            Exiting 'get_html_path' (result=
+/Users/maxludden/dev/py/superforge/books/book07/html/section-10.html
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:234:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 234
+        </div>
+        <div class="container-debug">
+            Multimarkdown Command:
+['multimarkdown', '-f', '--nolabels', '-o', '/Users/maxludden/dev/py/superforge/books/book07/html/section-10.html', '/Users/maxludden/dev/py/superforge/books/book07/mmd/section-10.mmd']
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:240:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 240
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(10,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:240:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 240
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+7
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:247:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 247
+        </div>
+        <div class="container-debug">
+            Saved Section {section}'s HTML to disk and MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:185:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 185
+        </div>
+        <div class="container-debug">
+            Entering 'sg' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:62:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | atlas.py | Line 62
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:185:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 185
+        </div>
+        <div class="container-debug">
+            Exiting 'sg' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:187:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 187
+        </div>
+        <div class="container-debug">
+            Entering 'get_part' (args= '(11,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:187:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 187
+        </div>
+        <div class="container-debug">
+            Exiting 'get_part' (result=
+2
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:208:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 208
+        </div>
+        <div class="container-debug">
+            Entering 'get_mmd_path' (args= '(11,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(11,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-11
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(11,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+7
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:208:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 208
+        </div>
+        <div class="container-debug">
+            Exiting 'get_mmd_path' (result=
+/Users/maxludden/dev/py/superforge/books/book07/mmd/section-11.mmd
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:211:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:15 PM | section.py | Line 211
+        </div>
+        <div class="container-debug">
+            Wrote Sections 11's multimarkdown to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:214:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 214
+        </div>
+        <div class="container-debug">
+            Saved Section 11's multimarkdown to MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:229:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 229
+        </div>
+        <div class="container-debug">
+            Entering 'sg' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:62:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | atlas.py | Line 62
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:229:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 229
+        </div>
+        <div class="container-debug">
+            Exiting 'sg' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:231:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 231
+        </div>
+        <div class="container-debug">
+            Entering 'get_mmd_path' (args= '(11,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(11,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-11
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(11,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+7
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:231:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 231
+        </div>
+        <div class="container-debug">
+            Exiting 'get_mmd_path' (result=
+/Users/maxludden/dev/py/superforge/books/book07/mmd/section-11.mmd
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:232:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 232
+        </div>
+        <div class="container-debug">
+            Entering 'get_html_path' (args= '(11,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:119:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 119
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(11,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:119:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 119
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-11
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:120:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 120
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(11,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:120:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 120
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+7
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:232:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 232
+        </div>
+        <div class="container-debug">
+            Exiting 'get_html_path' (result=
+/Users/maxludden/dev/py/superforge/books/book07/html/section-11.html
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:234:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 234
+        </div>
+        <div class="container-debug">
+            Multimarkdown Command:
+['multimarkdown', '-f', '--nolabels', '-o', '/Users/maxludden/dev/py/superforge/books/book07/html/section-11.html', '/Users/maxludden/dev/py/superforge/books/book07/mmd/section-11.mmd']
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:240:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 240
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(11,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:240:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 240
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+7
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:247:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 247
+        </div>
+        <div class="container-debug">
+            Saved Section {section}'s HTML to disk and MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:185:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 185
+        </div>
+        <div class="container-debug">
+            Entering 'sg' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:62:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | atlas.py | Line 62
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:185:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 185
+        </div>
+        <div class="container-debug">
+            Exiting 'sg' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:187:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 187
+        </div>
+        <div class="container-debug">
+            Entering 'get_part' (args= '(12,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:187:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 187
+        </div>
+        <div class="container-debug">
+            Exiting 'get_part' (result=
+1
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:208:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 208
+        </div>
+        <div class="container-debug">
+            Entering 'get_mmd_path' (args= '(12,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(12,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-12
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(12,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+8
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:208:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 208
+        </div>
+        <div class="container-debug">
+            Exiting 'get_mmd_path' (result=
+/Users/maxludden/dev/py/superforge/books/book08/mmd/section-12.mmd
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:211:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 211
+        </div>
+        <div class="container-debug">
+            Wrote Sections 12's multimarkdown to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:214:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 214
+        </div>
+        <div class="container-debug">
+            Saved Section 12's multimarkdown to MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:229:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 229
+        </div>
+        <div class="container-debug">
+            Entering 'sg' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:62:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | atlas.py | Line 62
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:229:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 229
+        </div>
+        <div class="container-debug">
+            Exiting 'sg' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:231:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 231
+        </div>
+        <div class="container-debug">
+            Entering 'get_mmd_path' (args= '(12,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(12,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-12
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(12,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+8
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:231:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 231
+        </div>
+        <div class="container-debug">
+            Exiting 'get_mmd_path' (result=
+/Users/maxludden/dev/py/superforge/books/book08/mmd/section-12.mmd
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:232:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 232
+        </div>
+        <div class="container-debug">
+            Entering 'get_html_path' (args= '(12,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:119:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 119
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(12,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:119:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 119
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-12
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:120:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 120
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(12,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:120:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 120
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+8
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:232:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 232
+        </div>
+        <div class="container-debug">
+            Exiting 'get_html_path' (result=
+/Users/maxludden/dev/py/superforge/books/book08/html/section-12.html
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:234:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 234
+        </div>
+        <div class="container-debug">
+            Multimarkdown Command:
+['multimarkdown', '-f', '--nolabels', '-o', '/Users/maxludden/dev/py/superforge/books/book08/html/section-12.html', '/Users/maxludden/dev/py/superforge/books/book08/mmd/section-12.mmd']
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:240:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 240
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(12,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:240:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 240
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+8
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:247:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 247
+        </div>
+        <div class="container-debug">
+            Saved Section {section}'s HTML to disk and MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:185:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 185
+        </div>
+        <div class="container-debug">
+            Entering 'sg' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:62:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | atlas.py | Line 62
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:185:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 185
+        </div>
+        <div class="container-debug">
+            Exiting 'sg' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:187:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 187
+        </div>
+        <div class="container-debug">
+            Entering 'get_part' (args= '(13,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:187:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 187
+        </div>
+        <div class="container-debug">
+            Exiting 'get_part' (result=
+2
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:208:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 208
+        </div>
+        <div class="container-debug">
+            Entering 'get_mmd_path' (args= '(13,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(13,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-13
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(13,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+8
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:208:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 208
+        </div>
+        <div class="container-debug">
+            Exiting 'get_mmd_path' (result=
+/Users/maxludden/dev/py/superforge/books/book08/mmd/section-13.mmd
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:211:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 211
+        </div>
+        <div class="container-debug">
+            Wrote Sections 13's multimarkdown to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:214:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 214
+        </div>
+        <div class="container-debug">
+            Saved Section 13's multimarkdown to MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:229:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 229
+        </div>
+        <div class="container-debug">
+            Entering 'sg' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:62:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | atlas.py | Line 62
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:229:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 229
+        </div>
+        <div class="container-debug">
+            Exiting 'sg' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:231:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 231
+        </div>
+        <div class="container-debug">
+            Entering 'get_mmd_path' (args= '(13,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(13,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-13
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(13,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+8
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:231:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 231
+        </div>
+        <div class="container-debug">
+            Exiting 'get_mmd_path' (result=
+/Users/maxludden/dev/py/superforge/books/book08/mmd/section-13.mmd
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:232:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 232
+        </div>
+        <div class="container-debug">
+            Entering 'get_html_path' (args= '(13,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:119:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 119
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(13,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:119:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 119
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-13
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:120:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 120
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(13,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:120:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 120
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+8
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:232:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 232
+        </div>
+        <div class="container-debug">
+            Exiting 'get_html_path' (result=
+/Users/maxludden/dev/py/superforge/books/book08/html/section-13.html
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:234:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 234
+        </div>
+        <div class="container-debug">
+            Multimarkdown Command:
+['multimarkdown', '-f', '--nolabels', '-o', '/Users/maxludden/dev/py/superforge/books/book08/html/section-13.html', '/Users/maxludden/dev/py/superforge/books/book08/mmd/section-13.mmd']
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:240:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 240
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(13,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:240:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 240
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+8
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:247:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 247
+        </div>
+        <div class="container-debug">
+            Saved Section {section}'s HTML to disk and MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:185:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 185
+        </div>
+        <div class="container-debug">
+            Entering 'sg' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:62:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | atlas.py | Line 62
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:185:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 185
+        </div>
+        <div class="container-debug">
+            Exiting 'sg' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:187:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 187
+        </div>
+        <div class="container-debug">
+            Entering 'get_part' (args= '(14,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:187:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 187
+        </div>
+        <div class="container-debug">
+            Exiting 'get_part' (result=
+1
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:208:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 208
+        </div>
+        <div class="container-debug">
+            Entering 'get_mmd_path' (args= '(14,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(14,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-14
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(14,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+9
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:208:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 208
+        </div>
+        <div class="container-debug">
+            Exiting 'get_mmd_path' (result=
+/Users/maxludden/dev/py/superforge/books/book09/mmd/section-14.mmd
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:211:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 211
+        </div>
+        <div class="container-debug">
+            Wrote Sections 14's multimarkdown to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:214:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 214
+        </div>
+        <div class="container-debug">
+            Saved Section 14's multimarkdown to MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:229:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 229
+        </div>
+        <div class="container-debug">
+            Entering 'sg' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:62:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | atlas.py | Line 62
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:229:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:16 PM | section.py | Line 229
+        </div>
+        <div class="container-debug">
+            Exiting 'sg' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:231:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 231
+        </div>
+        <div class="container-debug">
+            Entering 'get_mmd_path' (args= '(14,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(14,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-14
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(14,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+9
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:231:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 231
+        </div>
+        <div class="container-debug">
+            Exiting 'get_mmd_path' (result=
+/Users/maxludden/dev/py/superforge/books/book09/mmd/section-14.mmd
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:232:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 232
+        </div>
+        <div class="container-debug">
+            Entering 'get_html_path' (args= '(14,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:119:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 119
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(14,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:119:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 119
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-14
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:120:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 120
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(14,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:120:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 120
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+9
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:232:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 232
+        </div>
+        <div class="container-debug">
+            Exiting 'get_html_path' (result=
+/Users/maxludden/dev/py/superforge/books/book09/html/section-14.html
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:234:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 234
+        </div>
+        <div class="container-debug">
+            Multimarkdown Command:
+['multimarkdown', '-f', '--nolabels', '-o', '/Users/maxludden/dev/py/superforge/books/book09/html/section-14.html', '/Users/maxludden/dev/py/superforge/books/book09/mmd/section-14.mmd']
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:240:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 240
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(14,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:240:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 240
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+9
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:247:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 247
+        </div>
+        <div class="container-debug">
+            Saved Section {section}'s HTML to disk and MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:185:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 185
+        </div>
+        <div class="container-debug">
+            Entering 'sg' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:62:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | atlas.py | Line 62
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:185:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 185
+        </div>
+        <div class="container-debug">
+            Exiting 'sg' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:187:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 187
+        </div>
+        <div class="container-debug">
+            Entering 'get_part' (args= '(15,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:187:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 187
+        </div>
+        <div class="container-debug">
+            Exiting 'get_part' (result=
+2
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:208:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 208
+        </div>
+        <div class="container-debug">
+            Entering 'get_mmd_path' (args= '(15,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(15,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-15
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(15,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+9
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:208:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 208
+        </div>
+        <div class="container-debug">
+            Exiting 'get_mmd_path' (result=
+/Users/maxludden/dev/py/superforge/books/book09/mmd/section-15.mmd
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:211:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 211
+        </div>
+        <div class="container-debug">
+            Wrote Sections 15's multimarkdown to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:214:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 214
+        </div>
+        <div class="container-debug">
+            Saved Section 15's multimarkdown to MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:229:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 229
+        </div>
+        <div class="container-debug">
+            Entering 'sg' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:62:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | atlas.py | Line 62
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:229:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 229
+        </div>
+        <div class="container-debug">
+            Exiting 'sg' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:231:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 231
+        </div>
+        <div class="container-debug">
+            Entering 'get_mmd_path' (args= '(15,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(15,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-15
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(15,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+9
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:231:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 231
+        </div>
+        <div class="container-debug">
+            Exiting 'get_mmd_path' (result=
+/Users/maxludden/dev/py/superforge/books/book09/mmd/section-15.mmd
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:232:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 232
+        </div>
+        <div class="container-debug">
+            Entering 'get_html_path' (args= '(15,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:119:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 119
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(15,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:119:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 119
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-15
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:120:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 120
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(15,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:120:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 120
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+9
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:232:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 232
+        </div>
+        <div class="container-debug">
+            Exiting 'get_html_path' (result=
+/Users/maxludden/dev/py/superforge/books/book09/html/section-15.html
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:234:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 234
+        </div>
+        <div class="container-debug">
+            Multimarkdown Command:
+['multimarkdown', '-f', '--nolabels', '-o', '/Users/maxludden/dev/py/superforge/books/book09/html/section-15.html', '/Users/maxludden/dev/py/superforge/books/book09/mmd/section-15.mmd']
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:240:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 240
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(15,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:240:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 240
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+9
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:247:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 247
+        </div>
+        <div class="container-debug">
+            Saved Section {section}'s HTML to disk and MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:185:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 185
+        </div>
+        <div class="container-debug">
+            Entering 'sg' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:62:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | atlas.py | Line 62
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:185:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 185
+        </div>
+        <div class="container-debug">
+            Exiting 'sg' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:187:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 187
+        </div>
+        <div class="container-debug">
+            Entering 'get_part' (args= '(16,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:187:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 187
+        </div>
+        <div class="container-debug">
+            Exiting 'get_part' (result=
+1
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:208:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 208
+        </div>
+        <div class="container-debug">
+            Entering 'get_mmd_path' (args= '(16,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(16,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-16
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(16,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+10
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:208:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 208
+        </div>
+        <div class="container-debug">
+            Exiting 'get_mmd_path' (result=
+/Users/maxludden/dev/py/superforge/books/book10/mmd/section-16.mmd
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:211:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 211
+        </div>
+        <div class="container-debug">
+            Wrote Sections 16's multimarkdown to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:214:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 214
+        </div>
+        <div class="container-debug">
+            Saved Section 16's multimarkdown to MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:229:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 229
+        </div>
+        <div class="container-debug">
+            Entering 'sg' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:62:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | atlas.py | Line 62
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:229:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 229
+        </div>
+        <div class="container-debug">
+            Exiting 'sg' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:231:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 231
+        </div>
+        <div class="container-debug">
+            Entering 'get_mmd_path' (args= '(16,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(16,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-16
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(16,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+10
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:231:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 231
+        </div>
+        <div class="container-debug">
+            Exiting 'get_mmd_path' (result=
+/Users/maxludden/dev/py/superforge/books/book10/mmd/section-16.mmd
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:232:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 232
+        </div>
+        <div class="container-debug">
+            Entering 'get_html_path' (args= '(16,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:119:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 119
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(16,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:119:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 119
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-16
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:120:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 120
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(16,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:120:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 120
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+10
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:232:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 232
+        </div>
+        <div class="container-debug">
+            Exiting 'get_html_path' (result=
+/Users/maxludden/dev/py/superforge/books/book10/html/section-16.html
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:234:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 234
+        </div>
+        <div class="container-debug">
+            Multimarkdown Command:
+['multimarkdown', '-f', '--nolabels', '-o', '/Users/maxludden/dev/py/superforge/books/book10/html/section-16.html', '/Users/maxludden/dev/py/superforge/books/book10/mmd/section-16.mmd']
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:240:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 240
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(16,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:240:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 240
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+10
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:247:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 247
+        </div>
+        <div class="container-debug">
+            Saved Section {section}'s HTML to disk and MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:185:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 185
+        </div>
+        <div class="container-debug">
+            Entering 'sg' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:62:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | atlas.py | Line 62
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:185:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 185
+        </div>
+        <div class="container-debug">
+            Exiting 'sg' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:187:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 187
+        </div>
+        <div class="container-debug">
+            Entering 'get_part' (args= '(17,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:187:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 187
+        </div>
+        <div class="container-debug">
+            Exiting 'get_part' (result=
+2
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:208:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 208
+        </div>
+        <div class="container-debug">
+            Entering 'get_mmd_path' (args= '(17,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(17,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-17
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(17,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+10
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:208:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 208
+        </div>
+        <div class="container-debug">
+            Exiting 'get_mmd_path' (result=
+/Users/maxludden/dev/py/superforge/books/book10/mmd/section-17.mmd
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:211:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 211
+        </div>
+        <div class="container-debug">
+            Wrote Sections 17's multimarkdown to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:214:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 214
+        </div>
+        <div class="container-debug">
+            Saved Section 17's multimarkdown to MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:229:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 229
+        </div>
+        <div class="container-debug">
+            Entering 'sg' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:62:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | atlas.py | Line 62
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:229:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 229
+        </div>
+        <div class="container-debug">
+            Exiting 'sg' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:231:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 231
+        </div>
+        <div class="container-debug">
+            Entering 'get_mmd_path' (args= '(17,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(17,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:103:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 103
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-17
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(17,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:104:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 104
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+10
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:231:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 231
+        </div>
+        <div class="container-debug">
+            Exiting 'get_mmd_path' (result=
+/Users/maxludden/dev/py/superforge/books/book10/mmd/section-17.mmd
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:232:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 232
+        </div>
+        <div class="container-debug">
+            Entering 'get_html_path' (args= '(17,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:119:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 119
+        </div>
+        <div class="container-debug">
+            Entering 'get_filename' (args= '(17,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:119:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 119
+        </div>
+        <div class="container-debug">
+            Exiting 'get_filename' (result=
+section-17
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:120:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 120
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(17,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:120:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 120
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+10
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:232:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 232
+        </div>
+        <div class="container-debug">
+            Exiting 'get_html_path' (result=
+/Users/maxludden/dev/py/superforge/books/book10/html/section-17.html
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:234:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 234
+        </div>
+        <div class="container-debug">
+            Multimarkdown Command:
+['multimarkdown', '-f', '--nolabels', '-o', '/Users/maxludden/dev/py/superforge/books/book10/html/section-17.html', '/Users/maxludden/dev/py/superforge/books/book10/mmd/section-17.mmd']
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:240:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 240
+        </div>
+        <div class="container-debug">
+            Entering 'get_book' (args= '(17,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:240:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:17 PM | section.py | Line 240
+        </div>
+        <div class="container-debug">
+            Exiting 'get_book' (result=
+10
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:247:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:18 PM | section.py | Line 247
+        </div>
+        <div class="container-debug">
+            Saved Section {section}'s HTML to disk and MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/main.py:27:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 139 | 9:24:18 PM | main.py | Line 27
+        </div>
+        <div class="container-debug">
+            Exiting 'make_sections' (result=
+None
+        </div>
+    </div>
+</a>

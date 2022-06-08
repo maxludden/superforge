@@ -1,4 +1,5 @@
 @charset "utf-8";
+
 :root {
    --main-bg-color: #222222;
    --main-color: #eeeeee;
@@ -10,17 +11,18 @@
 }
 
 @media (prefers-color-scheme: light) {
-    :root {
-       --main-bg-color: white;
-       --main-color: black;
-       --alternate-bg-color: #efefef;
-       --alternate-color: #222222;
-       --main-border-color: #BBBBBB;
-       --table-header-bg-color: #2e2e2e;
-       --link-color: #22ee22;
+   :root {
+      --main-bg-color: white;
+      --main-color: black;
+      --alternate-bg-color: #efefef;
+      --alternate-color: #222222;
+      --main-border-color: #BBBBBB;
+      --table-header-bg-color: #2e2e2e;
+      --link-color: #22ee22;
    }
 }
-/**** Fonts *******/
+
+/********** Fonts******* *******/
 
 @font-face {
    font-family: "Century Gothic";
@@ -33,6 +35,12 @@
    font-weight: normal;
    src: "Photograph Signature.ttf"
 }
+
+@font-face {
+   font-family: abeatbykai;
+   src: "../Styles/abeatbykai.ttf";
+}
+
 /************ HTML ****************/
 
 html {
@@ -42,6 +50,7 @@ html {
    background-color: var(--main-bg-color);
    color: var(--main-color);
 }
+
 /*********** Headers *************/
 
 h1,
@@ -57,26 +66,31 @@ h5 {
 }
 
 h1 {
-   font-size: 1.5em;
-   line-height: 1.2em;
+   font-size: 1.9em;
+   line-height: 1.4em;
 }
 
 h2 {
-   font-size: 1.25em;
-   line-height: 1.1em;
+   font-size: 1.4em;
+   line-height: 1.2em;
    color: var(--alternate-color);
 }
 
-h3,
+h3 { 
+   font-size: 1.2em;
+   line-height: 1em;   
+}
+
 h4 {
    font-size: 1.1em;
    line-height: 1em;
 }
 
 h5 {
-   font-size: 1em;
-   line-height: 0.9;
+   font-size: 0.75em;
+   line-height: 0.75em;
 }
+
 /************* Images **************/
 
 img {
@@ -84,6 +98,7 @@ img {
    margin-left: auto;
    margin-right: auto;
 }
+
 /************** Body ***************/
 
 body {
@@ -95,22 +110,25 @@ body {
 
 @media (max-device-width: 480px) {
    body {
-       margin: auto;
+      margin: auto;
    }
+
    table {
-       width: 95%;
+      width: 95%;
    }
 }
 
 @media (min-device-width: 481px) {
    body {
-       margin: auto;
-       max-width: 600px;
+      margin: auto;
+      max-width: 600px;
    }
+
    table {
-       width: 70%;
+      width: 70%;
    }
 }
+
 /************ VOG ******************/
 
 blockquote {
@@ -121,11 +139,13 @@ blockquote {
    background-color: var(--alternate-bg-color);
    color: var(--alternate-color);
 }
+
 /********** HR *********************/
 
 hr {
    margin: 50px;
 }
+
 /************ Table ****************/
 
 table {
@@ -162,11 +182,13 @@ td:nth-child(even) {
    text-align: right;
    border-left: none;
 }
+
 /* alternate line color */
 
 tr:nth-child(odd) {
    background-color: var(--alternate-bg-color);
 }
+
 /* Status Table */
 
 .status {
@@ -183,6 +205,7 @@ tr:nth-child(odd) {
 .status td:nth-child(even) {
    width: 70%;
 }
+
 /* Geno-r Table */
 
 .geno-r {
@@ -198,6 +221,7 @@ tr:nth-child(odd) {
 .geno-r td:nth-child(even) {
    width: 50%;
 }
+
 /* Geno Table */
 
 .geno {
@@ -213,6 +237,7 @@ tr:nth-child(odd) {
 .geno td:nth-child(even) {
    width: 50%;
 }
+
 /* Beast Table */
 
 .beast {
@@ -228,6 +253,7 @@ tr:nth-child(odd) {
 .beast td:nth-child(even) {
    width: auto;
 }
+
 /* Centered Tables */
 
 .center {
@@ -287,6 +313,7 @@ tr:nth-child(odd) {
 .score {
    border: 1px;
 }
+
 /* Table Div */
 
 .tables table {
@@ -301,6 +328,7 @@ tr:nth-child(odd) {
 .tables table:first-child {
    margin-top: 50px;
 }
+
 /* Article Div */
 
 .article {
