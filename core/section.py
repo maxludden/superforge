@@ -1,20 +1,18 @@
 # core/section.py
 
 import sys
-from cgitb import html
 from enum import unique
-from mailbox import MMDF
 from subprocess import run
+from typing import Optional
 
+from markdown2 import markdown as md
 from mongoengine import Document, disconnect_all
 from mongoengine.fields import IntField, ListField, StringField
 from num2words import num2words
+from tqdm.auto import tqdm
 
 from core.atlas import max_title, sg
 from core.log import errwrap, log
-from tqdm.auto import tqdm
-from markdown2 import markdown as md
-from typing import Optional
 
 #.##########################################################
 #.                                                         #
@@ -27,6 +25,11 @@ from typing import Optional
 #.                                                         #
 #.##########################################################
 
+#>  Static Variables
+BOOK_DIR = '/Users/maxludden/dev/py/superforge/books/'
+img = f'<figure>\n\t<img src="../Images/gem.gif" alt="gem" width="120" height="60" />\n  '
+
+
 class Section(Document):
     section = IntField(unique=True)
     title = StringField()
@@ -35,8 +38,8 @@ class Section(Document):
     start = IntField()
     end = IntField()
     filename = StringField()
-    mmd_path = StringField()
-    mmd = StringField()
+    md_path = StringField()
+    md = StringField()
     html_path = StringField()
     html = StringField()
 
@@ -81,77 +84,8 @@ def get_title(section: int):
     sg()
     for doc in Section.objects(section=section):
         return max_title(doc.title)
-
-@errwrap()
-def get_filename(section: int):
-    section = str(section).zfill(2)
-    return f'section-{section}'
-
-
-@errwrap()
-def get_mmd_path(section: int):
-    """Generate the mmd_path of the given section.
-
-    Args:
-        `section` (int): 
-            The given section.
-
-    Returns:
-        `mmd` (str): 
-            The filepath of the section's multimarkdown.
-    """
-    filename = get_filename(section)
-    book = str(get_book(section)).zfill(2)
-    return f"/Users/maxludden/dev/py/superforge/books/book{book}/mmd/{filename}.mmd"
-
-@errwrap()
-def get_html_path(section: int):
-    """Generate the html_path of the given section.
-
-    Args:
-        `section` (int): 
-            The given section.
-
-    Returns:
-        `mmd` (str): 
-            The filepath of the section's HTML.
-    """
-    filename = get_filename(section)
-    book = str(get_book(section)).zfill(2)
-    return f"/Users/maxludden/dev/py/superforge/books/book{book}/html/{filename}.html"
-
-@errwrap()
-def get_start(section: int):
-    """Determine the chapter the sections starts at.
-
-    Args:
-        `section` (int): 
-            The given section.
     
-    Returns:
-        `start` (int):
-            The chapter the given section begins.
-    """
-    sg()
-    for doc in Section.objects(section=section):
-        return doc.start
-
-@errwrap()
-def get_end(section: int):
-    """Determine the chapter the section ends.
-
-    Args:
-        `section` (int): 
-            The given section.
     
-    Returns:
-        `end` (int):
-            The chapter the given section ends.
-    """
-    sg()
-    for doc in Section.objects(section=section):
-        return doc.end
-
 @errwrap()
 def get_part(section: int):
     """Determine the section Part number of its book (if it's books has more than one section.)
@@ -170,49 +104,138 @@ def get_part(section: int):
         return 1
     else:
         return 2
+
     
-def get_mmd(section: int):
-    """Generate the multimarkdown for the given section and save it to disk and MongoDB
+
+@errwrap()
+def get_filename(section: int):
+    section = str(section).zfill(2)
+    return f'section-{section}'
+
+
+@errwrap()
+def get_md_path(section: int):
+    """Generate the md_path of the given section.
+
+    Args:
+        `section` (int): 
+            The given section.
+
+    Returns:
+        `md` (str): 
+            The filepath of the section's multimarkdown.
+    """
+    filename = get_filename(section)
+    book = str(get_book(section)).zfill(2)
+    return f"/Users/maxludden/dev/py/superforge/books/book{book}/md/{filename}.md"
+
+
+@errwrap()
+def get_html_path(section: int):
+    """
+    Generate the html_path of the given section.
+
+    Args:
+        `section` (int): 
+            The given section.
+
+    Returns:
+        `md` (str): 
+            The filepath of the section's HTML.
+    """
+    filename = get_filename(section)
+    book = str(get_book(section)).zfill(2)
+    return f"/Users/maxludden/dev/py/superforge/books/book{book}/html/{filename}.html"
+
+
+@errwrap()
+def get_start(section: int):
+    """
+    Determine the chapter the sections starts at.
+
+    Args:
+        `section` (int): 
+            The given section.
+    
+    Returns:
+        `start` (int):
+            The chapter the given section begins.
+    """
+    sg()
+    for doc in Section.objects(section=section):
+        return doc.start
+
+
+@errwrap()
+def get_end(section: int):
+    """
+    Determine the chapter the section ends.
+
+    Args:
+        `section` (int): 
+            The given section.
+    
+    Returns:
+        `end` (int):
+            The chapter the given section ends.
+    """
+    sg()
+    for doc in Section.objects(section=section):
+        return doc.end
+
+@errwrap(entry=False, exit=False)   
+def getmd(section: int):
+    """
+    Generate the multimarkdown for the given section and save it to disk and MongoDB
 
     Args:
         `section` (int):
             The given section.
 
     Returns:
-        `mmd` (str):
+        `md` (str):
             The multimarkdown for the given section.
     """
     sg()
     for doc in Section.objects(section=section):
         part = get_part(section)
+        log.debug(f"Retrieved Section {section}'s Document from MongoDB.")
+        book_word = str(num2words(doc.book)).title()
         
+        #> Generate MD Metadata
         meta = f'Title: {doc.title}'
+        meta = f"{meta}\nBook: {doc.book}"
         meta = f'{meta}\nSection: {doc.section}'
-        meta = f'{meta}\nPart: {part}'
-        meta = f'{meta}\nCSS:../Styles/style.css'
-        meta = f'{meta}\nviewport: width=device-width\n\n'
         
-        img = '\n\n<figure>\n<img src="../Images/gem.gif" alt="gem" id="gem" width="120" height="60" />\n\n</figure>'
-        if part == 0:
-            book_word = str(num2words(doc.book)).title()
-            atx = f'## Book {book_word} of Super Gene'
-            atx = f'{atx}{img}\n\n### Chapter {doc.start} - Chapter {doc.end}\n'
-        elif part == 1:
-            atx = f'## Part One{img}\n\n### Chapter {doc.start} - Chapter {doc.end}\n\n<br><br><br><br>'
-        else:
-            atx = f'## Part Two{img}\n\n### Chapter {doc.start} - Chapter {doc.end}\n\n<br><br><br><br>'
+        if section > 3:
+            meta = f'{meta}\nPart: {part}'
             
-        text = '\n\n#### Written by Twelve Winged Burning Seraphim\n#### Compiled and edited by Max Ludden.\n'
+        meta = f'{meta}\nCSS:../Styles/style.css'
+        meta = f'{meta}\nviewport: width=device-width\n  \n  '
         
-        mmd = f'{meta}{atx}{text}'
-        mmd_path = get_mmd_path(section)
-        with open (mmd_path, 'w') as outfile:
-            outfile.write(mmd)
+        #. Declare img const
+        img = '\n\n<figure>\n<img src="../Images/gem.gif" alt="gem" id="gem" width="120" height="60" />\n</figure>'
+        
+        if part == 0:
+            
+            atx = f'## Book {book_word}\n#### of Super Gene '
+            atx = f'{atx}{img}\n\n### Chapter {doc.start} - Chapter {doc.end}\nbr>\n<br>\n<br>\n<br>'
+        elif part == 1:
+            atx = f'## Part One{img}\n  \n### Chapter {doc.start} - Chapter {doc.end}\n<br>\n<br>\n<br>\n<br>'
+        else:
+            atx = f'## Part Two{img}\n  \n### Chapter {doc.start} - Chapter {doc.end}\n<\n<br>\n<br>\n<br>\n<br>'
+            
+        text = '\n  \n##### Written by Twelve Winged Burning Seraphim\n##### Compiled and edited by Max Ludden.\n'
+        
+        md = f'{meta}{atx}{text}'
+        md_path = get_md_path(section)
+        with open (md_path, 'w') as outfile:
+            outfile.write(md)
         log.debug(f"Wrote Sections {section}'s multimarkdown to disk.")
-        doc.mmd = mmd
+        doc.md = md
         doc.save()
         log.debug(f"Saved Section {section}'s multimarkdown to MongoDB.")
-        return mmd
+        return md
     
 def get_html (section: int):
     """Generate the HTML for the given section.
@@ -228,12 +251,12 @@ def get_html (section: int):
     
     sg()
     for doc in Section.objects(section=section):
-        mmd_path = get_mmd_path(doc.section)
+        md_path = get_md_path(doc.section)
         html_path = get_html_path(doc.section)
-        mmd_cmd = ['multimarkdown', '-f', '--nolabels', '-o', html_path, mmd_path]
-        log.debug(f"Multimarkdown Command:\n{mmd_cmd}")
+        md_cmd = ['multimarkdown', '-f', '--nolabels', '-o', html_path, md_path]
+        log.debug(f"Multimarkdown Command:\n{md_cmd}")
         try:
-            result = run(mmd_cmd, capture_output=True, text=True)
+            result = run(md_cmd, capture_output=True, text=True)
         except:
             write_html(section)
         else:
@@ -246,14 +269,14 @@ def get_html (section: int):
             doc.save()
             log.debug("Saved Section {section}'s HTML to disk and MongoDB.")
             
-def write_html(section: int, mmd: Optional[str]):
-    if not mmd:
+def write_html(section: int, md: Optional[str]):
+    if not md:
         connected = True
         sg()
         for doc in Section.objects(section=section):
-            if doc.mmd == "":
-                mmd = get_mmd(section)
-    html = md(mmd, extras=['metadata'])
+            if doc.md == "":
+                md = get_md(section)
+    html = md(md, extras=['metadata'])
     with open (doc.html_path, 'w') as outfile:
         outfile.write(html)
     
@@ -274,5 +297,5 @@ def make_sections():
     sections = range(1,18)
     for section in tqdm(sections, unit="section", desc="Writing section pages"):
         for doc in Section.objects(section=section): 
-            mmd = get_mmd(section)
+            md = get_md(section)
             html = get_html(section)
