@@ -7,5 +7,6 @@ __all__ = [
     "fix_tags",
     "log",
     "titlepage",
-    "section"
+    "section",
+    "sort_json"
 ]

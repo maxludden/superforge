@@ -6,9 +6,11 @@ from typing import Optional
 
 from mongoengine import connect, disconnect, disconnect_all, register_connection
 from dotenv import load_dotenv
+from pymongo.errors import ConnectionFailure, InvalidURI, NetworkTimeout
 
 from core.log import log, errwrap
 load_dotenv()
+
 
 
 #.

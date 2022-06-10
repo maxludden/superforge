@@ -51,8 +51,18 @@ class Chapter(Document):
         return values
 
 @errwrap()
-def make_section(chapter):
-    """Determines the given chapter's section."""
+def get_section(chapter: int):
+    '''
+    Determines the given chapter's section.
+
+    Args:
+        `chapter` (int):
+            The given chapter.
+
+    Returns:
+        `section` (int): 
+            The section that the give chapter belongs to.
+    '''
 
     if chapter <= 424:
         return 1
@@ -134,39 +144,81 @@ def get_book(chapter: int):
             "\tInvalid Chapter Number",
             args={"chapter": chapter, "function": "chapter,get_book"},
         )
-        sys.exit(
-            {
-                "-3": {
-                    "error": "Invalid Input Error",
-                    "function": "chapter.get_book",
-                    "chapter": chapter,
-                }
-            }
-        )
+        cont = prompt("Would you like to continue? (Y/N)")
+        if cont == y:
+            section = int(prompt("Enter a valid section: (1-17)"))
+            book = get_book(section)
+            return book
+        else:
+            sys.exit(f'Invalid section input into get_book(). Input: {section}')
 
 @errwrap()
 def make_filename(chapter: int):
-    """Generate the filename for the given chapter."""
+    '''
+    Generate the filename for the given chapter.
+
+    Args:
+        `chapter` (int):
+            The given chapter.
+
+    Returns:
+        `filename` (str): 
+            the filename (without extension) for the given chapter.
+    '''
     chapter_zfill = str(chapter).zfill(4)
     return f"chapter-{chapter_zfill}"
 
 @errwrap()
-def make_mmd_path(book: int, filename: str):
-    """Generates the path to where the give chapter's multimarkdown will be stored."""
+def make_md_path(book: int, filename: str):
+    '''
+    Generates the path to where the give chapter's multimarkdown will be stored.
+
+    Args:
+        `book` (int):
+            The book of the given chapter
+        `filename` (str):
+            The filename of the given chapter
+
+    Returns:
+        `md_path` (str): 
+            The filepath of the the given chapter's multimarkdown.
+    '''
     book_dir = str(book).zfill(2)
     mmd_path = f"{base}book{book_dir}/mmd/{filename}.md"
     return mmd_path
 
 @errwrap()
 def make_html_path(book: int, filename: str):
-    """Generates the path to where the given chapter's html will be stored."""
+    '''
+    Generates the path to where the given chapter's html will be stored.
+
+    Args:
+        `book` (int):
+            The book of the given chapter.
+        `filename` (str):
+            The filename of the given chapter.
+
+    Returns:
+        `html_path` (str): 
+            The filepath to the given chapter's HTML.
+    '''
     book_dir = str(book).zfill(2)
     html_path = f"{base}book{book_dir}/html/{filename}.html"
     return html_path
 
 @errwrap()
-def make_mmd(doc: Chapter):
-    """Generates the multimarkdown string for the given chapter."""
+def make_md(doc: Chapter):
+    '''
+    Generates the multimarkdown string for the given chapter.
+
+    Args:
+        `doc` (Chapter):
+            The MongoDB Chapter document for the given chapter.
+
+    Returns:
+        `md` (str): 
+            The multimarkdown for the given chapter.
+    '''
 
     # Multimarkdown Metadata
     meta = f"Title:{doc.title} \nChapter:{doc.chapter} \nSection:{doc.section} \nBook:{doc.book} \nCSS:../Styles/style.css \nviewport: width=device-width\n\n"
@@ -190,7 +242,7 @@ def make_mmd(doc: Chapter):
 @errwrap() 
 def make_html(doc):
     """Generate the HTML for a given chapter."""
-    log.debug(doc.get_values())
+    
     mmd_cmd = [
         "multimarkdown", "-f", "--nolabels", "-o", f"{doc.html_path}", f"{doc.mmd_path}"
     ]
