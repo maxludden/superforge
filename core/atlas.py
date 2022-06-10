@@ -1,14 +1,16 @@
 # core/atlas.py
-import re
 import os
+import re
 import sys
 from typing import Optional
 
-from mongoengine import connect, disconnect, disconnect_all, register_connection
 from dotenv import load_dotenv
+from mongoengine import (connect, disconnect, disconnect_all,
+                         register_connection)
 from pymongo.errors import ConnectionFailure, InvalidURI, NetworkTimeout
 
-from core.log import log, errwrap
+from core.log import errwrap, log
+
 load_dotenv()
 
 
@@ -59,7 +61,37 @@ def sg(database: str="make-supergene"):
     URI = get_atlas_uri(database)
     try:
         connect(database, host=URI)
-        log.info(f"Connected to MongoDB!")
+        log.debug(f"Connected to MongoDB!")
+    except ConnectionError as ce:
+        ConnectionError(ce)
+    except Exception as e:
+        log.warning(f"Unable to Connect to MongoDB. Error {e}")
+        sys.exit(
+            {
+                -1: {
+                    "error": f"{e}",
+                    "desc": f"Unable to connect to MongoDB in Atlas' Cloud.",
+                }
+            }
+        )
+
+
+@errwrap(entry=False, exit=False)
+def supergene(database: str="make-supergene"):
+    """
+    Custom Connection function to connect to MongoDB Database
+    
+    Args:
+        `database` (Optional[str]):
+            The alternative database you would like to connect to. Default is 'make-supergene'.
+    """
+    
+    URI = get_atlas_uri(database)
+    try:
+        connect(database, host=URI)
+        log.info(f"<g>Connected to MongoDB!</g>")
+    except ConnectionError as ce:
+        ConnectionError(ce)
     except Exception as e:
         log.warning(f"Unable to Connect to MongoDB. Error {e}")
         sys.exit(

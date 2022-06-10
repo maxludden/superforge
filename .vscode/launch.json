@@ -10,7 +10,10 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "justMyCode": true
+            "justMyCode": true,
+            "env":{
+                "DOPPLER_ENV": "1"
+            }
         }
     ]
 }

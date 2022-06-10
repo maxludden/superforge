@@ -1,7 +1,7 @@
 # core/log.py
+import functools
 import os
 import sys
-import functools
 from json import dump, load
 from subprocess import run
 from typing import Optional
@@ -55,7 +55,7 @@ def get_last_run():
     
     return int(last_run_dict["last_run"])
 
-def incriment_run():
+def increment_run():
     """Increments last_run to get the current run.
 
     Args:
@@ -76,7 +76,7 @@ def get_run():
         `run` (int):
             The current run.
     """
-    return incriment_run()
+    return increment_run()
 
 def write_run(run: Optional[int]):
     """Writes the current run to json file.
@@ -86,7 +86,7 @@ def write_run(run: Optional[int]):
             If provided, writes the inputted int as the current run. 
     """
     if not run:
-        run = incriment_run()
+        run = increment_run()
     run_dict = {"last_run": run}
     with open (RUN_PATH, 'w') as outfile:
         dump(run_dict, outfile, indent=4)
@@ -110,11 +110,11 @@ def console_fmt(record: dict):
     
     Args:
         record (dict): 
-            A python dict that contains the metadate of the logged message.
+            A python dict that contains the metadata of the logged message.
             
     Returns:
         record (dict): 
-            An updated python dict that contains the metadate of the logged message.
+            An updated python dict that contains the metadata of the logged message.
     """
     
     if record["exception"]:
@@ -144,7 +144,7 @@ def console_error_flt(record: dict):
             
     Returns:
         `record`(dict)
-            An updated python dict that contains the metadate of the logged exception.
+            An updated python dict that contains the a of the logged exception.
     """
     
     lvl = record["level"].no
@@ -161,7 +161,7 @@ def console_flt(record:dict):
             
     Returns:
         `record`(dict)
-            An updated python dict that contains the metadate of the logged message.
+            An updated python dict that contains the metadata of the logged message.
     """
     lvl = record["level"].name
     if lvl == "INFO":
@@ -169,8 +169,8 @@ def console_flt(record:dict):
     elif lvl == "WARNING":
         return record
     
-#. Initiallize Console Sink
-log.remove() # removes the default logger profided by loguru
+#. Initialize Console Sink
+log.remove() # removes the default logger provided by loguru
 sinks = {}
 log.configure(
     handlers=[
@@ -323,7 +323,7 @@ def fix_tags():
     fixed_md = md.replace('\<','<')
     with open (LOG, 'w') as outfile:
         outfile.write(fixed_md)
-    print("Fixed Tags")
+    log.info("Fixed Tags")
 
 def test_logger():
     logger.debug("Test the logger DEBUG log.")
@@ -334,7 +334,7 @@ def test_logger():
 def test_log():
     log.debug("Test the DEBUG console log.")
     log.info("Test the INFO console log.")
-    log.warning("Test the WARTNING console log.")
+    log.warning("Test the WARNING console log.")
 
     @log.catch
     def test_exception():
