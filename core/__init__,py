@@ -1,10 +1,11 @@
 __all__ = [
-    "book",
     "atlas",
+    "book",
+    "chapter",
+    "clear_md",
     "endofbook",
+    "fix_tags",
     "log",
     "titlepage",
-    "section",
-    "clear_md",
-    "fix_tags",
+    "section"
 ]
