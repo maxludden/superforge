@@ -23,7 +23,7 @@ from tqdm.auto import tqdm
 #.############################################################
 
 
-RUN_PATH = "json/run.json"
+RUN_PATH = "/Users/maxludden/dev/py/superforge/json/run.json"
 LOG_DIR = "logs/"
 MAIN_LOG = "logs.log.md"
 LOGGING_LOG = "logs/logging.log"
@@ -47,7 +47,7 @@ def get_last_run():
     """Retrieves the last run.
     
     Returns:
-        `last_run` (`int`):
+        `last_run` (int):
             The last run
     """
     with open (RUN_PATH, 'r') as infile:

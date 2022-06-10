@@ -4,16 +4,11 @@ import re
 import sys
 from typing import Optional
 
-from dotenv import load_dotenv
 from mongoengine import (connect, disconnect, disconnect_all,
                          register_connection)
 from pymongo.errors import ConnectionFailure, InvalidURI, NetworkTimeout
 
 from core.log import errwrap, log
-
-load_dotenv()
-
-
 
 #.
 #.            d8   888               
@@ -38,13 +33,19 @@ def get_atlas_uri(database: str='make-supergene'):
     """
     # > Retrieve secrets
     try:
-        URI = os.environ.get("URI")
+        URI = str(os.environ.get("URI"))
+        log.debug(f"URI: {URI}")
         user = os.environ.get("ATLAS_USERNAME")
+        log.debug(f"user: {user}")
         pswd = os.environ.get("ATLAS_PASSWORD")
+        log.debug(f"pswd: {pswd}")
+        
     except AttributeError as ae:
         log.error()
     
-    URI = URI.replace("USERNAME",user).replace("PASSWORD",pswd).replace("DATABASE", database)
+    URI = URI.replace("USERNAME",user)
+    URI = URI.replace("PASSWORD",pswd)
+    URI = URI.replace("DATABASE", database)
     
     return URI
 

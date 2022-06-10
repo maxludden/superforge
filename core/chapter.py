@@ -13,7 +13,6 @@ from tqdm.auto import tqdm
 from core.atlas import max_title, sg, supergene
 from core.log import errwrap, log
 
-
 base = '/Users/maxludden/dev/py/superforge/books'
 
 #.
@@ -310,42 +309,43 @@ def get_html_path(chapter: int):
 
 
 @errwrap(entry=False,exit=False)
-def generate_md(doc: Chapter):
+def generate_md(chapter: int):
     '''
     Generates the multimarkdown string for the given chapter. Saves the markdown string to disk (md_path) as well as to MongoDB.
     
     Requires an active connection to MongoDB.
 
     Args:
-        `doc` (Chapter):
-            The MongoDB Chapter document for the given chapter. 
+        `chapter` (int):
+            The given chapter. 
 
     Returns:
         `md` (str): 
             The multimarkdown for the given chapter.
     '''
-    
-    title = max_title(doc.title)
-    #> Multimarkdown Metadata
-    meta = f"Title:{title} \nChapter:{doc.chapter} \nSection:{doc.section} \nBook:{doc.book} \nCSS:../Styles/style.css \nviewport: width=device-width\n  \n"
-    
-    #> ATX Headers
-    img = """<figure>\n\t<img src="../Images/gem.gif" alt="gem" id="gem" width="120" height="60" />\n</figure>\n  \n"""
-    
-    atx = f"## {title}\n### Chapter {doc.chapter} \n{img}\n  \n  "
-    
-    #> Chapter Text
-    text = f"{doc.text}\n"
-    
-    #> Concatenate Multimarkdown
-    md = f"{meta}{atx}{text}"
-    doc.md = md
-    doc.save()
-    
-    with open (doc.md_path, 'w') as outfile:
-        outfile.write (md)
-    log.debug("Wrote Chapter {doc.chapter}'s multimarkdown to disk.")
-    return md
+    sg()
+    for doc in Chapter.objects(chapter=chapter):
+        title = max_title(doc.title)
+        #> Multimarkdown Metadata
+        meta = f"Title:{title} \nChapter:{doc.chapter} \nSection:{doc.section} \nBook:{doc.book} \nCSS:../Styles/style.css \nviewport: width=device-width\n  \n"
+        
+        #> ATX Headers
+        img = """<figure>\n\t<img src="../Images/gem.gif" alt="gem" id="gem" width="120" height="60" />\n</figure>\n  \n"""
+        
+        atx = f"## {title}\n### Chapter {doc.chapter} \n{img}\n  \n  "
+        
+        #> Chapter Text
+        text = f"{doc.text}\n"
+        
+        #> Concatenate Multimarkdown
+        md = f"{meta}{atx}{text}"
+        doc.md = md
+        doc.save()
+        
+        with open (doc.md_path, 'w') as outfile:
+            outfile.write (md)
+        log.debug("Wrote Chapter {doc.chapter}'s multimarkdown to disk.")
+        return md
 
 
 @errwrap(exit=False)
@@ -367,49 +367,50 @@ def get_md(chapter: int):
 
 
 @errwrap(entry=False, exit=False)
-def generate_html(doc):
+def generate_html(chapter: int):
     '''
     Generate the HTML for a given chapter. Save the given chapter's HTML to disk (html_path) as well as to MongoDB.
 
     Args:
-        `doc` (Chapter):
+        `chapter` (int):
             The MongoDB Chapter document for the given chapter.
 
     Returns:
         `html` (str): 
             The HTML for the given chapter.
     '''
-    
-    md_cmd = [
-        "multimarkdown", "-f", "--nolabels", "-o", f"{doc.html_path}", f"{doc.md_path}"
-    ]
-    log.debug(f"Markdown Path: {doc.md_path}")
-    log.debug(f"HTML Path: {doc.html_path}")
-    log.debug(format("Multitmarkdown Command: " ".join(%s)", md_cmd))
-    try:
-        result = run(md_cmd)
+    sg()
+    for doc in Chapter.objects(chapter=chapter):
+        md_cmd = [
+            "multimarkdown", "-f", "--nolabels", "-o", f"{doc.html_path}", f"{doc.md_path}"
+        ]
+        log.debug(f"Markdown Path: {doc.md_path}")
+        log.debug(f"HTML Path: {doc.html_path}")
+        log.debug(f"Multitmarkdown Command: &quot; &quot;.join({md_cmd})")
+        try:
+            result = run(md_cmd)
+            
+        except OSError as ose:
+            raise OSError(ose)
         
-    except OSError as ose:
-        raise OSError(ose)
-    
-    except ValueError as ve:
-        raise ValueError(ve)
-    
-    except Exception as e:
-        log.error(e)
-        sys.exit("Error occured in the proccess of creating HTML for Chapter {doc.chapter}")
-    
-    else:
-        log.debug(f'Result of MD Command: {result.__str__}')
+        except ValueError as ve:
+            raise ValueError(ve)
         
-        with open (doc.html_path, 'r') as chapter:
-            html = chapter.read()
-        log.debug(f"Saved Chapter {chapter}'s HTML to disk.")
+        except Exception as e:
+            log.error(e)
+            sys.exit("Error occured in the proccess of creating HTML for Chapter {doc.chapter}")
         
-        doc.html = html
-        doc.save()
-        log.debug(f"Saved Chapter {chapter}'s HTML to MongoDB.")
-        return html
+        else:
+            log.debug(f'Result of MD Command: {result.__str__}')
+            
+            with open (doc.html_path, 'r') as chapter:
+                html = chapter.read()
+            log.debug(f"Saved Chapter {chapter}'s HTML to disk.")
+            
+            doc.html = html
+            doc.save()
+            log.debug(f"Saved Chapter {chapter}'s HTML to MongoDB.")
+            return html
 
 
 @errwrap(exit=False)
