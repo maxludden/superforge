@@ -497,19 +497,21 @@ def make_chapters():
         doc.html_path = html_path
         log.debug(f"Updated Chapter {chapter}'s {html_path}.")
         
-        #> Md
-        md = generate_md(chapter)
-        length = len(md)
-        log.debug(f"Chapter {chapter}'s md: {length}")
-        doc.md = md
-        log.debug(f"Updated Chapter {chapter}'s {md}.")
+        # #> Md
+        # md = generate_md(chapter)
+        # length = len(md)
+        # log.debug(f"Chapter {chapter}'s md: {length}")
+        # doc.md = md
+        # log.debug(f"Updated Chapter {chapter}'s {md}.")
         
-        #> Html
-        html = generate_html(chapter)
-        length = len(html)
-        log.debug(f"Chapter {chapter}'s html length: {length}")
-        doc.html = html
-        log.debug(f"Updated Chapter {chapter}'s {html}.")
+        # #> Html
+        # html = generate_html(chapter)
+        # length = len(html)
+        # log.debug(f"Chapter {chapter}'s html length: {length}")
+        # doc.html = html
+        # log.debug(f"Updated Chapter {chapter}'s {html}.")
+        
+        doc.save()
         
         log.debug(f"Finished Chapter {chapter}.")
 

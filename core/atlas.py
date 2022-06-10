@@ -7,9 +7,11 @@ from typing import Optional
 from mongoengine import (connect, disconnect, disconnect_all,
                          register_connection)
 from pymongo.errors import ConnectionFailure, InvalidURI, NetworkTimeout
+from dotenv import load_dotenv
 
 from core.log import errwrap, log
 
+load_dotenv()
 #.
 #.            d8   888               
 #.   ,"Y88b  d88   888  ,"Y88b  dP"Y 
@@ -90,7 +92,7 @@ def supergene(database: str="make-supergene"):
     URI = get_atlas_uri(database)
     try:
         connect(database, host=URI)
-        log.info(f"<g>Connected to MongoDB!</g>")
+        log.info(f"Connected to MongoDB!")
     except ConnectionError as ce:
         ConnectionError(ce)
     except Exception as e:
