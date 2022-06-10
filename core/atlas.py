@@ -8,19 +8,18 @@ from mongoengine import connect, disconnect, disconnect_all, register_connection
 from dotenv import load_dotenv
 
 from core.log import log, errwrap
-
-# .########################################################################
-# .                                                                       #
-# .         e Y8b       d8   888                                          #
-# .       d888b Y8b   d88888 888 "8" 888 C88b      888 888b  Y8b Y8P      #
-# .      d888888888b   888   888 ,ee 888  Y88D d8b 888 888P   Y8b Y       #
-# .     d8888888b Y8b  888   888 "88 888 d,dP  Y8P 888 88"     888        #
-# .                                                888         888        #
-# .                                                888         888        #
-# .                                                                       #
-# .######################################################################## 
-
 load_dotenv()
+
+
+#.
+#.            d8   888               
+#.   ,"Y88b  d88   888  ,"Y88b  dP"Y 
+#.  "8" 888 d88888 888 "8" 888 C88b  
+#.  ,ee 888  888   888 ,ee 888  Y88D 
+#.  "88 888  888   888 "88 888 d,dP  
+#.                                   
+#.  
+
 
 @errwrap(entry=False, exit=False)
 def get_atlas_uri(database: str='make-supergene'):

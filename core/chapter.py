@@ -16,6 +16,15 @@ from core.atlas import sg, max_title
 load_dotenv()
 base = '/Users/maxludden/dev/py/superforge/books'
 
+#.
+#.           888                        d8                  
+#.   e88'888 888 ee   ,"Y88b 888 88e   d88    ,e e,  888,8, 
+#.  d888  '8 888 88b "8" 888 888 888b d88888 d88 88b 888 "  
+#.  Y888   , 888 888 ,ee 888 888 888P  888   888   , 888    
+#.   "88,e8' 888 888 "88 888 888 88"   888    "YeeP" 888    
+#.                           888                            
+#.                           888                            
+
 class Chapter(Document):
     chapter = IntField(Required=True, unique=True)
     section = IntField()
