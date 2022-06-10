@@ -23,7 +23,7 @@ from core.log import log, errwrap
 load_dotenv()
 
 @errwrap(entry=False, exit=False)
-def get_uri(database: str='make-supergene'):
+def get_atlas_uri(database: str='make-supergene'):
     """Generates the connection URI for MongoDB Atlas.
     Args:
         `database` (Optional[str]):
@@ -33,33 +33,32 @@ def get_uri(database: str='make-supergene'):
         `URI` (str):
             The atlas connection URI.
     """
-    
     # > Retrieve secrets
     try:
         URI = os.environ.get("URI")
         user = os.environ.get("ATLAS_USERNAME")
         pswd = os.environ.get("ATLAS_PASSWORD")
-        db = os.environ.get("ATLAS_DATABASE")
     except AttributeError as ae:
         log.error()
     
-    URI = URI.replace("USERNAME",user).replace("PASSWORD",pswd).replace("DATABASE",db)
+    URI = URI.replace("USERNAME",user).replace("PASSWORD",pswd).replace("DATABASE", database)
     
     return URI
 
-@errwrap()
+@errwrap(entry=False, exit=False)
 def sg(database: str="make-supergene"):
-    """Custom Connection function to connect to MongoDB Database
+    """
+    Custom Connection function to connect to MongoDB Database
     
     Args:
         `database` (Optional[str]):
             The alternative database you would like to connect to. Default is 'make-supergene'.
     """
     
-    URI = get_uri(database)
+    URI = get_atlas_uri(database)
     try:
         connect(database, host=URI)
-        log.debug(f"Connected to MongoDB!")
+        log.info(f"Connected to MongoDB!")
     except Exception as e:
         log.warning(f"Unable to Connect to MongoDB. Error {e}")
         sys.exit(
@@ -73,7 +72,8 @@ def sg(database: str="make-supergene"):
 
 @errwrap()
 def max_title(title: str):
-    """Custom title case function.
+    """
+    Custom title case function.
 
     Args:
         title (str): The string you want to transform.
