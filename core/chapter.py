@@ -13,7 +13,7 @@ from tqdm.auto import tqdm
 from core.atlas import max_title, sg, supergene
 from core.log import errwrap, log
 
-base = '/Users/maxludden/dev/py/superforge/books'
+base = '/Users/maxludden/dev/py/superforge/books/'
 
 #.
 #.           888                        d8                  
@@ -26,8 +26,8 @@ base = '/Users/maxludden/dev/py/superforge/books'
 
 class Chapter(Document):
     chapter = IntField(Required=True, unique=True)
-    section = IntField(choices=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17])
-    book = IntField(choices=[1,2,3,4,5,6,7,8,9,10])
+    section = IntField()
+    book = IntField()
     title = StringField(max_length=500, Required=True)
     text = StringField(Required=True)
     filename = StringField()
@@ -53,7 +53,7 @@ def generate_section(chapter: int):
         `section` (int): 
             The section that the given chapter belongs to.
     '''
-
+    log.debug(f"Called generate_section(chapter={chapter})")
     if chapter <= 424:
         return 1
     elif chapter <= 882:

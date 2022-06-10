@@ -41,7 +41,9 @@ divider='┼'
 arc_top_left='╭'
 arc_top_right='╮'
 arc_bottom_left='╰'
-arc_bottom_right='╯' 
+arc_bottom_right='╯'
+console_set = "INFO"
+# console_set = "DEBUG"
 
 def get_last_run():
     """Retrieves the last run.
@@ -151,7 +153,7 @@ def console_error_flt(record: dict):
     if lvl >= 40:
         return record 
     
-def console_flt(record:dict):
+def console_info_flt(record:dict):
     """
     A filtering function that returns messages intended to be displayed on the console via stdout.
     
@@ -169,36 +171,85 @@ def console_flt(record:dict):
     elif lvl == "WARNING":
         return record
     
+def console_debug_flt(record:dict):
+    """
+    A filtering function that returns messages intended to be displayed on the console via stdout.
+    
+    Args:
+        'record' (dict):
+            A python dict that contains the metadata of the logged message.
+            
+    Returns:
+        `record`(dict)
+            An updated python dict that contains the metadata of the logged message.
+    """
+    lvl = record["level"].name
+    if lvl == "DEBUG":
+        return record
+    elif lvl == "INFO":
+        return record 
+    elif lvl == "WARNING":
+        return record
+    
 #. Initialize Console Sink
 log.remove() # removes the default logger provided by loguru
 sinks = {}
-log.configure(
-    handlers=[
-        dict(
-            sink=(lambda msg: tqdm.write(msg, end="")),
-            colorize=True,
-            format=console_fmt,
-            level="ERROR",
-            backtrace=True, 
-            diagnose=True,
-            catch=True,
-            filter=console_error_flt
-        ),
-        dict(
-            sink=lambda msg: tqdm.write(msg, end=""),
-            colorize=True,
-            format=console_fmt,
-            level="DEBUG",
-            backtrace=True, 
-            diagnose=True,
-            filter=console_flt
-        )
-    ],
-    extra = {
-        "run": current_run,
-        "htmlmsg": ""
-    }
-)
+if console_set == "INFO":
+    log.configure(
+        handlers=[
+            dict(
+                sink=(lambda msg: tqdm.write(msg, end="")),
+                colorize=True,
+                format=console_fmt,
+                level="ERROR",
+                backtrace=True, 
+                diagnose=True,
+                catch=True,
+                filter=console_error_flt
+            ),
+            dict(
+                sink=lambda msg: tqdm.write(msg, end=""),
+                colorize=True,
+                format=console_fmt,
+                level="DEBUG",
+                backtrace=True, 
+                diagnose=True,
+                filter=console_info_flt
+            )
+        ],
+        extra = {
+            "run": current_run,
+            "htmlmsg": ""
+        }
+    )
+elif console_set == "DEBUG":
+    log.configure(
+        handlers=[
+            dict(
+                sink=(lambda msg: tqdm.write(msg, end="")),
+                colorize=True,
+                format=console_fmt,
+                level="ERROR",
+                backtrace=True, 
+                diagnose=True,
+                catch=True,
+                filter=console_error_flt
+            ),
+            dict(
+                sink=lambda msg: tqdm.write(msg, end=""),
+                colorize=True,
+                format=console_fmt,
+                level="DEBUG",
+                backtrace=True, 
+                diagnose=True,
+                filter=console_debug_flt
+            )
+        ],
+        extra = {
+            "run": current_run,
+            "htmlmsg": ""
+        }
+    )
 
 # >##########################################################
 # >                                                         #
