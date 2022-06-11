@@ -1,5 +1,11 @@
 # Styles/update_css.py
 
+import os
+import webbrowser
+from subprocess import run
+from time import sleep
+
+import requests
 from tqdm.auto import tqdm
 
 from core.atlas import get_base
@@ -8,23 +14,36 @@ from core.log import errwrap, log
 
 @errwrap()
 def update_css():
-    BASE = get_base()
-    CSS_MAIN = f'{BASE}/Styles/style.css'
-
-    log.debug("Updating CSS...")
-    with open (CSS_MAIN, 'r') as infile:
-        CSS = infile.read()
+    CSS_MAIN = "/Users/maxludden/dev/py/superforge/Styles/style.css"
     
-    books = range(1,11)
-    for book in tqdm(books, unit="book", desc="Updating CSS"):
-        
-        book_zfill = str(book).zfill(2)
-        css_path = f'{BASE}books/book{book_zfill}/Styles/style.css'
-        log.debug(f"Writing to path: {css_path}")
-        
-        with open (css_path, 'w') as outfile:
-            outfile.write(CSS)
-            
-        log.debug(f"Updated Book {book}'s CSS.")
-        
+    stylesheets = {
+        "1": "/Users/maxludden/dev/py/superforge/books/book01/Styles/style.css",
+        "2": "/Users/maxludden/dev/py/superforge/books/book02/Styles/style.css",
+        "3": "/Users/maxludden/dev/py/superforge/books/book03/Styles/style.css",
+        "4": "/Users/maxludden/dev/py/superforge/books/book04/Styles/style.css",
+        "5": "/Users/maxludden/dev/py/superforge/books/book05/Styles/style.css",
+        "6": "/Users/maxludden/dev/py/superforge/books/book06/Styles/style.css",
+        "7": "/Users/maxludden/dev/py/superforge/books/book07/Styles/style.css",
+        "8": "/Users/maxludden/dev/py/superforge/books/book08/Styles/style.css",
+        "9": "/Users/maxludden/dev/py/superforge/books/book09/Styles/style.css",
+        "10": "/Users/maxludden/dev/py/superforge/books/book10/Styles/style.css",
+    }
+    
+    for x in range (1,11):
+        log.debug(f"Updating Book {x}'s Stylesheet")
+        key = str(x)
+        cmd = ['cp', f'{CSS_MAIN}', f'{stylesheets[key][2]}']
+        concat_cmd = " ".join(cmd)
+        log.debug(f"CMD: {concat_cmd}")
+        try:
+            result = run(cmd)
+        except Exception as e:
+            raise Exception(e)
+        else:
+            if result.returncode == 0:
+                os.system('open raycast://confetti\necho "Celebrate  🎉"')
+                # sleep(1)
+                # os.system('open raycast://confetti\necho Celebrate  🎉"')
+
+
 update_css()
