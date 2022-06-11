@@ -22,7 +22,7 @@ def export_chapters():
     sg()
     for doc in tqdm(Chapter.objects(), unit="ch", desc="fixing chapters"):
         log.debug(f"Accessed Chapter {doc.chapter}'s document.")
-        md_path = doc.mmd_path.replace("supergene", "superforge").replace("/mmd/",'/md/').replace(".mmd",'.md')
+        md_path = doc.mmd_path.replace("supergene", "superforge").replace("/md/",'/md/').replace(".mmd",'.md')
         html_path = doc.html_path.replace('supergene', 'superforge')
         chapter = {
             "chapter": doc.chapter,

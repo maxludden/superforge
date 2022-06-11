@@ -11,7 +11,7 @@ from mongoengine import Document
 from mongoengine.fields import EnumField, IntField, StringField
 from tqdm.auto import tqdm
 
-from core.atlas import base, max_title, sg, supergene
+from core.atlas import max_title, sg, supergene
 from core.log import errwrap, log
 
 BASE = f'/ROOT/maxludden/dev/py/superforge/'
@@ -533,11 +533,11 @@ def make_chapters():
         log.debug(f"Finished Chapter {chapter}.")
 
 @errwrap()
-def update_chapters():
+def verify_chapters():
     '''
     Update all the values of each chapter dict.
     '''
-
+    sg()
     for doc in tqdm(Chapter.objects(), unit="ch", desc="updating paths"):
         chapter = doc.chapter
         
@@ -547,6 +547,7 @@ def update_chapters():
         else:
             section = generate_section(chapter)
         doc.section = section
+        log.debug(f"Section: {section}")
         
         #> Book
         if doc.book != "":
@@ -554,6 +555,7 @@ def update_chapters():
         else:
             book = generate_book(chapter)
         doc.book = book
+        log.debug(f"Book: {book}")
         
         #> Md_path
         if doc.md_path != "":
@@ -561,6 +563,7 @@ def update_chapters():
         else:
             md_path = generate_md_path(chapter)
         doc.md_path = md_path
+        log.debug(f"MD Path: {md_path}")
         
         #> HTML_path
         if doc.html_path != "":
@@ -568,6 +571,7 @@ def update_chapters():
         else:
             html_path = generate_html_path(chapter)
         doc.html_path = html_path
+        log.debug(f"HTML Path: {html_path}")
         
         #> MD
         if doc.md != "":
@@ -575,6 +579,8 @@ def update_chapters():
         else:
             md = generate_md(chapter)
         doc.md = md
+        length = len(md)
+        log.debug(f"MD length: {length}")
         
         #> HTML
         if doc.html != "":
@@ -582,7 +588,10 @@ def update_chapters():
         else:
             html = generate_html(chapter)
         doc.html = html
+        length = len(html)
+        log.debug(f"HTML Length: {length}")
         
+        doc.save()
         log.info(f"Finished chapter {chapter}")
             
 
