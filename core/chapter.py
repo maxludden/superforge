@@ -4,24 +4,17 @@ import os
 import re
 import sys
 from fileinput import filename
-from subprocess import run
 from platform import platform
+from subprocess import run
 
 from mongoengine import Document
 from mongoengine.fields import EnumField, IntField, StringField
 from tqdm.auto import tqdm
 
-from core.atlas import max_title, sg, supergene, base
+from core.atlas import base, max_title, sg, supergene
 from core.log import errwrap, log
 
-
-#> Cross Platform
-if platform() == 'Linux':
-    ROOT = 'home' #< WSL2
-elif platform() = 'Darwin':
-    ROOT = 'Users' #< Mac
-    
-BASE = f'/{ROOT}/maxludden/dev/py/superforge/'
+BASE = f'/ROOT/maxludden/dev/py/superforge/'
 
 #.
 #.           888                        d8                  
@@ -255,6 +248,14 @@ def generate_md_path(chapter: int):
     
     #> Pad the chapter number to four digits
     book_dir = str(book).zfill(2)
+    
+    #> Platform OS
+    if platform() == 'Linux':
+        ROOT = 'home' #< WSL2
+    else:
+        ROOT = 'Users' #< Max
+        
+    BASE = f"/{ROOT}/maxludden/dev/py/superforge/"
     md_path = f"{BASE}/books/book{book_dir}/md/{filename}.md"
     return md_path
 
@@ -294,7 +295,15 @@ def generate_html_path(chapter: int):
     filename = generate_filename(chapter)
     
     book_dir = str(book).zfill(2)
-    html_path = f"{base}book{book_dir}/html/{filename}.html"
+    
+    #> Platform OS
+    if platform() == 'Linux':
+        ROOT = 'home' #< WSL2
+    else:
+        ROOT = 'Users' #< Max
+        
+    BASE = f"/{ROOT}/maxludden/dev/py/superforge/"
+    html_path = f"{BASE}book{book_dir}/html/{filename}.html"
     return html_path
 
 
@@ -523,7 +532,7 @@ def make_chapters():
         
         log.debug(f"Finished Chapter {chapter}.")
 
-@errwrap():
+@errwrap()
 def update_chapters():
     '''
     Update all the values of each chapter dict.
@@ -531,19 +540,49 @@ def update_chapters():
 
     for doc in tqdm(Chapter.objects(), unit="ch", desc="updating paths"):
         chapter = doc.chapter
+        
+        #> Section
         if doc.section != "":
             section = doc.section
         else:
             section = generate_section(chapter)
+        doc.section = section
+        
+        #> Book
         if doc.book != "":
             book = doc.book
         else:
             book = generate_book(chapter)
-        chapter_zfill = str(chapter).zfill(4)
-        book_zfill = str(book).zfill(2)
-        filename = f"chapter-{chapter_zfill}"
-        book_dir = f'book{book_zfill}'
-        md_path = f'/{ROOT}/maxludden/dev/py/superforge/books/{book_dir}/md/{filename}.md"
+        doc.book = book
         
+        #> Md_path
+        if doc.md_path != "":
+            md_path = doc.md_path
+        else:
+            md_path = generate_md_path(chapter)
+        doc.md_path = md_path
+        
+        #> HTML_path
+        if doc.html_path != "":
+            html_path = doc.html_path
+        else:
+            html_path = generate_html_path(chapter)
+        doc.html_path = html_path
+        
+        #> MD
+        if doc.md != "":
+            md = doc.md
+        else:
+            md = generate_md(chapter)
+        doc.md = md
+        
+        #> HTML
+        if doc.html != "":
+            html = doc.html
+        else:
+            html = generate_html(chapter)
+        doc.html = html
+        
+        log.info(f"Finished chapter {chapter}")
             
 
