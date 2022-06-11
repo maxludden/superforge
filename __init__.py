@@ -1,1 +1,1 @@
-__all__ = ['chunk', 'main', 'update_css']
+__all__ = ['chunk', 'core', 'main', 'update_css']
