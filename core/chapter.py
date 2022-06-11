@@ -5,15 +5,23 @@ import re
 import sys
 from fileinput import filename
 from subprocess import run
+from platform import platform
 
 from mongoengine import Document
 from mongoengine.fields import EnumField, IntField, StringField
 from tqdm.auto import tqdm
 
-from core.atlas import max_title, sg, supergene
+from core.atlas import max_title, sg, supergene, base
 from core.log import errwrap, log
 
-base = '/Users/maxludden/dev/py/superforge/books/'
+
+#> Cross Platform
+if platform() == 'Linux':
+    ROOT = 'home' #< WSL2
+elif platform() = 'Darwin':
+    ROOT = 'Users' #< Mac
+    
+BASE = f'/{ROOT}/maxludden/dev/py/superforge/'
 
 #.
 #.           888                        d8                  
@@ -247,7 +255,7 @@ def generate_md_path(chapter: int):
     
     #> Pad the chapter number to four digits
     book_dir = str(book).zfill(2)
-    md_path = f"{base}book{book_dir}/md/{filename}.md"
+    md_path = f"{BASE}/books/book{book_dir}/md/{filename}.md"
     return md_path
 
 
@@ -515,5 +523,27 @@ def make_chapters():
         
         log.debug(f"Finished Chapter {chapter}.")
 
+@errwrap():
+def update_chapters():
+    '''
+    Update all the values of each chapter dict.
+    '''
 
+    for doc in tqdm(Chapter.objects(), unit="ch", desc="updating paths"):
+        chapter = doc.chapter
+        if doc.section != "":
+            section = doc.section
+        else:
+            section = generate_section(chapter)
+        if doc.book != "":
+            book = doc.book
+        else:
+            book = generate_book(chapter)
+        chapter_zfill = str(chapter).zfill(4)
+        book_zfill = str(book).zfill(2)
+        filename = f"chapter-{chapter_zfill}"
+        book_dir = f'book{book_zfill}'
+        md_path = f'/{ROOT}/maxludden/dev/py/superforge/books/{book_dir}/md/{filename}.md"
+        
+            
 
