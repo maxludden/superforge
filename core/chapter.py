@@ -341,7 +341,7 @@ def generate_md(chapter: int):
             The multimarkdown for the given chapter.
     '''
     sg()
-    for doc in Chapter.objects(chapter=chapter):
+    for doc in Chapter.objects(book__gt=3):
         title = max_title(doc.title)
         #> Multimarkdown Metadata
         meta = f"Title:{title} \nChapter:{doc.chapter} \nSection:{doc.section} \nBook:{doc.book} \nCSS:../Styles/style.css \nviewport: width=device-width\n  \n"
@@ -349,7 +349,7 @@ def generate_md(chapter: int):
         #> ATX Headers
         img = """<figure>\n\t<img src="../Images/gem.gif" alt="gem" id="gem" width="120" height="60" />\n</figure>\n  \n"""
         
-        atx = f"## {title}\n### Chapter {doc.chapter} \n{img}\n  \n  "
+        atx = f"## {title}\n### Chapter {doc.chapter}\n  \n{img}\n  \n  "
         
         #> Chapter Text
         text = f"{doc.text}\n"
@@ -532,6 +532,7 @@ def make_chapters():
         
         log.debug(f"Finished Chapter {chapter}.")
 
+
 @errwrap()
 def verify_chapters():
     '''
@@ -595,3 +596,18 @@ def verify_chapters():
         log.info(f"Finished chapter {chapter}")
             
 
+@errwrap()
+def write_book_md(book: int):
+    sg()
+    for doc in tqdm(Chapter.objects(book=book), unit="ch", desc=f'Book {book}'):
+        with open(doc.md_path, 'w') as outfile:
+            outfile.write(doc.md)
+        log.debug(f"Wrote CHapter {doc.chapter}'s Markdown to disk.")
+        
+@errwrap()
+def write_book_html(book: int):
+    sg()
+    for doc in tqdm(Chapter.objects(book=book), unit="ch", desc=f'Book {book}'):
+        with open (doc.html_path, 'w') as outfile:
+            outfile.write(doc.html)
+            log.debug(f"Wrote CHapter {doc.chapter}'s HTML to disk.")

@@ -8,7 +8,7 @@ from subprocess import run
 from tqdm import tqdm
 
 from core.atlas import sg
-from core.chapter import make_chapters, verify_chapters
+from core.chapter import make_chapters, verify_chapters, write_book_md
 from core.endofbook import make_endofbooks
 from core.log import fix_tags, log, new_run
 from core.section import make_sections
@@ -20,7 +20,9 @@ new_run()
 
 #. Chapters
 # make_chapters()
-#verify_chapters()
+# verify_chapters()
+for book in range(4,11):
+    write_book_md(book)
 
 #. Titlepages
 # make_titlepages()

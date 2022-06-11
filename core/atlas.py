@@ -8,10 +8,23 @@ from mongoengine import (connect, disconnect, disconnect_all,
                         register_connection)
 from pymongo.errors import ConnectionFailure, InvalidURI, NetworkTimeout
 from dotenv import load_dotenv
-
+from platform import platform
 from core.log import errwrap, log
 
 load_dotenv()
+@errwrap()
+def get_os():
+    if platform() == 'Linux':
+        ROOT = 'home'
+    else:
+        ROOT = 'Users' #< Mac
+    return ROOT
+
+@errwrap()
+def get_base():
+    ROOT = get_os()
+    return f'/{ROOT}/maxludden/dev/py/superforge/'
+
 #.
 #.            d8   888               
 #.   ,"Y88b  d88   888  ,"Y88b  dP"Y 
