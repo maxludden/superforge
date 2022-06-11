@@ -20,7 +20,7 @@ new_run()
 
 #. Chapters
 # make_chapters()
-verify_chapters()
+#verify_chapters()
 
 #. Titlepages
 # make_titlepages()

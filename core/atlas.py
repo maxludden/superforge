@@ -5,7 +5,7 @@ import sys
 from typing import Optional
 
 from mongoengine import (connect, disconnect, disconnect_all,
-                         register_connection)
+                        register_connection)
 from pymongo.errors import ConnectionFailure, InvalidURI, NetworkTimeout
 from dotenv import load_dotenv
 
