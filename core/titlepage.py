@@ -266,9 +266,11 @@ def generate_titlepages():
 @errwrap()
 def correct_paths():
     sg()
-    for doc in tqdm(Titlepage.objects(), desc=“fixing paths”)
+    for doc in Titlepage.objects():
         md_path = generate_md_path(doc.book)
-        log.info(f”MD: {md_path})
+        doc.md_path = md_path
+        log.info(f”MD: {md_path}”)
+        
         
         
         
