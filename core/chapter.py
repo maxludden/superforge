@@ -11,7 +11,7 @@ from mongoengine import Document
 from mongoengine.fields import EnumField, IntField, StringField
 from tqdm.auto import tqdm
 
-from core.atlas import max_title, sg, supergene
+from core.atlas import max_title, sg, supergene, ROOT
 from core.log import errwrap, log
 
 BASE = f'/ROOT/maxludden/dev/py/superforge/'

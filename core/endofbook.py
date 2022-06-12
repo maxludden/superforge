@@ -11,7 +11,7 @@ from mongoengine.fields import IntField, StringField
 from num2words import num2words
 
 from core.book import Book
-from core.atlas import max_title, sg
+from core.atlas import max_title, sg, ROOT
 from core.log import log, errwrap
 
 load_dotenv()

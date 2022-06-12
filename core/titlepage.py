@@ -1,7 +1,9 @@
 # core/titlepage.py
+
 import os
 import re
 import sys
+from json import dump, load
 from platform import platform
 from subprocess import run
 
@@ -10,7 +12,7 @@ from mongoengine.fields import IntField, StringField
 from num2words import num2words
 from tqdm.auto import tqdm
 
-from core.atlas import generate_base, max_title, sg
+from core.atlas import ROOT, max_title, sg
 from core.log import errwrap, log
 
 # .####################################################################
@@ -48,6 +50,17 @@ class Titlepage(Document):
 # > Filename
 @errwrap()
 def generate_filename(book: int):
+    '''
+    Generate the filename of the given book's Titlepage.
+
+    Args:
+        `book` (int):
+            The given book.
+
+    Returns:
+        `filename` (str): 
+            The filename of the given book.
+    '''
     book = str(book).zfill(2)
     return f"titlepage-{book}"
 
@@ -55,58 +68,130 @@ def generate_filename(book: int):
 # < Filename
 @errwrap()
 def get_filename(book: int):
-    sg()
-    for doc in Titlepage.objects(book - book):
-        return max_title(str(doc.filename))
+    '''
+    Retrieve the given book's Titlepage's name from MongoDB.
 
+    Args:
+        `book` (int):
+            The given book
+
+    Returns:
+        `filename` (str): 
+            The filename (without extension) of the given Titlepage.
+    '''
+    sg()
+    for doc in Titlepage.objects(book=book):
+        return doc.filename
+    
+#>> Function to validate the md_path and html_path
 @errwrap()
-def md_path_validation(md_path: str):
-    if 'mmd' in md_path:
-        log.warning(f"`mmd` was found in the generated filepath of md_path.")
-        md_path = md_path.replace('mmd','md')
+def path_eval(path: str):
+    '''
+    A custom validation function used to ensure that the filepaths of the multimarkdown and html are correct and accurately formatted.
+
+    Args:
+        `path` (str):
+            The filepath that is being validated.
+            
+    Returns:
+        `valid_path` (str):
+            Thae validated filepath.
+    '''
+    if 'mmd' in path:
+        log.warning(f"WARNING:`mmd` was found when validating it..")
+        path = path.replace('mmd','md')
         log.info(f"\t\t\t\t...Corrected.")
-    if '//' in md_path:
-        log.warning(f"Duplicate forward slashed were found in the generated filepath of md_path.")
-        md_path = md_path.replace('//','/')
+        
+    if '//' in path:
+        log.warning(f"WARNING: Duplicate forward slashed ('//') were found in the generated filepath.")
+        path = path.replace('//','/')
         log.info(f"\t\t\t\t...Corrected.")
+        
+    return path
     
     
-# > MD Path
+#>> MD Path
 @errwrap()
 def generate_md_path(book: int):
+    '''
+    Generates the filepath for the multimarkdown of the given book's Titlepage.
+
+    Args:
+        `book` (int):
+            The given book.
+
+    Returns:
+        `md_path` (str): 
+            The filepath for the given book's Titlepage.
+    '''
     filename = get_filename(book)
     book = str(book).zfill(2)
-    ROOT = generate_base()
     BASE = f"/{ROOT}/maxludden/dev/py/supergene/"
-    return f"{BASE}/books/book{book}/md/{filename}.md"
+    path = f"{BASE}/books/book{book}/md/{filename}.md"
+    md_path = path_eval(path)
+    return md_path
 
-# < MD Path
+
+# > MD Path
 @errwrap()
 def get_md_path(book: int):
+    '''
+    Retrieve the filepath for a given book's Titlepage's multimarkdown from MongoDB.
+
+    Args:
+        `book` (int):
+            The given book.
+
+    Returns:
+        `md_path` (str): 
+            The filepath for the given multimarkdown file.
+    '''
     sg()
-    for doc in Titlepage.objects(book - book):
-        md_path = doc.md_path.repair()
+    for doc in Titlepage.objects(book=book):
+        md_path = path_eval(doc.md_path)
+        return md_path
 
 
 # > HTML Path
 @errwrap()
 def generate_html_path(book: int):
-    filename = get_filename(book)
-    book = str(book).zfill(2)
-    ROOT = generate_base()
-    BASE = f"/{ROOT}/maxludden/dev/py/supergene/"
-    return f"{BASE}/books/book{book}/html/{filename}.html"
+    '''
+    Generates the filepath for the HTML of the given book's Titlepage.
 
-# < HTML Path
+    Args:
+        `book` (int):
+            The given book.
+
+    Returns:
+        `md_path` (str): 
+            The filepath for the given book's Titlepage.
+    '''
+    filename = get_filename(book)
+    book_zfill = str(book).zfill(2)
+    BASE = f"/{ROOT}/maxludden/dev/py/supergene/"
+    path = f"{BASE}/books/book{book_zfill}/html/{filename}.html"
+    html_path = path_eval(path)
+    return html_path
+
+
+#>> HTML Path
 @errwrap()
 def get_html_path(book: int):
+    '''
+    Retrieve the filepath for a given book's Titlepage's HTML from MongoDB.
+
+    Args:
+        `book` (int):
+            The given book.
+
+    Returns:
+        `md_path` (str): 
+            The filepath for the given HTML file.
+    '''
     sg()
-    for doc in Titlepage.objects(book - book):
-        md_path = str(doc.md_path)
-        if 'mmd' in md_path:
-            md_path = md_path.replace('mmd','md')
-        if '//' in md_path:
-            md_path = md_path.replace('//','/')
+    for doc in Titlepage.objects(book=book):
+        return path_eval(doc.md_path)
+        
 
 
 #> MD
@@ -137,7 +222,7 @@ def generate_md(book: int):
         atx = f"{atx}\n### Book {doc.book_word}\n"
         atx = f"{atx}\n{img}\n  \n"
 
-        TEXT = '<p class="title">Written by Twelve Winged Burning Seraphim</p>\n<br>\n<p class="title">Complied and Edited by Max Ludden</p>\n'
+        TEXT = '<p class="title">Written by Twelve Winged Burning Seraphim</p>\n<br>\n<p class="title">Complied and Edited by Max Ludden</p>\n  \n'
 
         text = TEXT
 
@@ -285,9 +370,14 @@ def generate_titlepages():
             doc.save()
             log.debug(f"Finished generating Book {book}'s Titlepage.")
 
+@errwrap(exit=False)
+def html_check():
+    html_dict = {}
+    for doc in Titlepage.objects():
+        book = doc.book
+        log.info(f"Accessed Book {book}'s 'sTitlepage Document in MongoDB.")
+        html_dict[book] = doc.html
         
-        
-        
-        
-        
+    with open("/Users/maxludden/dev/py/superforge/json/html.json", 'w') as outfile:
+        dump(html_dict, outfile, indent=4)
         

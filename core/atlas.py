@@ -6,44 +6,42 @@ from platform import platform
 from typing import Optional
 
 from dotenv import load_dotenv
-from mongoengine import (connect, disconnect, disconnect_all,
-                        register_connection)
+from mongoengine import connect, disconnect, disconnect_all, register_connection
 from pymongo.errors import ConnectionFailure, InvalidURI, NetworkTimeout
 
 from core.log import errwrap, log
 
 load_dotenv()
 
+
 @errwrap()
 def generate_root():
-    if platform() == 'Linux':
-        ROOT = 'home'
+    if platform() == "Linux":
+        ROOT = "home"
     else:
-        ROOT = 'Users' #< Mac
+        ROOT = "Users"  # < Mac
     return ROOT
 
-@errwrap()
-def generate_base():
-    ROOT = generate_root()
-    return f'/{ROOT}/maxludden/dev/py/superforge/'
 
-#.
-#.            d8   888               
-#.   ,"Y88b  d88   888  ,"Y88b  dP"Y 
-#.  "8" 888 d88888 888 "8" 888 C88b  
-#.  ,ee 888  888   888 ,ee 888  Y88D 
-#.  "88 888  888   888 "88 888 d,dP  
-#.                                   
-#.  
+ROOT = generate_root()
+
+# .
+# .            d8   888
+# .   ,"Y88b  d88   888  ,"Y88b  dP"Y
+# .  "8" 888 d88888 888 "8" 888 C88b
+# .  ,ee 888  888   888 ,ee 888  Y88D
+# .  "88 888  888   888 "88 888 d,dP
+# .
+# .
 
 
 @errwrap(entry=False, exit=False)
-def get_atlas_uri(database: str='make-supergene'):
+def get_atlas_uri(database: str = "make-supergene"):
     """Generates the connection URI for MongoDB Atlas.
     Args:
         `database` (Optional[str]):
             The alternative database you would like to connect to. Default is 'make-supergene'.
-            
+
     Returns:
         `URI` (str):
             The atlas connection URI.
@@ -56,26 +54,27 @@ def get_atlas_uri(database: str='make-supergene'):
         log.debug(f"user: {user}")
         pswd = os.environ.get("ATLAS_PASSWORD")
         log.debug(f"pswd: {pswd}")
-        
+
     except AttributeError as ae:
         log.error()
-    
-    URI = URI.replace("USERNAME",user)
-    URI = URI.replace("PASSWORD",pswd)
+
+    URI = URI.replace("USERNAME", user)
+    URI = URI.replace("PASSWORD", pswd)
     URI = URI.replace("DATABASE", database)
-    
+
     return URI
 
+
 @errwrap(entry=False, exit=False)
-def sg(database: str="make-supergene"):
+def sg(database: str = "make-supergene"):
     """
     Custom Connection function to connect to MongoDB Database
-    
+
     Args:
         `database` (Optional[str]):
             The alternative database you would like to connect to. Default is 'make-supergene'.
     """
-    
+
     URI = get_atlas_uri(database)
     try:
         connect(database, host=URI)
@@ -95,15 +94,15 @@ def sg(database: str="make-supergene"):
 
 
 @errwrap(entry=False, exit=False)
-def supergene(database: str="make-supergene"):
+def supergene(database: str = "make-supergene"):
     """
     Custom Connection function to connect to MongoDB Database
-    
+
     Args:
         `database` (Optional[str]):
             The alternative database you would like to connect to. Default is 'make-supergene'.
     """
-    
+
     URI = get_atlas_uri(database)
     try:
         connect(database, host=URI)
@@ -120,6 +119,7 @@ def supergene(database: str="make-supergene"):
                 }
             }
         )
+
 
 @errwrap()
 def max_title(title: str):

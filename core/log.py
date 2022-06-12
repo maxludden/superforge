@@ -243,11 +243,20 @@ elif console_set == "DEBUG":
                 backtrace=True, 
                 diagnose=True,
                 filter=console_debug_flt
+            ),
+            dict(
+                sink="/Users/maxludden/dev/py/superforge/logs/supergene.log",
+                colorize=False,
+                format="{time:hh:mm:ss:SSS A} | {file.name} | Line {line} | {extra[function]} | {level}: {message}",
+                level = "DEBUG",
+                backtrace = True,
+                diagnose=True
+                
             )
         ],
         extra = {
             "run": current_run,
-            "htmlmsg": ""
+            "function": ""
         }
     )
 
