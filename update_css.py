@@ -8,7 +8,7 @@ from time import sleep
 import requests
 from tqdm.auto import tqdm
 
-from core.atlas import get_base
+from core.atlas import generate_base
 from core.log import errwrap, log
 
 

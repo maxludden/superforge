@@ -2,18 +2,20 @@
 import os
 import re
 import sys
+from platform import platform
 from typing import Optional
 
+from dotenv import load_dotenv
 from mongoengine import (connect, disconnect, disconnect_all,
                         register_connection)
 from pymongo.errors import ConnectionFailure, InvalidURI, NetworkTimeout
-from dotenv import load_dotenv
-from platform import platform
+
 from core.log import errwrap, log
 
 load_dotenv()
+
 @errwrap()
-def get_os():
+def generate_root():
     if platform() == 'Linux':
         ROOT = 'home'
     else:
@@ -21,8 +23,8 @@ def get_os():
     return ROOT
 
 @errwrap()
-def get_base():
-    ROOT = get_os()
+def generate_base():
+    ROOT = generate_root()
     return f'/{ROOT}/maxludden/dev/py/superforge/'
 
 #.
