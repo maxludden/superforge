@@ -137,7 +137,7 @@ def generate_md(book: int):
         atx = f"{atx}\n### Book {doc.book_word}\n"
         atx = f"{atx}\n{img}\n  \n"
 
-        TEXT = '<p class="title">Written by Twelve Winged Burning Seraphim</p>\n<br>\n<p class="title">Complied and Edited by Max Ludden</p>\n  '
+        TEXT = '<p class="title">Written by Twelve Winged Burning Seraphim</p>\n<br>\n<p class="title">Complied and Edited by Max Ludden</p>\n'
 
         text = TEXT
 
@@ -230,11 +230,33 @@ def get_html(book: int):
         return doc.html
 
 
+
+@errwrap()
+def correct_paths(check: bool=False):
+    sg()
+    for doc in Titlepage.objects():
+        
+        book = int(doc.book)
+        log.info(f"Access Book {book}'s Titlepages MongoDB Document.")
+        
+        md_path = generate_md_path(book)
+        if check:
+            response = input(f"Md_path: {md_path}\nWould you like to continue? (Y/N)")
+            if response.lower() == 'y':
+                html_path = generate_html_path(book)
+                response = input(f"Httml_path: {html_path}\nWould you like to continue? (Y/N)")
+        else:
+            doc.md_path = md_path
+            doc.html_path = generate_html_path(book)
+            doc.save()
+            log.info(f"Updated MongoDB with the correct paths for Book {book}'s Titlepage.")
+            
+            
 #> The 'and the Kitchen Sink Function of Titlepage
 @errwrap()
 def generate_titlepages():
     """
-    Generate the multimarkdown and HTML for all the books' titlepages. This is the `and the Kitchen Sink Function of Titlepage`.
+    Generate the multimarkdown and HTML for all the books' titlepages. This is the "and the Kitchen Sink Function of Titlepage".
     """
     
     sg() # Connect to MongoDB
@@ -263,13 +285,6 @@ def generate_titlepages():
             doc.save()
             log.debug(f"Finished generating Book {book}'s Titlepage.")
 
-@errwrap()
-def correct_paths():
-    sg()
-    for doc in Titlepage.objects():
-        md_path = generate_md_path(doc.book)
-        doc.md_path = md_path
-        log.info(f”MD: {md_path}”)
         
         
         
