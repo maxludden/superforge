@@ -95,7 +95,7 @@ def path_eval(path: str):
             
     Returns:
         `valid_path` (str):
-            Thae validated filepath.
+        The validated filepath.
     '''
     if 'mmd' in path:
         log.warning(f"WARNING:`mmd` was found when validating it..")
@@ -313,28 +313,6 @@ def get_html(book: int):
     sg()
     for doc in Titlepage.objects(book=book):
         return doc.html
-
-
-
-@errwrap()
-def correct_paths(check: bool=False):
-    sg()
-    for doc in Titlepage.objects():
-        
-        book = int(doc.book)
-        log.info(f"Access Book {book}'s Titlepages MongoDB Document.")
-        
-        md_path = generate_md_path(book)
-        if check:
-            response = input(f"Md_path: {md_path}\nWould you like to continue? (Y/N)")
-            if response.lower() == 'y':
-                html_path = generate_html_path(book)
-                response = input(f"Httml_path: {html_path}\nWould you like to continue? (Y/N)")
-        else:
-            doc.md_path = md_path
-            doc.html_path = generate_html_path(book)
-            doc.save()
-            log.info(f"Updated MongoDB with the correct paths for Book {book}'s Titlepage.")
             
             
 #> The 'and the Kitchen Sink Function of Titlepage
@@ -372,12 +350,14 @@ def generate_titlepages():
 
 @errwrap(exit=False)
 def html_check():
+    sg()
     html_dict = {}
     for doc in Titlepage.objects():
         book = doc.book
-        log.info(f"Accessed Book {book}'s 'sTitlepage Document in MongoDB.")
+        log.info(f"Accessed Book {book}'s Titlepage's Document in MongoDB.")
         html_dict[book] = doc.html
         
     with open("/Users/maxludden/dev/py/superforge/json/html.json", 'w') as outfile:
         dump(html_dict, outfile, indent=4)
+        
         

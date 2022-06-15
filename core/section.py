@@ -184,7 +184,7 @@ def get_end(section: int):
         return doc.end
 
 @errwrap(entry=False, exit=False)   
-def getmd(section: int):
+def get_md(section: int):
     """
     Generate the multimarkdown for the given section and save it to disk and MongoDB
 
