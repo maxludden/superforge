@@ -379,7 +379,8 @@ logger.add(
     colorize=False,
     level="DEBUG",
     format=md_fmt,
-    filter=main_flt
+    filter=main_flt,
+    rotation="100 MB"
 )
 logger.patch(multiline)
 

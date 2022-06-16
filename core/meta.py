@@ -205,6 +205,6 @@ def write_meta(book: int):
 
 @errwrap()
 def write_metadata():
-    books = range(1,11)
-    for book in tqdm(books, unit=book, desc="Writing Metadata"):
-        write_meta(book)
+    sg()
+    for doc in tqdm(Meta.objects(), unit="book", desc="Writing Metadata"):
+        write_meta(doc.book)
