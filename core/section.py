@@ -4,6 +4,7 @@ import sys
 from enum import unique
 from subprocess import run
 from typing import Optional
+from webbrowser import get
 
 from markdown2 import markdown as md
 from mongoengine import Document, disconnect_all
@@ -11,7 +12,7 @@ from mongoengine.fields import IntField, ListField, StringField
 from num2words import num2words
 from tqdm.auto import tqdm
 
-from core.atlas import max_title, sg, ROOT
+from core.atlas import ROOT, max_title, sg
 from core.log import errwrap, log
 
 #.##########################################################
@@ -38,6 +39,8 @@ class Section(Document):
     start = IntField()
     end = IntField()
     filename = StringField()
+    mmd = StringField()
+    mmd_path = StringField()
     md_path = StringField()
     md = StringField()
     html_path = StringField()
@@ -219,13 +222,13 @@ def get_md(section: int):
         if part == 0:
             
             atx = f'## Book {book_word}\n#### of Super Gene '
-            atx = f'{atx}{img}\n\n### Chapter {doc.start} - Chapter {doc.end}\nbr>\n<br>\n<br>\n<br>'
+            atx = f'{atx}{img}\n\n### Chapter {doc.start} - Chapter {doc.end}\n<br>\n<br>\n<br>\n<br>'
         elif part == 1:
             atx = f'## Part One{img}\n  \n### Chapter {doc.start} - Chapter {doc.end}\n<br>\n<br>\n<br>\n<br>'
         else:
-            atx = f'## Part Two{img}\n  \n### Chapter {doc.start} - Chapter {doc.end}\n<\n<br>\n<br>\n<br>\n<br>'
+            atx = f'## Part Two{img}\n  \n### Chapter {doc.start} - Chapter {doc.end}\n<br>\n<br>\n<br>\n<br>\n<br>'
             
-        text = '\n  \n##### Written by Twelve Winged Burning Seraphim\n##### Compiled and edited by Max Ludden.\n'
+        text = '\n  \n<p class="title">Written by Twelve Winged Burning Seraphim</p>\n<p class="title">Compiled and edited by Max Ludden</p>\n'
         
         md = f'{meta}{atx}{text}'
         md_path = get_md_path(section)
@@ -297,6 +300,39 @@ def make_sections():
     sections = range(1,18)
     for section in tqdm(sections, unit="section", desc="Writing section pages"):
         for doc in Section.objects(section=section): 
+            doc.filename = get_filename(doc.section)
+            doc.md_path = get_md_path(doc.section)
+            doc.md = get_md(doc.section)
             md = get_md(section)
             html = get_html(section)
+            doc.md = md
+            doc.html = html
+            doc.save()
+            log.info(f"Finished updating section {section}.md")
 
+
+def fix_md():
+    '''
+    Fix the md fields in MongoDB
+    '''
+    sg()
+    for doc in Section.objects():
+        log.info(f"Accessed Section {doc.section} in MongoDB.")
+        log.info(f"doc.mmd: {doc.mmd}")
+        doc.md = doc.mmd
+        log.info(f"doc.md: {doc.md}")
+        doc.md_path = doc.mmd_path
+        doc.save()
+        log.info(f"Updated Section {doc.section}.")
+
+
+def save_html():
+    '''
+    Read html from disk and save to MongoDB.
+    '''
+    sg()
+    for doc in tqdm(Section.objects(), unit="section", desc="Saving HTML"):
+        doc.html_path = get_html_path(doc.section)
+        with open (doc.html_path, 'r') as infile:
+            doc.html = infile.read()
+        doc.save()

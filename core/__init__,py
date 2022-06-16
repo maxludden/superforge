@@ -5,6 +5,7 @@ __all__ = [
     "clear_md",
     "endofbook",
     "fix_tags",
+    'meta',
     "log",
     "titlepage",
     "section",

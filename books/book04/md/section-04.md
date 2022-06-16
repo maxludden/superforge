@@ -17,6 +17,5 @@ viewport: width=device-width
 <br>
 <br>
   
-> Written by Twelve Winged Burning Seraphim
->
-> Compiled and edited by Max Ludden.
+<p class="title">Written by Twelve Winged Burning Seraphim</p>
+<p class="title">Compiled and edited by Max Ludden</p>

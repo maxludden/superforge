@@ -126,7 +126,7 @@ def generate_md_path(book: int):
     '''
     filename = get_filename(book)
     book = str(book).zfill(2)
-    BASE = f"/{ROOT}/maxludden/dev/py/supergene/"
+    BASE = f"/{ROOT}/maxludden/dev/py/superforge/"
     path = f"{BASE}/books/book{book}/md/{filename}.md"
     md_path = path_eval(path)
     return md_path
@@ -168,7 +168,7 @@ def generate_html_path(book: int):
     '''
     filename = get_filename(book)
     book_zfill = str(book).zfill(2)
-    BASE = f"/{ROOT}/maxludden/dev/py/supergene/"
+    BASE = f"/{ROOT}/maxludden/dev/py/superforge"
     path = f"{BASE}/books/book{book_zfill}/html/{filename}.html"
     html_path = path_eval(path)
     return html_path
@@ -191,7 +191,6 @@ def get_html_path(book: int):
     sg()
     for doc in Titlepage.objects(book=book):
         return path_eval(doc.md_path)
-        
 
 
 #> MD
@@ -214,7 +213,7 @@ def generate_md(book: int):
         meta = f"Title: {doc.title}"
         meta = f"{meta}\nBook: {book}"
         meta = f"{meta}\nviewport: width=device-width"
-        meta = f"{meta}\nCSS: ../Styles/style.css\n<br>\n"
+        meta = f"{meta}\nCSS: ../Styles/style.css\n \n "
 
         img = f'<figure>\n\t<img src="../Images/gem.gif" alt="gem" id="gem" width="240" height="120" />\n</figure>\n<br>\n'
 
@@ -222,14 +221,16 @@ def generate_md(book: int):
         atx = f"{atx}\n### Book {doc.book_word}\n"
         atx = f"{atx}\n{img}\n  \n"
 
-        TEXT = '<p class="title">Written by Twelve Winged Burning Seraphim</p>\n<br>\n<p class="title">Complied and Edited by Max Ludden</p>\n  \n'
+        TEXT = '<p class="title">Written by Twelve Winged Burning Seraphim</p>\n  \n<p class="title">Complied and Edited by Max Ludden</p>\n  \n'
 
         text = TEXT
 
         md = f"{meta}{atx}{text}\n"
 
         doc.filename = get_filename(book)
+        log.debug(f"Doc.filename: {doc.filename}")
         doc.md_path = generate_md_path(book)
+        log.debug(f"Doc.md_path: {doc.md_path}")
         doc.html_path = generate_html_path(book)
         doc.md = md
         doc.save()
@@ -310,11 +311,22 @@ def generate_html(book: int):
 
 @errwrap(exit=False)
 def get_html(book: int):
+    '''
+    Retrieve the given book's titlepage's html from MongoDB.
+
+    Args:
+        `book` (int):
+            The given book.
+
+    Returns:
+        `html` (str): 
+            The HTML of the given book's titlepage.
+    '''
     sg()
     for doc in Titlepage.objects(book=book):
         return doc.html
-            
-            
+
+
 #> The 'and the Kitchen Sink Function of Titlepage
 @errwrap()
 def generate_titlepages():
@@ -325,7 +337,7 @@ def generate_titlepages():
     sg() # Connect to MongoDB
     for doc in tqdm(Titlepage.objects(), unit="books", desc="Generating Titilepages"):
         book = doc.book
-        log.debug(f"Accessed Book {book}'s MongoDB Document.")
+        log.info(f"Accessed Book {book}'s MongoDB Document.")
         
         #> MD
         book = doc.book
@@ -350,6 +362,9 @@ def generate_titlepages():
 
 @errwrap(exit=False)
 def html_check():
+    '''
+    Retrieves the HTML for each book's Titlepage and stores it in `json/html.json`.
+    '''
     sg()
     html_dict = {}
     for doc in Titlepage.objects():
@@ -359,5 +374,4 @@ def html_check():
         
     with open("/Users/maxludden/dev/py/superforge/json/html.json", 'w') as outfile:
         dump(html_dict, outfile, indent=4)
-        
-        
+

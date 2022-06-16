@@ -12,12 +12,11 @@ viewport: width=device-width
 </figure>
   
 ### Chapter 1680 - Chapter 1711
-<
+<br>
 <br>
 <br>
 <br>
 <br>
   
-> Written by Twelve Winged Burning Seraphim
->
-> Compiled and edited by Max Ludden.
+<p class="title">Written by Twelve Winged Burning Seraphim</p>
+<p class="title">Compiled and edited by Max Ludden</p>

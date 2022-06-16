@@ -215,8 +215,17 @@ if console_set == "INFO":
                 backtrace=True, 
                 diagnose=True,
                 filter=console_info_flt
+            ),
+            dict(
+                sink="/Users/maxludden/dev/py/superforge/logs/supergene.log",
+                colorize=False,
+                format="{time:hh:mm:ss:SSS A} | {file.name} | Line {line} | {level}: {message}",
+                level = "DEBUG",
+                backtrace = True,
+                diagnose=True
             )
         ],
+        
         extra = {
             "run": current_run,
             "htmlmsg": ""
@@ -383,7 +392,7 @@ def fix_tags():
     fixed_md = md.replace('\<','<')
     with open (LOG, 'w') as outfile:
         outfile.write(fixed_md)
-    log.info("Fixed Tags")
+    log.debug("Fixed Tags")
 
 def test_logger():
     logger.debug("Test the logger DEBUG log.")
