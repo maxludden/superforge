@@ -1,7 +1,6 @@
 # core/section.py
 
 import sys
-from enum import unique
 from subprocess import run
 from typing import Optional
 from webbrowser import get
