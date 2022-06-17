@@ -5,7 +5,11 @@ from mongoengine.fields import IntField, StringField, ListField, DictField
 
 from core.atlas import sg, max_title, ROOT
 from core.log import log, errwrap
-from core.book import Book
+import core.book as book_
+import core.section as section_
+import core.titlepage as titlepage_
+import core.chapter as chapter_
+import core.endofbook as eob_
 from typing import Optional
 
 @errwrap()
@@ -22,7 +26,7 @@ def generate_output_file(book: int):
             The output-file for the given book.
     '''
     sg()
-    for doc in Book.objects(book=book):
+    for doc in book_.Book.objects(book=book):
         return doc.output
 
 @errwrap()
@@ -39,7 +43,7 @@ def generate_cover_image(book: int):
             The filename of the given books cover image.
     '''
     sg()
-    for doc in Book.objects(book=book):
+    for doc in book_.Book.objects(book=book):
         return doc.cover
 
 @errwrap()
@@ -124,6 +128,71 @@ class DefaultDoc(Document):
         self.toc = toc
         self.toc_depth = toc_depth
         self.epub_chapter_level = epub_chapter_level
-        
+
 @errwrap()
-def 
+def get_section_count(book: int):
+    '''
+    Determine the number of sections in a given book.
+
+    Args:
+        `book` (int):
+            The given book.
+
+    Returns:
+        `section_count` (int): 
+            The number of sections in a given book.
+    '''
+    sg()
+    sections = []
+    for doc in section_.Section.objects(book=book):
+        sections.append(doc.section)
+    section_count = len(sections)
+    return section_count
+
+@errwrap()
+def get_section_files(section: int, filepath: bool=False):
+    '''
+    Generate the input files for a given section.
+
+    Args:
+        `section` (int):
+            The given section.
+            
+        `filepath` (bool, optional): If you are looking for the full filepath for the given section's input files, or just the filename. Defaults to False.
+
+    Returns:
+        `section_files` (list[str]): 
+            The input files of the given section.
+    '''
+    sg()
+    for doc in section_.Section.objects(section=section):
+        section_files = []
+        #> Filenames
+        if not filepath:
+            section_page = section_.get_filename(section)
+            section_files.append(f"{section_page}.html")
+            for chapter in doc.chapters:
+                chapter_filename = chapter_.generate_filename(chapter)
+                section_files.append(f"{chapter_filename}.html)")
+            log.debug(f"Generated filenames for Section Input Files for Section {section}.")
+            return section_files
+        #> Filepaths
+        else:
+            section_files.append(section_.get_html_path(section))
+            for chapter in doc.chapters:
+                section_files.append(chapter_.get_html_path(chapter))
+            log.debug(f"Generated filepaths for Section Input Files for Section {section}.")
+            return section_files
+
+@errwrap()
+def get_input_files(book: int, filepaths: bool=False):
+    input_files = []
+    section_count = get_section_count(book)
+    if section_count == 1:
+        input_files.append(f'{titlepage_.get_filename}.html')
+        section_files = get_section_files(book)
+        # Because only books 1, 2, and 3 have one section, the book param and section param are interchangeable. Which is why we can substitute it's book param for it's section param
+        for section_file in section_files:
+            input_files.append(section_file )10
+        input_files.append(f'{eob_.get_filename}.html')
+        

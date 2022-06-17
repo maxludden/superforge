@@ -1,18 +1,18 @@
 # supergene/core/endofbook.py
 
 import sys
+from json import dump, load
 from subprocess import run
-from json import load, dump
-from tqdm.auto import tqdm
 
 from dotenv import load_dotenv
 from mongoengine import Document
 from mongoengine.fields import IntField, StringField
 from num2words import num2words
+from tqdm.auto import tqdm
 
+from core.atlas import ROOT, max_title, sg
 from core.book import Book
-from core.atlas import max_title, sg, ROOT
-from core.log import log, errwrap
+from core.log import errwrap, log
 
 load_dotenv()
 
@@ -57,7 +57,55 @@ class EndOfBook(Document):
     meta = {
         'collection': 'endofbook'
     }
+@errwrap()
+def get_filename(book: int):
+    '''
+    Generate the filename of the given book's endofbook.
 
+    Args:
+        `book` (int):
+            The given book.
+
+    Returns:
+        `filename` (str): 
+            The filename of the given book's endofbook.
+    '''
+    book = str(book).zfill(2)
+    return f'endofbook-{book}'
+
+@errwrap()
+def get_md_path(book:int):
+    '''
+    Generate the md_path of the given book's endofbook.
+
+    Args:
+        `book` (int):
+            The given book.
+
+    Returns:
+        `filename` (str): 
+            The md_path of the given book's endofbook.
+    '''
+    filename = get_filename(book)
+    book = str(book).zfill(2)
+    return f'/{ROOT}/maxludden/dev/py/superforge/books/book{book}/md/{filename}.md'
+
+@errwrap()
+def get_html_path(book:int):
+    '''
+    Generate the html_path of the given book's endofbook.
+
+    Args:
+        `book` (int):
+            The given book.
+
+    Returns:
+        `filename` (str): 
+            The html_path of the given book's endofbook.
+    '''
+    filename = get_filename(book)
+    book = str(book).zfill(2)
+    return f'/{ROOT}/maxludden/dev/py/superforge/books/book{book}/html/{filename}.html'
 
 @errwrap()
 def get_book_word(book: int):

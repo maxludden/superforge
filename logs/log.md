@@ -4385,3 +4385,2653 @@ Users
         </div>
     </div>
 </a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:46:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 305 | 11:47:02 AM | update_css.py | Line 46
+        </div>
+        \<div class="container-debug">
+            Entering 'update_css' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:32:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 305 | 11:47:02 AM | update_css.py | Line 32
+        </div>
+        \<div class="container-info">
+            Updating Book 1's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:36:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 305 | 11:47:02 AM | update_css.py | Line 36
+        </div>
+        \<div class="container-info">
+            CMD: cp $SF/Styles/style.css $SF/books/book01/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:32:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 305 | 11:47:02 AM | update_css.py | Line 32
+        </div>
+        \<div class="container-info">
+            Updating Book 2's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:36:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 305 | 11:47:02 AM | update_css.py | Line 36
+        </div>
+        \<div class="container-info">
+            CMD: cp $SF/Styles/style.css $SF/books/book02/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:32:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 305 | 11:47:02 AM | update_css.py | Line 32
+        </div>
+        \<div class="container-info">
+            Updating Book 3's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:36:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 305 | 11:47:02 AM | update_css.py | Line 36
+        </div>
+        \<div class="container-info">
+            CMD: cp $SF/Styles/style.css $SF/books/book03/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:32:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 305 | 11:47:02 AM | update_css.py | Line 32
+        </div>
+        \<div class="container-info">
+            Updating Book 4's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:36:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 305 | 11:47:02 AM | update_css.py | Line 36
+        </div>
+        \<div class="container-info">
+            CMD: cp $SF/Styles/style.css $SF/books/book04/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:32:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 305 | 11:47:02 AM | update_css.py | Line 32
+        </div>
+        \<div class="container-info">
+            Updating Book 5's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:36:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 305 | 11:47:02 AM | update_css.py | Line 36
+        </div>
+        \<div class="container-info">
+            CMD: cp $SF/Styles/style.css $SF/books/book05/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:32:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 305 | 11:47:02 AM | update_css.py | Line 32
+        </div>
+        \<div class="container-info">
+            Updating Book 6's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:36:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 305 | 11:47:02 AM | update_css.py | Line 36
+        </div>
+        \<div class="container-info">
+            CMD: cp $SF/Styles/style.css $SF/books/book06/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:32:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 305 | 11:47:02 AM | update_css.py | Line 32
+        </div>
+        \<div class="container-info">
+            Updating Book 7's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:36:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 305 | 11:47:02 AM | update_css.py | Line 36
+        </div>
+        \<div class="container-info">
+            CMD: cp $SF/Styles/style.css $SF/books/book07/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:32:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 305 | 11:47:02 AM | update_css.py | Line 32
+        </div>
+        \<div class="container-info">
+            Updating Book 8's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:36:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 305 | 11:47:02 AM | update_css.py | Line 36
+        </div>
+        \<div class="container-info">
+            CMD: cp $SF/Styles/style.css $SF/books/book08/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:32:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 305 | 11:47:02 AM | update_css.py | Line 32
+        </div>
+        \<div class="container-info">
+            Updating Book 9's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:36:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 305 | 11:47:02 AM | update_css.py | Line 36
+        </div>
+        \<div class="container-info">
+            CMD: cp $SF/Styles/style.css $SF/books/book09/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:32:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 305 | 11:47:02 AM | update_css.py | Line 32
+        </div>
+        \<div class="container-info">
+            Updating Book 10's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:36:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 305 | 11:47:02 AM | update_css.py | Line 36
+        </div>
+        \<div class="container-info">
+            CMD: cp $SF/Styles/style.css $SF/books/book10/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:46:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 305 | 11:47:02 AM | update_css.py | Line 46
+        </div>
+        \<div class="container-debug">
+            Exiting 'update_css' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:48:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 306 | 11:49:29 AM | update_css.py | Line 48
+        </div>
+        \<div class="container-debug">
+            Entering 'update_css' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:34:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 306 | 11:49:29 AM | update_css.py | Line 34
+        </div>
+        \<div class="container-info">
+            Updating Book 1's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:38:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 306 | 11:49:29 AM | update_css.py | Line 38
+        </div>
+        \<div class="container-info">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css {SF}/books/book01/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:34:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 306 | 11:49:29 AM | update_css.py | Line 34
+        </div>
+        \<div class="container-info">
+            Updating Book 2's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:38:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 306 | 11:49:29 AM | update_css.py | Line 38
+        </div>
+        \<div class="container-info">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css {SF}/books/book02/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:34:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 306 | 11:49:29 AM | update_css.py | Line 34
+        </div>
+        \<div class="container-info">
+            Updating Book 3's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:38:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 306 | 11:49:29 AM | update_css.py | Line 38
+        </div>
+        \<div class="container-info">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css {SF}/books/book03/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:34:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 306 | 11:49:29 AM | update_css.py | Line 34
+        </div>
+        \<div class="container-info">
+            Updating Book 4's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:38:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 306 | 11:49:29 AM | update_css.py | Line 38
+        </div>
+        \<div class="container-info">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css {SF}/books/book04/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:34:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 306 | 11:49:29 AM | update_css.py | Line 34
+        </div>
+        \<div class="container-info">
+            Updating Book 5's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:38:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 306 | 11:49:29 AM | update_css.py | Line 38
+        </div>
+        \<div class="container-info">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css {SF}/books/book05/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:34:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 306 | 11:49:29 AM | update_css.py | Line 34
+        </div>
+        \<div class="container-info">
+            Updating Book 6's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:38:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 306 | 11:49:29 AM | update_css.py | Line 38
+        </div>
+        \<div class="container-info">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css {SF}/books/book06/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:34:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 306 | 11:49:29 AM | update_css.py | Line 34
+        </div>
+        \<div class="container-info">
+            Updating Book 7's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:38:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 306 | 11:49:29 AM | update_css.py | Line 38
+        </div>
+        \<div class="container-info">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css {SF}/books/book07/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:34:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 306 | 11:49:29 AM | update_css.py | Line 34
+        </div>
+        \<div class="container-info">
+            Updating Book 8's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:38:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 306 | 11:49:29 AM | update_css.py | Line 38
+        </div>
+        \<div class="container-info">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css {SF}/books/book08/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:34:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 306 | 11:49:29 AM | update_css.py | Line 34
+        </div>
+        \<div class="container-info">
+            Updating Book 9's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:38:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 306 | 11:49:29 AM | update_css.py | Line 38
+        </div>
+        \<div class="container-info">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css {SF}/books/book09/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:34:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 306 | 11:49:29 AM | update_css.py | Line 34
+        </div>
+        \<div class="container-info">
+            Updating Book 10's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:38:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 306 | 11:49:29 AM | update_css.py | Line 38
+        </div>
+        \<div class="container-info">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css {SF}/books/book10/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:48:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 306 | 11:49:29 AM | update_css.py | Line 48
+        </div>
+        \<div class="container-debug">
+            Exiting 'update_css' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:48:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 307 | 11:50:22 AM | update_css.py | Line 48
+        </div>
+        \<div class="container-debug">
+            Entering 'update_css' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:34:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 307 | 11:50:22 AM | update_css.py | Line 34
+        </div>
+        \<div class="container-info">
+            Updating Book 1's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:38:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 307 | 11:50:22 AM | update_css.py | Line 38
+        </div>
+        \<div class="container-info">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book01/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:34:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 307 | 11:50:22 AM | update_css.py | Line 34
+        </div>
+        \<div class="container-info">
+            Updating Book 2's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:38:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 307 | 11:50:22 AM | update_css.py | Line 38
+        </div>
+        \<div class="container-info">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book02/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:34:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 307 | 11:50:22 AM | update_css.py | Line 34
+        </div>
+        \<div class="container-info">
+            Updating Book 3's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:38:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 307 | 11:50:22 AM | update_css.py | Line 38
+        </div>
+        \<div class="container-info">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book03/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:34:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 307 | 11:50:22 AM | update_css.py | Line 34
+        </div>
+        \<div class="container-info">
+            Updating Book 4's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:38:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 307 | 11:50:22 AM | update_css.py | Line 38
+        </div>
+        \<div class="container-info">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book04/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:34:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 307 | 11:50:22 AM | update_css.py | Line 34
+        </div>
+        \<div class="container-info">
+            Updating Book 5's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:38:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 307 | 11:50:22 AM | update_css.py | Line 38
+        </div>
+        \<div class="container-info">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book05/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:34:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 307 | 11:50:22 AM | update_css.py | Line 34
+        </div>
+        \<div class="container-info">
+            Updating Book 6's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:38:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 307 | 11:50:22 AM | update_css.py | Line 38
+        </div>
+        \<div class="container-info">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book06/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:34:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 307 | 11:50:22 AM | update_css.py | Line 34
+        </div>
+        \<div class="container-info">
+            Updating Book 7's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:38:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 307 | 11:50:22 AM | update_css.py | Line 38
+        </div>
+        \<div class="container-info">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book07/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:34:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 307 | 11:50:22 AM | update_css.py | Line 34
+        </div>
+        \<div class="container-info">
+            Updating Book 8's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:38:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 307 | 11:50:22 AM | update_css.py | Line 38
+        </div>
+        \<div class="container-info">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book08/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:34:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 307 | 11:50:22 AM | update_css.py | Line 34
+        </div>
+        \<div class="container-info">
+            Updating Book 9's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:38:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 307 | 11:50:22 AM | update_css.py | Line 38
+        </div>
+        \<div class="container-info">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book09/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:34:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 307 | 11:50:22 AM | update_css.py | Line 34
+        </div>
+        \<div class="container-info">
+            Updating Book 10's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:38:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 307 | 11:50:22 AM | update_css.py | Line 38
+        </div>
+        \<div class="container-info">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book10/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:48:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 307 | 11:50:22 AM | update_css.py | Line 48
+        </div>
+        \<div class="container-debug">
+            Exiting 'update_css' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:48:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 308 | 11:51:40 AM | update_css.py | Line 48
+        </div>
+        \<div class="container-debug">
+            Entering 'update_css' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:34:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 308 | 11:51:40 AM | update_css.py | Line 34
+        </div>
+        \<div class="container-debug">
+            Updating Book 1's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:38:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 308 | 11:51:40 AM | update_css.py | Line 38
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book01/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:34:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 308 | 11:51:40 AM | update_css.py | Line 34
+        </div>
+        \<div class="container-debug">
+            Updating Book 2's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:38:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 308 | 11:51:40 AM | update_css.py | Line 38
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book02/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:34:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 308 | 11:51:40 AM | update_css.py | Line 34
+        </div>
+        \<div class="container-debug">
+            Updating Book 3's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:38:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 308 | 11:51:40 AM | update_css.py | Line 38
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book03/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:34:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 308 | 11:51:41 AM | update_css.py | Line 34
+        </div>
+        \<div class="container-debug">
+            Updating Book 4's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:38:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 308 | 11:51:41 AM | update_css.py | Line 38
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book04/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:34:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 308 | 11:51:41 AM | update_css.py | Line 34
+        </div>
+        \<div class="container-debug">
+            Updating Book 5's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:38:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 308 | 11:51:41 AM | update_css.py | Line 38
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book05/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:34:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 308 | 11:51:41 AM | update_css.py | Line 34
+        </div>
+        \<div class="container-debug">
+            Updating Book 6's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:38:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 308 | 11:51:41 AM | update_css.py | Line 38
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book06/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:34:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 308 | 11:51:41 AM | update_css.py | Line 34
+        </div>
+        \<div class="container-debug">
+            Updating Book 7's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:38:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 308 | 11:51:41 AM | update_css.py | Line 38
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book07/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:34:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 308 | 11:51:41 AM | update_css.py | Line 34
+        </div>
+        \<div class="container-debug">
+            Updating Book 8's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:38:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 308 | 11:51:41 AM | update_css.py | Line 38
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book08/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:34:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 308 | 11:51:41 AM | update_css.py | Line 34
+        </div>
+        \<div class="container-debug">
+            Updating Book 9's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:38:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 308 | 11:51:41 AM | update_css.py | Line 38
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book09/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:34:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 308 | 11:51:41 AM | update_css.py | Line 34
+        </div>
+        \<div class="container-debug">
+            Updating Book 10's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:38:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 308 | 11:51:41 AM | update_css.py | Line 38
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book10/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:48:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 308 | 11:51:41 AM | update_css.py | Line 48
+        </div>
+        \<div class="container-debug">
+            Exiting 'update_css' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:54:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 309 | 11:55:27 AM | update_css.py | Line 54
+        </div>
+        \<div class="container-debug">
+            Entering 'update_css' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:35:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 309 | 11:55:27 AM | update_css.py | Line 35
+        </div>
+        \<div class="container-debug">
+            Updating Book 1's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:39:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 309 | 11:55:27 AM | update_css.py | Line 39
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book01/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:35:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 309 | 11:55:27 AM | update_css.py | Line 35
+        </div>
+        \<div class="container-debug">
+            Updating Book 2's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:39:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 309 | 11:55:27 AM | update_css.py | Line 39
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book02/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:35:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 309 | 11:55:27 AM | update_css.py | Line 35
+        </div>
+        \<div class="container-debug">
+            Updating Book 3's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:39:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 309 | 11:55:27 AM | update_css.py | Line 39
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book03/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:35:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 309 | 11:55:27 AM | update_css.py | Line 35
+        </div>
+        \<div class="container-debug">
+            Updating Book 4's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:39:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 309 | 11:55:27 AM | update_css.py | Line 39
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book04/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:35:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 309 | 11:55:27 AM | update_css.py | Line 35
+        </div>
+        \<div class="container-debug">
+            Updating Book 5's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:39:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 309 | 11:55:27 AM | update_css.py | Line 39
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book05/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:35:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 309 | 11:55:27 AM | update_css.py | Line 35
+        </div>
+        \<div class="container-debug">
+            Updating Book 6's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:39:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 309 | 11:55:27 AM | update_css.py | Line 39
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book06/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:35:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 309 | 11:55:27 AM | update_css.py | Line 35
+        </div>
+        \<div class="container-debug">
+            Updating Book 7's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:39:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 309 | 11:55:27 AM | update_css.py | Line 39
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book07/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:35:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 309 | 11:55:27 AM | update_css.py | Line 35
+        </div>
+        \<div class="container-debug">
+            Updating Book 8's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:39:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 309 | 11:55:27 AM | update_css.py | Line 39
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book08/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:35:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 309 | 11:55:27 AM | update_css.py | Line 35
+        </div>
+        \<div class="container-debug">
+            Updating Book 9's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:39:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 309 | 11:55:27 AM | update_css.py | Line 39
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book09/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:35:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 309 | 11:55:27 AM | update_css.py | Line 35
+        </div>
+        \<div class="container-debug">
+            Updating Book 10's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:39:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 309 | 11:55:27 AM | update_css.py | Line 39
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book10/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:54:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 309 | 11:55:27 AM | update_css.py | Line 54
+        </div>
+        \<div class="container-debug">
+            Exiting 'update_css' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:54:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 310 | 11:57:14 AM | update_css.py | Line 54
+        </div>
+        \<div class="container-debug">
+            Entering 'update_css' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:35:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 310 | 11:57:14 AM | update_css.py | Line 35
+        </div>
+        \<div class="container-debug">
+            Updating Book 1's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:39:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 310 | 11:57:14 AM | update_css.py | Line 39
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book01/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:35:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 310 | 11:57:14 AM | update_css.py | Line 35
+        </div>
+        \<div class="container-debug">
+            Updating Book 2's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:39:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 310 | 11:57:14 AM | update_css.py | Line 39
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book02/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:35:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 310 | 11:57:14 AM | update_css.py | Line 35
+        </div>
+        \<div class="container-debug">
+            Updating Book 3's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:39:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 310 | 11:57:14 AM | update_css.py | Line 39
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book03/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:35:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 310 | 11:57:14 AM | update_css.py | Line 35
+        </div>
+        \<div class="container-debug">
+            Updating Book 4's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:39:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 310 | 11:57:14 AM | update_css.py | Line 39
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book04/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:35:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 310 | 11:57:14 AM | update_css.py | Line 35
+        </div>
+        \<div class="container-debug">
+            Updating Book 5's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:39:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 310 | 11:57:14 AM | update_css.py | Line 39
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book05/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:35:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 310 | 11:57:14 AM | update_css.py | Line 35
+        </div>
+        \<div class="container-debug">
+            Updating Book 6's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:39:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 310 | 11:57:14 AM | update_css.py | Line 39
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book06/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:35:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 310 | 11:57:14 AM | update_css.py | Line 35
+        </div>
+        \<div class="container-debug">
+            Updating Book 7's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:39:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 310 | 11:57:14 AM | update_css.py | Line 39
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book07/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:35:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 310 | 11:57:14 AM | update_css.py | Line 35
+        </div>
+        \<div class="container-debug">
+            Updating Book 8's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:39:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 310 | 11:57:14 AM | update_css.py | Line 39
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book08/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:35:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 310 | 11:57:14 AM | update_css.py | Line 35
+        </div>
+        \<div class="container-debug">
+            Updating Book 9's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:39:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 310 | 11:57:14 AM | update_css.py | Line 39
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book09/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:35:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 310 | 11:57:14 AM | update_css.py | Line 35
+        </div>
+        \<div class="container-debug">
+            Updating Book 10's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:39:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 310 | 11:57:14 AM | update_css.py | Line 39
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book10/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:54:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 310 | 11:57:15 AM | update_css.py | Line 54
+        </div>
+        \<div class="container-debug">
+            Exiting 'update_css' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:54:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 311 | 11:57:37 AM | update_css.py | Line 54
+        </div>
+        \<div class="container-debug">
+            Entering 'update_css' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:35:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 311 | 11:57:37 AM | update_css.py | Line 35
+        </div>
+        \<div class="container-debug">
+            Updating Book 1's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:39:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 311 | 11:57:37 AM | update_css.py | Line 39
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book01/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:35:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 311 | 11:57:37 AM | update_css.py | Line 35
+        </div>
+        \<div class="container-debug">
+            Updating Book 2's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:39:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 311 | 11:57:37 AM | update_css.py | Line 39
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book02/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:35:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 311 | 11:57:37 AM | update_css.py | Line 35
+        </div>
+        \<div class="container-debug">
+            Updating Book 3's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:39:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 311 | 11:57:37 AM | update_css.py | Line 39
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book03/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:35:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 311 | 11:57:37 AM | update_css.py | Line 35
+        </div>
+        \<div class="container-debug">
+            Updating Book 4's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:39:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 311 | 11:57:37 AM | update_css.py | Line 39
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book04/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:35:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 311 | 11:57:37 AM | update_css.py | Line 35
+        </div>
+        \<div class="container-debug">
+            Updating Book 5's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:39:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 311 | 11:57:37 AM | update_css.py | Line 39
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book05/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:35:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 311 | 11:57:37 AM | update_css.py | Line 35
+        </div>
+        \<div class="container-debug">
+            Updating Book 6's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:39:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 311 | 11:57:37 AM | update_css.py | Line 39
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book06/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:35:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 311 | 11:57:37 AM | update_css.py | Line 35
+        </div>
+        \<div class="container-debug">
+            Updating Book 7's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:39:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 311 | 11:57:37 AM | update_css.py | Line 39
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book07/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:35:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 311 | 11:57:37 AM | update_css.py | Line 35
+        </div>
+        \<div class="container-debug">
+            Updating Book 8's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:39:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 311 | 11:57:37 AM | update_css.py | Line 39
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book08/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:35:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 311 | 11:57:37 AM | update_css.py | Line 35
+        </div>
+        \<div class="container-debug">
+            Updating Book 9's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:39:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 311 | 11:57:37 AM | update_css.py | Line 39
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book09/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:35:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 311 | 11:57:37 AM | update_css.py | Line 35
+        </div>
+        \<div class="container-debug">
+            Updating Book 10's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:39:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 311 | 11:57:37 AM | update_css.py | Line 39
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book10/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:54:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 311 | 11:57:38 AM | update_css.py | Line 54
+        </div>
+        \<div class="container-debug">
+            Exiting 'update_css' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:55:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 312 | 12:02:53 PM | update_css.py | Line 55
+        </div>
+        \<div class="container-debug">
+            Entering 'update_css' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:36:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 312 | 12:02:53 PM | update_css.py | Line 36
+        </div>
+        \<div class="container-debug">
+            Updating Book 1's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:40:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 312 | 12:02:53 PM | update_css.py | Line 40
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book01/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:36:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 312 | 12:02:53 PM | update_css.py | Line 36
+        </div>
+        \<div class="container-debug">
+            Updating Book 2's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:40:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 312 | 12:02:53 PM | update_css.py | Line 40
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book02/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:36:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 312 | 12:02:53 PM | update_css.py | Line 36
+        </div>
+        \<div class="container-debug">
+            Updating Book 3's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:40:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 312 | 12:02:53 PM | update_css.py | Line 40
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book03/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:36:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 312 | 12:02:53 PM | update_css.py | Line 36
+        </div>
+        \<div class="container-debug">
+            Updating Book 4's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:40:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 312 | 12:02:53 PM | update_css.py | Line 40
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book04/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:36:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 312 | 12:02:53 PM | update_css.py | Line 36
+        </div>
+        \<div class="container-debug">
+            Updating Book 5's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:40:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 312 | 12:02:53 PM | update_css.py | Line 40
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book05/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:36:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 312 | 12:02:53 PM | update_css.py | Line 36
+        </div>
+        \<div class="container-debug">
+            Updating Book 6's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:40:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 312 | 12:02:53 PM | update_css.py | Line 40
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book06/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:36:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 312 | 12:02:53 PM | update_css.py | Line 36
+        </div>
+        \<div class="container-debug">
+            Updating Book 7's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:40:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 312 | 12:02:53 PM | update_css.py | Line 40
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book07/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:36:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 312 | 12:02:53 PM | update_css.py | Line 36
+        </div>
+        \<div class="container-debug">
+            Updating Book 8's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:40:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 312 | 12:02:53 PM | update_css.py | Line 40
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book08/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:36:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 312 | 12:02:53 PM | update_css.py | Line 36
+        </div>
+        \<div class="container-debug">
+            Updating Book 9's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:40:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 312 | 12:02:53 PM | update_css.py | Line 40
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book09/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:36:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 312 | 12:02:53 PM | update_css.py | Line 36
+        </div>
+        \<div class="container-debug">
+            Updating Book 10's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:40:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 312 | 12:02:53 PM | update_css.py | Line 40
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book10/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:55:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 312 | 12:02:56 PM | update_css.py | Line 55
+        </div>
+        \<div class="container-debug">
+            Exiting 'update_css' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:55:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 313 | 12:03:11 PM | update_css.py | Line 55
+        </div>
+        \<div class="container-debug">
+            Entering 'update_css' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:36:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 313 | 12:03:11 PM | update_css.py | Line 36
+        </div>
+        \<div class="container-debug">
+            Updating Book 1's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:40:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 313 | 12:03:11 PM | update_css.py | Line 40
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book01/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:36:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 313 | 12:03:11 PM | update_css.py | Line 36
+        </div>
+        \<div class="container-debug">
+            Updating Book 2's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:40:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 313 | 12:03:11 PM | update_css.py | Line 40
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book02/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:36:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 313 | 12:03:11 PM | update_css.py | Line 36
+        </div>
+        \<div class="container-debug">
+            Updating Book 3's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:40:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 313 | 12:03:11 PM | update_css.py | Line 40
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book03/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:36:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 313 | 12:03:11 PM | update_css.py | Line 36
+        </div>
+        \<div class="container-debug">
+            Updating Book 4's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:40:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 313 | 12:03:11 PM | update_css.py | Line 40
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book04/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:36:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 313 | 12:03:11 PM | update_css.py | Line 36
+        </div>
+        \<div class="container-debug">
+            Updating Book 5's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:40:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 313 | 12:03:11 PM | update_css.py | Line 40
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book05/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:36:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 313 | 12:03:11 PM | update_css.py | Line 36
+        </div>
+        \<div class="container-debug">
+            Updating Book 6's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:40:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 313 | 12:03:11 PM | update_css.py | Line 40
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book06/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:36:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 313 | 12:03:11 PM | update_css.py | Line 36
+        </div>
+        \<div class="container-debug">
+            Updating Book 7's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:40:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 313 | 12:03:11 PM | update_css.py | Line 40
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book07/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:36:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 313 | 12:03:11 PM | update_css.py | Line 36
+        </div>
+        \<div class="container-debug">
+            Updating Book 8's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:40:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 313 | 12:03:11 PM | update_css.py | Line 40
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book08/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:36:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 313 | 12:03:11 PM | update_css.py | Line 36
+        </div>
+        \<div class="container-debug">
+            Updating Book 9's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:40:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 313 | 12:03:11 PM | update_css.py | Line 40
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book09/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:36:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 313 | 12:03:11 PM | update_css.py | Line 36
+        </div>
+        \<div class="container-debug">
+            Updating Book 10's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:40:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 313 | 12:03:11 PM | update_css.py | Line 40
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book10/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:55:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 313 | 12:03:13 PM | update_css.py | Line 55
+        </div>
+        \<div class="container-debug">
+            Exiting 'update_css' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:55:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 314 | 12:03:34 PM | update_css.py | Line 55
+        </div>
+        \<div class="container-debug">
+            Entering 'update_css' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:36:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 314 | 12:03:34 PM | update_css.py | Line 36
+        </div>
+        \<div class="container-debug">
+            Updating Book 1's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:40:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 314 | 12:03:34 PM | update_css.py | Line 40
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book01/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:36:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 314 | 12:03:34 PM | update_css.py | Line 36
+        </div>
+        \<div class="container-debug">
+            Updating Book 2's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:40:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 314 | 12:03:34 PM | update_css.py | Line 40
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book02/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:36:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 314 | 12:03:34 PM | update_css.py | Line 36
+        </div>
+        \<div class="container-debug">
+            Updating Book 3's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:40:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 314 | 12:03:34 PM | update_css.py | Line 40
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book03/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:36:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 314 | 12:03:34 PM | update_css.py | Line 36
+        </div>
+        \<div class="container-debug">
+            Updating Book 4's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:40:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 314 | 12:03:34 PM | update_css.py | Line 40
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book04/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:36:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 314 | 12:03:34 PM | update_css.py | Line 36
+        </div>
+        \<div class="container-debug">
+            Updating Book 5's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:40:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 314 | 12:03:34 PM | update_css.py | Line 40
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book05/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:36:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 314 | 12:03:34 PM | update_css.py | Line 36
+        </div>
+        \<div class="container-debug">
+            Updating Book 6's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:40:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 314 | 12:03:34 PM | update_css.py | Line 40
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book06/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:36:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 314 | 12:03:34 PM | update_css.py | Line 36
+        </div>
+        \<div class="container-debug">
+            Updating Book 7's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:40:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 314 | 12:03:34 PM | update_css.py | Line 40
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book07/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:36:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 314 | 12:03:34 PM | update_css.py | Line 36
+        </div>
+        \<div class="container-debug">
+            Updating Book 8's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:40:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 314 | 12:03:34 PM | update_css.py | Line 40
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book08/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:36:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 314 | 12:03:34 PM | update_css.py | Line 36
+        </div>
+        \<div class="container-debug">
+            Updating Book 9's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:40:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 314 | 12:03:34 PM | update_css.py | Line 40
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book09/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:36:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 314 | 12:03:34 PM | update_css.py | Line 36
+        </div>
+        \<div class="container-debug">
+            Updating Book 10's Stylesheet
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:40:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 314 | 12:03:34 PM | update_css.py | Line 40
+        </div>
+        \<div class="container-debug">
+            CMD: cp /Users/maxludden/dev/py/superforge/Styles/style.css /Users/maxludden/dev/py/superforge/books/book10/Styles/style.css
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/update_css.py:55:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 314 | 12:03:36 PM | update_css.py | Line 55
+        </div>
+        \<div class="container-debug">
+            Exiting 'update_css' (result=
+None
+        </div>
+    </div>
+</a>

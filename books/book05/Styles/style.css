@@ -367,3 +367,20 @@ tr:nth-child(odd) {
 p.title {
     text-align: center;
 }
+
+/* Styles for cover.xhtml */
+body.cover {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+p.cover {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+img.cover {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
