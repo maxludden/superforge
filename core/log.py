@@ -392,7 +392,6 @@ def fix_tags():
     fixed_md = md.replace('\<','<')
     with open (LOG, 'w') as outfile:
         outfile.write(fixed_md)
-    log.debug("Fixed Tags")
 
 def test_logger():
     logger.debug("Test the logger DEBUG log.")

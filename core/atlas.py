@@ -14,7 +14,7 @@ from core.log import errwrap, log
 load_dotenv()
 
 
-@errwrap()
+@errwrap(entry=False, exit=False)
 def generate_root():
     if platform() == "Linux":
         ROOT = "home"
