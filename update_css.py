@@ -9,12 +9,12 @@ from tqdm.auto import tqdm
 
 from core.atlas import ROOT
 from core.log import errwrap, log
-from yay import yay
+from yay import superyay, yay
 
 
 @errwrap()
 def update_css():
-    SF = f'/{ROOT}/maxludden/dev/py/superforge'
+    SF = f"/{ROOT}/maxludden/dev/py/superforge"
     CSS_MAIN = f"{SF}/Styles/style.css"
     
     stylesheets = {
@@ -49,7 +49,7 @@ def update_css():
                 celebrate = True
 
     if celebrate == True:
-        yay()
+        superyay()
 
 
 update_css()
