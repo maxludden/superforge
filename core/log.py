@@ -7,7 +7,6 @@ from subprocess import run
 from typing import Optional
 
 from loguru import logger as log
-from markupsafe import Markup, escape
 from tqdm.auto import tqdm
 
 #.############################################################

@@ -1,3 +1,4126 @@
 # Superforge Log
 
 
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:26:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 291 | 8:18:59 PM | atlas.py | Line 26
+        </div>
+        <div class="container-debug">
+            Entering 'generate_root' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:26:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 291 | 8:18:59 PM | atlas.py | Line 26
+        </div>
+        <div class="container-debug">
+            Exiting 'generate_root' (result=
+Users
+        </div>
+    </div>
+</a>
+
+<br><br>
+
+
+## Run 291
+<br>
+<img src="/Users/maxludden/dev/py/superforge/books/book01/Images/gem.gif" alt="gem" id="gem" width="120" height="60" />
+
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:395:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 291 | 8:18:59 PM | log.py | Line 395
+        </div>
+        <div class="container-debug">
+            Fixed Tags
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:26:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 292 | 8:19:12 PM | atlas.py | Line 26
+        </div>
+        <div class="container-debug">
+            Entering 'generate_root' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:26:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 292 | 8:19:12 PM | atlas.py | Line 26
+        </div>
+        <div class="container-debug">
+            Exiting 'generate_root' (result=
+Users
+        </div>
+    </div>
+</a>
+
+<br><br>
+
+
+## Run 292
+<br>
+<img src="/Users/maxludden/dev/py/superforge/books/book01/Images/gem.gif" alt="gem" id="gem" width="120" height="60" />
+
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:395:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 292 | 8:19:12 PM | log.py | Line 395
+        </div>
+        <div class="container-debug">
+            Fixed Tags
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:395:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 292 | 8:19:12 PM | log.py | Line 395
+        </div>
+        <div class="container-debug">
+            Fixed Tags
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:26:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 293 | 8:19:45 PM | atlas.py | Line 26
+        </div>
+        <div class="container-debug">
+            Entering 'generate_root' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:26:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 293 | 8:19:45 PM | atlas.py | Line 26
+        </div>
+        <div class="container-debug">
+            Exiting 'generate_root' (result=
+Users
+        </div>
+    </div>
+</a>
+
+<br><br>
+
+
+## Run 293
+<br>
+<img src="/Users/maxludden/dev/py/superforge/books/book01/Images/gem.gif" alt="gem" id="gem" width="120" height="60" />
+
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:395:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 293 | 8:19:45 PM | log.py | Line 395
+        </div>
+        <div class="container-debug">
+            Fixed Tags
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:395:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 293 | 8:19:45 PM | log.py | Line 395
+        </div>
+        <div class="container-debug">
+            Fixed Tags
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:26:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 294 | 8:21:22 PM | atlas.py | Line 26
+        </div>
+        <div class="container-debug">
+            Entering 'generate_root' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:26:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 294 | 8:21:22 PM | atlas.py | Line 26
+        </div>
+        <div class="container-debug">
+            Exiting 'generate_root' (result=
+Users
+        </div>
+    </div>
+</a>
+
+<br><br>
+
+
+## Run 294
+<br>
+<img src="/Users/maxludden/dev/py/superforge/books/book01/Images/gem.gif" alt="gem" id="gem" width="120" height="60" />
+
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:395:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 294 | 8:21:22 PM | log.py | Line 395
+        </div>
+        <div class="container-debug">
+            Fixed Tags
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:395:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 294 | 8:21:22 PM | log.py | Line 395
+        </div>
+        <div class="container-debug">
+            Fixed Tags
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:26:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:46 PM | atlas.py | Line 26
+        </div>
+        <div class="container-debug">
+            Entering 'generate_root' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:26:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:46 PM | atlas.py | Line 26
+        </div>
+        <div class="container-debug">
+            Exiting 'generate_root' (result=
+Users
+        </div>
+    </div>
+</a>
+
+<br><br>
+
+
+## Run 295
+<br>
+<img src="/Users/maxludden/dev/py/superforge/books/book01/Images/gem.gif" alt="gem" id="gem" width="120" height="60" />
+
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:395:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:46 PM | log.py | Line 395
+        </div>
+        <div class="container-debug">
+            Fixed Tags
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/main.py:50:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:46 PM | main.py | Line 50
+        </div>
+        <div class="container-debug">
+            Entering 'create_all_epubmeta' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:93:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:46 PM | epubmeta.py | Line 93
+        </div>
+        <div class="container-debug">
+            Entering 'create_epubmeta' (args= '(1,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:52:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:46 PM | atlas.py | Line 52
+        </div>
+        <div class="container-debug">
+            URI: mongodb+srv://USERNAME:PASSWORD@cluster0.7yzr5.mongodb.net/DATABASE?authSource=admin&replicaSet=atlas-iitqjb-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:54:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:46 PM | atlas.py | Line 54
+        </div>
+        <div class="container-debug">
+            user: maxludden
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:56:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:46 PM | atlas.py | Line 56
+        </div>
+        <div class="container-debug">
+            pswd: maxis2Awesome
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:81:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:46 PM | atlas.py | Line 81
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:36:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:47 PM | epubmeta.py | Line 36
+        </div>
+        <div class="container-debug">
+            Entering 'max_title' (args= '("First God's Sanctuary",)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:36:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:47 PM | epubmeta.py | Line 36
+        </div>
+        <div class="container-debug">
+            Exiting 'max_title' (result=
+First God's Sanctuary
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:77:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:47 PM | epubmeta.py | Line 77
+        </div>
+        <div class="container-debug">
+            Saved Book 1's Epub Metadata in MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:82:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:47 PM | epubmeta.py | Line 82
+        </div>
+        <div class="container-debug">
+            Wrote Book 1's Epub Metadata to Disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:84:1">
+    <div class="card-info">
+        <div class="header-info">
+            Run 295 | 8:33:47 PM | epubmeta.py | Line 84
+        </div>
+        <div class="container-info">
+            Created Book 1's Epub Metadata. Save it to MongoDB and wrote it to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:93:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:47 PM | epubmeta.py | Line 93
+        </div>
+        <div class="container-debug">
+            Exiting 'create_epubmeta' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:93:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:47 PM | epubmeta.py | Line 93
+        </div>
+        <div class="container-debug">
+            Entering 'create_epubmeta' (args= '(2,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:52:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:47 PM | atlas.py | Line 52
+        </div>
+        <div class="container-debug">
+            URI: mongodb+srv://USERNAME:PASSWORD@cluster0.7yzr5.mongodb.net/DATABASE?authSource=admin&replicaSet=atlas-iitqjb-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:54:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:47 PM | atlas.py | Line 54
+        </div>
+        <div class="container-debug">
+            user: maxludden
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:56:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:47 PM | atlas.py | Line 56
+        </div>
+        <div class="container-debug">
+            pswd: maxis2Awesome
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:81:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:47 PM | atlas.py | Line 81
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:36:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:47 PM | epubmeta.py | Line 36
+        </div>
+        <div class="container-debug">
+            Entering 'max_title' (args= '("Second God's Sanctuary",)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:36:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:47 PM | epubmeta.py | Line 36
+        </div>
+        <div class="container-debug">
+            Exiting 'max_title' (result=
+Second God's Sanctuary
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:77:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:47 PM | epubmeta.py | Line 77
+        </div>
+        <div class="container-debug">
+            Saved Book 2's Epub Metadata in MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:82:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:47 PM | epubmeta.py | Line 82
+        </div>
+        <div class="container-debug">
+            Wrote Book 2's Epub Metadata to Disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:84:1">
+    <div class="card-info">
+        <div class="header-info">
+            Run 295 | 8:33:47 PM | epubmeta.py | Line 84
+        </div>
+        <div class="container-info">
+            Created Book 2's Epub Metadata. Save it to MongoDB and wrote it to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:93:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:47 PM | epubmeta.py | Line 93
+        </div>
+        <div class="container-debug">
+            Exiting 'create_epubmeta' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:93:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:47 PM | epubmeta.py | Line 93
+        </div>
+        <div class="container-debug">
+            Entering 'create_epubmeta' (args= '(3,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:52:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:47 PM | atlas.py | Line 52
+        </div>
+        <div class="container-debug">
+            URI: mongodb+srv://USERNAME:PASSWORD@cluster0.7yzr5.mongodb.net/DATABASE?authSource=admin&replicaSet=atlas-iitqjb-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:54:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:47 PM | atlas.py | Line 54
+        </div>
+        <div class="container-debug">
+            user: maxludden
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:56:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:47 PM | atlas.py | Line 56
+        </div>
+        <div class="container-debug">
+            pswd: maxis2Awesome
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:81:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:47 PM | atlas.py | Line 81
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:36:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:47 PM | epubmeta.py | Line 36
+        </div>
+        <div class="container-debug">
+            Entering 'max_title' (args= '("Third God's Sanctuary",)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:36:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:47 PM | epubmeta.py | Line 36
+        </div>
+        <div class="container-debug">
+            Exiting 'max_title' (result=
+Third God's Sanctuary
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:77:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:47 PM | epubmeta.py | Line 77
+        </div>
+        <div class="container-debug">
+            Saved Book 3's Epub Metadata in MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:82:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:47 PM | epubmeta.py | Line 82
+        </div>
+        <div class="container-debug">
+            Wrote Book 3's Epub Metadata to Disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:84:1">
+    <div class="card-info">
+        <div class="header-info">
+            Run 295 | 8:33:47 PM | epubmeta.py | Line 84
+        </div>
+        <div class="container-info">
+            Created Book 3's Epub Metadata. Save it to MongoDB and wrote it to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:93:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:47 PM | epubmeta.py | Line 93
+        </div>
+        <div class="container-debug">
+            Exiting 'create_epubmeta' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:93:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:47 PM | epubmeta.py | Line 93
+        </div>
+        <div class="container-debug">
+            Entering 'create_epubmeta' (args= '(4,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:52:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:47 PM | atlas.py | Line 52
+        </div>
+        <div class="container-debug">
+            URI: mongodb+srv://USERNAME:PASSWORD@cluster0.7yzr5.mongodb.net/DATABASE?authSource=admin&replicaSet=atlas-iitqjb-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:54:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:47 PM | atlas.py | Line 54
+        </div>
+        <div class="container-debug">
+            user: maxludden
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:56:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:47 PM | atlas.py | Line 56
+        </div>
+        <div class="container-debug">
+            pswd: maxis2Awesome
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:81:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:47 PM | atlas.py | Line 81
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:36:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:47 PM | epubmeta.py | Line 36
+        </div>
+        <div class="container-debug">
+            Entering 'max_title' (args= '("Fourth and Fifth God's Sanctuary",)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:36:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:47 PM | epubmeta.py | Line 36
+        </div>
+        <div class="container-debug">
+            Exiting 'max_title' (result=
+Fourth and Fifth God's Sanctuary
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:77:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:47 PM | epubmeta.py | Line 77
+        </div>
+        <div class="container-debug">
+            Saved Book 4's Epub Metadata in MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:82:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:47 PM | epubmeta.py | Line 82
+        </div>
+        <div class="container-debug">
+            Wrote Book 4's Epub Metadata to Disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:84:1">
+    <div class="card-info">
+        <div class="header-info">
+            Run 295 | 8:33:47 PM | epubmeta.py | Line 84
+        </div>
+        <div class="container-info">
+            Created Book 4's Epub Metadata. Save it to MongoDB and wrote it to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:93:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:47 PM | epubmeta.py | Line 93
+        </div>
+        <div class="container-debug">
+            Exiting 'create_epubmeta' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:93:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:47 PM | epubmeta.py | Line 93
+        </div>
+        <div class="container-debug">
+            Entering 'create_epubmeta' (args= '(5,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:52:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:47 PM | atlas.py | Line 52
+        </div>
+        <div class="container-debug">
+            URI: mongodb+srv://USERNAME:PASSWORD@cluster0.7yzr5.mongodb.net/DATABASE?authSource=admin&replicaSet=atlas-iitqjb-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:54:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:47 PM | atlas.py | Line 54
+        </div>
+        <div class="container-debug">
+            user: maxludden
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:56:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:47 PM | atlas.py | Line 56
+        </div>
+        <div class="container-debug">
+            pswd: maxis2Awesome
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:81:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:47 PM | atlas.py | Line 81
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:36:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:47 PM | epubmeta.py | Line 36
+        </div>
+        <div class="container-debug">
+            Entering 'max_title' (args= '('Planet Kate and Narrow Moon',)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:36:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:47 PM | epubmeta.py | Line 36
+        </div>
+        <div class="container-debug">
+            Exiting 'max_title' (result=
+Planet Kate and Narrow Moon
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:77:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | epubmeta.py | Line 77
+        </div>
+        <div class="container-debug">
+            Saved Book 5's Epub Metadata in MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:82:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | epubmeta.py | Line 82
+        </div>
+        <div class="container-debug">
+            Wrote Book 5's Epub Metadata to Disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:84:1">
+    <div class="card-info">
+        <div class="header-info">
+            Run 295 | 8:33:48 PM | epubmeta.py | Line 84
+        </div>
+        <div class="container-info">
+            Created Book 5's Epub Metadata. Save it to MongoDB and wrote it to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:93:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | epubmeta.py | Line 93
+        </div>
+        <div class="container-debug">
+            Exiting 'create_epubmeta' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:93:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | epubmeta.py | Line 93
+        </div>
+        <div class="container-debug">
+            Entering 'create_epubmeta' (args= '(6,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:52:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | atlas.py | Line 52
+        </div>
+        <div class="container-debug">
+            URI: mongodb+srv://USERNAME:PASSWORD@cluster0.7yzr5.mongodb.net/DATABASE?authSource=admin&replicaSet=atlas-iitqjb-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:54:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | atlas.py | Line 54
+        </div>
+        <div class="container-debug">
+            user: maxludden
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:56:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | atlas.py | Line 56
+        </div>
+        <div class="container-debug">
+            pswd: maxis2Awesome
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:81:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | atlas.py | Line 81
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:36:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | epubmeta.py | Line 36
+        </div>
+        <div class="container-debug">
+            Entering 'max_title' (args= '('Sky Palace, Blade, and Eclipse',)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:36:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | epubmeta.py | Line 36
+        </div>
+        <div class="container-debug">
+            Exiting 'max_title' (result=
+Sky Palace, Blade, and Eclipse
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:77:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | epubmeta.py | Line 77
+        </div>
+        <div class="container-debug">
+            Saved Book 6's Epub Metadata in MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:82:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | epubmeta.py | Line 82
+        </div>
+        <div class="container-debug">
+            Wrote Book 6's Epub Metadata to Disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:84:1">
+    <div class="card-info">
+        <div class="header-info">
+            Run 295 | 8:33:48 PM | epubmeta.py | Line 84
+        </div>
+        <div class="container-info">
+            Created Book 6's Epub Metadata. Save it to MongoDB and wrote it to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:93:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | epubmeta.py | Line 93
+        </div>
+        <div class="container-debug">
+            Exiting 'create_epubmeta' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:93:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | epubmeta.py | Line 93
+        </div>
+        <div class="container-debug">
+            Entering 'create_epubmeta' (args= '(7,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:52:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | atlas.py | Line 52
+        </div>
+        <div class="container-debug">
+            URI: mongodb+srv://USERNAME:PASSWORD@cluster0.7yzr5.mongodb.net/DATABASE?authSource=admin&replicaSet=atlas-iitqjb-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:54:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | atlas.py | Line 54
+        </div>
+        <div class="container-debug">
+            user: maxludden
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:56:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | atlas.py | Line 56
+        </div>
+        <div class="container-debug">
+            pswd: maxis2Awesome
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:81:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | atlas.py | Line 81
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:36:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | epubmeta.py | Line 36
+        </div>
+        <div class="container-debug">
+            Entering 'max_title' (args= '('The Ice Blue Knights and The Extreme Kings',)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:36:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | epubmeta.py | Line 36
+        </div>
+        <div class="container-debug">
+            Exiting 'max_title' (result=
+The Ice Blue Knights and the Extreme Kings
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:77:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | epubmeta.py | Line 77
+        </div>
+        <div class="container-debug">
+            Saved Book 7's Epub Metadata in MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:82:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | epubmeta.py | Line 82
+        </div>
+        <div class="container-debug">
+            Wrote Book 7's Epub Metadata to Disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:84:1">
+    <div class="card-info">
+        <div class="header-info">
+            Run 295 | 8:33:48 PM | epubmeta.py | Line 84
+        </div>
+        <div class="container-info">
+            Created Book 7's Epub Metadata. Save it to MongoDB and wrote it to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:93:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | epubmeta.py | Line 93
+        </div>
+        <div class="container-debug">
+            Exiting 'create_epubmeta' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:93:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | epubmeta.py | Line 93
+        </div>
+        <div class="container-debug">
+            Entering 'create_epubmeta' (args= '(8,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:52:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | atlas.py | Line 52
+        </div>
+        <div class="container-debug">
+            URI: mongodb+srv://USERNAME:PASSWORD@cluster0.7yzr5.mongodb.net/DATABASE?authSource=admin&replicaSet=atlas-iitqjb-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:54:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | atlas.py | Line 54
+        </div>
+        <div class="container-debug">
+            user: maxludden
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:56:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | atlas.py | Line 56
+        </div>
+        <div class="container-debug">
+            pswd: maxis2Awesome
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:81:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | atlas.py | Line 81
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:36:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | epubmeta.py | Line 36
+        </div>
+        <div class="container-debug">
+            Entering 'max_title' (args= '('The Systems of Chaos and The Very High',)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:36:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | epubmeta.py | Line 36
+        </div>
+        <div class="container-debug">
+            Exiting 'max_title' (result=
+The Systems of Chaos and the Very High
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:77:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | epubmeta.py | Line 77
+        </div>
+        <div class="container-debug">
+            Saved Book 8's Epub Metadata in MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:82:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | epubmeta.py | Line 82
+        </div>
+        <div class="container-debug">
+            Wrote Book 8's Epub Metadata to Disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:84:1">
+    <div class="card-info">
+        <div class="header-info">
+            Run 295 | 8:33:48 PM | epubmeta.py | Line 84
+        </div>
+        <div class="container-info">
+            Created Book 8's Epub Metadata. Save it to MongoDB and wrote it to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:93:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | epubmeta.py | Line 93
+        </div>
+        <div class="container-debug">
+            Exiting 'create_epubmeta' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:93:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | epubmeta.py | Line 93
+        </div>
+        <div class="container-debug">
+            Entering 'create_epubmeta' (args= '(9,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:52:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | atlas.py | Line 52
+        </div>
+        <div class="container-debug">
+            URI: mongodb+srv://USERNAME:PASSWORD@cluster0.7yzr5.mongodb.net/DATABASE?authSource=admin&replicaSet=atlas-iitqjb-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:54:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | atlas.py | Line 54
+        </div>
+        <div class="container-debug">
+            user: maxludden
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:56:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | atlas.py | Line 56
+        </div>
+        <div class="container-debug">
+            pswd: maxis2Awesome
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:81:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | atlas.py | Line 81
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:36:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | epubmeta.py | Line 36
+        </div>
+        <div class="container-debug">
+            Entering 'max_title' (args= '('Meeting God and Fighting Sacred',)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:36:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | epubmeta.py | Line 36
+        </div>
+        <div class="container-debug">
+            Exiting 'max_title' (result=
+Meeting God and Fighting Sacred
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:77:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | epubmeta.py | Line 77
+        </div>
+        <div class="container-debug">
+            Saved Book 9's Epub Metadata in MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:82:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | epubmeta.py | Line 82
+        </div>
+        <div class="container-debug">
+            Wrote Book 9's Epub Metadata to Disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:84:1">
+    <div class="card-info">
+        <div class="header-info">
+            Run 295 | 8:33:48 PM | epubmeta.py | Line 84
+        </div>
+        <div class="container-info">
+            Created Book 9's Epub Metadata. Save it to MongoDB and wrote it to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:93:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | epubmeta.py | Line 93
+        </div>
+        <div class="container-debug">
+            Exiting 'create_epubmeta' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:93:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | epubmeta.py | Line 93
+        </div>
+        <div class="container-debug">
+            Entering 'create_epubmeta' (args= '(10,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:52:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | atlas.py | Line 52
+        </div>
+        <div class="container-debug">
+            URI: mongodb+srv://USERNAME:PASSWORD@cluster0.7yzr5.mongodb.net/DATABASE?authSource=admin&replicaSet=atlas-iitqjb-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:54:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | atlas.py | Line 54
+        </div>
+        <div class="container-debug">
+            user: maxludden
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:56:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | atlas.py | Line 56
+        </div>
+        <div class="container-debug">
+            pswd: maxis2Awesome
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:81:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | atlas.py | Line 81
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:36:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | epubmeta.py | Line 36
+        </div>
+        <div class="container-debug">
+            Entering 'max_title' (args= '('The Universe of Kingdoms and Quin Kiu',)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:36:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | epubmeta.py | Line 36
+        </div>
+        <div class="container-debug">
+            Exiting 'max_title' (result=
+The Universe of Kingdoms and Quin Kiu
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:77:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | epubmeta.py | Line 77
+        </div>
+        <div class="container-debug">
+            Saved Book 10's Epub Metadata in MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:82:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | epubmeta.py | Line 82
+        </div>
+        <div class="container-debug">
+            Wrote Book 10's Epub Metadata to Disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:84:1">
+    <div class="card-info">
+        <div class="header-info">
+            Run 295 | 8:33:48 PM | epubmeta.py | Line 84
+        </div>
+        <div class="container-info">
+            Created Book 10's Epub Metadata. Save it to MongoDB and wrote it to disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:93:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | epubmeta.py | Line 93
+        </div>
+        <div class="container-debug">
+            Exiting 'create_epubmeta' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/main.py:50:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | main.py | Line 50
+        </div>
+        <div class="container-debug">
+            Exiting 'create_all_epubmeta' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:395:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 295 | 8:33:48 PM | log.py | Line 395
+        </div>
+        <div class="container-debug">
+            Fixed Tags
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:26:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 296 | 8:35:55 PM | atlas.py | Line 26
+        </div>
+        <div class="container-debug">
+            Entering 'generate_root' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:26:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 296 | 8:35:55 PM | atlas.py | Line 26
+        </div>
+        <div class="container-debug">
+            Exiting 'generate_root' (result=
+Users
+        </div>
+    </div>
+</a>
+
+<br><br>
+
+
+## Run 296
+<br>
+<img src="/Users/maxludden/dev/py/superforge/books/book01/Images/gem.gif" alt="gem" id="gem" width="120" height="60" />
+
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:395:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 296 | 8:35:55 PM | log.py | Line 395
+        </div>
+        <div class="container-debug">
+            Fixed Tags
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/main.py:50:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 296 | 8:35:55 PM | main.py | Line 50
+        </div>
+        <div class="container-debug">
+            Entering 'create_all_epubmeta' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:94:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 296 | 8:35:55 PM | epubmeta.py | Line 94
+        </div>
+        <div class="container-debug">
+            Entering 'create_epubmeta' (args= '(1,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:52:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 296 | 8:35:55 PM | atlas.py | Line 52
+        </div>
+        <div class="container-debug">
+            URI: mongodb+srv://USERNAME:PASSWORD@cluster0.7yzr5.mongodb.net/DATABASE?authSource=admin&replicaSet=atlas-iitqjb-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:54:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 296 | 8:35:55 PM | atlas.py | Line 54
+        </div>
+        <div class="container-debug">
+            user: maxludden
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:56:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 296 | 8:35:55 PM | atlas.py | Line 56
+        </div>
+        <div class="container-debug">
+            pswd: maxis2Awesome
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:81:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 296 | 8:35:55 PM | atlas.py | Line 81
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:37:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 296 | 8:35:56 PM | epubmeta.py | Line 37
+        </div>
+        <div class="container-debug">
+            Entering 'max_title' (args= '("First God's Sanctuary",)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:37:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 296 | 8:35:56 PM | epubmeta.py | Line 37
+        </div>
+        <div class="container-debug">
+            Exiting 'max_title' (result=
+First God's Sanctuary
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:26:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:48 PM | atlas.py | Line 26
+        </div>
+        <div class="container-debug">
+            Entering 'generate_root' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:26:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:48 PM | atlas.py | Line 26
+        </div>
+        <div class="container-debug">
+            Exiting 'generate_root' (result=
+Users
+        </div>
+    </div>
+</a>
+
+<br><br>
+
+
+## Run 297
+<br>
+<img src="/Users/maxludden/dev/py/superforge/books/book01/Images/gem.gif" alt="gem" id="gem" width="120" height="60" />
+
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:395:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:48 PM | log.py | Line 395
+        </div>
+        <div class="container-debug">
+            Fixed Tags
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/main.py:51:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:48 PM | main.py | Line 51
+        </div>
+        <div class="container-debug">
+            Entering 'update_all_epubmeta' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:142:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:48 PM | epubmeta.py | Line 142
+        </div>
+        <div class="container-debug">
+            Entering 'update_epubmeta' (args= '(1,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:52:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:48 PM | atlas.py | Line 52
+        </div>
+        <div class="container-debug">
+            URI: mongodb+srv://USERNAME:PASSWORD@cluster0.7yzr5.mongodb.net/DATABASE?authSource=admin&replicaSet=atlas-iitqjb-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:54:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:48 PM | atlas.py | Line 54
+        </div>
+        <div class="container-debug">
+            user: maxludden
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:56:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:48 PM | atlas.py | Line 56
+        </div>
+        <div class="container-debug">
+            pswd: maxis2Awesome
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:81:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:48 PM | atlas.py | Line 81
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:128:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:49 PM | epubmeta.py | Line 128
+        </div>
+        <div class="container-debug">
+            Updated Book 1's Epub Metadata in MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:132:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:49 PM | epubmeta.py | Line 132
+        </div>
+        <div class="container-debug">
+            Wrote Book 1's updated Epub Meta to Disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:133:1">
+    <div class="card-info">
+        <div class="header-info">
+            Run 297 | 8:48:49 PM | epubmeta.py | Line 133
+        </div>
+        <div class="container-info">
+            Updated Book 1's Epub Metadata.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:142:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:49 PM | epubmeta.py | Line 142
+        </div>
+        <div class="container-debug">
+            Exiting 'update_epubmeta' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:142:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:49 PM | epubmeta.py | Line 142
+        </div>
+        <div class="container-debug">
+            Entering 'update_epubmeta' (args= '(2,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:52:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:49 PM | atlas.py | Line 52
+        </div>
+        <div class="container-debug">
+            URI: mongodb+srv://USERNAME:PASSWORD@cluster0.7yzr5.mongodb.net/DATABASE?authSource=admin&replicaSet=atlas-iitqjb-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:54:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:49 PM | atlas.py | Line 54
+        </div>
+        <div class="container-debug">
+            user: maxludden
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:56:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:49 PM | atlas.py | Line 56
+        </div>
+        <div class="container-debug">
+            pswd: maxis2Awesome
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:81:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:49 PM | atlas.py | Line 81
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:128:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:49 PM | epubmeta.py | Line 128
+        </div>
+        <div class="container-debug">
+            Updated Book 2's Epub Metadata in MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:132:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:49 PM | epubmeta.py | Line 132
+        </div>
+        <div class="container-debug">
+            Wrote Book 2's updated Epub Meta to Disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:133:1">
+    <div class="card-info">
+        <div class="header-info">
+            Run 297 | 8:48:49 PM | epubmeta.py | Line 133
+        </div>
+        <div class="container-info">
+            Updated Book 2's Epub Metadata.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:142:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:49 PM | epubmeta.py | Line 142
+        </div>
+        <div class="container-debug">
+            Exiting 'update_epubmeta' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:142:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:49 PM | epubmeta.py | Line 142
+        </div>
+        <div class="container-debug">
+            Entering 'update_epubmeta' (args= '(3,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:52:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:49 PM | atlas.py | Line 52
+        </div>
+        <div class="container-debug">
+            URI: mongodb+srv://USERNAME:PASSWORD@cluster0.7yzr5.mongodb.net/DATABASE?authSource=admin&replicaSet=atlas-iitqjb-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:54:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:49 PM | atlas.py | Line 54
+        </div>
+        <div class="container-debug">
+            user: maxludden
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:56:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:49 PM | atlas.py | Line 56
+        </div>
+        <div class="container-debug">
+            pswd: maxis2Awesome
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:81:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:50 PM | atlas.py | Line 81
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:128:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:50 PM | epubmeta.py | Line 128
+        </div>
+        <div class="container-debug">
+            Updated Book 3's Epub Metadata in MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:132:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:50 PM | epubmeta.py | Line 132
+        </div>
+        <div class="container-debug">
+            Wrote Book 3's updated Epub Meta to Disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:133:1">
+    <div class="card-info">
+        <div class="header-info">
+            Run 297 | 8:48:50 PM | epubmeta.py | Line 133
+        </div>
+        <div class="container-info">
+            Updated Book 3's Epub Metadata.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:142:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:50 PM | epubmeta.py | Line 142
+        </div>
+        <div class="container-debug">
+            Exiting 'update_epubmeta' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:142:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:50 PM | epubmeta.py | Line 142
+        </div>
+        <div class="container-debug">
+            Entering 'update_epubmeta' (args= '(4,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:52:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:50 PM | atlas.py | Line 52
+        </div>
+        <div class="container-debug">
+            URI: mongodb+srv://USERNAME:PASSWORD@cluster0.7yzr5.mongodb.net/DATABASE?authSource=admin&replicaSet=atlas-iitqjb-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:54:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:50 PM | atlas.py | Line 54
+        </div>
+        <div class="container-debug">
+            user: maxludden
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:56:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:50 PM | atlas.py | Line 56
+        </div>
+        <div class="container-debug">
+            pswd: maxis2Awesome
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:81:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:50 PM | atlas.py | Line 81
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:128:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:50 PM | epubmeta.py | Line 128
+        </div>
+        <div class="container-debug">
+            Updated Book 4's Epub Metadata in MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:132:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:50 PM | epubmeta.py | Line 132
+        </div>
+        <div class="container-debug">
+            Wrote Book 4's updated Epub Meta to Disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:133:1">
+    <div class="card-info">
+        <div class="header-info">
+            Run 297 | 8:48:50 PM | epubmeta.py | Line 133
+        </div>
+        <div class="container-info">
+            Updated Book 4's Epub Metadata.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:142:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:50 PM | epubmeta.py | Line 142
+        </div>
+        <div class="container-debug">
+            Exiting 'update_epubmeta' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:142:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:50 PM | epubmeta.py | Line 142
+        </div>
+        <div class="container-debug">
+            Entering 'update_epubmeta' (args= '(5,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:52:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:50 PM | atlas.py | Line 52
+        </div>
+        <div class="container-debug">
+            URI: mongodb+srv://USERNAME:PASSWORD@cluster0.7yzr5.mongodb.net/DATABASE?authSource=admin&replicaSet=atlas-iitqjb-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:54:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:50 PM | atlas.py | Line 54
+        </div>
+        <div class="container-debug">
+            user: maxludden
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:56:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:50 PM | atlas.py | Line 56
+        </div>
+        <div class="container-debug">
+            pswd: maxis2Awesome
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:81:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:50 PM | atlas.py | Line 81
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:128:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:50 PM | epubmeta.py | Line 128
+        </div>
+        <div class="container-debug">
+            Updated Book 5's Epub Metadata in MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:132:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:50 PM | epubmeta.py | Line 132
+        </div>
+        <div class="container-debug">
+            Wrote Book 5's updated Epub Meta to Disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:133:1">
+    <div class="card-info">
+        <div class="header-info">
+            Run 297 | 8:48:50 PM | epubmeta.py | Line 133
+        </div>
+        <div class="container-info">
+            Updated Book 5's Epub Metadata.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:142:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:50 PM | epubmeta.py | Line 142
+        </div>
+        <div class="container-debug">
+            Exiting 'update_epubmeta' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:142:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:50 PM | epubmeta.py | Line 142
+        </div>
+        <div class="container-debug">
+            Entering 'update_epubmeta' (args= '(6,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:52:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:50 PM | atlas.py | Line 52
+        </div>
+        <div class="container-debug">
+            URI: mongodb+srv://USERNAME:PASSWORD@cluster0.7yzr5.mongodb.net/DATABASE?authSource=admin&replicaSet=atlas-iitqjb-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:54:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:50 PM | atlas.py | Line 54
+        </div>
+        <div class="container-debug">
+            user: maxludden
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:56:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:50 PM | atlas.py | Line 56
+        </div>
+        <div class="container-debug">
+            pswd: maxis2Awesome
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:81:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:50 PM | atlas.py | Line 81
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:128:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:51 PM | epubmeta.py | Line 128
+        </div>
+        <div class="container-debug">
+            Updated Book 6's Epub Metadata in MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:132:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:51 PM | epubmeta.py | Line 132
+        </div>
+        <div class="container-debug">
+            Wrote Book 6's updated Epub Meta to Disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:133:1">
+    <div class="card-info">
+        <div class="header-info">
+            Run 297 | 8:48:51 PM | epubmeta.py | Line 133
+        </div>
+        <div class="container-info">
+            Updated Book 6's Epub Metadata.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:142:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:51 PM | epubmeta.py | Line 142
+        </div>
+        <div class="container-debug">
+            Exiting 'update_epubmeta' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:142:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:51 PM | epubmeta.py | Line 142
+        </div>
+        <div class="container-debug">
+            Entering 'update_epubmeta' (args= '(7,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:52:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:51 PM | atlas.py | Line 52
+        </div>
+        <div class="container-debug">
+            URI: mongodb+srv://USERNAME:PASSWORD@cluster0.7yzr5.mongodb.net/DATABASE?authSource=admin&replicaSet=atlas-iitqjb-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:54:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:51 PM | atlas.py | Line 54
+        </div>
+        <div class="container-debug">
+            user: maxludden
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:56:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:51 PM | atlas.py | Line 56
+        </div>
+        <div class="container-debug">
+            pswd: maxis2Awesome
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:81:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:51 PM | atlas.py | Line 81
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:128:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:51 PM | epubmeta.py | Line 128
+        </div>
+        <div class="container-debug">
+            Updated Book 7's Epub Metadata in MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:132:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:51 PM | epubmeta.py | Line 132
+        </div>
+        <div class="container-debug">
+            Wrote Book 7's updated Epub Meta to Disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:133:1">
+    <div class="card-info">
+        <div class="header-info">
+            Run 297 | 8:48:51 PM | epubmeta.py | Line 133
+        </div>
+        <div class="container-info">
+            Updated Book 7's Epub Metadata.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:142:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:51 PM | epubmeta.py | Line 142
+        </div>
+        <div class="container-debug">
+            Exiting 'update_epubmeta' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:142:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:51 PM | epubmeta.py | Line 142
+        </div>
+        <div class="container-debug">
+            Entering 'update_epubmeta' (args= '(8,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:52:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:51 PM | atlas.py | Line 52
+        </div>
+        <div class="container-debug">
+            URI: mongodb+srv://USERNAME:PASSWORD@cluster0.7yzr5.mongodb.net/DATABASE?authSource=admin&replicaSet=atlas-iitqjb-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:54:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:51 PM | atlas.py | Line 54
+        </div>
+        <div class="container-debug">
+            user: maxludden
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:56:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:51 PM | atlas.py | Line 56
+        </div>
+        <div class="container-debug">
+            pswd: maxis2Awesome
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:81:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:51 PM | atlas.py | Line 81
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:128:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:51 PM | epubmeta.py | Line 128
+        </div>
+        <div class="container-debug">
+            Updated Book 8's Epub Metadata in MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:132:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:51 PM | epubmeta.py | Line 132
+        </div>
+        <div class="container-debug">
+            Wrote Book 8's updated Epub Meta to Disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:133:1">
+    <div class="card-info">
+        <div class="header-info">
+            Run 297 | 8:48:51 PM | epubmeta.py | Line 133
+        </div>
+        <div class="container-info">
+            Updated Book 8's Epub Metadata.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:142:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:51 PM | epubmeta.py | Line 142
+        </div>
+        <div class="container-debug">
+            Exiting 'update_epubmeta' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:142:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:51 PM | epubmeta.py | Line 142
+        </div>
+        <div class="container-debug">
+            Entering 'update_epubmeta' (args= '(9,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:52:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:51 PM | atlas.py | Line 52
+        </div>
+        <div class="container-debug">
+            URI: mongodb+srv://USERNAME:PASSWORD@cluster0.7yzr5.mongodb.net/DATABASE?authSource=admin&replicaSet=atlas-iitqjb-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:54:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:51 PM | atlas.py | Line 54
+        </div>
+        <div class="container-debug">
+            user: maxludden
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:56:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:51 PM | atlas.py | Line 56
+        </div>
+        <div class="container-debug">
+            pswd: maxis2Awesome
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:81:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:51 PM | atlas.py | Line 81
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:128:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:52 PM | epubmeta.py | Line 128
+        </div>
+        <div class="container-debug">
+            Updated Book 9's Epub Metadata in MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:132:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:52 PM | epubmeta.py | Line 132
+        </div>
+        <div class="container-debug">
+            Wrote Book 9's updated Epub Meta to Disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:133:1">
+    <div class="card-info">
+        <div class="header-info">
+            Run 297 | 8:48:52 PM | epubmeta.py | Line 133
+        </div>
+        <div class="container-info">
+            Updated Book 9's Epub Metadata.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:142:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:52 PM | epubmeta.py | Line 142
+        </div>
+        <div class="container-debug">
+            Exiting 'update_epubmeta' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:142:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:52 PM | epubmeta.py | Line 142
+        </div>
+        <div class="container-debug">
+            Entering 'update_epubmeta' (args= '(10,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:52:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:52 PM | atlas.py | Line 52
+        </div>
+        <div class="container-debug">
+            URI: mongodb+srv://USERNAME:PASSWORD@cluster0.7yzr5.mongodb.net/DATABASE?authSource=admin&replicaSet=atlas-iitqjb-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:54:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:52 PM | atlas.py | Line 54
+        </div>
+        <div class="container-debug">
+            user: maxludden
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:56:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:52 PM | atlas.py | Line 56
+        </div>
+        <div class="container-debug">
+            pswd: maxis2Awesome
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:81:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:52 PM | atlas.py | Line 81
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:128:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:52 PM | epubmeta.py | Line 128
+        </div>
+        <div class="container-debug">
+            Updated Book 10's Epub Metadata in MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:132:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:52 PM | epubmeta.py | Line 132
+        </div>
+        <div class="container-debug">
+            Wrote Book 10's updated Epub Meta to Disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:133:1">
+    <div class="card-info">
+        <div class="header-info">
+            Run 297 | 8:48:52 PM | epubmeta.py | Line 133
+        </div>
+        <div class="container-info">
+            Updated Book 10's Epub Metadata.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:142:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:52 PM | epubmeta.py | Line 142
+        </div>
+        <div class="container-debug">
+            Exiting 'update_epubmeta' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/main.py:51:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:52 PM | main.py | Line 51
+        </div>
+        <div class="container-debug">
+            Exiting 'update_all_epubmeta' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:395:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 297 | 8:48:52 PM | log.py | Line 395
+        </div>
+        <div class="container-debug">
+            Fixed Tags
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:26:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:29 PM | atlas.py | Line 26
+        </div>
+        <div class="container-debug">
+            Entering 'generate_root' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:26:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:29 PM | atlas.py | Line 26
+        </div>
+        <div class="container-debug">
+            Exiting 'generate_root' (result=
+Users
+        </div>
+    </div>
+</a>
+
+<br><br>
+
+
+## Run 298
+<br>
+<img src="/Users/maxludden/dev/py/superforge/books/book01/Images/gem.gif" alt="gem" id="gem" width="120" height="60" />
+
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:395:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:29 PM | log.py | Line 395
+        </div>
+        <div class="container-debug">
+            Fixed Tags
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/main.py:51:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:29 PM | main.py | Line 51
+        </div>
+        <div class="container-debug">
+            Entering 'update_all_epubmeta' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:142:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:29 PM | epubmeta.py | Line 142
+        </div>
+        <div class="container-debug">
+            Entering 'update_epubmeta' (args= '(1,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:52:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:29 PM | atlas.py | Line 52
+        </div>
+        <div class="container-debug">
+            URI: mongodb+srv://USERNAME:PASSWORD@cluster0.7yzr5.mongodb.net/DATABASE?authSource=admin&replicaSet=atlas-iitqjb-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:54:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:29 PM | atlas.py | Line 54
+        </div>
+        <div class="container-debug">
+            user: maxludden
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:56:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:29 PM | atlas.py | Line 56
+        </div>
+        <div class="container-debug">
+            pswd: maxis2Awesome
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:81:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:29 PM | atlas.py | Line 81
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:128:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:30 PM | epubmeta.py | Line 128
+        </div>
+        <div class="container-debug">
+            Updated Book 1's Epub Metadata in MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:132:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:30 PM | epubmeta.py | Line 132
+        </div>
+        <div class="container-debug">
+            Wrote Book 1's updated Epub Meta to Disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:133:1">
+    <div class="card-info">
+        <div class="header-info">
+            Run 298 | 8:49:30 PM | epubmeta.py | Line 133
+        </div>
+        <div class="container-info">
+            Updated Book 1's Epub Metadata.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:142:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:30 PM | epubmeta.py | Line 142
+        </div>
+        <div class="container-debug">
+            Exiting 'update_epubmeta' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:142:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:30 PM | epubmeta.py | Line 142
+        </div>
+        <div class="container-debug">
+            Entering 'update_epubmeta' (args= '(2,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:52:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:30 PM | atlas.py | Line 52
+        </div>
+        <div class="container-debug">
+            URI: mongodb+srv://USERNAME:PASSWORD@cluster0.7yzr5.mongodb.net/DATABASE?authSource=admin&replicaSet=atlas-iitqjb-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:54:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:30 PM | atlas.py | Line 54
+        </div>
+        <div class="container-debug">
+            user: maxludden
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:56:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:30 PM | atlas.py | Line 56
+        </div>
+        <div class="container-debug">
+            pswd: maxis2Awesome
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:81:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:30 PM | atlas.py | Line 81
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:128:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:30 PM | epubmeta.py | Line 128
+        </div>
+        <div class="container-debug">
+            Updated Book 2's Epub Metadata in MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:132:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:30 PM | epubmeta.py | Line 132
+        </div>
+        <div class="container-debug">
+            Wrote Book 2's updated Epub Meta to Disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:133:1">
+    <div class="card-info">
+        <div class="header-info">
+            Run 298 | 8:49:30 PM | epubmeta.py | Line 133
+        </div>
+        <div class="container-info">
+            Updated Book 2's Epub Metadata.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:142:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:30 PM | epubmeta.py | Line 142
+        </div>
+        <div class="container-debug">
+            Exiting 'update_epubmeta' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:142:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:30 PM | epubmeta.py | Line 142
+        </div>
+        <div class="container-debug">
+            Entering 'update_epubmeta' (args= '(3,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:52:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:30 PM | atlas.py | Line 52
+        </div>
+        <div class="container-debug">
+            URI: mongodb+srv://USERNAME:PASSWORD@cluster0.7yzr5.mongodb.net/DATABASE?authSource=admin&replicaSet=atlas-iitqjb-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:54:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:30 PM | atlas.py | Line 54
+        </div>
+        <div class="container-debug">
+            user: maxludden
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:56:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:30 PM | atlas.py | Line 56
+        </div>
+        <div class="container-debug">
+            pswd: maxis2Awesome
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:81:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:30 PM | atlas.py | Line 81
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:128:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:31 PM | epubmeta.py | Line 128
+        </div>
+        <div class="container-debug">
+            Updated Book 3's Epub Metadata in MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:132:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:31 PM | epubmeta.py | Line 132
+        </div>
+        <div class="container-debug">
+            Wrote Book 3's updated Epub Meta to Disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:133:1">
+    <div class="card-info">
+        <div class="header-info">
+            Run 298 | 8:49:31 PM | epubmeta.py | Line 133
+        </div>
+        <div class="container-info">
+            Updated Book 3's Epub Metadata.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:142:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:31 PM | epubmeta.py | Line 142
+        </div>
+        <div class="container-debug">
+            Exiting 'update_epubmeta' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:142:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:31 PM | epubmeta.py | Line 142
+        </div>
+        <div class="container-debug">
+            Entering 'update_epubmeta' (args= '(4,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:52:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:31 PM | atlas.py | Line 52
+        </div>
+        <div class="container-debug">
+            URI: mongodb+srv://USERNAME:PASSWORD@cluster0.7yzr5.mongodb.net/DATABASE?authSource=admin&replicaSet=atlas-iitqjb-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:54:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:31 PM | atlas.py | Line 54
+        </div>
+        <div class="container-debug">
+            user: maxludden
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:56:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:31 PM | atlas.py | Line 56
+        </div>
+        <div class="container-debug">
+            pswd: maxis2Awesome
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:81:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:31 PM | atlas.py | Line 81
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:128:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:31 PM | epubmeta.py | Line 128
+        </div>
+        <div class="container-debug">
+            Updated Book 4's Epub Metadata in MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:132:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:31 PM | epubmeta.py | Line 132
+        </div>
+        <div class="container-debug">
+            Wrote Book 4's updated Epub Meta to Disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:133:1">
+    <div class="card-info">
+        <div class="header-info">
+            Run 298 | 8:49:31 PM | epubmeta.py | Line 133
+        </div>
+        <div class="container-info">
+            Updated Book 4's Epub Metadata.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:142:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:31 PM | epubmeta.py | Line 142
+        </div>
+        <div class="container-debug">
+            Exiting 'update_epubmeta' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:142:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:31 PM | epubmeta.py | Line 142
+        </div>
+        <div class="container-debug">
+            Entering 'update_epubmeta' (args= '(5,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:52:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:31 PM | atlas.py | Line 52
+        </div>
+        <div class="container-debug">
+            URI: mongodb+srv://USERNAME:PASSWORD@cluster0.7yzr5.mongodb.net/DATABASE?authSource=admin&replicaSet=atlas-iitqjb-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:54:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:31 PM | atlas.py | Line 54
+        </div>
+        <div class="container-debug">
+            user: maxludden
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:56:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:31 PM | atlas.py | Line 56
+        </div>
+        <div class="container-debug">
+            pswd: maxis2Awesome
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:81:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:31 PM | atlas.py | Line 81
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:128:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:31 PM | epubmeta.py | Line 128
+        </div>
+        <div class="container-debug">
+            Updated Book 5's Epub Metadata in MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:132:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:31 PM | epubmeta.py | Line 132
+        </div>
+        <div class="container-debug">
+            Wrote Book 5's updated Epub Meta to Disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:133:1">
+    <div class="card-info">
+        <div class="header-info">
+            Run 298 | 8:49:31 PM | epubmeta.py | Line 133
+        </div>
+        <div class="container-info">
+            Updated Book 5's Epub Metadata.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:142:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:31 PM | epubmeta.py | Line 142
+        </div>
+        <div class="container-debug">
+            Exiting 'update_epubmeta' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:142:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:31 PM | epubmeta.py | Line 142
+        </div>
+        <div class="container-debug">
+            Entering 'update_epubmeta' (args= '(6,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:52:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:31 PM | atlas.py | Line 52
+        </div>
+        <div class="container-debug">
+            URI: mongodb+srv://USERNAME:PASSWORD@cluster0.7yzr5.mongodb.net/DATABASE?authSource=admin&replicaSet=atlas-iitqjb-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:54:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:31 PM | atlas.py | Line 54
+        </div>
+        <div class="container-debug">
+            user: maxludden
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:56:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:31 PM | atlas.py | Line 56
+        </div>
+        <div class="container-debug">
+            pswd: maxis2Awesome
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:81:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:31 PM | atlas.py | Line 81
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:128:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:31 PM | epubmeta.py | Line 128
+        </div>
+        <div class="container-debug">
+            Updated Book 6's Epub Metadata in MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:132:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:31 PM | epubmeta.py | Line 132
+        </div>
+        <div class="container-debug">
+            Wrote Book 6's updated Epub Meta to Disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:133:1">
+    <div class="card-info">
+        <div class="header-info">
+            Run 298 | 8:49:31 PM | epubmeta.py | Line 133
+        </div>
+        <div class="container-info">
+            Updated Book 6's Epub Metadata.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:142:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:31 PM | epubmeta.py | Line 142
+        </div>
+        <div class="container-debug">
+            Exiting 'update_epubmeta' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:142:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:31 PM | epubmeta.py | Line 142
+        </div>
+        <div class="container-debug">
+            Entering 'update_epubmeta' (args= '(7,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:52:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:31 PM | atlas.py | Line 52
+        </div>
+        <div class="container-debug">
+            URI: mongodb+srv://USERNAME:PASSWORD@cluster0.7yzr5.mongodb.net/DATABASE?authSource=admin&replicaSet=atlas-iitqjb-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:54:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:31 PM | atlas.py | Line 54
+        </div>
+        <div class="container-debug">
+            user: maxludden
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:56:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:31 PM | atlas.py | Line 56
+        </div>
+        <div class="container-debug">
+            pswd: maxis2Awesome
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:81:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:31 PM | atlas.py | Line 81
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:128:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:32 PM | epubmeta.py | Line 128
+        </div>
+        <div class="container-debug">
+            Updated Book 7's Epub Metadata in MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:132:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:32 PM | epubmeta.py | Line 132
+        </div>
+        <div class="container-debug">
+            Wrote Book 7's updated Epub Meta to Disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:133:1">
+    <div class="card-info">
+        <div class="header-info">
+            Run 298 | 8:49:32 PM | epubmeta.py | Line 133
+        </div>
+        <div class="container-info">
+            Updated Book 7's Epub Metadata.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:142:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:32 PM | epubmeta.py | Line 142
+        </div>
+        <div class="container-debug">
+            Exiting 'update_epubmeta' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:142:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:32 PM | epubmeta.py | Line 142
+        </div>
+        <div class="container-debug">
+            Entering 'update_epubmeta' (args= '(8,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:52:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:32 PM | atlas.py | Line 52
+        </div>
+        <div class="container-debug">
+            URI: mongodb+srv://USERNAME:PASSWORD@cluster0.7yzr5.mongodb.net/DATABASE?authSource=admin&replicaSet=atlas-iitqjb-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:54:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:32 PM | atlas.py | Line 54
+        </div>
+        <div class="container-debug">
+            user: maxludden
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:56:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:32 PM | atlas.py | Line 56
+        </div>
+        <div class="container-debug">
+            pswd: maxis2Awesome
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:81:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:32 PM | atlas.py | Line 81
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:128:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:32 PM | epubmeta.py | Line 128
+        </div>
+        <div class="container-debug">
+            Updated Book 8's Epub Metadata in MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:132:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:32 PM | epubmeta.py | Line 132
+        </div>
+        <div class="container-debug">
+            Wrote Book 8's updated Epub Meta to Disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:133:1">
+    <div class="card-info">
+        <div class="header-info">
+            Run 298 | 8:49:32 PM | epubmeta.py | Line 133
+        </div>
+        <div class="container-info">
+            Updated Book 8's Epub Metadata.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:142:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:32 PM | epubmeta.py | Line 142
+        </div>
+        <div class="container-debug">
+            Exiting 'update_epubmeta' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:142:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:32 PM | epubmeta.py | Line 142
+        </div>
+        <div class="container-debug">
+            Entering 'update_epubmeta' (args= '(9,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:52:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:32 PM | atlas.py | Line 52
+        </div>
+        <div class="container-debug">
+            URI: mongodb+srv://USERNAME:PASSWORD@cluster0.7yzr5.mongodb.net/DATABASE?authSource=admin&replicaSet=atlas-iitqjb-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:54:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:32 PM | atlas.py | Line 54
+        </div>
+        <div class="container-debug">
+            user: maxludden
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:56:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:32 PM | atlas.py | Line 56
+        </div>
+        <div class="container-debug">
+            pswd: maxis2Awesome
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:81:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:32 PM | atlas.py | Line 81
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:128:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:32 PM | epubmeta.py | Line 128
+        </div>
+        <div class="container-debug">
+            Updated Book 9's Epub Metadata in MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:132:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:32 PM | epubmeta.py | Line 132
+        </div>
+        <div class="container-debug">
+            Wrote Book 9's updated Epub Meta to Disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:133:1">
+    <div class="card-info">
+        <div class="header-info">
+            Run 298 | 8:49:32 PM | epubmeta.py | Line 133
+        </div>
+        <div class="container-info">
+            Updated Book 9's Epub Metadata.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:142:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:32 PM | epubmeta.py | Line 142
+        </div>
+        <div class="container-debug">
+            Exiting 'update_epubmeta' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:142:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:32 PM | epubmeta.py | Line 142
+        </div>
+        <div class="container-debug">
+            Entering 'update_epubmeta' (args= '(10,)', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:52:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:32 PM | atlas.py | Line 52
+        </div>
+        <div class="container-debug">
+            URI: mongodb+srv://USERNAME:PASSWORD@cluster0.7yzr5.mongodb.net/DATABASE?authSource=admin&replicaSet=atlas-iitqjb-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:54:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:32 PM | atlas.py | Line 54
+        </div>
+        <div class="container-debug">
+            user: maxludden
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:56:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:32 PM | atlas.py | Line 56
+        </div>
+        <div class="container-debug">
+            pswd: maxis2Awesome
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:81:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:32 PM | atlas.py | Line 81
+        </div>
+        <div class="container-debug">
+            Connected to MongoDB!
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:128:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:33 PM | epubmeta.py | Line 128
+        </div>
+        <div class="container-debug">
+            Updated Book 10's Epub Metadata in MongoDB.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:132:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:33 PM | epubmeta.py | Line 132
+        </div>
+        <div class="container-debug">
+            Wrote Book 10's updated Epub Meta to Disk.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:133:1">
+    <div class="card-info">
+        <div class="header-info">
+            Run 298 | 8:49:33 PM | epubmeta.py | Line 133
+        </div>
+        <div class="container-info">
+            Updated Book 10's Epub Metadata.
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/epubmeta.py:142:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:33 PM | epubmeta.py | Line 142
+        </div>
+        <div class="container-debug">
+            Exiting 'update_epubmeta' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/main.py:51:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:33 PM | main.py | Line 51
+        </div>
+        <div class="container-debug">
+            Exiting 'update_all_epubmeta' (result=
+None
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:395:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 298 | 8:49:33 PM | log.py | Line 395
+        </div>
+        \<div class="container-debug">
+            Fixed Tags
+        </div>
+    </div>
+</a>

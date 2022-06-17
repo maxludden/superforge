@@ -4,6 +4,7 @@ __all__ = [
     "chapter",
     "clear_md",
     "endofbook",
+    "epubmeta",
     "fix_tags",
     'meta',
     "log",

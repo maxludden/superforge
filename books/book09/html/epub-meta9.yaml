@@ -1,8 +1,8 @@
 title:
 - type: main
-  text: TITLE
+  text: Meeting God and Fighting Sacred
 - type: subtitle
-  text: Book BOOKWORD
+  text: Book Nine
 creator:
 - role: author
   text: Twelve Winged Dark Seraphim
@@ -10,10 +10,10 @@ creator:
   text: Max Ludden
 stylesheet: 
 - style.css
-cover-image: COVERPATH
+cover-image: Images/cover9.png
 ibooks:
 - version: 4.0
 - specified-fonts: true
 - iphone-orientation-lock: portrait-only
 belongs-to-collection: Super Gene
-group-position: BOOK
+group-position: 9
