@@ -4114,10 +4114,271 @@ None
 </a>
 
 <br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:395:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 298 | 8:49:33 PM | log.py | Line 395
+        </div>
+        <div class="container-debug">
+            Fixed Tags
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:26:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 299 | 9:04:15 PM | atlas.py | Line 26
+        </div>
+        <div class="container-debug">
+            Entering 'generate_root' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:26:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 299 | 9:04:15 PM | atlas.py | Line 26
+        </div>
+        <div class="container-debug">
+            Exiting 'generate_root' (result=
+Users
+        </div>
+    </div>
+</a>
+
+<br><br>
+
+
+## Run 299
+<br>
+<img src="/Users/maxludden/dev/py/superforge/books/book01/Images/gem.gif" alt="gem" id="gem" width="120" height="60" />
+
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:395:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 299 | 9:04:15 PM | log.py | Line 395
+        </div>
+        <div class="container-debug">
+            Fixed Tags
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:395:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 299 | 9:04:15 PM | log.py | Line 395
+        </div>
+        <div class="container-debug">
+            Fixed Tags
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:26:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 300 | 9:04:45 PM | atlas.py | Line 26
+        </div>
+        <div class="container-debug">
+            Entering 'generate_root' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:26:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 300 | 9:04:45 PM | atlas.py | Line 26
+        </div>
+        <div class="container-debug">
+            Exiting 'generate_root' (result=
+Users
+        </div>
+    </div>
+</a>
+
+<br><br>
+
+
+## Run 300
+<br>
+<img src="/Users/maxludden/dev/py/superforge/books/book01/Images/gem.gif" alt="gem" id="gem" width="120" height="60" />
+
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:395:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 300 | 9:04:45 PM | log.py | Line 395
+        </div>
+        <div class="container-debug">
+            Fixed Tags
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:395:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 300 | 9:04:45 PM | log.py | Line 395
+        </div>
+        <div class="container-debug">
+            Fixed Tags
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:26:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 301 | 9:06:06 PM | atlas.py | Line 26
+        </div>
+        <div class="container-debug">
+            Entering 'generate_root' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:26:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 301 | 9:06:06 PM | atlas.py | Line 26
+        </div>
+        <div class="container-debug">
+            Exiting 'generate_root' (result=
+Users
+        </div>
+    </div>
+</a>
+
+<br><br>
+
+
+## Run 301
+<br>
+<img src="/Users/maxludden/dev/py/superforge/books/book01/Images/gem.gif" alt="gem" id="gem" width="120" height="60" />
+
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:395:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 301 | 9:06:06 PM | log.py | Line 395
+        </div>
+        <div class="container-debug">
+            Fixed Tags
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:26:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 302 | 9:06:50 PM | atlas.py | Line 26
+        </div>
+        <div class="container-debug">
+            Entering 'generate_root' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:26:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 302 | 9:06:50 PM | atlas.py | Line 26
+        </div>
+        <div class="container-debug">
+            Exiting 'generate_root' (result=
+Users
+        </div>
+    </div>
+</a>
+
+<br><br>
+
+
+## Run 302
+<br>
+<img src="/Users/maxludden/dev/py/superforge/books/book01/Images/gem.gif" alt="gem" id="gem" width="120" height="60" />
+
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:395:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 302 | 9:06:50 PM | log.py | Line 395
+        </div>
+        <div class="container-debug">
+            Fixed Tags
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:26:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 303 | 11:00:54 PM | atlas.py | Line 26
+        </div>
+        <div class="container-debug">
+            Entering 'generate_root' (args= '()', kwargs={}
+        </div>
+    </div>
+</a>
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:26:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 303 | 11:00:54 PM | atlas.py | Line 26
+        </div>
+        <div class="container-debug">
+            Exiting 'generate_root' (result=
+Users
+        </div>
+    </div>
+</a>
+
+<br><br>
+
+
+## Run 303
+<br>
+<img src="/Users/maxludden/dev/py/superforge/books/book01/Images/gem.gif" alt="gem" id="gem" width="120" height="60" />
+
+
+<br>
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:395:1">
+    <div class="card-debug">
+        <div class="header-debug">
+            Run 303 | 11:00:54 PM | log.py | Line 395
+        </div>
+        <div class="container-debug">
+            Fixed Tags
+        </div>
+    </div>
+</a>
+
+<br>
 \<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:395:1">
     \<div class="card-debug">
         \<div class="header-debug">
-            Run 298 | 8:49:33 PM | log.py | Line 395
+            Run 303 | 11:00:54 PM | log.py | Line 395
         </div>
         \<div class="container-debug">
             Fixed Tags

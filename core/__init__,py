@@ -3,6 +3,7 @@ __all__ = [
     "book",
     "chapter",
     "clear_md",
+    "defaultdoc",
     "endofbook",
     "epubmeta",
     "fix_tags",
