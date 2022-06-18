@@ -119,7 +119,7 @@ class DefaultDoc(Document):
         self.resource_path = resource_path
         self.filename = filename
         self.filepath = filepath
-        self.css: = css
+        self.css = css
         self.epub_fonts: epub_fonts
         self.from_format = from_format 
         self.to_format = to_format
@@ -189,10 +189,78 @@ def get_input_files(book: int, filepaths: bool=False):
     input_files = []
     section_count = get_section_count(book)
     if section_count == 1:
-        input_files.append(f'{titlepage_.get_filename}.html')
-        section_files = get_section_files(book)
-        # Because only books 1, 2, and 3 have one section, the book param and section param are interchangeable. Which is why we can substitute it's book param for it's section param
-        for section_file in section_files:
-            input_files.append(section_file )10
-        input_files.append(f'{eob_.get_filename}.html')
-        
+        if filepaths:
+            #> Titlepage
+            input_files.append(titlepage_.get_html_path)
+            
+            #> Section Page and Chapters
+            section_files = get_section_files(book, filepath=True)
+            # Because only books 1, 2, and 3 have one section, the book param and section param are interchangeable. Which is why we can substitute it's book param for it's section param
+            for section_file in section_files:
+                input_files.append(section_file)
+            
+            #> End of Book
+            input_files.append(eob_.get_html_path())
+            return input_files
+        else:
+            #> Titlepage
+            input_files.append(f'{titlepage_.get_filename}.html')
+            
+            #> Section Page and Chapters
+            section_files = get_section_files(book)
+            # Because only books 1, 2, and 3 have one section, the book param and section param are interchangeable. Which is why we can substitute it's book param for it's section param
+            for section_file in section_files:
+                input_files.append(section_file)
+            
+            #> End of Book
+            input_files.append(f'{eob_.get_filename}.html')
+            return input_files
+    else:
+        if filepaths:
+            #> Titlepage
+            input_files.append(titlepage_.get_html_path)
+            
+            #> Sections
+            sections = []
+            for doc in section_.Section.objects(book=book):
+                sections.append(doc.section)
+                # Searches through the Sections Collection for the two sections that have the a `doc.book` == the given book.
+            
+            #> First section
+            # Uses the python list `min()` function to return the lowest value from sections
+            section_files = get_section_files(min(sections), filepath=True)
+            for section_file in section_files:
+                input_files.append(section_file)
+                
+            #> Second section
+            # Uses the python list function `max()` to return the highest value from sections
+            section_files = get_section_files(max(sections), filepath=True)
+            for section_file in section_files:
+                input_files.append(section_file)
+                
+            #> End of Book
+            input_files.append(eob_.get_html_path())
+            return input_files
+        else:
+            input_files.append(f'{titlepage_.get_filename}.html')
+            
+            #> Sections
+            sections = []
+            for doc in section_.Section.objects(book=book):
+                sections.append(doc.section)
+                # Searches through the Sections Collection for the two sections that have the a `doc.book` == the given book.
+            
+            #> First section
+            # Uses the python list `min()` function to return the lowest value from sections
+            section_files = get_section_files(min(sections))
+            for section_file in section_files:
+                input_files.append(section_file)
+            
+            #> Second section
+            # Uses the python list function `max()` to return the highest value from sections
+            section_files = get_section_files(max(sections), filepath=True)
+            for section_file in section_files:
+                input_files.append(section_file)
+            
+            input_files.append(f'{eob_.get_filename}.html')
+            return input_files

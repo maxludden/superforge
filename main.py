@@ -9,6 +9,7 @@ from subprocess import run
 from tqdm.auto import tqdm
 
 from core.atlas import errwrap, sg
+from core.book import create_coverpage
 from core.chapter import make_chapters, verify_chapters, write_book_md
 from core.endofbook import make_endofbooks
 from core.epubmeta import create_all_epubmeta, update_all_epubmeta
@@ -22,6 +23,8 @@ from yaml import SafeLoader, load_all
 #. Start a new run
 new_run()
 
+#. Coverpage
+create_coverpage(1)
 #. Chapters
 #> make_chapters()
 # verify_chapters()

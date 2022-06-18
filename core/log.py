@@ -443,7 +443,7 @@ def errwrap(*, entry=True, exit=True, level="DEBUG"):
                 xylog.log (level, "Entering '{}' (args= '{}', kwargs={}", name, args, kwargs)
             result = func(*args, **kwargs)
             if exit:
-                xylog.log(level, "Exiting '{}' (result=\n{}", name, result)
+                xylog.log(level, "Exiting '{}' (result=\n{})", name, result)
             return result
         return wrapped
     return wrapper
