@@ -24,14 +24,15 @@ from yaml import SafeLoader, load_all
 new_run()
 
 #. Coverpage
-create_coverpage(1)
+create_coverpage(1, test=True)
+
 #. Chapters
 #> make_chapters()
 # verify_chapters()
 
 #. Titlepages
-#>generate_titlepages()
-#html_check()
+#> generate_titlepages()
+# html_check()
 
 #. EndOfBook
 #> make_endofbooks()
@@ -46,7 +47,7 @@ create_coverpage(1)
 # export_chapters()
 
 #. Metadata
-#>create_meta()
+#> create_meta()
 # write_metadata()
 
 #. Epubmeta
@@ -54,9 +55,6 @@ create_coverpage(1)
 # update_all_epubmeta()
 
 #. Defaultdoc
-with open('yaml/sg3.yaml', 'r') as infile:
-    data = list(load_all(infile, Loader=SafeLoader))
-length = len(data)
-print(length)
+
 
 fix_tags()

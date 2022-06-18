@@ -3,6 +3,7 @@ import functools
 import os
 import sys
 from json import dump, load
+from platform import platform
 from subprocess import run
 from typing import Optional
 
@@ -43,6 +44,15 @@ arc_bottom_left='╰'
 arc_bottom_right='╯'
 console_set = "INFO"
 # console_set = "DEBUG"
+
+def generate_root():
+    if platform() == "Linux":
+        ROOT = "home"
+    else:
+        ROOT = "Users"  # < Mac
+    return ROOT
+ROOT = generate_root()
+BASE =f'/{ROOT}/maxludden/dev/py/superforge'
 
 def get_last_run():
     """Retrieves the last run.
@@ -218,7 +228,7 @@ if console_set == "INFO":
             dict(
                 sink="/Users/maxludden/dev/py/superforge/logs/supergene.log",
                 colorize=False,
-                format="{time:hh:mm:ss:SSS A} | {file.name} | Line {line} | {level}: {message}",
+                format="Run {extra[run]} | {time:hh:mm:ss:SSS A} | {file.name: ^13} |  Line {line: ^5} | {level: <8}ﰲ  {message}",
                 level = "DEBUG",
                 backtrace = True,
                 diagnose=True
@@ -255,7 +265,7 @@ elif console_set == "DEBUG":
             dict(
                 sink="/Users/maxludden/dev/py/superforge/logs/supergene.log",
                 colorize=False,
-                format="{time:hh:mm:ss:SSS A} | {file.name} | Line {line} | {extra[function]} | {level}: {message}",
+                format="Run {extra[run]} | {time:hh:mm:ss:SSS A} | {file.name: ^13} |  Line {line: ^5} | {level: <8}ﰲ  {message}",
                 level = "DEBUG",
                 backtrace = True,
                 diagnose=True
@@ -412,7 +422,8 @@ def test_log():
 
 
 def new_run(test_loggers: bool=False):
-    with open ("/Users/maxludden/dev/py/superforge/logs/log.md", 'a') as outfile:
+    md_log = f'{BASE}/logs/log.md'
+    with open (md_log, 'a') as outfile:
         outfile.write(f'\n<br><br>\n\n\n## Run {current_run}\n<br>\n<img src="/Users/maxludden/dev/py/superforge/books/book01/Images/gem.gif" alt="gem" id="gem" width="120" height="60" />\n\n')
     if test_loggers:
         test_logger()
@@ -440,10 +451,10 @@ def errwrap(*, entry=True, exit=True, level="DEBUG"):
         def wrapped(*args, **kwargs):
             xylog = log.opt(depth=1)
             if entry:
-                xylog.log (level, "Entering '{}' (args= '{}', kwargs={}", name, args, kwargs)
+                xylog.log (level, f"Entering '{name}' (args= '{args}', kwargs={kwargs}")
             result = func(*args, **kwargs)
             if exit:
-                xylog.log(level, "Exiting '{}' (result=\n{})", name, result)
+                xylog.log(level, f"Exiting '{name}' (result={result})")
             return result
         return wrapped
     return wrapper

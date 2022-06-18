@@ -6,7 +6,7 @@ from platform import platform
 from typing import Optional
 
 from dotenv import load_dotenv
-from mongoengine import connect, disconnect, disconnect_all, register_connection
+from mongoengine import connect
 from pymongo.errors import ConnectionFailure, InvalidURI, NetworkTimeout
 
 from core.log import errwrap, log
@@ -24,6 +24,7 @@ def generate_root():
 
 
 ROOT = generate_root()
+BASE =f'/{ROOT}/maxludden/dev/py/superforge'
 
 # .
 # .            d8   888
@@ -47,26 +48,26 @@ def get_atlas_uri(database: str = "make-supergene"):
             The atlas connection URI.
     """
     # > Retrieve secrets
-    try:
-        URI = str(os.environ.get("URI"))
-        log.debug(f"URI: {URI}")
-        user = os.environ.get("ATLAS_USERNAME")
-        log.debug(f"user: {user}")
-        pswd = os.environ.get("ATLAS_PASSWORD")
-        log.debug(f"pswd: {pswd}")
+    # try:
+    #     URI = str(os.environ.get("URI"))
+    #     log.debug(f"URI: {URI}")
+    #     user = os.environ.get("ATLAS_USERNAME")
+    #     log.debug(f"user: {user}")
+    #     pswd = os.environ.get("ATLAS_PASSWORD")
+    #     log.debug(f"pswd: {pswd}")
 
-    except AttributeError as ae:
-        log.error()
+    # except AttributeError as ae:
+    #     log.error()
 
-    URI = URI.replace("USERNAME", user)
-    URI = URI.replace("PASSWORD", pswd)
-    URI = URI.replace("DATABASE", database)
-
+    # URI = URI.replace("USERNAME", user)
+    # URI = URI.replace("PASSWORD", pswd)
+    # URI = URI.replace("DATABASE", database)
+    URI = os.environ.get("make-supergene")
     return URI
 
 
 @errwrap(entry=False, exit=False)
-def sg(database: str = "make-supergene"):
+def sg(database: str = "make-supergene", test: bool=False):
     """
     Custom Connection function to connect to MongoDB Database
 
@@ -76,22 +77,18 @@ def sg(database: str = "make-supergene"):
     """
 
     URI = get_atlas_uri(database)
+    if test:
+        log.debug(f"URI: {URI}")
     try:
         connect(database, host=URI)
-        log.debug(f"Connected to MongoDB!")
+        if test:
+            log.debug(f"Connected to MongoDB!")
     except ConnectionError as ce:
-        ConnectionError(ce)
+        log.error(f"Connection Error: {ce}")
+        raise ce
     except Exception as e:
         log.warning(f"Unable to Connect to MongoDB. Error {e}")
-        sys.exit(
-            {
-                -1: {
-                    "error": f"{e}",
-                    "desc": f"Unable to connect to MongoDB in Atlas' Cloud.",
-                }
-            }
-        )
-
+        raise e
 
 @errwrap(entry=False, exit=False)
 def supergene(database: str = "make-supergene"):

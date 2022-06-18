@@ -4,7 +4,7 @@ from subprocess import run
 from mongoengine import Document
 from mongoengine.fields import IntField, ListField, StringField, UUIDField
 
-from core.atlas import ROOT, max_title, sg
+from core.atlas import BASE, max_title, sg
 from core.log import errwrap, log
 
 # . ############################################################### . #
@@ -40,7 +40,7 @@ class Book (Document):
 written: str = "Written by Twelve Winged Burning Seraphim"
 edited: str = "Complied and Edited by Max Ludden"
 TEXT = f'<p class="title">{written}</p>\n<p class="title">{edited}</p>'
-BASE =  f'/{ROOT}/maxludden/dev/py/superforge'
+
 
 
 #.
@@ -186,6 +186,7 @@ def generate_md(book: int):
             The multimarkdown for the given book's cover page
     '''
     sg()
+    cover_path = ""
     for doc in Book.objects(book=book):
         cover_path = doc.cover_path
     
@@ -270,16 +271,29 @@ def get_html(book: int):
 
 
 @errwrap()
-def create_coverpage(book: int):
+def create_coverpage(book: int, test: bool=False):
     sg()
-    for doc in Book.objects(book=book):
-        filename = doc.cover
+    if test:
+        log.info("Connected to MongoDB.")
+    filename = generate_filename(book)
+    if test:
+        log.info(f'Filename: {filename}')
     md_path = generate_md_path(book)
+    if test:
+        log.info(f'MD Path: {md_path}')
     html_path = generate_html_path(book)
+    if test:
+        log.info(f'HTML Path: {html_path}')
     md = generate_md(book)
+    if test:
+        log.info(f'Multimarkdown: {md}')
     html = generate_html(book)
+    if test:
+        log.info(f'html: {html}')
     
     sg()
+    if test:
+        log.info("Reconnected to MongoDB.")
     new_coverpage = Coverpage(
         book = book,
         filename = filename,
@@ -287,5 +301,6 @@ def create_coverpage(book: int):
         html_path = html_path,
         md = md,
         html = html
-    ).save()
+    )
+    new_coverpage.save()
     log.info(f"Added Book {book}'s coverpage to MongoDB.")
