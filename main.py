@@ -2,12 +2,14 @@
 import os
 import re
 import sys
-from json import dump, load
+from json import dump, dumps, load, loads
 from pprint import pprint
 from subprocess import run
 
+from bs4 import BeautifulSoup
 from tqdm.auto import tqdm
 
+import core.book as cb
 from core.atlas import errwrap, sg
 from core.book import create_coverpage
 from core.chapter import make_chapters, verify_chapters, write_book_md
@@ -24,8 +26,8 @@ from yaml import SafeLoader, load_all
 new_run()
 
 #. Coverpage
-create_coverpage(1, test=True)
-
+create_coverpage()
+    
 #. Chapters
 #> make_chapters()
 # verify_chapters()

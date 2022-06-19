@@ -7,7 +7,7 @@ from platform import platform
 from subprocess import run
 from typing import Optional
 
-from loguru import logger as log
+from loguru import logger
 from tqdm.auto import tqdm
 
 #.############################################################
@@ -199,7 +199,32 @@ def console_debug_flt(record:dict):
         return record 
     elif lvl == "WARNING":
         return record
+
+#. Patch main logger
+# to truncate exceedingly long filenames generated from ipython
+def truncate_filenames(record):
+    '''
+    Truncate exceedingly long filenames to maintain formating.
+
+    Args:
+        `record` (dict):
+            The record dictionary of a logged message.
+
+    Returns:
+        `record` (dict): 
+            The edited record dictionary of the given message.
+    '''
+    filename = record['file'].name
+    if 'ipython' in filename:
+        filename = 'ipython'
+    if len(filename) > 20:
+        filename = filename[0:17]
+    record['file'].name = filename
+    return record
     
+    
+log = logger.patch(truncate_filenames)
+
 #. Initialize Console Sink
 log.remove() # removes the default logger provided by loguru
 sinks = {}
@@ -223,6 +248,7 @@ if console_set == "INFO":
                 level="DEBUG",
                 backtrace=True, 
                 diagnose=True,
+                
                 filter=console_info_flt
             ),
             dict(
