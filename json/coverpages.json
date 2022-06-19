@@ -1,0 +1,62 @@
+{
+    "1": {
+        "book": 1,
+        "filename": "cover1.html",
+        "filepath": "/Users/maxludden/dev/py/superforge/books/book01",
+        "html": "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\">\n<head>\n    <meta charset=\"utf-8\"/>\n    <meta name=\"book\" content=\"1\"/>\n    <link type=\"text/css\" rel=\"stylesheet\" href=\"../Styles/style.css\"/>\n    <meta name=\"viewport\" content=\"width=device-width\"/>\n    <title>Cover 1</title>\n</head>\n\n<body class=\"cover\">\n    <p class=\"cover\">\n        <img class=\"cover\" alt=\"Cover Page\" src=\"../Images/cover1.png\" />\n    </p>\n</body>\n"
+    },
+    "2": {
+        "book": 2,
+        "filename": "cover2.html",
+        "filepath": "/Users/maxludden/dev/py/superforge/books/book02",
+        "html": "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\">\n<head>\n    <meta charset=\"utf-8\"/>\n    <meta name=\"book\" content=\"2\"/>\n    <link type=\"text/css\" rel=\"stylesheet\" href=\"../Styles/style.css\"/>\n    <meta name=\"viewport\" content=\"width=device-width\"/>\n    <title>Cover 2</title>\n</head>\n\n<body class=\"cover\">\n    <p class=\"cover\">\n        <img class=\"cover\" alt=\"Cover Page\" src=\"../Images/cover2.png\" />\n    </p>\n</body>\n"
+    },
+    "3": {
+        "book": 3,
+        "filename": "cover3.html",
+        "filepath": "/Users/maxludden/dev/py/superforge/books/book03",
+        "html": "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\">\n<head>\n    <meta charset=\"utf-8\"/>\n    <meta name=\"book\" content=\"3\"/>\n    <link type=\"text/css\" rel=\"stylesheet\" href=\"../Styles/style.css\"/>\n    <meta name=\"viewport\" content=\"width=device-width\"/>\n    <title>Cover 3</title>\n</head>\n\n<body class=\"cover\">\n    <p class=\"cover\">\n        <img class=\"cover\" alt=\"Cover Page\" src=\"../Images/cover3.png\" />\n    </p>\n</body>\n"
+    },
+    "4": {
+        "book": 4,
+        "filename": "cover4.html",
+        "filepath": "/Users/maxludden/dev/py/superforge/books/book04",
+        "html": "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\">\n<head>\n    <meta charset=\"utf-8\"/>\n    <meta name=\"book\" content=\"4\"/>\n    <link type=\"text/css\" rel=\"stylesheet\" href=\"../Styles/style.css\"/>\n    <meta name=\"viewport\" content=\"width=device-width\"/>\n    <title>Cover 4</title>\n</head>\n\n<body class=\"cover\">\n    <p class=\"cover\">\n        <img class=\"cover\" alt=\"Cover Page\" src=\"../Images/cover4.png\" />\n    </p>\n</body>\n"
+    },
+    "5": {
+        "book": 5,
+        "filename": "cover5.html",
+        "filepath": "/Users/maxludden/dev/py/superforge/books/book05",
+        "html": "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\">\n<head>\n    <meta charset=\"utf-8\"/>\n    <meta name=\"book\" content=\"5\"/>\n    <link type=\"text/css\" rel=\"stylesheet\" href=\"../Styles/style.css\"/>\n    <meta name=\"viewport\" content=\"width=device-width\"/>\n    <title>Cover 5</title>\n</head>\n\n<body class=\"cover\">\n    <p class=\"cover\">\n        <img class=\"cover\" alt=\"Cover Page\" src=\"../Images/cover5.png\" />\n    </p>\n</body>\n"
+    },
+    "6": {
+        "book": 6,
+        "filename": "cover6.html",
+        "filepath": "/Users/maxludden/dev/py/superforge/books/book06",
+        "html": "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\">\n<head>\n    <meta charset=\"utf-8\"/>\n    <meta name=\"book\" content=\"6\"/>\n    <link type=\"text/css\" rel=\"stylesheet\" href=\"../Styles/style.css\"/>\n    <meta name=\"viewport\" content=\"width=device-width\"/>\n    <title>Cover 6</title>\n</head>\n\n<body class=\"cover\">\n    <p class=\"cover\">\n        <img class=\"cover\" alt=\"Cover Page\" src=\"../Images/cover6.png\" />\n    </p>\n</body>\n"
+    },
+    "7": {
+        "book": 7,
+        "filename": "cover7.html",
+        "filepath": "/Users/maxludden/dev/py/superforge/books/book07",
+        "html": "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\">\n<head>\n    <meta charset=\"utf-8\"/>\n    <meta name=\"book\" content=\"7\"/>\n    <link type=\"text/css\" rel=\"stylesheet\" href=\"../Styles/style.css\"/>\n    <meta name=\"viewport\" content=\"width=device-width\"/>\n    <title>Cover 7</title>\n</head>\n\n<body class=\"cover\">\n    <p class=\"cover\">\n        <img class=\"cover\" alt=\"Cover Page\" src=\"../Images/cover7.png\" />\n    </p>\n</body>\n"
+    },
+    "8": {
+        "book": 8,
+        "filename": "cover8.html",
+        "filepath": "/Users/maxludden/dev/py/superforge/books/book08",
+        "html": "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\">\n<head>\n    <meta charset=\"utf-8\"/>\n    <meta name=\"book\" content=\"8\"/>\n    <link type=\"text/css\" rel=\"stylesheet\" href=\"../Styles/style.css\"/>\n    <meta name=\"viewport\" content=\"width=device-width\"/>\n    <title>Cover 8</title>\n</head>\n\n<body class=\"cover\">\n    <p class=\"cover\">\n        <img class=\"cover\" alt=\"Cover Page\" src=\"../Images/cover8.png\" />\n    </p>\n</body>\n"
+    },
+    "9": {
+        "book": 9,
+        "filename": "cover9.html",
+        "filepath": "/Users/maxludden/dev/py/superforge/books/book09",
+        "html": "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\">\n<head>\n    <meta charset=\"utf-8\"/>\n    <meta name=\"book\" content=\"9\"/>\n    <link type=\"text/css\" rel=\"stylesheet\" href=\"../Styles/style.css\"/>\n    <meta name=\"viewport\" content=\"width=device-width\"/>\n    <title>Cover 9</title>\n</head>\n\n<body class=\"cover\">\n    <p class=\"cover\">\n        <img class=\"cover\" alt=\"Cover Page\" src=\"../Images/cover9.png\" />\n    </p>\n</body>\n"
+    },
+    "10": {
+        "book": 10,
+        "filename": "cover10.html",
+        "filepath": "/Users/maxludden/dev/py/superforge/books/book10",
+        "html": "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\">\n<head>\n    <meta charset=\"utf-8\"/>\n    <meta name=\"book\" content=\"10\"/>\n    <link type=\"text/css\" rel=\"stylesheet\" href=\"../Styles/style.css\"/>\n    <meta name=\"viewport\" content=\"width=device-width\"/>\n    <title>Cover 10</title>\n</head>\n\n<body class=\"cover\">\n    <p class=\"cover\">\n        <img class=\"cover\" alt=\"Cover Page\" src=\"../Images/cover10.png\" />\n    </p>\n</body>\n"
+    }
+}

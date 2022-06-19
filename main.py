@@ -9,9 +9,8 @@ from subprocess import run
 from bs4 import BeautifulSoup
 from tqdm.auto import tqdm
 
-import core.book as cb
+import core.book as cb  # shorthand for core.book
 from core.atlas import errwrap, sg
-from core.book import create_coverpage
 from core.chapter import make_chapters, verify_chapters, write_book_md
 from core.endofbook import make_endofbooks
 from core.epubmeta import create_all_epubmeta, update_all_epubmeta
@@ -26,8 +25,10 @@ from yaml import SafeLoader, load_all
 new_run()
 
 #. Coverpage
-create_coverpage()
-    
+#> cb.create_coverpage()
+# cb.update_filepaths()
+cb.test(1)
+
 #. Chapters
 #> make_chapters()
 # verify_chapters()
