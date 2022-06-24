@@ -204,7 +204,7 @@ def console_debug_flt(record:dict):
 # to truncate exceedingly long filenames generated from ipython
 def truncate_filenames(record):
     '''
-    Truncate exceedingly long filenames to maintain formating.
+    Truncate exceedingly long filenames to maintain formatting.
 
     Args:
         `record` (dict):
@@ -254,7 +254,7 @@ if console_set == "INFO":
             dict(
                 sink="/Users/maxludden/dev/py/superforge/logs/supergene.log",
                 colorize=False,
-                format="Run {extra[run]} | {time:hh:mm:ss:SSS A} | {file.name: ^13} |  Line {line: ^5} | {level: <8}ﰲ  {message}",
+                format="Run {extra[run]} │ {time:hh:mm:ss:SSS A} │ {file.name: ^13} │  Line {line: ^5} │ {level: <8}ﰲ  {message}",
                 level = "DEBUG",
                 backtrace = True,
                 diagnose=True
@@ -428,6 +428,7 @@ def fix_tags():
     fixed_md = md.replace('\<','<')
     with open (LOG, 'w') as outfile:
         outfile.write(fixed_md)
+    log.debug("\n\n\n\n")
 
 def test_logger():
     logger.debug("Test the logger DEBUG log.")
@@ -456,7 +457,7 @@ def new_run(test_loggers: bool=False):
     fix_tags()
 
 
-def errwrap(*, entry=True, exit=True, level="DEBUG"):
+def errwrap(*, entry=True, exit=True, level="DEBUG", test: bool=False):
     """Create a decorator that can be used to record the entry, *args, **kwargs,as well ass the exit and results of a decorated function.
 
     Args:
@@ -476,12 +477,19 @@ def errwrap(*, entry=True, exit=True, level="DEBUG"):
         @functools.wraps(func)
         def wrapped(*args, **kwargs):
             xylog = log.opt(depth=1)
-            if entry:
+            if test: #> Test run - record entry and exit to test.
                 xylog.log (level, f"Entering '{name}' (args= '{args}', kwargs={kwargs}")
-            result = func(*args, **kwargs)
-            if exit:
+                result = func(*args, **kwargs)
                 xylog.log(level, f"Exiting '{name}' (result={result})")
-            return result
+                return result
+            else:
+            #> Non-test
+                if entry:
+                    xylog.log (level, f"Entering '{name}' (args= '{args}', kwargs={kwargs}")
+                result = func(*args, **kwargs)
+                if exit:
+                    xylog.log(level, f"Exiting '{name}' (result={result})")
+                return result
         return wrapped
     return wrapper
 

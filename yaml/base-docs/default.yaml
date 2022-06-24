@@ -5,7 +5,7 @@ to: epub
 output-file: OUTPUT_FILE
 
 input-files:
-INPUT_FILES
+- INPUT_FILES
 
 standalone: true
 self-contained: true
@@ -19,7 +19,7 @@ resource-path:
 - BASEImages/gem.gif
 - BASEImages/title.png
 - BASEImages/COVER
-FULL_CHAPTERS
+- FULL_CHAPTERS
 - BASEyaml/meta.yaml
 - EPUB_META_PATH
 

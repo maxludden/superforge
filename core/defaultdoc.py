@@ -1,16 +1,19 @@
 # core/defaultdoc.py
-from yaml import load_all, SafeLoader, SafeDumper
-from mongoengine import Document
-from mongoengine.fields import IntField, StringField, ListField, DictField
+import sys
+from typing import Optional
 
-from core.atlas import sg, max_title, ROOT
-from core.log import log, errwrap
+from mongoengine import Document
+from mongoengine.fields import DictField, IntField, ListField, StringField
+
 import core.book as book_
-import core.section as section_
-import core.titlepage as titlepage_
 import core.chapter as chapter_
 import core.endofbook as eob_
-from typing import Optional
+import core.max_yaml as myaml
+import core.section as section_
+import core.titlepage as titlepage_
+from core.atlas import BASE, max_title, sg
+from core.log import errwrap, log
+
 
 @errwrap()
 def generate_output_file(book: int):
@@ -91,46 +94,36 @@ def generate_epubmeta(book: int):
     '''
     return f"epub-meta{book}.yaml"
 
-class DefaultDoc(Document):
-    book = IntField()
-    from_format = StringField(default="html")
-    to_format = StringField(default="epub")
-    output_file = StringField()
-    standalone = StringField(default="true")
-    self_contained = StringField(default="true")
-    toc = StringField(default="true")
-    toc_depth = IntField(default=2)
-    epub_chapter_level = IntField(default=2)
-    epub_cover_image = StringField()
-    epub_fonts = ListField(StringField())
-    metadata_files = ListField(StringField())
-    css = StringField(default="style.css")
-    input_files = ListField(StringField())
+class Default(Document):
+    book = IntField(required=True)
+    output= StringField() # the filename of the final epub file with extension
+    input_files = ListField(StringField()) 
+        # ordered list of the coverpage, titlepage, section(s) and its/their chapters, and end of book page.
     resource_path = ListField(StringField())
-    filename = StringField()
-    filepath = StringField()
+        # A list of all of the elements used to create and format the given book
+    filename = StringField() # filename of the default doc (with extension)
+    filepath = StringField() # The full filepath of the default doc
+    meta = {'collection': 'default'}
     
-    def __init__(self,  book: int, output_file: str, epub_cover_image: str, metadata_files: list[str], input_files: list[str], resource_path: list[str], filename: str, filepath: str, css: str="style.css", epub_fonts: list[str]=['Century Gothic.ttf','abeatbykai.ttf','Photograph Signature.ttf'],from_format: str="html", to_format: str="epub", standalone: str="true",self_contained: str="true",toc: str="true",toc_depth: int=2, epub_chapter_level: int=2,):
-        self.book = book
-        self.output_file = output_file
-        self.epub_cover_image = epub_cover_image 
-        self.metadata_files: metadata_files
-        self.input_files: input_files
-        self.resource_path = resource_path
-        self.filename = filename
-        self.filepath = filepath
-        self.css = css
-        self.epub_fonts: epub_fonts
-        self.from_format = from_format 
-        self.to_format = to_format
-        self.standalone = standalone
-        self.self_contained = self_contained
-        self.toc = toc
-        self.toc_depth = toc_depth
-        self.epub_chapter_level = epub_chapter_level
 
 @errwrap()
-def get_section_count(book: int):
+def generate_output_file(book: int):
+    '''
+    Generate the output file's name for the given book's default doc.
+
+    Args:
+        `book` (int):
+            The given book.
+    Returns:
+        `output` (str): 
+            The filename of the given book.
+    '''
+    for doc in book_.Book.objects(book=book):
+        return doc.output 
+        # Example of doc.output: "First God's Sanctuary.epub"
+
+@errwrap()
+def generate_section_count(book: int):
     '''
     Determine the number of sections in a given book.
 
@@ -149,8 +142,10 @@ def get_section_count(book: int):
     section_count = len(sections)
     return section_count
 
-@errwrap()
-def get_section_files(section: int, filepath: bool=False):
+
+
+@errwrap(exit=False)
+def generate_section_files(section: int, filepath: bool=False):
     '''
     Generate the input files for a given section.
 
@@ -184,39 +179,63 @@ def get_section_files(section: int, filepath: bool=False):
             log.debug(f"Generated filepaths for Section Input Files for Section {section}.")
             return section_files
 
-@errwrap()
-def get_input_files(book: int, filepaths: bool=False):
+
+@errwrap(exit=False)
+def generate_input_files(book: int, filepaths: bool=False):
+    '''
+    Generates and ordered list of documents to be included in the given epub.
+
+    Args:
+        `book` (int):
+            The given book.
+            
+        `filepaths` (bool, optional): 
+            Boolean switch to determine whether or not to generate the filepath instead of the filename. Defaults to False.
+
+    Returns:
+        `input_files` (list[str]): 
+            A list of ordered documents' filename/filepath's to be included in the given books epub output.
+    '''
     input_files = []
-    section_count = get_section_count(book)
+    section_count = generate_section_count(book)
     if section_count == 1:
         if filepaths:
+            #> Coverpage
+            input_files.append(book_.get_filepath(book))
+            
             #> Titlepage
-            input_files.append(titlepage_.get_html_path)
+            input_files.append(titlepage_.get_html_path(book))
             
             #> Section Page and Chapters
-            section_files = get_section_files(book, filepath=True)
+            section_files = generate_section_files(book, filepath=True)
             # Because only books 1, 2, and 3 have one section, the book param and section param are interchangeable. Which is why we can substitute it's book param for it's section param
             for section_file in section_files:
                 input_files.append(section_file)
             
             #> End of Book
             input_files.append(eob_.get_html_path())
-            return input_files
+            return input_files      #. End Single-section Filepath
         else:
+            #> Coverpage
+            input_files.append(book_.get_filename(book))
+            
             #> Titlepage
             input_files.append(f'{titlepage_.get_filename}.html')
             
             #> Section Page and Chapters
-            section_files = get_section_files(book)
+            section_files = generate_section_files(book)
             # Because only books 1, 2, and 3 have one section, the book param and section param are interchangeable. Which is why we can substitute it's book param for it's section param
             for section_file in section_files:
                 input_files.append(section_file)
             
             #> End of Book
             input_files.append(f'{eob_.get_filename}.html')
-            return input_files
+            return input_files      #. End Single-section Filename
     else:
         if filepaths:
+            #> Coverpage
+            input_files.append(book_.get_filepath(book))
+            
             #> Titlepage
             input_files.append(titlepage_.get_html_path)
             
@@ -228,20 +247,24 @@ def get_input_files(book: int, filepaths: bool=False):
             
             #> First section
             # Uses the python list `min()` function to return the lowest value from sections
-            section_files = get_section_files(min(sections), filepath=True)
+            section_files = generate_section_files(min(sections), filepath=True)
             for section_file in section_files:
                 input_files.append(section_file)
                 
             #> Second section
             # Uses the python list function `max()` to return the highest value from sections
-            section_files = get_section_files(max(sections), filepath=True)
+            section_files = generate_section_files(max(sections), filepath=True)
             for section_file in section_files:
                 input_files.append(section_file)
                 
             #> End of Book
             input_files.append(eob_.get_html_path())
-            return input_files
+            return input_files      #. End Multi-section Filepaths
         else:
+            #> Coverpage
+            input_files.append(book_.get_filename(book))
+            
+            #> Titlepage
             input_files.append(f'{titlepage_.get_filename}.html')
             
             #> Sections
@@ -250,17 +273,198 @@ def get_input_files(book: int, filepaths: bool=False):
                 sections.append(doc.section)
                 # Searches through the Sections Collection for the two sections that have the a `doc.book` == the given book.
             
+            log.info(f"Sections: {sections}")
             #> First section
-            # Uses the python list `min()` function to return the lowest value from sections
-            section_files = get_section_files(min(sections))
+            # Uses the python list min function to return the lowest value from sections
+            section_files = generate_section_files(min(sections))
             for section_file in section_files:
                 input_files.append(section_file)
             
             #> Second section
-            # Uses the python list function `max()` to return the highest value from sections
-            section_files = get_section_files(max(sections), filepath=True)
+            # Uses the python list function `max` to return the highest value from sections
+            section_files = generate_section_files(max(sections), filepath=True)
             for section_file in section_files:
                 input_files.append(section_file)
             
+            #> End of Book
             input_files.append(f'{eob_.get_filename}.html')
-            return input_files
+            return input_files      #. End Multi-section Filenames
+
+@errwrap(entry=False)
+def save_input_files(book: int, input_files: list[str]):
+    '''
+    Save the list of input files for the given book to MongoDB.
+
+    Args:
+        `input_files` (list[str]):
+            An ordered list of the content files for the given book.
+
+    Returns:
+        `return_code` (int): 
+            An integer value associated with the completion status of the script. A successful run will return `0`. An unsuccessful save will return a non `0` integer value.
+    '''
+    sg()
+    try:
+        for doc in Default.objects(book=book):
+            log.debug(f"Accessed Book {book}'s Default Doc's MongoDB Document.")
+            doc.input_files = input_files
+            doc.save()
+            log.debug(f"Updated Book {book}'s Default Doc's input files.")
+        return 0
+    except Exception as e:
+        log.error(f"Unable to access Book {book}'s default doc Document.")
+        raise e
+
+@errwrap(exit=False)
+def get_input_files(book: int):
+    '''
+    Retrieve the input-files for the given book's default doc from MongoDB.
+
+    Args:
+        `book` (int):
+            The given book.
+
+    Returns:
+        `input_files` (list[str]): 
+            An ordered list of the content documents used to create the given book.
+    '''
+    sg()
+    for doc in Default.objects(book=book):
+        input_files = doc.input_files
+        if len(input_files) > 2:
+            log.debug(f"Retrieved the input_files for Book {book}'s default doc.")
+            return doc.input_files
+        else:
+            log.warning(f"Book {book}'s default doc's input files haven't been properly set. Please generate and save its input_files before attempting to access them from MongoB.")
+            sys.exit({1:f"Unable to access Book {book}'s default doc's input files from MongoDB."})
+
+
+@errwrap(exit=False)
+def generate_resource_paths(book: int):
+    rp = []
+    book_dir = str(book).zfill(2)
+    WDIR = f'{BASE}/books/book{book_dir}/'
+    
+    #. Meta Documents
+    #> Working Directory
+    rp.append(f'{WDIR}/.')
+    
+    #> CSS Stylesheet
+    rp.append(f'{WDIR}/Styles/style.css')
+    
+    #> Embedded Fonts
+    rp.append(f'{WDIR}/Styles/abeatbykai.ttf')
+    rp.append(f'{WDIR}/Styles/Century Gothic.ttf')
+    rp.append(f'{WDIR}/Styles/Photograph Signature.ttf')
+    
+    #> Images
+    rp.append(f'{WDIR}/Images/title.png')
+    rp.append(f'{WDIR}/Images/cover{book}.png')
+    rp.append(f'{WDIR}/Images/gem.gig')
+    
+    #> Normal/ePub Metadata
+    rp.append('f{WDIR}/html/meta{book}.yaml')
+    rp.append('f{WDIR}/html/epub-meta{book}.yaml')
+    
+    #. Content Documents
+    rp.extend(generate_input_files(book, filepaths=True))
+    
+    return rp
+
+
+@errwrap()
+def generate_html_path(book: int):
+    book_str = str(book).zfill(2)
+    html_path = f"{BASE}/books/book{book_str}/html/sg{book}.yaml"
+    return html_path
+
+
+@errwrap()
+def generate_defaultdoc(book: int, test: bool=False):
+    #> Shared Static Elements
+    part1 = [
+        {'from': 'html'},
+        {'to': 'epub'}
+    ]
+    
+    #> Output File
+    output_file = generate_output_file(book)
+    part2 = [{'output-file': output_file}]
+    
+    #> Input-files
+    input_files = generate_input_files(book)
+    
+    #> Scope
+    part3 = [
+        {'standalone': 'true'},
+        {'self-contained': 'true'}]
+    
+    #> Resource-Paths
+    rp = generate_resource_paths(book)
+    
+    
+    #> ePub Table of Contents
+    part4 = [
+        {'toc': 'true'},
+        {'toc-depth': 2},
+        '\n'
+    ]
+    
+    #> ePub related fields
+    # Fonts
+    epub_fonts = [
+        'abeatbykai.ttf',
+        'Century Gothic.ttf',
+        'Photograph Signature.ttf'
+    ]
+    part5 = [
+        {'epub-chapter-level': 2},
+        {'epub-cover-image': f'cover{book}.png'},
+        {'epub-fonts': epub_fonts},
+        {'epub_metadata': f'epub-meta{book}.yaml'}
+    ]
+    
+    #> Metadata and CSS
+    metadata_files = [
+        'epub-meta{book}.yaml',
+        'meta{book}.yaml'
+    ]
+    stylesheet = [
+        'style.css'
+    ]
+    part6 = [
+        {'metadata-files': metadata_files},
+        {'css': stylesheet}
+    ]
+    python_obj = {
+        [
+            part1,
+            part2,
+            part3,
+            part4,
+            part5,
+            part6
+        ]
+    }
+    
+    default_doc = myaml.safe_dump(python_obj,book)
+    if test:
+        print(default_doc)
+        response = input("\n\nWould you like to save this Default Doc to disk? (Y/N)")
+        if response.lower() == 'y':
+            html_path = generate_html_path(book)
+            with open (html_path, 'w') as outfile:
+                outfile.write(default_doc)
+                
+        else:
+            log.error("Invalid DefaultDoc. Quitting Script.")
+            sys.exit(1)
+    else:
+        log.info(f"Finished Generating Default Doc for Book {book}.")
+        
+    
+    
+    
+    
+
+    

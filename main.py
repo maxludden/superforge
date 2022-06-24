@@ -9,9 +9,10 @@ from subprocess import run
 from bs4 import BeautifulSoup
 from tqdm.auto import tqdm
 
-import core.book as cb  # shorthand for core.book
-from core.atlas import errwrap, sg
-from core.chapter import make_chapters, verify_chapters, write_book_md
+import core.atlas
+import core.book as cb
+import core.chapter
+import core.defaultdoc as dd
 from core.endofbook import make_endofbooks
 from core.epubmeta import create_all_epubmeta, update_all_epubmeta
 from core.log import errwrap, fix_tags, log, new_run
@@ -58,6 +59,8 @@ cb.test(1)
 # update_all_epubmeta()
 
 #. Defaultdoc
+print(dd.generate_input_files(1))
+#dd.generate_defaultdoc(1, test=True)
 
 
 fix_tags()

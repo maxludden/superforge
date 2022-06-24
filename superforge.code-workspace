@@ -7,7 +7,14 @@
     "settings": {
         "cSpell.words": [
             "appname",
-            "iitqjb"
+            "cloader",
+            "cyaml",
+            "iitqjb",
+            "WDIR",
+            "yamlclass"
+        ],
+        "cSpell.ignoreWords": [
+            "yamlclass"
         ]
     }
 }

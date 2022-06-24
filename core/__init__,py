@@ -12,5 +12,6 @@ __all__ = [
     "log",
     "titlepage",
     "section",
-    "sort_json"
+    "sort_json",
+    "max_yaml"
 ]
