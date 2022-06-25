@@ -1,17 +1,16 @@
 # core/defaultdoc.py
 import sys
-from typing import Optional
 
 from mongoengine import Document
-from mongoengine.fields import DictField, IntField, ListField, StringField
+from mongoengine.fields import IntField, ListField, StringField
 
 import core.book as book_
 import core.chapter as chapter_
 import core.endofbook as eob_
-import core.max_yaml as myaml
+import core.myaml as myaml
 import core.section as section_
 import core.titlepage as titlepage_
-from core.atlas import BASE, max_title, sg
+from core.atlas import BASE, sg
 from core.log import errwrap, log
 
 
