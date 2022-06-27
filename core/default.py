@@ -14,16 +14,19 @@ try:
     import core.section as section_
     import core.titlepage as titlepage_
     from core.atlas import BASE, sg
+    from core.book import Book
     from core.log import errwrap, log
 except ImportError:
-    import book as _book
-    import chapter as _chapter
+    import book as book_
+    import chapter as chapter_
     import endofbook as eob_
     import myaml
     import section as section_
     import titlepage as titlepage_
     from atlas import BASE, sg
+    from book import Book
     from log import errwrap, log
+
     #> End of Imports
 
 @errwrap()
@@ -49,3 +52,7 @@ def generate_output_file(book: int, test: bool=False):
             log.info(f"doc output: {doc.output}")
         return doc.output
 
+sg()
+for doc in Book.objects(book=1):
+    output = doc.output
+    print(f"output: {output}")
