@@ -28,17 +28,16 @@ except ImportError:
 
 
 class Book (Document):
-    book = IntField(Required=True, unique=True, indexed=True)
-    book_word = StringField(Required=True)
     title = StringField(Required=True, max_length=500)
-    chapters = ListField(IntField())
+    output = StringField()
     cover = StringField()
     cover_path = StringField()
+    uuid = UUIDField(binary=False)
     default = StringField()
     start = IntField(min_value=1)
     end = IntField(max_value=3463)
-    output = StringField()
-    uuid = UUIDField(binary=False)
+    book = IntField(Required=True, unique=True, indexed=True)
+    book_word = StringField(Required=True)
 
 
 # > Declaring Static Variables

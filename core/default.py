@@ -52,7 +52,5 @@ def generate_output_file(book: int, test: bool=False):
             log.info(f"doc output: {doc.output}")
         return doc.output
 
-sg()
-for doc in Book.objects(book=1):
-    output = doc.output
-    print(f"output: {output}")
+output = generate_output_file(1)
+print(output)
