@@ -4,14 +4,24 @@ import sys
 from mongoengine import Document
 from mongoengine.fields import IntField, ListField, StringField
 
-import core.book as book_
-import core.chapter as chapter_
-import core.endofbook as eob_
-import core.myaml as myaml
-import core.section as section_
-import core.titlepage as titlepage_
-from core.atlas import BASE, sg
-from core.log import errwrap, log
+try:
+    import core.book as book_
+    import core.chapter as chapter_
+    import core.endofbook as eob_
+    import core.myaml as myaml
+    import core.section as section_
+    import core.titlepage as titlepage_
+    from core.atlas import BASE, sg
+    from core.log import errwrap, log
+except ImportError:
+    import book as _book
+    import chapter as _chapter
+    import endofbook as eob_
+    import myaml
+    import section as section_
+    import titlepage as titlepage_
+    from atlas import BASE, sg
+    from log import errwrap, log
 
 
 @errwrap()

@@ -5,8 +5,12 @@ from mongoengine import Document
 from mongoengine.fields import IntField, ListField, StringField, UUIDField
 from tqdm.auto import tqdm
 
-from core.atlas import BASE, max_title, sg
-from core.log import errwrap, log
+try:
+    from core.atlas import BASE, max_title, sg
+    from core.log import errwrap, log
+except ImportError:
+    from atlas import BASE, max_title, sg
+    from log import errwrap, log
 
 # . ############################################################### . #
 # .                                                                 . #

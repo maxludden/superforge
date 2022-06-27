@@ -10,9 +10,14 @@ from mongoengine.fields import IntField, StringField
 from num2words import num2words
 from tqdm.auto import tqdm
 
-from core.atlas import ROOT, max_title, sg
-from core.book import Book
-from core.log import errwrap, log
+try:
+    from core.atlas import ROOT, max_title, sg
+    from core.book import Book
+    from core.log import errwrap, log
+except ImportError:
+    from atlas import ROOT, max_title, sg
+    from book import Book
+    from log import errwrap, log
 
 load_dotenv()
 

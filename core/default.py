@@ -6,33 +6,46 @@ from icecream import ic
 from mongoengine import Document
 from mongoengine.fields import IntField, ListField, StringField
 
-
-import core.book as book_
-import core.chapter as chapter_
-import core.endofbook as eob_
-import core.myaml as myaml
-import core.section as section_
-import core.titlepage as titlepage_
-from core.atlas import BASE, sg
-from core.log import errwrap, log
-
+try:
+    import core.book as book_
+    import core.chapter as chapter_
+    import core.endofbook as eob_
+    import core.myaml as myaml
+    import core.section as section_
+    import core.titlepage as titlepage_
+    from core.atlas import BASE, sg
+    from core.log import errwrap, log
+except ImportError:
+    import book as _book
+    import chapter as _chapter
+    import endofbook as eob_
+    import myaml
+    import section as section_
+    import titlepage as titlepage_
+    from atlas import BASE, sg
+    from log import errwrap, log
     #> End of Imports
 
 @errwrap()
-def generate_output_file(book: int):
+def generate_output_file(book: int, test: bool=False):
     '''
     Generate the output-file for the given book.
 
     Args:
         `book` (int):
             The given book.
+        `test` (book)
+            Whether this run was used to test.
 
     Returns:
         `output_file` (str): 
             The output-file for the given book.
     '''
     sg()
+    if test:
+        log.info("Connected to MongoDB.")
     for doc in book_.Book.objects(book=book):
+        if test:
+            log.info(f"doc output: {doc.output}")
         return doc.output
 
-ic(generate_output_file(1))

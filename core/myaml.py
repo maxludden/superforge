@@ -1,8 +1,12 @@
 # superforge/core/max_yaml.py
 import yaml
 
-from core.atlas import BASE
-from core.log import log
+try:
+    from core.atlas import BASE
+    from core.log import log
+except ImportError:
+    from atlas import BASE
+    from log import log
 
 #. Flags
 
@@ -89,8 +93,8 @@ def safe_dump(yaml_to_dump: str, book: int):
     result = yaml.dump(yaml_to_dump, html_path, Dumper=SafeDumper, indent=2)
     return result
 
-def dump(yaml_to_dump: str):
+def dump(yaml_to_dump: str, book:int):
     html_path = generate_html_path(book)
     result = yaml.dump(yaml_to_dump, html_path, Dumper=Dumper, indent=2)
     return result
-        
+    

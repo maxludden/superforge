@@ -9,7 +9,10 @@ from dotenv import load_dotenv
 from mongoengine import connect
 from pymongo.errors import ConnectionFailure, InvalidURI, NetworkTimeout
 
-from core.log import errwrap, log
+try:
+    from core.log import errwrap, log
+except ImportError:
+    from log import errwrap, log
 
 load_dotenv()
 

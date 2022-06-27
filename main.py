@@ -7,12 +7,14 @@ from pprint import pprint
 from subprocess import run
 
 from bs4 import BeautifulSoup
+from icecream import ic
 from tqdm.auto import tqdm
 
-import core.atlas
-import core.book as cb
-import core.chapter
-import core.defaultdoc as dd
+import core.book as book_
+import core.chapter as chapter_
+import core.default as default_
+import core.defaultdoc as defaultdoc_
+from core.atlas import BASE, sg
 from core.endofbook import make_endofbooks
 from core.epubmeta import create_all_epubmeta, update_all_epubmeta
 from core.log import errwrap, fix_tags, log, new_run
@@ -28,7 +30,7 @@ new_run()
 #. Coverpage
 #> cb.create_coverpage()
 # cb.update_filepaths()
-cb.test(1)
+#cb.test(1)
 
 #. Chapters
 #> make_chapters()
@@ -59,8 +61,9 @@ cb.test(1)
 # update_all_epubmeta()
 
 #. Defaultdoc
-print(dd.generate_input_files(1))
-#dd.generate_defaultdoc(1, test=True)
+output_file = default_.generate_output_file(1,test=True)
+print(f"output file: {output_file}")
+
 
 
 fix_tags()

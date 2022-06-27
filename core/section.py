@@ -11,8 +11,12 @@ from mongoengine.fields import IntField, ListField, StringField
 from num2words import num2words
 from tqdm.auto import tqdm
 
-from core.atlas import ROOT, max_title, sg
-from core.log import errwrap, log
+try:
+    from core.atlas import ROOT, max_title, sg
+    from core.log import errwrap, log
+except ImportError:
+    from atlas import ROOT, max_title, sg
+    from log import errwrap, log
 
 #.##########################################################
 #.                                                         #
