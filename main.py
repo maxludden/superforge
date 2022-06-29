@@ -35,6 +35,7 @@ new_run()
 #. Chapters
 #> make_chapters()
 # verify_chapters()
+chapter_.update_html_paths()
 
 #. Titlepages
 #> generate_titlepages()
@@ -61,8 +62,8 @@ new_run()
 # update_all_epubmeta()
 
 #. Defaultdoc
-output_file = default_.generate_output_file(1,test=True)
-print(f"output file: {output_file}")
+
+
 
 
 

@@ -6,7 +6,7 @@ from platform import platform
 from typing import Optional
 
 from dotenv import load_dotenv
-from mongoengine import connect
+from mongoengine import connect, disconnect_all
 from pymongo.errors import ConnectionFailure, InvalidURI, NetworkTimeout
 
 try:
@@ -78,7 +78,7 @@ def sg(database: str = "make-supergene", test: bool=False):
         `database` (Optional[str]):
             The alternative database you would like to connect to. Default is 'make-supergene'.
     """
-
+    disconnect_all()
     URI = get_atlas_uri(database)
     if test:
         log.debug(f"URI: {URI}")

@@ -6,16 +6,18 @@ import sys
 from fileinput import filename
 from platform import platform
 from subprocess import run
+from typing import Optional
 
+from icecream import ic
 from mongoengine import Document
 from mongoengine.fields import EnumField, IntField, StringField
 from tqdm.auto import tqdm
 
 try:
-    from core.atlas import max_title, sg, supergene, ROOT
+    from core.atlas import ROOT, max_title, sg, supergene
     from core.log import errwrap, log
 except ImportError:
-    from atlas import max_title, sg, supergene, BASE, ROOT
+    from atlas import BASE, ROOT, max_title, sg, supergene
     from log import errwrap, log
     
 
@@ -308,7 +310,7 @@ def generate_html_path(chapter: int):
         ROOT = 'Users' #< Max
         
     BASE = f"/{ROOT}/maxludden/dev/py/superforge/"
-    html_path = f"{BASE}book{book_dir}/html/{filename}.html"
+    html_path = f"{BASE}/books/book{book_dir}/html/{filename}.html"
     return html_path
 
 
@@ -616,3 +618,19 @@ def write_book_html(book: int):
         with open (doc.html_path, 'w') as outfile:
             outfile.write(doc.html)
             log.debug(f"Wrote CHapter {doc.chapter}'s HTML to disk.")
+
+
+def update_html_paths():
+    sg()
+    for doc in tqdm(Chapter.objects(), unit="ch", desc="Updating filepath"):
+        base = f"Users/maxludden/dev/py/superforge/books/book"
+        book_zfill = str(doc.book).zfill(2)
+        filename = doc.filename
+        filepath = f"{base}{book_zfill}/html/{filename}.html"
+        print(filepath)
+        doc.html_path = filepath
+        doc.save()
+
+
+
+
