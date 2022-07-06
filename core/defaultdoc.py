@@ -37,29 +37,25 @@ except ImportError:
     import myaml
     import section as sect
     import titlepage as titlepg
-    from atlas import BASE, sg
+    from atlas import BASE
     from log import errwrap, log
 
     log.debug(f"Imported custom modules.")
 
-load_dotenv("../.env")
+load_dotenv("/Users/maxludden/dev/py/superforge/.env")
 
 
 @errwrap(entry=False, exit=False)
 def sg(database: str = "SUPERGENE", test: bool = False):
     disconnect_all()
     URI = os.environ.get(database)
+    if test:
+        log.info(f"URI: {URI}")
     try:
         connect("SUPERGENE", host=URI)
         log.debug(f"URI: {URI}\n\nConnected to MongoDB.")
     except ConnectionError:
-        raise ConnectionError(
-            {
-                "2": {
-                    "ConnectionError": "Unable to connect to SUPERGENE MongoDB"
-                    }
-            }
-        )
+        raise ConnectionError
 
 
 class Defaultdoc(Document):
@@ -77,6 +73,9 @@ class Defaultdoc(Document):
     section2_files = ListField(StringField())
     section_count = IntField(min_value=1, max_value=2)
     sections = ListField(IntField(min_value=1, max_value=17))
+    epubmetadata = StringField()
+    metadata = StringField()
+    default_doc = StringField()
     meta = {"collection": "defaultdoc"}
 
 
@@ -152,7 +151,7 @@ def patch_cover(book: int):
     cover = generate_cover(book)
     log.debug(f"Updating Book {book}'s cover: {cover}")
 
-    sg()
+    sg(test=True)
     for doc in Defaultdoc.objects(book=book):
         doc.cover = cover
         doc.save()
@@ -180,7 +179,7 @@ def generate_cover_path(book: int):
     return f"{BASE}/books/{book_dir}/Images/{cover}"
 
 
-sg()
+sg(test=True)
 count = Defaultdoc.objects.count()
 log.warning(f"Number of Default Documents: {count}")
 for doc in Defaultdoc.objects():
