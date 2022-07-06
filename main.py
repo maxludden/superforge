@@ -1,5 +1,6 @@
 # SuperForge/main
 import os
+
 # import re
 # import sys
 from json import dump, dumps, load, loads
@@ -8,7 +9,8 @@ from subprocess import run
 
 from tqdm.auto import tqdm
 
-from core.log import errwrap, log
+from core.log import errwrap, log, new_run
+from core.fix_tags import fix_tags
 from core.atlas import sg, BASE
 import core.book as book_
 import core.chapter as chapter_
@@ -20,47 +22,27 @@ import core.metadata as coremd
 import core.section as section_
 import core.titlepage as titlepg
 
-#. Start a new run
-core_log.new_run()
+# . Start a new run
+new_run()
 
-#. Coverpage
+# > Book
 
+# > Chapters
 
-#. Chapters
-#> make_chapters()
-# verify_chapters()
-chapter_.update_html_paths()
+# > Coverpage
 
-#. Titlepages
-#> generate_titlepages()
-# html_check()
+# > Defaultdoc
 
-#. EndOfBook
-#> make_endofbooks()
+# > End of Book
 
-#. Section Pages
-#> make_sections()
-# fix_md()
-# save_html()
+# > Epubmetadata
 
-#. Export Chapters to disk
-#> Export Chapters
-# export_chapters()
+# > Metadata
 
-#. Metadata
-#> create_meta()
-# write_metadata()
+# > Titlepages
 
-#. Epubmeta
-#> create_all_epubmeta()
-# update_all_epubmeta()
-
-#. Defaultdoc
-sg(test=True)
-for doc in book_.Book.objects():
-    log.info(f"Book: {doc.book}")
+# > Section Pages
 
 
-
-
+# < Fix tags.
 fix_tags()

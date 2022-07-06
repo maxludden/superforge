@@ -1,0 +1,10 @@
+{
+    "main": {
+        "verbose": false,
+        "run": 0
+    },
+    "defaultdoc": {
+        "verbose": false,
+        "run": 0
+    }
+}
