@@ -1,4 +1,4 @@
-# core/meta.py
+# core/Metadata.py
 from mongoengine import Document
 from mongoengine.fields import IntField, StringField
 from tqdm.auto import tqdm
@@ -13,7 +13,7 @@ except:
     from log import log, errwrap
 
 
-class Meta(Document):
+class Metadata(Document):
     book = IntField()
     title = StringField()
     filename = StringField()
@@ -23,7 +23,7 @@ class Meta(Document):
 @errwrap()
 def generate_filename(book: int):
     '''
-    Generate the filename for the given book's metadata.
+    Generate the filename for the given book's Metadatadata.
 
     Args:
         `book` (int):
@@ -31,14 +31,14 @@ def generate_filename(book: int):
 
     Returns:
         `filename` (str): 
-            The filename for the given book's metadata.
+            The filename for the given book's Metadatadata.
     '''
     #> Generate Filename
-    filename =  f'meta{book}.yaml'
+    filename =  f'Metadata{book}.yaml'
     
     #> Update filename in MongoDB
     sg()
-    for doc in Meta.objects():
+    for doc in Metadata.objects():
         doc.filename = filename
         doc.save()
         
@@ -47,7 +47,7 @@ def generate_filename(book: int):
 @errwrap()
 def get_filename(book: int):
     '''
-    Retrieve the given book's meta's filename from MongoDB.
+    Retrieve the given book's Metadata's filename from MongoDB.
 
     Args:
         `book` (int):
@@ -55,16 +55,16 @@ def get_filename(book: int):
 
     Returns:
         `filename` (str): 
-            The filename for the given book's metadata.
+            The filename for the given book's Metadatadata.
     '''
     sg()
-    for doc in Meta.objects(book=book):
+    for doc in Metadata.objects(book=book):
         return doc.filename
 
 @errwrap()
 def generate_filepath(book: int):
     '''
-    Generate filepath for the given book's metadata.
+    Generate filepath for the given book's Metadatadata.
 
     Args:
         `book` (int):
@@ -72,7 +72,7 @@ def generate_filepath(book: int):
 
     Returns:
         `filepath` (str): 
-            The filepath for the given book's metadata.
+            The filepath for the given book's Metadatadata.
     '''
     #> Generate filepath
     filename = generate_filename(book)
@@ -82,7 +82,7 @@ def generate_filepath(book: int):
     
     #> Update Filepath in MongoDB
     sg()
-    for doc in Meta.objects():
+    for doc in Metadata.objects():
         doc.filepath = filepath
         doc.save()
     return filepath
@@ -90,7 +90,7 @@ def generate_filepath(book: int):
 @errwrap()
 def get_filepath(book: int):
     '''
-    Retrieve the filepath for the given book's metadata from MongoDB.
+    Retrieve the filepath for the given book's Metadatadata from MongoDB.
 
     Args:
         `book` (int):
@@ -98,10 +98,10 @@ def get_filepath(book: int):
             
     Returns:
         `md_path` (str):
-            The filepath of the given book's metadata.
+            The filepath of the given book's Metadatadata.
     '''
     sg()
-    for doc in Meta.objects(book=book):
+    for doc in Metadata.objects(book=book):
         return doc.filepath
     
 @errwrap()
@@ -123,7 +123,7 @@ def get_title(book: int):
         title = max_title(doc.title)
     
     #> Update title in MongoDB
-    for doc in Meta.objects():
+    for doc in Metadata.objects():
         doc.title = title
         doc.save()
     
@@ -132,7 +132,7 @@ def get_title(book: int):
 @errwrap()
 def generate_text(book: int):
     '''
-    Generate the text for the given book's metadata.
+    Generate the text for the given book's Metadatadata.
 
     Args:
         `book` (int):
@@ -140,12 +140,12 @@ def generate_text(book: int):
     
     Return:
         `text` (str):
-            The given book's metadata's text.
+            The given book's Metadatadata's text.
     '''
     #> Retrieve Components from MongoDB
     author = 'Twelve Winged Dark Seraphim'
     sg()
-    for doc in Meta.objects():
+    for doc in Metadata.objects():
         #> Generate Text
         text = f"---\ntitle: {doc.title}"
         text = f"{text}\nauthor: {author}"
@@ -162,17 +162,17 @@ def generate_text(book: int):
         return text
 
 @errwrap()
-def create_meta():
+def create_Metadata():
     '''
-    Create the metadata files for each book.
+    Create the Metadatadata files for each book.
     '''
     sg()
-    #> Generate new_meta parameters from Book.
-    for doc in tqdm(Book.objects(), unit="book", desc="Creating Metadata"):
+    #> Generate new_Metadata parameters from Book.
+    for doc in tqdm(Book.objects(), unit="book", desc="Creating Metadatadata"):
         book = doc.book
         title = doc.title
         book_dir = str(book).zfill(2)
-        filename = f"meta{book}.yaml"
+        filename = f"Metadata{book}.yaml"
         filepath = "/Users/maxludden/dev/py/superforge/books/"
         filepath = f"{filepath}book{book_dir}/html/{filename}"
         author = 'Twelve Winged Dark Seraphim'
@@ -180,36 +180,36 @@ def create_meta():
         text = f"{text}\nauthor: {author}"
         text = f"{text}\n..."
         
-        #> reconnect to make supergene to add new_meta
+        #> reconnect to make supergene to add new_Metadata
         sg()
-        new_meta = Meta(
+        new_Metadata = Metadata(
             book = book,
             title = title,
             filename = filename,
             filepath = filepath,
             text = text
         )
-        new_meta.save()
-        log.info(f'Added metadata for Book {book}.')
+        new_Metadata.save()
+        log.info(f'Added Metadatadata for Book {book}.')
 
 @errwrap()
-def write_meta(book: int):
+def write_Metadata(book: int):
     '''
-    Retrieve the metadata text of the given book from MongoDB and write it to disk.
+    Retrieve the Metadatadata text of the given book from MongoDB and write it to disk.
 
     Args:
         `book` (int):
             The given book.
     '''
     sg()
-    for doc in tqdm(Meta.objects(book=book), unit="book", desc="Writing Metadata"):
-        log.debug(f"Accessed the Metadata for Book {doc.book}.")
+    for doc in tqdm(Metadata.objects(book=book), unit="book", desc="Writing Metadatadata"):
+        log.debug(f"Accessed the Metadatadata for Book {doc.book}.")
         with open(doc.filepath, 'w') as outfile:
             outfile.write(doc.text)
-            log.debug(f"Wrote Book {doc.book}'s Metadata to Disk.")
+            log.debug(f"Wrote Book {doc.book}'s Metadatadata to Disk.")
 
 @errwrap()
-def write_metadata():
+def write_Metadatadata():
     sg()
-    for doc in tqdm(Meta.objects(), unit="book", desc="Writing Metadata"):
-        write_meta(doc.book)
+    for doc in tqdm(Metadata.objects(), unit="book", desc="Writing Metadatadata"):
+        write_Metadata(doc.book)

@@ -10,7 +10,7 @@ except ImportError:
 
 #. Flags
 
-yaml_classes = bool = True
+yaml_classes: bool = True
 cyamllist = []
 yamllist= []
 

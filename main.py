@@ -1,36 +1,30 @@
 # SuperForge/main
 import os
-import re
-import sys
+# import re
+# import sys
 from json import dump, dumps, load, loads
 from pprint import pprint
 from subprocess import run
 
-from bs4 import BeautifulSoup
-from icecream import ic
 from tqdm.auto import tqdm
 
+from core.log import errwrap, log
+from core.atlas import sg, BASE
 import core.book as book_
 import core.chapter as chapter_
-import core.default as default_
-import core.defaultdoc as defaultdoc_
-from core.atlas import BASE, sg
-from core.endofbook import make_endofbooks
-from core.epubmeta import create_all_epubmeta, update_all_epubmeta
-from core.log import errwrap, fix_tags, log, new_run
-from core.meta import create_meta, write_metadata
-from core.section import fix_md, make_sections, save_html
-from core.sort_json import export_chapters
-from core.titlepage import Titlepage, generate_titlepages, html_check
-from yaml import SafeLoader, load_all
+import core.cover as cover_
+import core.defaultdoc as default_
+import core.endofbook as eob_
+import core.epubmetadata as epubmd
+import core.metadata as coremd
+import core.section as section_
+import core.titlepage as titlepg
 
 #. Start a new run
-new_run()
+core_log.new_run()
 
 #. Coverpage
-#> cb.create_coverpage()
-# cb.update_filepaths()
-#cb.test(1)
+
 
 #. Chapters
 #> make_chapters()

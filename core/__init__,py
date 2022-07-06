@@ -7,12 +7,12 @@ __all__ = [
     "default",
     "defaultdoc",
     "endofbook",
-    "epubmeta",
+    "epubmetadata",
     "fix_tags",
-    'meta',
     "log",
-    "titlepage",
+    "metadata",
+    "myaml",
     "section",
     "sort_json",
-    "max_yaml"
+    "titlepage",
 ]
