@@ -2,10 +2,11 @@
 import os
 import re
 import sys
+from multiprocessing.sharedctypes import Value
 from platform import platform
 from typing import Optional
 
-from dotenv import load_dotenv
+from dotenv import dotenv_values, load_dotenv
 from mongoengine import connect, disconnect_all
 from pymongo.errors import ConnectionFailure, InvalidURI, NetworkTimeout
 
@@ -14,7 +15,7 @@ try:
 except ImportError:
     from log import errwrap, log
 
-load_dotenv()
+load_dotenv("../.env")
 
 
 @errwrap(entry=False, exit=False)
@@ -70,7 +71,7 @@ def get_atlas_uri(database: str = "make-supergene"):
 
 
 @errwrap(entry=False, exit=False)
-def sg(database: str = "make-supergene", test: bool=False):
+def sg(database: str = "supergene", test: bool=False):
     """
     Custom Connection function to connect to MongoDB Database
 
@@ -79,13 +80,13 @@ def sg(database: str = "make-supergene", test: bool=False):
             The alternative database you would like to connect to. Default is 'make-supergene'.
     """
     disconnect_all()
-    URI = get_atlas_uri(database)
+    URI = os.environ.get('supergene')
     if test:
-        log.debug(f"URI: {URI}")
+        log.info(f"URI: {URI}")
     try:
         connect(database, host=URI)
         if test:
-            log.debug(f"Connected to MongoDB!")
+            log.info(f"Connected to MongoDB!")
     except ConnectionError as ce:
         log.error(f"Connection Error: {ce}")
         raise ce

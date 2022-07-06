@@ -62,7 +62,9 @@ chapter_.update_html_paths()
 # update_all_epubmeta()
 
 #. Defaultdoc
-
+sg(test=True)
+for doc in book_.Book.objects():
+    log.info(f"Book: {doc.book}")
 
 
 

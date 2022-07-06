@@ -5,7 +5,6 @@ from subprocess import run
 from typing import Optional
 from webbrowser import get
 
-from markdown2 import markdown as md
 from mongoengine import Document, disconnect_all
 from mongoengine.fields import IntField, ListField, StringField
 from num2words import num2words
