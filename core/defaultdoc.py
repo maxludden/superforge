@@ -3,6 +3,7 @@
 # > Dependancies
 import os
 from enum import Enum
+from json import dumps, loads
 from platform import platform
 from pprint import pprint
 
@@ -202,28 +203,33 @@ def generate_section_files(section: int, filepath: bool=False):
     chapter_count= []
     
     for doc in sect.Section.objects(section=section):
+        # > Section page
         if filepath:
-            section_page = doc.filepath
+            section_page = doc.html_path
         else:
-            section_page = doc.filename
+            section_page = f'{doc.filename}.html'
         section_files = [section_page]
+        
+        # > Retrieve list of chapter numbers
         section_chapters = doc.chapters # list[int]
         chapter_count[section] = len(section_chapters)
+        
+        #> Loop through chapters in section chapter
         desc = f"Generating Section {section}'s Chapter List"
-        for chapter in tqdm(section_chapters, unit='ch', desc=desc):
+        for chapter_number in tqdm(section_chapters, unit='ch', desc=desc):
+            sg()
+            chapter_object = ch.Chapter.objects(chapter=chapter_number).only('filename', 'html_path').to_json()
+            chapter_dict = loads(chapter_object)[0]
             if filepath:
-                ch_filepath = ch.Chapter.objects(chapter=chapter)
+                section_files.append(chapter_dict['html_path'])
+            else:
+                section_files.append(f"{chapter_dict['filename']}.html")
                 
                 
         
     
     
     
-    
-    
-    with open ("json/section_chapters.json", 'r') as infile:
-        
-
 
 
 
@@ -233,5 +239,8 @@ def generate_section_files(section: int, filepath: bool=False):
 #.│                     Default Doc Tests                           │.#
 #.└─────────────────────────────────────────────────────────────────┘.#
 
-for i in range(1,11):
-    log.info(generate_book_word(i))
+sg()
+chapter_object = ch.Chapter.objects(chapter=1).only('filename', 'html_path').to_json()
+chapter_dict = loads(chapter_object)[0]
+pprint(chapter_dict, indent=4)
+
