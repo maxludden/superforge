@@ -4,13 +4,13 @@ from mongoengine.fields import IntField, StringField
 from tqdm.auto import tqdm
 
 try:
-    from core.atlas import ROOT, errwrap, max_title, sg
+    from core.atlas import BASE, errwrap, max_title, sg
     from core.book import Book
     from core.log import log
 except:
-    from atlas import ROOT, max_title, sg
+    from atlas import BASE, max_title, sg
     from book import Book
-    from log import log, errwrap
+    from log import errwrap, log
 
 
 class Metadata(Document):
@@ -77,7 +77,7 @@ def generate_filepath(book: int):
     #> Generate filepath
     filename = generate_filename(book)
     book_dir = str(book).zfill(2)
-    filepath = f"/{ROOT}/maxludden/dev/py/superforge/books"
+    filepath = f"/{BASE}/books"
     filepath = f"{filepath}/book{book_dir}/html/{filename}"
     
     #> Update Filepath in MongoDB

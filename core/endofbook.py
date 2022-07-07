@@ -11,11 +11,11 @@ from num2words import num2words
 from tqdm.auto import tqdm
 
 try:
-    from core.atlas import ROOT, max_title, sg
+    from core.atlas import BASE, max_title, sg
     from core.book import Book
     from core.log import errwrap, log
 except ImportError:
-    from atlas import ROOT, max_title, sg
+    from atlas import BASE, max_title, sg
     from book import Book
     from log import errwrap, log
 
@@ -93,7 +93,7 @@ def get_md_path(book:int):
     '''
     filename = get_filename(book)
     book = str(book).zfill(2)
-    return f'/{ROOT}/maxludden/dev/py/superforge/books/book{book}/md/{filename}.md'
+    return f'/{BASE}/books/book{book}/md/{filename}.md'
 
 @errwrap()
 def get_html_path(book:int):
@@ -110,7 +110,7 @@ def get_html_path(book:int):
     '''
     filename = get_filename(book)
     book = str(book).zfill(2)
-    return f'/{ROOT}/maxludden/dev/py/superforge/books/book{book}/html/{filename}.html'
+    return f'{BASE}/books/book{book}/html/{filename}.html'
 
 @errwrap()
 def get_book_word(book: int):
@@ -190,7 +190,7 @@ def get_mmd_path(book: int):
     """
     base = "/Users/maxludden/dev/py/supergene/books/"
     book = str(book).zfill(2)
-    mmd_path = f"{base}book{book}/mmd/endofbook-{book}.mmd"
+    mmd_path = f"{BASE}/book{book}/mmd/endofbook-{book}.mmd"
     return mmd_path
     
     
@@ -206,9 +206,8 @@ def get_html_path(book: int):
         `html_path (int):
             The filepath of the given last pages HTML.
     """
-    base = "/Users/maxludden/dev/py/supergene/books/"
-    book = str(book).zfill(2)
-    html_path = f"{base}book{book}/html/endofbook-{book}.html"
+    book = f"{BASE}/books/book{str(book).zfill(2)}"
+    html_path = f"{book}/html/endofbook-{book}.html"
     return html_path
 
 

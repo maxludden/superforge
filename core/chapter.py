@@ -14,23 +14,18 @@ from mongoengine.fields import EnumField, IntField, StringField
 from tqdm.auto import tqdm
 
 try:
-    from core.atlas import ROOT, max_title, sg, supergene
+    from core.atlas import max_title, sg
     from core.log import errwrap, log
 except ImportError:
-    from atlas import BASE, ROOT, max_title, sg, supergene
+    from atlas import max_title, sg
     from log import errwrap, log
     
 
-BASE = f'/ROOT/maxludden/dev/py/superforge/'
 
-#.
-#.           888                        d8                  
-#.   e88'888 888 ee   ,"Y88b 888 88e   d88    ,e e,  888,8, 
-#.  d888  '8 888 88b "8" 888 888 888b d88888 d88 88b 888 "  
-#.  Y888   , 888 888 ,ee 888 888 888P  888   888   , 888    
-#.   "88,e8' 888 888 "88 888 888 88"   888    "YeeP" 888    
-#.                           888                            
-#.                           888                            
+#.┌─────────────────────────────────────────────────────────────────┐.#
+#.│                           Chapter                               │.#
+#.└─────────────────────────────────────────────────────────────────┘.#
+#   
 
 class Chapter(Document):
     chapter = IntField(Required=True, unique=True)
@@ -480,7 +475,7 @@ def make_chapters():
     '''
     Generate the values needed to create the chapter.
     '''
-    supergene()
+    sg()
     for doc in tqdm(Chapter.objects(), unit="ch", desc="Creating Chapters"):
         chapter = doc.chapter
         log.debug(f"Accessed Chapter {chapter}'s MongoDB Document.")

@@ -7,11 +7,11 @@ from num2words import num2words
 from tqdm.auto import tqdm
 
 try:
-  from core.atlas import ROOT, errwrap, max_title, sg
+  from core.atlas import BASE, errwrap, max_title, sg
   from core.book import Book
   from core.log import log
 except ImportError:
-  from atlas import ROOT, errwrap, max_title, sg
+  from atlas import BASE, errwrap, max_title, sg
   from book import Book
   from log import log, errwrap
 

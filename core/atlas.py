@@ -15,20 +15,18 @@ try:
 except ImportError:
     from log import errwrap, log
 
-load_dotenv("../.env")
-
 
 @errwrap(entry=False, exit=False)
-def generate_root():
+def generate_base():
     if platform() == "Linux":
         ROOT = "home"
     else:
         ROOT = "Users"  # < Mac
-    return ROOT
+    BASE = f"/{ROOT}/maxludden/dev/py/superforge"
+    return BASE
 
+BASE = generate_base()
 
-ROOT = generate_root()
-BASE =f'/{ROOT}/maxludden/dev/py/superforge'
 
 # .
 # .            d8   888
@@ -41,85 +39,57 @@ BASE =f'/{ROOT}/maxludden/dev/py/superforge'
 
 
 @errwrap(entry=False, exit=False)
-def get_atlas_uri(database: str = "make-supergene"):
+def get_atlas_uri(database: str = "SUPERGENE"):
     """Generates the connection URI for MongoDB Atlas.
     Args:
         `database` (Optional[str]):
-            The alternative database you would like to connect to. Default is 'make-supergene'.
+            The alternative database you would like to connect to. Default is 'SUPERGENE'.
 
     Returns:
         `URI` (str):
             The atlas connection URI.
     """
-    # > Retrieve secrets
-    # try:
-    #     URI = str(os.environ.get("URI"))
-    #     log.debug(f"URI: {URI}")
-    #     user = os.environ.get("ATLAS_USERNAME")
-    #     log.debug(f"user: {user}")
-    #     pswd = os.environ.get("ATLAS_PASSWORD")
-    #     log.debug(f"pswd: {pswd}")
+    db_lower = str(database).lower()
+    if "supergene" in db_lower:
+        # < Ensures that DB input is either:
+        # make-supergene
+        # supergene
+        if "make" in db_lower:
+            db = "MAKE_SUPERGENE"
+        elif db_lower == "supergene":
+            db = "SUPERGENE"
+        else:
+            raise ConnectionError(f"{database} is not a valid DB.")
 
-    # except AttributeError as ae:
-    #     log.error()
-
-    # URI = URI.replace("USERNAME", user)
-    # URI = URI.replace("PASSWORD", pswd)
-    # URI = URI.replace("DATABASE", database)
-    URI = os.environ.get("make-supergene")
+    URI = os.environ.get(db)
+    log.debug(f"URI: {URI}")
     return URI
 
 
 @errwrap(entry=False, exit=False)
-def sg(database: str = "supergene", test: bool=False):
+def sg(database: str = "SUPERGENE"):
     """
     Custom Connection function to connect to MongoDB Database
 
     Args:
         `database` (Optional[str]):
-            The alternative database you would like to connect to. Default is 'make-supergene'.
+            The alternative database you would like to connect to. Default is 'SUPERGENE'.
     """
+    #> Get Connection URI
     disconnect_all()
-    URI = os.environ.get('supergene')
-    if test:
-        log.info(f"URI: {URI}")
+    URI = get_atlas_uri(database)
+    log.debug(f"Retrieved connection URI: {URI}")
+    
+    #> Attempt to connect to MongoDB    
     try:
         connect(database, host=URI)
-        if test:
-            log.info(f"Connected to MongoDB!")
+        log.debug(f"Connected to {database}")
     except ConnectionError as ce:
         log.error(f"Connection Error: {ce}")
         raise ce
     except Exception as e:
         log.warning(f"Unable to Connect to MongoDB. Error {e}")
         raise e
-
-@errwrap(entry=False, exit=False)
-def supergene(database: str = "make-supergene"):
-    """
-    Custom Connection function to connect to MongoDB Database
-
-    Args:
-        `database` (Optional[str]):
-            The alternative database you would like to connect to. Default is 'make-supergene'.
-    """
-
-    URI = get_atlas_uri(database)
-    try:
-        connect(database, host=URI)
-        log.info(f"Connected to MongoDB!")
-    except ConnectionError as ce:
-        ConnectionError(ce)
-    except Exception as e:
-        log.warning(f"Unable to Connect to MongoDB. Error {e}")
-        sys.exit(
-            {
-                -1: {
-                    "error": f"{e}",
-                    "desc": f"Unable to connect to MongoDB in Atlas' Cloud.",
-                }
-            }
-        )
 
 
 @errwrap()

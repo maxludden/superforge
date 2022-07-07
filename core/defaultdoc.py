@@ -25,8 +25,6 @@ try:
     import core.titlepage as titlepg
     from core.atlas import BASE, sg
     from core.log import errwrap, log
-
-    log.debug(f"Imported custom modulesfrom core.")
 except ImportError:
     # < If run from the core sub-directory
     import book as bk
@@ -37,26 +35,14 @@ except ImportError:
     import myaml
     import section as sect
     import titlepage as titlepg
-    from atlas import BASE
+    from atlas import BASE, sg
     from log import errwrap, log
-
     log.debug(f"Imported custom modules.")
+load_dotenv(".env")
 
-load_dotenv("/Users/maxludden/dev/py/superforge/.env")
-
-
-@errwrap(entry=False, exit=False)
-def sg(database: str = "SUPERGENE", test: bool = False):
-    disconnect_all()
-    URI = os.environ.get(database)
-    if test:
-        log.info(f"URI: {URI}")
-    try:
-        connect("SUPERGENE", host=URI)
-        log.debug(f"URI: {URI}\n\nConnected to MongoDB.")
-    except ConnectionError:
-        raise ConnectionError
-
+#.┌─────────────────────────────────────────────────────────────────┐.#
+#.│                          Default Doc                            │.#
+#.└─────────────────────────────────────────────────────────────────┘.#
 
 class Defaultdoc(Document):
     book = IntField(unique=True, min_value=1, max_value=10)
@@ -80,7 +66,7 @@ class Defaultdoc(Document):
 
 
 # > Book Word
-@errwrap()
+@errwrap() #. Verified
 def generate_book_word(book: int):
     """
     Generates, retrieves, or updates the word from the given book.
@@ -100,8 +86,8 @@ def generate_book_word(book: int):
 
 
 # > Cover
-@errwrap()
-def generate_cover(book: int, save: bool = True):
+@errwrap() #. Verified
+def generate_cover(book: int):
     """
     Generate the filename of the given book's coverpage.
 
@@ -116,8 +102,7 @@ def generate_cover(book: int, save: bool = True):
     cover = f"cover{book}.png"
     return cover
 
-
-@errwrap()
+@errwrap() #. Verified
 def get_cover(book: int):
     """
     Retrieve the filename fo the given book's coverpage from MongoDB.
@@ -134,9 +119,8 @@ def get_cover(book: int):
     for doc in Defaultdoc.objects(book=book):
         return doc.cover
 
-
-@errwrap()
-def patch_cover(book: int):
+@errwrap() #. Verified
+def save_cover(book: int):
     """
     Generate the filename of the the given book's cover page and update it's value in MongoDB.
 
@@ -151,7 +135,7 @@ def patch_cover(book: int):
     cover = generate_cover(book)
     log.debug(f"Updating Book {book}'s cover: {cover}")
 
-    sg(test=True)
+    sg()
     for doc in Defaultdoc.objects(book=book):
         doc.cover = cover
         doc.save()
@@ -160,7 +144,7 @@ def patch_cover(book: int):
 
 
 # > Cover Path
-@errwrap()
+@errwrap()  #. Verified
 def generate_cover_path(book: int):
     """
     Generate the filepath for the cover page of the given book.
@@ -179,16 +163,75 @@ def generate_cover_path(book: int):
     return f"{BASE}/books/{book_dir}/Images/{cover}"
 
 
-sg(test=True)
-count = Defaultdoc.objects.count()
-log.warning(f"Number of Default Documents: {count}")
-for doc in Defaultdoc.objects():
-    book_word = generate_book_word(doc.book)
-    doc.book_word = book_word
-    doc.save()
-    log.info(f"Book: {doc.book} | Book Word: {book_word}")
+@errwrap() #. Verified
+def generate_output(book: int):
+    '''
+    Generate the filename for the the epub of the given book.
+
+    Args:
+        `book` (int):
+            The given book.
+
+    Returns:
+        `output` (str): 
+            The filename for the given book's epub.
+    '''
+    sg()
+    for doc in Defaultdoc.objects(book=book):
+        log.debug(f"Accessed Book {book}'s MongoDB Default Document.")
+        return doc.output
+        
+
+@errwrap()
+def generate_section_files(section: int, filepath: bool=False):
+    '''
+    Generates a list of filenames/filepaths of a given section's Sectino Page followed by it's chapters.
+        
+    Args:
+        `section` (int):
+            The given section.
+        `filepath` (bool):
+            Whether to generate the the full filepath for the files. Defaults to is False.
+        
+    Returns:
+        `section_files` (list[str]):
+            The order contend of a the given section.
+    
+    '''
+    sg()
+    chapter_count= []
+    
+    for doc in sect.Section.objects(section=section):
+        if filepath:
+            section_page = doc.filepath
+        else:
+            section_page = doc.filename
+        section_files = [section_page]
+        section_chapters = doc.chapters # list[int]
+        chapter_count[section] = len(section_chapters)
+        desc = f"Generating Section {section}'s Chapter List"
+        for chapter in tqdm(section_chapters, unit='ch', desc=desc):
+            if filepath:
+                ch_filepath = ch.Chapter.objects(chapter=chapter)
+                
+                
+        
+    
+    
+    
+    
+    
+    with open ("json/section_chapters.json", 'r') as infile:
+        
 
 
-# sg()
-# for doc in Defaultdoc.objects():
-#     pprint(doc)
+
+
+
+
+#.┌─────────────────────────────────────────────────────────────────┐.#
+#.│                     Default Doc Tests                           │.#
+#.└─────────────────────────────────────────────────────────────────┘.#
+
+for i in range(1,11):
+    log.info(generate_book_word(i))

@@ -4,30 +4,28 @@ import os
 from subprocess import run
 from time import sleep
 
-import requests
 from tqdm.auto import tqdm
 
-from core.atlas import ROOT
+from core.atlas import BASE
 from core.log import errwrap, log
 from yay import superyay, yay
 
 
 @errwrap()
 def update_css():
-    SF = f"/{ROOT}/maxludden/dev/py/superforge"
-    CSS_MAIN = f"{SF}/Styles/style.css"
+    CSS_MAIN = f"{BASE}/Styles/style.css"
     
     stylesheets = {
-        "1": f"{SF}/books/book01/Styles/style.css",
-        "2": f"{SF}/books/book02/Styles/style.css",
-        "3": f"{SF}/books/book03/Styles/style.css",
-        "4": f"{SF}/books/book04/Styles/style.css",
-        "5": f"{SF}/books/book05/Styles/style.css",
-        "6": f"{SF}/books/book06/Styles/style.css",
-        "7": f"{SF}/books/book07/Styles/style.css",
-        "8": f"{SF}/books/book08/Styles/style.css",
-        "9": f"{SF}/books/book09/Styles/style.css",
-        "10": f"{SF}/books/book10/Styles/style.css",
+        "1": f"{BASE}/books/book01/Styles/style.css",
+        "2": f"{BASE}/books/book02/Styles/style.css",
+        "3": f"{BASE}/books/book03/Styles/style.css",
+        "4": f"{BASE}/books/book04/Styles/style.css",
+        "5": f"{BASE}/books/book05/Styles/style.css",
+        "6": f"{BASE}/books/book06/Styles/style.css",
+        "7": f"{BASE}/books/book07/Styles/style.css",
+        "8": f"{BASE}/books/book08/Styles/style.css",
+        "9": f"{BASE}/books/book09/Styles/style.css",
+        "10": f"{BASE}/books/book10/Styles/style.css",
     }
     
     books = range(1,11)
