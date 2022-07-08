@@ -71,10 +71,7 @@ def fix_chapter_md_paths():
         doc.save()
         
         msg = f"Updated Chapter {chapter}'s Filepath in MongoDB."
-        if chapter_position % 50 == 0:
-            log.info (msg)
-        else:
-            log.debug(msg)
+        log.debug(msg)
 
 #> Titlepage
 @errwrap()
