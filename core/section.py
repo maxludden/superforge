@@ -309,21 +309,6 @@ def make_sections():
             log.info(f"Finished updating section {section}.md")
 
 
-def fix_md():
-    """
-    Fix the md fields in MongoDB
-    """
-    sg()
-    for doc in Section.objects():
-        log.info(f"Accessed Section {doc.section} in MongoDB.")
-        log.info(f"doc.mmd: {doc.mmd}")
-        doc.md = doc.mmd
-        log.info(f"doc.md: {doc.md}")
-        doc.md_path = doc.mmd_path
-        doc.save()
-        log.info(f"Updated Section {doc.section}.")
-
-
 def save_html():
     """
     Read html from disk and save to MongoDB.

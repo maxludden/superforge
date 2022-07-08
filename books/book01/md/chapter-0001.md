@@ -1,19 +1,19 @@
-Title:Supergene 
-Chapter:1 
-Section:1 
-Book:1 
-CSS:../Styles/style.css 
+Title:Supergene
+Chapter:1
+Section:1
+Book:1
+CSS:../Styles/style.css
 viewport: width=device-width
-  
-## Supergene
-### Chapter 1 
-<figure>
-	<img src="../Images/gem.gif" alt="gem" id="gem" width="120" height="60" />
-</figure>
-  
 
-  
-  By a stony creek in a valley, a black-clad young man was holding a black beetle with a metallic sheen that looked like a cross between a crab and a Hercules beetle.
+## Supergene
+
+### Chapter 1
+
+<figure>
+<img src="../Images/gem.gif" alt="gem" id="gem" width="120" height="60" />
+</figure>
+
+By a stony creek in a valley, a black-clad young man was holding a black beetle with a metallic sheen that looked like a cross between a crab and a Hercules beetle.
 
 Holding a dagger in his other hand, the young man swiftly cut the still-struggling claws off the beetle, revealing white and tender meat.
 
@@ -26,46 +26,46 @@ Almost without hesitation, the young man sucked the meat out of the claws as if 
 A strange voice sounded in Han Sen's mind, and some data also appeared.
 
 <div class="tables">
-	<table class="status">
-		<tr>
-			<th colspan="2">Han Sen</th>
-		</tr><tr>
-			<td>Status</td>
-				<td>Unevolved</td>
-			</tr><tr>
-			<td>Lifespan</td>
-				<td>200 years</td>
-			</tr>
-	</table>
-	<!-- Han Sen: Not evolved. -->
-	<!-- Status: None. -->
-	<!-- Life span: 200 years. -->
-	<table class="geno-r">
-		<tr>
-			<th colspan="2">Geno Points</th>
-		</tr><tr>
-			<td>Required to Evolve</td>
-			<td>100</td>
-		</tr>
-	</table>
-	<!-- Required for evolution: 00 geno points. -->
-	<table class="geno">
-		<tr>
-			<th colspan="2">Geno Points Gained</th>
-		</tr><tr>
-			<td>Ordinary</td>
-			<td>79</td>
-		</tr>
-	</table>
-	<!-- Geno points gained: 79. -->
-	<table class="center70">
-		<tr>
-			<th colspan="2">Beast Souls Gained</th>
-		</tr><tr>
-			<td colspan="2">None</td>
-		</tr>
-	</table>
-	<!-- Beast souls gained: None -->
+<table class="status">
+<tr>
+<th colspan="2">Han Sen</th>
+</tr><tr>
+<td>Status</td>
+<td>Unevolved</td>
+</tr><tr>
+<td>Lifespan</td>
+<td>200 years</td>
+</tr>
+</table>
+<!-- Han Sen: Not evolved. -->
+<!-- Status: None. -->
+<!-- Life span: 200 years. -->
+<table class="geno-r">
+<tr>
+<th colspan="2">Geno Points</th>
+</tr><tr>
+<td>Required to Evolve</td>
+<td>100</td>
+</tr>
+</table>
+<!-- Required for evolution: 00 geno points. -->
+<table class="geno">
+<tr>
+<th colspan="2">Geno Points Gained</th>
+</tr><tr>
+<td>Ordinary</td>
+<td>79</td>
+</tr>
+</table>
+<!-- Geno points gained: 79. -->
+<table class="center70">
+<tr>
+<th colspan="2">Beast Souls Gained</th>
+</tr><tr>
+<td colspan="2">None</td>
+</tr>
+</table>
+<!-- Beast souls gained: None -->
 </div>
 
 "I have received zero geno points from more than thirty black beetles in a row. I must have eaten too much black-beetle flesh to evolve from it further. Zero points! When will I ever finish the first evolution and gain status." Han Sen looked frustrated.

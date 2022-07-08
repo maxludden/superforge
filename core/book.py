@@ -30,12 +30,7 @@ except ImportError:
 # .                                          888         888        . #
 # .                                                                 . #
 # . ############################################################### . #
-load_dotenv()
 
-URI = str(os.environ.get("Superforge"))
-client = MongoClient(URI)
-make_supergene = client['make-supergene']
-books = make_supergene['book']
 
 class Book (Document):
     title = StringField(Required=True, max_length=500)
@@ -55,14 +50,6 @@ written: str = "Written by Twelve Winged Burning Seraphim"
 edited: str = "Complied and Edited by Max Ludden"
 TEXT = f'<p class="title">{written}</p>\n<p class="title">{edited}</p>'
 
-def my_connect(test: bool=False):
-    URI = str(os.environ.get("Superforge"))
-    try:
-        connect('make-supergene', host=URI)
-        log.debug(f"Connected to MongoDB.")
-    except Exception:
-        log.error(f"Unable to connect MongoDB.")
-
 def generate_output_file(book: int):
     book_result = books.find_one({'book':book})
     pprint(book_result)
@@ -70,9 +57,11 @@ def generate_output_file(book: int):
     return output
 
 
-def gen_output_file(book: int):
-    my_connect()
+def get_output_file(book: int):
+    sg()
     for doc in Book.objects(book=book):
         print(doc.output)
         return doc.output
+        
+
     
