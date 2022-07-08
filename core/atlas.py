@@ -77,6 +77,19 @@ def sg(database: str = "SUPERGENE"):
     """
     #> Get Connection URI
     disconnect_all()
+    
+    db_lower = str(database).lower()
+    if "supergene" in db_lower:
+        if "make" in db_lower:
+            db = "MAKE_SUPERGENE"
+        elif db_lower == "supergene":
+            db = "SUPERGENE"
+        else:
+            raise ConnectionError(f"{database} is not a valid DB.")
+
+    URI = os.environ.get(db)
+    log.debug(f"URI: {URI}")
+    
     URI = get_atlas_uri(database)
     log.debug(f"Retrieved connection URI: {URI}")
     

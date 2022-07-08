@@ -3,9 +3,10 @@
 # > Dependancies
 import os
 from enum import Enum
-from json import dumps, loads
+from json import dump, loads
 from platform import platform
 from pprint import pprint
+from timeit import timeit
 
 from black import err
 from dotenv import load_dotenv
@@ -232,15 +233,4 @@ def generate_section_files(section: int, filepath: bool=False):
     
 
 
-
-
-
-#.┌─────────────────────────────────────────────────────────────────┐.#
-#.│                     Default Doc Tests                           │.#
-#.└─────────────────────────────────────────────────────────────────┘.#
-
-sg()
-chapter_object = ch.Chapter.objects(chapter=1).only('filename', 'html_path').to_json()
-chapter_dict = loads(chapter_object)[0]
-pprint(chapter_dict, indent=4)
 
