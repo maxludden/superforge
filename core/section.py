@@ -29,12 +29,12 @@ img = (
 
 
 class Section(Document):
-    section = IntField(unique=True)
+    section = IntField(unique=True, min_value=1, max_value=17)
     title = StringField()
-    book = IntField()
-    chapters = ListField(IntField(unique=True))
-    start = IntField()
-    end = IntField()
+    book = IntField(unique=True, min_value=1, max_value=10)
+    chapters = ListField(IntField())
+    start = IntField(min_value=1)
+    end = IntField(max_value=3462)
     filename = StringField()
     mmd = StringField()
     mmd_path = StringField()

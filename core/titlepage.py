@@ -130,9 +130,8 @@ def generate_md_path(book: int):
             The filepath for the given book's Titlepage.
     '''
     filename = get_filename(book)
-    book = str(book).zfill(2)
-    BASE = f"/{ROOT}/maxludden/dev/py/superforge/"
-    path = f"{BASE}/books/book{book}/md/{filename}.md"
+    book_str = str(book).zfill(2)
+    path = f"{BASE}/books/book{book_str}/md/{filename}.md"
     md_path = path_eval(path)
     return md_path
 
@@ -172,9 +171,8 @@ def generate_html_path(book: int):
             The filepath for the given book's Titlepage.
     '''
     filename = get_filename(book)
-    book_zfill = str(book).zfill(2)
-    BASE = f"/{ROOT}/maxludden/dev/py/superforge"
-    path = f"{BASE}/books/book{book_zfill}/html/{filename}.html"
+    book_str = str(book).zfill(2)
+    path = f"{BASE}/books/book{book_str}/html/{filename}.html"
     html_path = path_eval(path)
     return html_path
 

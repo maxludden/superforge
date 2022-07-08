@@ -1,1 +1,1 @@
-__all__ = ['core', 'main', 'update_css', 'yay']
+__all__ = ['core', 'main', 'update_css', 'utilities', 'yay']

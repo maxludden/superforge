@@ -25,24 +25,17 @@ import core.titlepage as titlepg
 # . Start a new run
 new_run()
 
-# > Book
-
-# > Chapters
-
-# > Coverpage
-
-# > Defaultdoc
-
-# > End of Book
-
-# > Epubmetadata
-
-# > Metadata
-
-# > Titlepages
-
-# > Section Pages
 
 
 # < Fix tags.
 fix_tags()
+
+@errwrap()
+def book_to_disk(book: int):
+    '''
+    Generate or retrive all of the needed documents of the given doc, and write them to disk.
+
+    Args:
+        `book` (int):
+            The given book.
+    '''

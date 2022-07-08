@@ -13,7 +13,7 @@ try:
 except ImportError:
   from atlas import BASE, errwrap, max_title, sg
   from book import Book
-  from log import log, errwrap
+  from log import errwrap, log
 
 
 class Epubmeta(Document):
@@ -22,8 +22,10 @@ class Epubmeta(Document):
     title = StringField()
     cover_path = StringField()
     filename = StringField()
+    html_path = StringField()
     filepath = StringField()
     text = StringField()
+    meta = {'collection': 'epubmetadata'}
     
 TEMPLATE_PATH = Path("yaml/base-docs/epub-meta.yaml")
 

@@ -25,6 +25,7 @@ class Coverpage(Document):
     book = IntField()
     filename = StringField()
     filepath = StringField()
+    html_path = StringField()
     html = StringField()
     meta = {
         'collection': 'coverpage'
@@ -38,7 +39,7 @@ def create_coverpage():
         book = int(book)
         book_dir = str(book).zfill(2)
         filename = f'cover{book}.html'
-        filepath = f'{BASE}/books/book{book_dir}/html/{filename}'
+        html_path = f'{BASE}/books/book{book_dir}/html/{filename}'
         
         html = f'''<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
@@ -59,7 +60,7 @@ def create_coverpage():
         coverpages[book]= {
             "book": book,
             "filename": filename,
-            "filepath": filepath,
+            "html_path": html_path,
             "html": html
         }
     with open ("json/coverpages.json", 'w') as outfile:
@@ -76,31 +77,31 @@ def get_filename(book: int):
         return doc.filename
     
 @errwrap()
-def generate_filepath(book: int):
+def generate_html_path(book: int):
     filename = get_filename (book)
     book_dir = str(book).zfill(2)
-    filepath = f'{BASE}/books/book{book_dir}/html/{filename}'
-    return filepath
+    html_path = f'{BASE}/books/book{book_dir}/html/{filename}'
+    return html_path
 
-def save_filepath(book: int):
-    filepath = generate_filepath(book)
+def save_html_path(book: int):
+    html_path = generate_html_path(book)
     sg()
     for doc in Coverpage.objects(book=book):
-        doc.filepath = filepath
+        doc.html_path = html_path
         doc.save()
-        log.info(f"Saved Book {book}'s filepath to MongoDB.")
+        log.info(f"Saved Book {book}'s html_path to MongoDB.")
 
-def get_filepath(book: int):
+def get_html_path(book: int):
     sg()
     for doc in Coverpage.objects(book=book):
-        return doc.filepath
+        return doc.html_path
 
 
 @errwrap()
-def update_filepath(book: int):
+def update_html_path(book: int):
     sg()
     for doc in Coverpage.objects(book=book):
-        doc.filepath = generate_filepath(doc.book)
+        doc.html_path = generate_html_path(doc.book)
         doc.save()
         
 
@@ -116,4 +117,4 @@ def test(book: int):
     '''
     sg()
     for doc in Coverpage.objects(book=book):
-        print (f"MongoDB Coverpage Filepath: {doc.filepath}")
+        print (f"MongoDB Coverpage html_path: {doc.html_path}")

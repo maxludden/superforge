@@ -18,7 +18,9 @@ class Metadata(Document):
     title = StringField()
     filename = StringField()
     filepath = StringField()
+    html_path = StringField()
     text = StringField()
+    meta = {'collection': 'metadata'}
     
 @errwrap()
 def generate_filename(book: int):
@@ -34,7 +36,7 @@ def generate_filename(book: int):
             The filename for the given book's Metadatadata.
     '''
     #> Generate Filename
-    filename =  f'Metadata{book}.yaml'
+    filename =  f'metadata{book}.yaml'
     
     #> Update filename in MongoDB
     sg()
@@ -62,7 +64,7 @@ def get_filename(book: int):
         return doc.filename
 
 @errwrap()
-def generate_filepath(book: int):
+def generate_filepaths():
     '''
     Generate filepath for the given book's Metadatadata.
 
@@ -74,18 +76,23 @@ def generate_filepath(book: int):
         `filepath` (str): 
             The filepath for the given book's Metadatadata.
     '''
-    #> Generate filepath
-    filename = generate_filename(book)
-    book_dir = str(book).zfill(2)
-    filepath = f"/{BASE}/books"
-    filepath = f"{filepath}/book{book_dir}/html/{filename}"
-    
-    #> Update Filepath in MongoDB
-    sg()
-    for doc in Metadata.objects():
-        doc.filepath = filepath
-        doc.save()
-    return filepath
+    for i in range(1,11):
+        book = i
+        #> Generate filepath
+        filename = generate_filename(book)
+        book_str = str(book).zfill(2)
+        book_dir = f"book{book_str}"
+        filepath = f"{BASE}/books/{book_dir}/html/{filename}"
+        
+        #> Update Filepath in MongoDB
+        sg()
+        for doc in Metadata.objects():
+            doc.filepath = filepath
+            doc.html_path = filepath
+            doc.save()
+        return filepath
+
+generate_filepaths()
 
 @errwrap()
 def get_filepath(book: int):
