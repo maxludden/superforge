@@ -8,7 +8,6 @@ from platform import platform
 from pprint import pprint
 from timeit import timeit
 
-from black import err
 from dotenv import load_dotenv
 from mongoengine import Document, connect, disconnect_all
 from mongoengine.fields import IntField, ListField, StringField
@@ -39,12 +38,14 @@ except ImportError:
     import titlepage as titlepg
     from atlas import BASE, sg
     from log import errwrap, log
+
     log.debug(f"Imported custom modules.")
 load_dotenv(".env")
 
-#.┌─────────────────────────────────────────────────────────────────┐.#
-#.│                          Default Doc                            │.#
-#.└─────────────────────────────────────────────────────────────────┘.#
+# .┌─────────────────────────────────────────────────────────────────┐.#
+# .│                          Default Doc                            │.#
+# .└─────────────────────────────────────────────────────────────────┘.#
+
 
 class Defaultdoc(Document):
     book = IntField(unique=True, min_value=1, max_value=10)
@@ -67,8 +68,35 @@ class Defaultdoc(Document):
     meta = {"collection": "defaultdoc"}
 
 
+@errwrap()
+def generate_book(section: int):
+    match int(section):
+        case 1:
+            return 1
+        case 2:
+            return 2
+        case 3:
+            return 3
+        case 4 | 5:
+            return 4
+        case 6 | 7:
+            return 5
+        case 8 |9:
+            return 6
+        case 10 | 11:
+            return 7
+        case 12 | 13:
+            return 8
+        case 14 | 15:
+            return 9
+        case 16 | 17:
+            return 10
+        case _:
+            raise ValueError("Invalid Section Input.", f"Section: {section}")
+
+
 # > Book Word
-@errwrap() #. Verified
+@errwrap()  # . Verified
 def generate_book_word(book: int):
     """
     Generates, retrieves, or updates the word from the given book.
@@ -88,7 +116,7 @@ def generate_book_word(book: int):
 
 
 # > Cover
-@errwrap() #. Verified
+@errwrap()  # . Verified
 def generate_cover(book: int):
     """
     Generate the filename of the given book's coverpage.
@@ -104,7 +132,8 @@ def generate_cover(book: int):
     cover = f"cover{book}.png"
     return cover
 
-@errwrap() #. Verified
+
+@errwrap()  # . Verified
 def get_cover(book: int):
     """
     Retrieve the filename fo the given book's coverpage from MongoDB.
@@ -121,7 +150,8 @@ def get_cover(book: int):
     for doc in Defaultdoc.objects(book=book):
         return doc.cover
 
-@errwrap() #. Verified
+
+@errwrap()  # . Verified
 def save_cover(book: int):
     """
     Generate the filename of the the given book's cover page and update it's value in MongoDB.
@@ -146,7 +176,7 @@ def save_cover(book: int):
 
 
 # > Cover Path
-@errwrap()  #. Verified
+@errwrap()  # . Verified
 def generate_cover_path(book: int):
     """
     Generate the filepath for the cover page of the given book.
@@ -165,9 +195,9 @@ def generate_cover_path(book: int):
     return f"{BASE}/books/{book_dir}/Images/{cover}"
 
 
-@errwrap() #. Verified
+@errwrap()  # . Verified
 def generate_output(book: int):
-    '''
+    """
     Generate the filename for the the epub of the given book.
 
     Args:
@@ -175,68 +205,107 @@ def generate_output(book: int):
             The given book.
 
     Returns:
-        `output` (str): 
+        `output` (str):
             The filename for the given book's epub.
-    '''
+    """
     sg()
     for doc in Defaultdoc.objects(book=book):
         log.debug(f"Accessed Book {book}'s MongoDB Default Document.")
         return doc.output
-        
 
-@errwrap()
-def generate_section_files(section: int, filepath: bool=False):
-    '''
+
+@errwrap() # . Verified
+def generate_section_files(section: int, filepath: bool = False):
+    """
     Generates a list of filenames/filepaths of a given section's Sectino Page followed by it's chapters.
-        
+
     Args:
         `section` (int):
             The given section.
         `filepath` (bool):
             Whether to generate the the full filepath for the files. Defaults to is False.
-        
+
     Returns:
         `section_files` (list[str]):
             The order contend of a the given section.
-    
-    '''
+
+    """
     sg()
-    chapter_count= {}
-    
+    chapter_count = {}
+
     for doc in sect.Section.objects(section=section):
         # > Section page
         if filepath:
             section_page = doc.html_path
         else:
-            section_page = f'{doc.filename}.html'
+            section_page = f"{doc.filename}.html"
         section_files = [section_page]
-        
+
         # > Retrieve list of chapter numbers
-        section_chapters = doc.chapters # list[int]
+        section_chapters = doc.chapters  # list[int]
         chapter_count[section] = len(section_chapters)
-        
-        #> Loop through chapters in section chapter
+
+        # > Loop through chapters in section chapter
         desc = f"Generating Section {section}'s Chapter List"
-        for chapter_number in tqdm(section_chapters, unit='ch', desc=desc):
+        for chapter_number in tqdm(section_chapters, unit="ch", desc=desc):
             chapter_str = str(chapter_number).zfill(4)
             if filepath:
-                book = ch.generate_book(chapter_number)
+                book = generate_book(section)
                 filepath = f"{BASE}/books/book{book}/html/chapter-{chapter_str}.html"
                 section_files.append(filepath)
             else:
                 filename = f"chapter-{chapter_str}.html"
                 section_files.append(filename)
-        
-        #> Log Section Files
+
+        # > Log Section Files
         result = f"Section {section}'s files:\n"
         for item in section_files:
             result += f"- {item}\n"
         log.info(result)
-        
+
         return section_files
-    
-    
-    
-section_files = generate_section_files(10, filepath=True)
 
+# @rrwrap()
+def generate_input_files(book: int):
+    book_str = str(book).zfill(2)
+    input_files = [
+        f"cover{book}.html", # add cover page
+        f"titlepage-{book_str}.html" # add titlepage
+    ]
+    
+    #> Retrieve default document from MongoDB
+    sg()
+    default_dict = loads(Defaultdoc.objects(book=book).to_json())
+    log.info(pprint(default_dict))
+    section_count = int(default_dict['section_count']) # get section count
+    
+    #> If book contains a single section:
+    if section_count == 1:
+        section = default_dict['sections'][0] # get section
+        section_files = generate_section_files(section) # generate section files
+        input_files.extend(section_files) # add section files to input files
+        
+    #> If book contains multiple sections:
+    elif section_count == 2:
+        #> Generate section1 files
+        section1 = default_dict["sections"][0] # get first section
+        section1_files = generate_section_files(section1) # get section1 files
+        input_files.extend(section1_files) # add section1 files to input files
+        
+        #> Generate section2 files
+        section2 = default_dict["sections"][1] # get second section
+        section2_files = generate_section_files(section2) # get section2 files
+        input_files.extend(section2_files) # add section2 files to input files
+        
+    #> Add endofbook page
+    input_files.append("endofbook-{book_str}.html") # add endofbook page
+    
+    result = f"Book {book}'s input files:\n"
+    for item in input_files:
+        result += f"- {item}\n"
+        
+    log.info(result)
+    
+    return input_files
 
+generate_input_files(1)
