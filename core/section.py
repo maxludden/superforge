@@ -42,6 +42,7 @@ class Section(Document):
     md = StringField()
     html_path = StringField()
     html = StringField()
+    section_files = ListField(StringField())
 
 
 @errwrap()
