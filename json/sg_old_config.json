@@ -1,0 +1,20 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "cSpell.words": [
+            "appname",
+            "cloader",
+            "cyaml",
+            "iitqjb",
+            "WDIR",
+            "yamlclass"
+        ],
+        "cSpell.ignoreWords": [
+            "yamlclass"
+        ]
+    }
+}

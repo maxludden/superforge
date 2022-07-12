@@ -469,6 +469,9 @@ def errwrap(*, entry=True, exit=True, level="DEBUG", test: bool=False):
             
         level (str, optional): 
             The level at which to log to be recorded.. Defaults to "DEBUG".
+            
+        test (bool, optional):
+            Should the logged function be tested? Defaults to False.
     """
     
     def wrapper(func):

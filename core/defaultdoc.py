@@ -201,7 +201,7 @@ def generate_section_files(section: int, filepath: bool=False):
     
     '''
     sg()
-    chapter_count= []
+    chapter_count= {}
     
     for doc in sect.Section.objects(section=section):
         # > Section page
@@ -218,19 +218,25 @@ def generate_section_files(section: int, filepath: bool=False):
         #> Loop through chapters in section chapter
         desc = f"Generating Section {section}'s Chapter List"
         for chapter_number in tqdm(section_chapters, unit='ch', desc=desc):
-            sg()
-            chapter_object = ch.Chapter.objects(chapter=chapter_number).only('filename', 'html_path').to_json()
-            chapter_dict = loads(chapter_object)[0]
+            chapter_str = str(chapter_number).zfill(4)
             if filepath:
-                section_files.append(chapter_dict['html_path'])
+                book = ch.generate_book(chapter_number)
+                filepath = f"{BASE}/books/book{book}/html/chapter-{chapter_str}.html"
+                section_files.append(filepath)
             else:
-                section_files.append(f"{chapter_dict['filename']}.html")
-                
-                
+                filename = f"chapter-{chapter_str}.html"
+                section_files.append(filename)
         
+        #> Log Section Files
+        result = f"Section {section}'s files:\n"
+        for item in section_files:
+            result += f"- {item}\n"
+        log.info(result)
+        
+        return section_files
     
     
     
-
+section_files = generate_section_files(10, filepath=True)
 
 

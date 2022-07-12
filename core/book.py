@@ -33,7 +33,7 @@ except ImportError:
 
 
 class Book (Document):
-    title = StringField(Required=True, max_length=500)
+    title = StringField(required=True, max_length=500)
     output = StringField()
     cover = StringField()
     cover_path = StringField()
@@ -41,8 +41,8 @@ class Book (Document):
     default = StringField()
     start = IntField(min_value=1)
     end = IntField(max_value=3463)
-    book = IntField(Required=True, unique=True, indexed=True)
-    book_word = StringField(Required=True)
+    book = IntField()
+    book_word = StringField(required=True)
 
 
 # > Declaring Static Variables

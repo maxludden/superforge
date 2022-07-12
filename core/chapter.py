@@ -40,7 +40,7 @@ class Chapter(Document):
     html = StringField()
 
 
-@errwrap()
+@errwrap() 
 def generate_section(chapter: int):
     '''
     Determines the given chapter's section.
@@ -95,7 +95,7 @@ def generate_section(chapter: int):
         raise ValueError("Invalid Chapter", f"\nChapter: {chapter}")
 
 
-@errwrap()
+@errwrap() 
 def get_section(chapter: int):
     '''
     Retrieve the section of a given chapter from MongoDB.
@@ -209,8 +209,8 @@ def generate_filename(chapter: int):
         `filename` (str): 
             the filename (without extension) for the given chapter.
     '''
-    chapter_zfill = str(chapter).zfill(4)
-    return f"chapter-{chapter_zfill}"
+    chapter_str = str(chapter).zfill(4)
+    return f"chapter-{chapter_str}"
 
 
 @errwrap()

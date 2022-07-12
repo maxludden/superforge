@@ -29,9 +29,9 @@ img = (
 
 
 class Section(Document):
-    section = IntField(unique=True, min_value=1, max_value=17)
+    section = IntField(min_value=1, max_value=17)
     title = StringField()
-    book = IntField(unique=True, min_value=1, max_value=10)
+    book = IntField(min_value=1, max_value=10)
     chapters = ListField(IntField())
     start = IntField(min_value=1)
     end = IntField(max_value=3462)

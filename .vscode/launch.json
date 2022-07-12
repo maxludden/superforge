@@ -5,23 +5,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Current File",
+            "name": "Launch Python: Current File",
             "type": "python",
             "request": "launch",
             "program": "${file}",
-            "console": "integratedTerminal",
-            "justMyCode": true
+            "console": "integratedTerminal"
         },
-        {
-            "name": "Python: File",
-            "type": "python",
-            "request": "launch",
-            "program": "/Users/maxludden/dev/py/superforge/main.py",
-            "console": "integratedTerminal",
-            "justMyCode": true,
-            "env": {
-                "DOPPLER_ENV": "1"
-            }
-        }
     ]
 }
