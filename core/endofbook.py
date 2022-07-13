@@ -240,101 +240,69 @@ def get_mmd_text(book: int):
     
     
 @errwrap()
-def get_mmd(book: int, title: str, book_word: str, mmd_path: str):
+def generate_html(book: int, save: bool = False, write: bool = False):
     """Generates the multimarkdown string for the given books last page. Saved the MMD to MongoDB and to Disk.
     
     Args:
         `book` (int):
             The last page's book.
         
-        `title` (str):
-            The title of the last page's book.
+        `save` (bool):
+            Whether or not to save the End of Book HTML to MongoDB.
             
-        `book_word` (str):
-            The word form of the last page's book.
-            
-        `mmd_path` (str):
-            The last page's multimarkdown's filepath.
+        `write` (bool):
+            Whether or not to write the End of Book HTML to Disk.
             
     Returns:
         'mmd' (str):
             The multimarkdown for the given book's last page.
     """
-    log.debug(f"Accessed Book {book}'s EndOfBook in MongoDB.")
-    meta = f"Title: {title}\n"
-    meta = f"{meta}Book: {book}\n"
-    meta = f"{meta}viewport: width=device-width\n"
-    meta = f"{meta}CSS: ../Styles/style.css\n\n"
-    log.debug(f"Generated EndOfBook's Metadata.")
-    
-    atx = f"## {title}\n"
-    atx = f"{atx}### End of Book {book_word}\n"
-    img = f'<figure>\n\t<img src="../Images/gem.gif" alt="gem" id="gem" width="240" height="120" />\n</figure>'
-    atx = f"{atx}{img}\n\n"
-    log.debug(f"Generated EndOfBook's ATX Headings.")
-    
-    text = get_mmd_text(book)
-        
-    log.debug(f"Generated EndOfBook's Text.")
-    mmd = f"{meta}{atx}{text}\n"
-    log.debug(f"Concatenated Book {book}'s EndOfBook's Parts.")
-    # doc.mmd = mmd
-    # doc.save()
-    #log.debug(f"Saved Book {book}'s EndOfBook's Mulitmarkdown to MongoDB.")
-    with open (mmd_path, 'w') as outfile:
-        outfile.write(mmd)
-        log.debug(f"Saved Book {book}'s EndOfBook's Mulitmarkdown to Disk.")
-
-    return mmd
-
-
-@errwrap()
-def make_html(book: int, mmd_path: str, html_path: str):
-    """Generates the HTML from the given book's EndOFBook's MMD. Saves the HTML string to MongoDB and to Disk.
-
-    Args:
-        `book` (int):
-            The last page's book.
-        
-        `title` (str):
-            The title of the last page's book.
-            
-        `book_word` (str):
-            The word form of the last page's book.
-            
-        `mmd_path` (str):
-            The last page's multimarkdown's filepath.
-            
-    Returns:
-        'html' (str):
-            The HTML for the given book's last page.
-    
-    """
-    
     sg()
-
-    mmd_cmd = [
-        "multimarkdown", "-f", "--nolabels", "-o", f"{html_path}", f"{mmd_path}"
-    ]
-    log.debug(f"MMD: {mmd_path}")
-    log.debug(f"HTML: {html_path}")
-    log.debug(f"Multitmarkdown Command: {mmd_cmd}")
-    try:
-        result = run(mmd_cmd)
-        if result.returncode == 0:
-            log.debug("Converted Book {book}'s EndOfBook's to HTML and saved it to disk.")
-    except OSError as ose:
-        log.error(ose, traceback=True)
-        sys.exit(
-            f"OS Error occured in the proccess of creating HTML for Book {book}'s Titlepage.")
-    except Exception as e:
-        log.error(e, Traceback=True)
-        sys.exit(
-            f"Error occured in the proccess of creating HTML for Book {book}'s Titlepage")
-
-    with open(html_path, 'r') as infile:
-        html = infile.read()
-
+    for doc in EndOfBook.objects(book=book):
+        log.debug(f"Accessed Book {book}'s EndOfBook in MongoDB.")
+        title = doc.title
+        book_word = doc.book_word
+        book_str = str(book).zfill(2)
+        light_img = f"{BASE}/books/book{book_str}/Images/eob{book}-light.png"
+        dark_img = f"{BASE}/books/book{book_str}/Images/eob{book}-dark.png"
+        
+        html= f"""<!DOCTYPE html>
+<html class="eob" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>{title}</title>
+    <meta name="book" content="{book}" />
+    <link type="text/css" rel="stylesheet" href="../Styles/style.css" />
+    <meta name="viewport" content="width=device-width" />
+  </head>
+  <body class="cover">
+    <h2 class="eob">{title}</h2>
+    <p class="eob">End of Book {book_word} of Super Gene</p>     
+      <picture class="eob">
+        <source srcset="../Images/eob{book}-dark.png"
+          alt="End of Book {book}"
+          media="(prefers-color-scheme: dark)"/>
+          <img class="cover" alt="End of Book {book} Page" src="../Images/eob{book}-light.png" />
+      </picture>
+    <p class="eob">Written by Twelve Winged Burning Seraphim</p>
+    <p class="eob">Compiled and Edited by Max Ludden</p>
+  </body>
+</html>
+"""
+        
+        #> Save the End of Book HTML to MongoDB
+        if save:
+            log.debug(f"Saving End of Book {book} to MongoDB.")
+            doc.html = html
+            doc.save()
+            log.debug(f"Saved End of Book {book} to MongoDB.")
+            
+        if write:
+            log.debug(f"Writing End of Book {book} to Disk.")
+            path = f"{BASE}/books/book{book_str}/html/endofbook-{book_str}.html"
+            with open(path, "w") as outfile:
+                outfile.write(html)
+            log.debug(f"Wrote End of Book {book} to Disk.")
     return html
 
 
@@ -343,10 +311,7 @@ def make_endofbooks():
     sg()
     for doc in tqdm(EndOfBook.objects(), unit="books", desc="eobs"):
         book = doc.book
-        with open (doc.mmd_path, 'w') as outfile:
-            outfile.write(doc.mmd)
-        log.debug("Wrote Book {book}'s EndOfBook's multimarkdown to disk.")
-        with open (doc.html_path, 'w') as outfile:
-            outfile.write(doc.html)
-        log.debug("rote Book {book}'s EndOfBook's HTML to disk.")
+        html = generate_html(book, save=True, write=True)
+        log.debug(f"Generated Book {book}'s End of Book's HTML.")
         
+make_endofbooks()

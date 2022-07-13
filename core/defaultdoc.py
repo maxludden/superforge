@@ -482,4 +482,30 @@ def get_resource_paths(book: int):
     for doc in Defaultdoc.objects(book=book):
         return doc.resource_paths
         
-    
+@errwrap()
+def generate_default_doc(book: int, save: bool = False):
+    '''
+    Generates the default doc for a given book.
+
+    Args:
+        `book` (int):
+            The given book.
+
+    Raises:
+        `ValueError`:
+            Invalid Book Input. Valid books are 1-10.
+
+    Returns:
+        `default_doc` (dict):
+            The default doc for a given book.
+    '''
+    #> Validate book
+    valid_books = [1,2,3,4,5,6,7,8,9,10]
+    if book not in valid_books:
+        raise ValueError(f"Invalid book: {book}\n\nValid books are 1-10.")
+        
+        
+    default_doc = [{"from":"html"}]
+    sg()
+    for doc in Defaultdoc.objects(book=book):
+        
