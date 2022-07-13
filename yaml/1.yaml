@@ -17,3 +17,4 @@ ibooks:
 - iphone-orientation-lock: portrait-only
 belongs-to-collection: Super Gene
 group-position: 1
+page-progression-direction: ltr

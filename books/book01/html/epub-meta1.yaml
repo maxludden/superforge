@@ -5,15 +5,16 @@ title:
   text: Book One
 creator:
 - role: author
-  text: Twelve Winged Dark Seraphim
+  text: S
 - role: editor
   text: Max Ludden
 stylesheet: 
 - style.css
-cover-image: Images/cover1.png
+cover-image: books/book01/Images/cover1.png
 ibooks:
 - version: 4.0
 - specified-fonts: true
 - iphone-orientation-lock: portrait-only
 belongs-to-collection: Super Gene
 group-position: 1
+page-progression-direction: ltr

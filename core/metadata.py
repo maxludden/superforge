@@ -1,16 +1,18 @@
 # core/Metadata.py
 from mongoengine import Document
 from mongoengine.fields import IntField, StringField
-from tqdm.auto import tqdm
+from tqdm.auto import tqdm, trange
 
 try:
     from core.atlas import BASE, errwrap, max_title, sg
     from core.book import Book
-    from core.log import log
+    from core.log import log, errwrap
+    import core.myaml as myaml
 except:
     from atlas import BASE, max_title, sg
     from book import Book
     from log import errwrap, log
+    import myaml
 
 
 class Metadata(Document):
@@ -36,7 +38,7 @@ def generate_filename(book: int):
             The filename for the given book's Metadatadata.
     '''
     #> Generate Filename
-    filename =  f'metadata{book}.yaml'
+    filename =  f'meta{book}.yaml'
     
     #> Update filename in MongoDB
     sg()
@@ -137,7 +139,7 @@ def get_title(book: int):
     return title
 
 @errwrap()
-def generate_text(book: int):
+def generate_text(book: int, save: bool = False, write: bool = False):
     '''
     Generate the text for the given book's Metadatadata.
 
@@ -152,19 +154,24 @@ def generate_text(book: int):
     #> Retrieve Components from MongoDB
     author = 'Twelve Winged Dark Seraphim'
     sg()
-    for doc in Metadata.objects():
+    for doc in tqdm(Metadata.objects(book=book), unit="books", desc="Generating Metadata"):
         #> Generate Text
-        text = f"---\ntitle: {doc.title}"
-        text = f"{text}\nauthor: {author}"
-        text = f"{text}\n..."
-        
+        pyobject = {
+            "title": doc.title,
+            "author": author
+        }
+        text = myaml.dump(pyobject)
+        log.info(f"Generated yaml text for book {book}'s Metadata. \n \n{text}")
         #> Save text to MongoDB
-        doc.text = text
-        doc.save()
+        if save:
+            doc.text = text
+            doc.save()
         
         #> Write Text to Disk
-        with open (doc.filepath, 'w') as outfile:
-            outfile.write(text)
+        if write:
+            with open(doc.filepath, 'w') as f:
+                f.write(text)
+                log.info(f"Wrote yaml text for book {book}'s Metadata to disk.")
             
         return text
 
@@ -220,3 +227,17 @@ def write_Metadatadata():
     sg()
     for doc in tqdm(Metadata.objects(), unit="book", desc="Writing Metadatadata"):
         write_Metadata(doc.book)
+
+for i in trange(1,11):
+    book = i
+    sg()
+    for doc in Metadata.objects(book=book):
+        doc.filname = f"meta{book}.yaml"
+        book_str = str(book).zfill(2)
+        filepath = f"{BASE}/books/book{book_str}/html/{doc.filename}"
+        doc.filepath = filepath
+        doc.html_path = filepath
+        doc.save()
+    generate_text(i, save=True, write=True)
+    log.info(f"Generated and wrote Metadata for Book {i}.")
+

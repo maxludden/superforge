@@ -93,8 +93,7 @@ def safe_dump(yaml_to_dump: str, book: int):
     result = yaml.dump(yaml_to_dump, html_path, Dumper=SafeDumper, indent=2)
     return result
 
-def dump(yaml_to_dump: str, book:int):
-    html_path = generate_html_path(book)
-    result = yaml.dump(yaml_to_dump, html_path, Dumper=Dumper, indent=2)
+def dump(yaml_to_dump: str):
+    result = yaml.dump(yaml_to_dump, Dumper=Dumper, indent=2)
     return result
     
