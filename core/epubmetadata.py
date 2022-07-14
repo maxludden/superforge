@@ -202,13 +202,6 @@ def generate_text(book:int, save: bool = False, write: bool = False):
         `text` (str):
             The text for the given book's Epub metadata.
     '''
-    #> Generate Text
-    text = f"Book {book}'s Epub metadata:\n"
-    text += f"\tTitle: {get_title(book)}\n"
-    text += f"\tCover Path: {get_cover_path(book)}\n"
-    text += f"\tFilename: {get_filename(book)}\n"
-    text += f"\tHTML Path: {get_html_path(book)}\n"
-    text += f"\tFilepath: {get_filepath(book)}\n"
     log.debug(f"Generated Book {book}' Epub metadata's text: \n{text}")
     if save:
         sg()
@@ -217,4 +210,27 @@ def generate_text(book:int, save: bool = False, write: bool = False):
             book_word = doc.book_word
             author = 'Twelve Winged Dark Seraphim'
             cover_path = doc.cover_path
+            
+            epub-meta = {
+                'title': [
+                    {'type': 'main', 'text': title},
+                    ('type':'subtitle', 'text': f"Book {book_word}")
+                ],
+                'creator': [
+                    {'role': 'author', 'text': author},
+                    {'rolr': 'editor', 'text': 'Max Ludden'}
+                ],
+                'css': ['style.css'],
+                'cover-image': cover_path,
+                'ibooks': [
+                    'version': 4.4,
+                    'specified-fonts': 'true',
+                    'iphone-orientation-lock': 'portrait-only',
+                    'scroll-axis': 'vertical'
+                ],
+                'belongs-to-collection': 'Super Gene',
+                'group-position': book,
+                'page-progression-direction': 'ltr'
+                
+            }
             

@@ -449,9 +449,24 @@ def test_log():
 
 
 def new_run(test_loggers: bool=False):
+    run_json = f'{BASE}/json/run.json'
     md_log = f'{BASE}/logs/log.md'
+    
+    with open (run_json, 'r') as infile:
+        last_run = dict((load(infile)))["last_run"]
+        if (last_run + 1)%3 == 0:
+            # If this run is a multple of 3: 
+            new_log = """# *SUPERFORGE* Log
+            
+<img src="/Users/maxludden/dev/py/superforge/books/book01/Images/gem.gif" alt="gem" style="zoom: 25%;" />
+
+"""
+            with open (md_log, 'w') as outfile:
+                outfile.write(new_log)
+        
+    
     with open (md_log, 'a') as outfile:
-        outfile.write(f'\n<br><br>\n\n\n## Run {current_run}\n<br>\n<img src="/Users/maxludden/dev/py/superforge/books/book01/Images/gem.gif" alt="gem" id="gem" width="120" height="60" />\n\n')
+        outfile.write(f'\n <br> <br> \n \n \n ## Run {current_run}\n<br>\n<img src="/Users/maxludden/dev/py/superforge/books/book01/Images/gem.gif" alt="gem" id="gem" width="120" height="60" />\n\n')
     if test_loggers:
         test_logger()
     fix_tags()
