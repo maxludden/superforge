@@ -161,6 +161,7 @@ def generate_text(book: int, save: bool = False, write: bool = False):
             "author": author
         }
         text = myaml.dump(pyobject)
+        text = f"---\n{text}..."
         log.info(f"Generated yaml text for book {book}'s Metadata. \n \n{text}")
         #> Save text to MongoDB
         if save:
