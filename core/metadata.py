@@ -228,17 +228,3 @@ def write_Metadatadata():
     sg()
     for doc in tqdm(Metadata.objects(), unit="book", desc="Writing Metadatadata"):
         write_Metadata(doc.book)
-
-for i in trange(1,11):
-    book = i
-    sg()
-    for doc in Metadata.objects(book=book):
-        doc.filname = f"meta{book}.yaml"
-        book_str = str(book).zfill(2)
-        filepath = f"{BASE}/books/book{book_str}/html/{doc.filename}"
-        doc.filepath = filepath
-        doc.html_path = filepath
-        doc.save()
-    generate_text(i, save=True, write=True)
-    log.info(f"Generated and wrote Metadata for Book {i}.")
-

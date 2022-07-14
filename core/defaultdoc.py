@@ -19,8 +19,8 @@ try:
     import core.book as bk
     import core.chapter as ch
     import core.endofbook as eob
-    import core.epubmetadata as epubmd
-    import core.metadata as metad
+    import core.epubmetadata as epubmeta
+    import core.metadata as meta
     import core.myaml as myaml
     import core.section as sec
     import core.titlepage as titlepg
@@ -31,8 +31,8 @@ except ImportError:
     import book as bk
     import chapter as ch
     import endofbook as eob
-    import epubmetadata as epubmd
-    import metadata as metad
+    import epubmetadata as epubmeta
+    import metadata as meta
     import myaml
     import section as sect
     import titlepage as titlepg
@@ -483,6 +483,35 @@ def get_resource_paths(book: int):
         return doc.resource_paths
         
 @errwrap()
+def load_meta(book: int):
+    '''
+    Loads the metadata of a given book from MongoDB.
+
+    Args:
+        `book` (int)
+            The given book):
+            
+    Returns:
+        `meta` (dict): 
+            The given book's metadata.
+    '''
+    sg()
+    for doc in meta.Metadata.objects(book=book):
+        metadata = doc.text
+        log.debug(f"Retrieved Metadata for Book {book}:\n\n {metadata}")
+    sg()
+    for doc in epubmeta.Epubmeta.objects(book=book):
+        epub_metadata = doc.text
+        log.debug(f"Retrieved ePub Metadata for Book {book}:\n\n {epub_metadata}")
+    sg()
+    for doc in Defaultdoc.objects(book=book):
+        doc.metadata = metadata
+        doc.epubmetadata = epub_metadata
+        doc.save()
+        log.info(f"Updated Book {book}'s defualtdoc with Metadata and ePub Metadata.")
+    
+        
+@errwrap()
 def generate_default_doc(book: int, save: bool = False):
     '''
     Generates the default doc for a given book.
@@ -504,8 +533,10 @@ def generate_default_doc(book: int, save: bool = False):
     if book not in valid_books:
         raise ValueError(f"Invalid book: {book}\n\nValid books are 1-10.")
         
-        
+     
     default_doc = [{"from":"html"}]
     sg()
-    for doc in Defaultdoc.objects(book=book):
-        
+    #! for doc in Defaultdoc.objects(book=book):
+
+for i in trange(1,11):
+    load_meta(i)

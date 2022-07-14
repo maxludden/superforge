@@ -1,6 +1,5 @@
 # core/epubmeta.py
-from errno import EOVERFLOW
-from pathlib import Path
+from pprint import pprint
 
 from mongoengine import Document
 from mongoengine.fields import IntField, StringField
@@ -202,35 +201,46 @@ def generate_text(book:int, save: bool = False, write: bool = False):
         `text` (str):
             The text for the given book's Epub metadata.
     '''
-    log.debug(f"Generated Book {book}' Epub metadata's text: \n{text}")
-    if save:
-        sg()
-        for doc in Epubmeta.objects(book=book):
-            title = doc.title
-            book_word = doc.book_word
-            author = 'Twelve Winged Dark Seraphim'
-            cover_path = doc.cover_path
-            
-            epub-meta = {
-                'title': [
-                    {'type': 'main', 'text': title},
-                    ('type':'subtitle', 'text': f"Book {book_word}")
+    sg()
+    for doc in Epubmeta.objects(book=book):
+        title = doc.title
+        book_word = doc.book_word
+        author = 'Twelve Winged Dark Seraphim'
+        cover_path = doc.cover_path
+        
+        epub_meta = {
+            'title': [
+                {'type':'main', 'text': title},
+                {'type':'subtitle', 'text': f"Book {book_word}"}
                 ],
-                'creator': [
-                    {'role': 'author', 'text': author},
-                    {'rolr': 'editor', 'text': 'Max Ludden'}
+            'creator': [
+                {'role': 'author', 'text': author}, 
+                {'role': 'editor', 'text': 'Max Ludden'}
                 ],
-                'css': ['style.css'],
-                'cover-image': cover_path,
-                'ibooks': [
-                    'version': 4.4,
-                    'specified-fonts': 'true',
-                    'iphone-orientation-lock': 'portrait-only',
-                    'scroll-axis': 'vertical'
-                ],
-                'belongs-to-collection': 'Super Gene',
-                'group-position': book,
-                'page-progression-direction': 'ltr'
-                
+            'css': ['style.css'],
+            'cover-image': cover_path,
+            'ibooks': [
+                {'version': '4.4'},
+                {'specified-fonts': True}, 
+                {'iphone-orientation-lock':'portrait-only'}, 
+                {'scroll-axis': 'vertical'}],
+            'belongs-to-collection': 'Super Gene',
+            'group-position': book,
+            'page-progression-direction': 'ltr'
             }
             
+        epub_meta_yaml = myaml.dump(epub_meta)
+        text = f"---\n{epub_meta_yaml}...\n"
+        log.debug(f' Genereated ePub metadata for book {book}\n<code>\n{text}</code>')
+        
+        if save:
+            doc.text = text
+            doc.save()
+            log.debug(f"Saved Book {book}'s epub metadata to MongoDB.")
+        
+        if write:
+            with open(doc.filepath, 'w') as outfile:
+                outfile.write(text)
+                log.debug(f"Wrote Book {book}'s epub metadata to file.")
+
+generate_text(1, save=True, write=True)

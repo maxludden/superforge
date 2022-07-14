@@ -331,7 +331,9 @@ def md_fmt(record: dict):
             Run {extra[run]} | {time:h:mm:ss A} | {file.name} | Line {line}
         \</div>
         \<div class="container-debug">
-            {message}
+            \<pre>
+{message}
+            \</pre>
         \</div>
     \</div>
 \</a>
@@ -345,7 +347,9 @@ def md_fmt(record: dict):
             Run {extra[run]} | {time:h:mm:ss A} | {file.name} | Line {line}
         \</div>
         \<div class="container-info">
-            {message}
+            \<pre>
+{message}
+            \</pre>
         \</div>
     \</div>
 \</a>
@@ -359,7 +363,9 @@ def md_fmt(record: dict):
             Run {extra[run]} | {time:h:mm:ss A} | {file.name} | Line {line}
         \</div>
         \<div class="container-warn">
-            {message}
+            \<pre>
+{message}
+            \</pre>
         \</div>
     \</div>
 \</a>
@@ -373,7 +379,9 @@ def md_fmt(record: dict):
             Run {extra[run]} | {time:h:mm:ss A} | {file.name} | Line {line}
         \</div>
         \<div class="container-error">
-            {message}
+            \<pre>
+{message}
+            \</pre>
         \</div>
     \</div>
 \</a>
@@ -388,25 +396,7 @@ def pwrap(line: str):
     return f"<p>{line}</p>"
 
 def multiline(record):
-    msg = record.message
-    if "\n" in msg:
-        fixed_messages = ''
-        msg_lines = msg.split('\n')
-        for x, line in enumerate(msg_lines):
-            line = pwrap(line)
-            if x == 0:
-                fixed_messages.append(line)
-            else:
-                line = f'\t\t\t{line}'
-                fixed_messages.append(line)
-        htmlmsg = '\n'.join(fixed_messages)
-    else:
-        htmlmsg = pwrap(msg)
-    
-    record["message"] = htmlmsg
-    return record
-        
-        
+     return str(record.message).strip()
 
 logger = log.bind(scope="main")
 logger.add(
@@ -458,7 +448,7 @@ def new_run(test_loggers: bool=False):
             # If this run is a multple of 3: 
             new_log = """# *SUPERFORGE* Log
             
-<img src="/Users/maxludden/dev/py/superforge/books/book01/Images/gem.gif" alt="gem" style="zoom: 25%;" />
+<img src="/Users/maxludden/dev/py/superforge/books/book01/Images/gem.gif" alt="gem" width="120" height="60" />
 
 """
             with open (md_log, 'w') as outfile:
@@ -498,7 +488,7 @@ def errwrap(*, entry=True, exit=True, level="DEBUG", test: bool=False):
             if test: #> Test run - record entry and exit to test.
                 xylog.log (level, f"Entering '{name}' (args= '{args}', kwargs={kwargs}")
                 result = func(*args, **kwargs)
-                xylog.log(level, f"Exiting '{name}' (result={result})")
+                xylog.log(level, f"Exiting '{name}' (result=\n \n<code>{result}</code>)")
                 return result
             else:
             #> Non-test
@@ -506,7 +496,7 @@ def errwrap(*, entry=True, exit=True, level="DEBUG", test: bool=False):
                     xylog.log (level, f"Entering '{name}' (args= '{args}', kwargs={kwargs}")
                 result = func(*args, **kwargs)
                 if exit:
-                    xylog.log(level, f"Exiting '{name}' (result={result})")
+                    xylog.log(level, f"Exiting '{name}' (result=\n \n<code>{result}</code>)")
                 return result
         return wrapped
     return wrapper

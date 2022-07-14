@@ -1,19 +1,23 @@
-title:
-- type: main
-  text: Second God's Sanctuary
-- type: subtitle
-  text: Book Two
+---
+belongs-to-collection: Super Gene
+cover-image: Images/cover2.png
 creator:
 - role: author
   text: Twelve Winged Dark Seraphim
 - role: editor
   text: Max Ludden
-stylesheet: 
+css:
 - style.css
-cover-image: Images/cover2.png
+group-position: 2
 ibooks:
-- version: 4.0
+- version: '4.4'
 - specified-fonts: true
 - iphone-orientation-lock: portrait-only
-belongs-to-collection: Super Gene
-group-position: 2
+- scroll-axis: vertical
+page-progression-direction: ltr
+title:
+- text: Second God's Sanctuary
+  type: main
+- text: Book Two
+  type: subtitle
+...

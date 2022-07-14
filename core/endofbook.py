@@ -313,5 +313,3 @@ def make_endofbooks():
         book = doc.book
         html = generate_html(book, save=True, write=True)
         log.debug(f"Generated Book {book}'s End of Book's HTML.")
-        
-make_endofbooks()

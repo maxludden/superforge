@@ -1,21 +1,23 @@
-title:
-- type: main
-  text: First God's Sanctuary
-- type: subtitle
-  text: Book One
+---
+belongs-to-collection: Super Gene
+cover-image: Images/cover1.png
 creator:
 - role: author
   text: Twelve Winged Dark Seraphim
 - role: editor
   text: Max Ludden
-css: 
+css:
 - style.css
-cover-image: books/book01/Images/cover1.png
+group-position: 1
 ibooks:
-- version: 4.4
+- version: '4.4'
 - specified-fonts: true
 - iphone-orientation-lock: portrait-only
 - scroll-axis: vertical
-belongs-to-collection: Super Gene
-group-position: 1
 page-progression-direction: ltr
+title:
+- text: First God's Sanctuary
+  type: main
+- text: Book One
+  type: subtitle
+...

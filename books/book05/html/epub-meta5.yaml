@@ -1,19 +1,23 @@
-title:
-- type: main
-  text: Planet Kate and Narrow Moon
-- type: subtitle
-  text: Book Five
+---
+belongs-to-collection: Super Gene
+cover-image: Images/cover5.png
 creator:
 - role: author
   text: Twelve Winged Dark Seraphim
 - role: editor
   text: Max Ludden
-stylesheet: 
+css:
 - style.css
-cover-image: Images/cover5.png
+group-position: 5
 ibooks:
-- version: 4.0
+- version: '4.4'
 - specified-fonts: true
 - iphone-orientation-lock: portrait-only
-belongs-to-collection: Super Gene
-group-position: 5
+- scroll-axis: vertical
+page-progression-direction: ltr
+title:
+- text: Planet Kate and Narrow Moon
+  type: main
+- text: Book Five
+  type: subtitle
+...
