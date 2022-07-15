@@ -112,9 +112,9 @@ h5 {
 /************* Images **************/
 
 img {
-    /* display: block; */
-    /* margin-left: auto; */
-    /* margin-right: auto; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /************** Body ***************/
@@ -310,22 +310,6 @@ tr:nth-child(odd) {
     text-align: center;
 }
 
-.ar {
-    text-align: right;
-}
-
-.al {
-    text-align: left;
-}
-
-.light {
-    background-color: var(--alternate-bg-color);
-}
-
-.dark {
-    background-color: var(--main-bg-color);
-}
-
 .note {
     font-weight: lighter;
     font-size: 60%;
@@ -481,18 +465,24 @@ img.eob {
     padding: 0;
 }
 
-#gene{
+h1.titlepage {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    padding: 0;
-    width: 125;
-    height: 125;
+    color: var(--main-color)
 }
 
-#superforge{
-    display: block;
-    padding: 0;
+h3.titlepage {
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+    color: var(--main-color)
+}
+
+figure.titlepage-gem {
+    width: 120px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
