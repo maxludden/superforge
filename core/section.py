@@ -8,6 +8,7 @@ from webbrowser import get
 from mongoengine import Document, disconnect_all
 from mongoengine.fields import IntField, ListField, StringField
 from num2words import num2words
+from pyparsing import str_type
 from tqdm.auto import tqdm
 
 try:
@@ -28,6 +29,14 @@ img = (
 )
 
 
+class SectionNotFound(Exception):
+    pass
+
+class MMDConversionException(Exception):
+    pass
+class MMDConversionError(Exception):
+    pass
+
 class Section(Document):
     section = IntField(min_value=1, max_value=17)
     title = StringField()
@@ -46,7 +55,7 @@ class Section(Document):
 
 
 @errwrap()
-def get_book(section: int):
+def get_book(section: int) -> int:
     """Determine the book of a given chapter.
 
     Args:
@@ -81,14 +90,14 @@ def get_book(section: int):
 
 
 @errwrap()
-def get_title(section: int):
+def get_title(section: int) -> str:
     sg()
     for doc in Section.objects(section=section):
         return max_title(doc.title)
 
 
 @errwrap()
-def get_part(section: int):
+def get_part(section: int) -> int:
     """Determine the section Part number of its book (if it's books has more than one section.)
 
     Args:
@@ -99,6 +108,8 @@ def get_part(section: int):
         `part` (int):
             The given section's part number. If the given section's book contains only one section, `get_part()` will return `0`.
     """
+    section_type = type(section)
+    log.info(f"Section type: {section_type}")
     if section <= 3:
         return 0
     elif section % 2 == 0:
@@ -108,13 +119,13 @@ def get_part(section: int):
 
 
 @errwrap()
-def get_filename(section: int):
+def get_filename(section: int) -> str:
     section = str(section).zfill(2)
     return f"section-{section}"
 
 
 @errwrap()
-def get_md_path(section: int):
+def generate_md_path(section: int, save: bool = False) -> str:
     """Generate the md_path of the given section.
 
     Args:
@@ -126,12 +137,23 @@ def get_md_path(section: int):
             The filepath of the section's multimarkdown.
     """
     filename = get_filename(section)
-    book = str(get_book(section)).zfill(2)
-    return f"/Users/maxludden/dev/py/superforge/books/book{book}/md/{filename}.md"
+    book_str = str(section).zfill(2)
+    book_dir = f"book{book_str}"
+    md_path = f"{BASE}/books/{book_dir}/md/{filename}.md"
+    if save:
+        sg()
+        section_page = Section.objects(section=section).first()
+        if section_page is None:
+            raise SectionNotFound(f"Section {section} not found.")
+        else:
+            section_page.md_path = md_path
+            section_page.save()
+            log.info(f"Saved md_path for section {section} to MongoDB.")
+    return md_path
 
 
 @errwrap()
-def get_html_path(section: int):
+def get_html_path(section: int) -> str:
     """
     Generate the html_path of the given section.
 
@@ -149,7 +171,7 @@ def get_html_path(section: int):
 
 
 @errwrap()
-def get_start(section: int):
+def get_start(section: int) -> int:
     """
     Determine the chapter the sections starts at.
 
@@ -167,7 +189,7 @@ def get_start(section: int):
 
 
 @errwrap()
-def get_end(section: int):
+def get_end(section: int) -> int:
     """
     Determine the chapter the section ends.
 
@@ -185,7 +207,7 @@ def get_end(section: int):
 
 
 @errwrap(entry=False, exit=False)
-def get_md(section: int):
+def generate_md(section: int, save: bool = False, write: bool = False) -> str:
     """
     Generate the multimarkdown for the given section and save it to disk and MongoDB
 
@@ -197,126 +219,134 @@ def get_md(section: int):
         `md` (str):
             The multimarkdown for the given section.
     """
+    part = get_part(section)
     sg()
-    for doc in Section.objects(section=section):
-        part = get_part(section)
-        log.debug(f"Retrieved Section {section}'s Document from MongoDB.")
-        book_word = str(num2words(doc.book)).title()
+    section_doc = Section.objects(section=section).first()
+    book = section_doc.book
+    book_word = section_doc.book_word
+    title = section_doc.title
+    start = section_doc.start
+    end = section_doc.end
+    
 
-        # > Generate MD Metadata
-        meta = f"Title: {doc.title}"
-        meta = f"{meta}\nBook: {doc.book}"
-        meta = f"{meta}\nSection: {doc.section}"
+    # > Generate MD Metadata
+    meta = f"---\nTitle: {title}\nBook: {book}\nSection: {section}"
 
-        if section > 3:
-            meta = f"{meta}\nPart: {part}"
+    if section > 3:
+        meta = f"{meta}\nPart: {part}"
 
-        meta = f"{meta}\nCSS:../Styles/style.css"
-        meta = f"{meta}\nviewport: width=device-width\n  \n  "
+    meta = f"{meta}\nCSS:../Styles/style.css\nviewport: width=device-width\n...\n  \n"
 
-        # . Declare img const
-        img = '\n\n<figure>\n<img src="../Images/gem.gif" alt="gem" id="gem" width="120" height="60" />\n</figure>'
+    # . Declare img const
+    img = '\n\n<figure>\n<img src="../Images/gem.gif" alt="gem" id="gem" width="120" height="60" />\n</figure>'
 
-        if part == 0:
+    if part == 0:
 
-            atx = f"## Book {book_word}\n#### of Super Gene "
-            atx = f"{atx}{img}\n\n### Chapter {doc.start} - Chapter {doc.end}\n<br>\n<br>\n<br>\n<br>"
-        elif part == 1:
-            atx = f"## Part One{img}\n  \n### Chapter {doc.start} - Chapter {doc.end}\n<br>\n<br>\n<br>\n<br>"
-        else:
-            atx = f"## Part Two{img}\n  \n### Chapter {doc.start} - Chapter {doc.end}\n<br>\n<br>\n<br>\n<br>\n<br>"
+        atx = f"## Book {book_word}\n#### of Super Gene "
+        atx = f"{atx}{img}\n\n### Chapter {start} - Chapter {end}\n"
+    elif part == 1:
+        atx = f"## Part One{img}\n  \n### Chapter {start} - Chapter {end}\n"
+    else:
+        atx = f"## Part Two{img}\n### Chapter {start} - Chapter {end}\n"
 
-        text = '\n  \n<p class="title">Written by Twelve Winged Burning Seraphim</p>\n<p class="title">Compiled and edited by Max Ludden</p>\n'
+    text = '\n<p class="title">Written by Twelve Winged Burning Seraphim</p>\n<p class="title">Compiled and edited by Max Ludden</p>\n'
 
-        md = f"{meta}{atx}{text}"
-        md_path = get_md_path(section)
+    md = f"{meta}{atx}{text}"
+    
+    if write:
+        md_path = generate_md_path(section)
         with open(md_path, "w") as outfile:
             outfile.write(md)
         log.debug(f"Wrote Sections {section}'s multimarkdown to disk.")
-        doc.md = md
-        doc.save()
+    
+    if save:
+        section_doc.md = md
+        section_doc.save()
         log.debug(f"Saved Section {section}'s multimarkdown to MongoDB.")
-        return md
-
-
-def get_html(section: int):
-    """Generate the HTML for the given section.
-
-    Args:
-        `section` (int):
-            The  given section.
-
-    Returns:
-        `html` (str):
-            The HTML of the given section.
-    """
-
-    sg()
-    for doc in Section.objects(section=section):
-        md_path = get_md_path(doc.section)
-        html_path = get_html_path(doc.section)
-        md_cmd = ["multimarkdown", "-f", "--nolabels", "-o", html_path, md_path]
-        log.debug(f"Multimarkdown Command:\n{md_cmd}")
-        try:
-            result = run(md_cmd, capture_output=True, text=True)
-        except:
-            write_html(section)
-        else:
-            book = str(get_book(doc.section)).zfill(2)
-            zsection = str(doc.section).zfill(2)
-            html_path = f"/Users/maxludden/dev/py/superforge/books/book{book}/html/section-{zsection}.html"
-            with open(html_path, "r") as infile:
-                html = infile.read()
-            doc.html = html
-            doc.save()
-            log.debug("Saved Section {section}'s HTML to disk and MongoDB.")
-
-
-def write_html(section: int, md: Optional[str]):
-    if not md:
-        connected = True
-        sg()
-        for doc in Section.objects(section=section):
-            if doc.md == "":
-                md = get_md(section)
-    html = md(md, extras=["metadata"])
-    with open(doc.html_path, "w") as outfile:
-        outfile.write(html)
-
-    if connected == True:
-        disconnect_all()
-
-    sg()
-    for doc in Section.objects(section=section):
-        doc.html = html
-        doc.save()
+    return md
 
 
 @errwrap()
-def make_sections():
-    """A script to automate the generation of each section page's multimarkdown and convert it into X/HTML."""
-    sg()
-    sections = range(1, 18)
-    for section in tqdm(sections, unit="section", desc="Writing section pages"):
-        for doc in Section.objects(section=section):
-            doc.filename = get_filename(doc.section)
-            doc.md_path = get_md_path(doc.section)
-            doc.md = get_md(doc.section)
-            md = get_md(section)
-            html = get_html(section)
-            doc.md = md
-            doc.html = html
-            doc.save()
-            log.info(f"Finished updating section {section}.md")
-
-
-def save_html():
+def get_md(section: int):
     """
-    Read html from disk and save to MongoDB.
+    Retrieve the multimarkdown for the given section from MongoDB.
+
+    Args:
+        `section` (int):
+            The given section.
+
+    Returns:
+        `md` (str):
+            The multimarkdown for the given section.
     """
     sg()
-    for doc in tqdm(Section.objects(), unit="section", desc="Saving HTML"):
-        doc.html_path = get_html_path(doc.section)
-        with open(doc.html_path, "r") as infile:
-            doc.html = infile.read()
-        doc.save()
+    for doc in Section.objects(section=section):
+        return doc.md
+        
+        
+@errwrap()
+def generate_html(section: int, save: bool = False):
+    '''
+    Generate the given section's HTML from it's markdown.
+    
+    Args:
+        `book` (int):
+            The given book.
+            
+        `save` (bool, optional):
+            Whether to save the HTML to MongoDB. Defaults to False.
+            
+    Returns:
+        `html` (str):
+            The HTML for the given section.
+    '''
+    sg()
+    section_page = Section.objects(section=section).first()
+    if section_page is None:
+        log.error(f"Section {section} not found in MongoDB.")
+        raise SectionNotFound(f"MongoDB does not contain the following section: {section}.")
+    else:
+        md_path = section_page.md_path
+        log.debug(f"Section {section}'s Markdown path:\n{md_path}")
+        
+        html_path = section_page.html_path
+        log.debug(f"Section {section}'s HTML path:\n{html_path}")
+        
+        mmd_cmd = [
+            "multimarkdown",
+            "-f",
+            "--nolabels",
+            "-o",
+            f"{section_page.html_path}",
+            f"{section_page.md_path}"
+        ]
+        
+        try:
+            result = run(mmd_cmd)
+            if result.returncode == 0:
+                log.debug(f"Successfully generated HTML for Section {section}.")
+        except MMDConversionException:
+            raise MMDConversionError(f"Failed to generate Section {section}'s HTML.<code>\nmd_path: {md_path}\nhtml_path: {html_path}\nresult: {result}</code>")
+        else:
+            with open (html_path, 'r') as infile:
+                html = infile.read()
+            
+            if save:
+                section_page.html = html
+                section_page.save()
+                log.debug(f"Saved Section {section}'s HTML to MongoDB.")
+            
+            return html
+
+
+sg()
+for section in tqdm(Section.objects(), unit="sections", desc="Generating Section Pages"):
+    md = generate_md(section, save=True, write=True)
+    log.info(md)
+
+    html = generate_html(1, save=True)
+    log.info(html)
+            
+        
+        
+        

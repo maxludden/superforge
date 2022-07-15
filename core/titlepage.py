@@ -256,7 +256,7 @@ def generate_html(book: int, save: bool = False, test: bool = False) -> str:
             f"{titlepage.md_path}",
         ]
         if test: #> log paths
-            paths(book, titlepage, mmd_cmd)
+            log_paths(book, titlepage, mmd_cmd)
         
         #> Try the conversion command
         try:
@@ -282,7 +282,7 @@ def generate_html(book: int, save: bool = False, test: bool = False) -> str:
 
 
 @errwrap()
-def generate_titlepages(book: int):
+def generate_titlepages():
     with alive_bar(30, title=f'Generating Titlepages', bar='smooth', dual_line=True) as tbar:
         for book in range(1,11):
             sg()
@@ -303,3 +303,6 @@ def generate_titlepages(book: int):
                 else:
                     tbar()
                     tbar.title(f"Generated all titlepages.")
+
+
+generate_titlepages(1)
