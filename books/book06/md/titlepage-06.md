@@ -1,20 +1,15 @@
+---
 Title: Sky Palace, Blade, and Eclipse
 Book: 6
-viewport: width=device-width
-CSS: ../Styles/style.css
- 
- ## Sky Palace, Blade, and Eclipse
-
-### Book Six
-
-<figure>
-	<img src="../Images/gem.gif" alt="gem" id="gem" width="240" height="120" />
+CSS: ../Styles/styles.css
+viewport: width=device-width, initial-scale=1.0
+...
+# Sky Palace, Blade, and Eclipse
+<br />
+### Book Six<br /><figure>
+	<img class="titlepage" src="../Images/gem.gif" alt="gem" />
 </figure>
-<br>
 
-  
-<p class="title">Written by Twelve Winged Burning Seraphim</p>
-  
+
+<p class="title">Written by Twelve Winged Dark Seraphim</p>
 <p class="title">Complied and Edited by Max Ludden</p>
-  
-

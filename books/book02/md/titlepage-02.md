@@ -1,20 +1,15 @@
+---
 Title: Second God's Sanctuary
 Book: 2
-viewport: width=device-width
-CSS: ../Styles/style.css
- 
- ## Second God's Sanctuary
-
-### Book Two
-
-<figure>
-	<img src="../Images/gem.gif" alt="gem" id="gem" width="240" height="120" />
+CSS: ../Styles/styles.css
+viewport: width=device-width, initial-scale=1.0
+...
+# Second God's Sanctuary
+<br />
+### Book Two<br /><figure>
+	<img class="titlepage" src="../Images/gem.gif" alt="gem" />
 </figure>
-<br>
 
-  
-<p class="title">Written by Twelve Winged Burning Seraphim</p>
-  
+
+<p class="title">Written by Twelve Winged Dark Seraphim</p>
 <p class="title">Complied and Edited by Max Ludden</p>
-  
-

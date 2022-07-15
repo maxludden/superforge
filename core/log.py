@@ -486,17 +486,17 @@ def errwrap(*, entry=True, exit=True, level="DEBUG", test: bool=False):
         def wrapped(*args, **kwargs):
             xylog = log.opt(depth=1)
             if test: #> Test run - record entry and exit to test.
-                xylog.log (level, f"Entering '{name}' (args= '{args}', kwargs={kwargs}")
+                xylog.log (level, f"Entering '{name}'\n<code>\nargs= '{args}'\n\nkwargs={kwargs}</code>")
                 result = func(*args, **kwargs)
-                xylog.log(level, f"Exiting '{name}' (result=\n \n<code>{result}</code>)")
+                xylog.log(level, f"Exiting '{name}'<code>\nresult:\n<{result}</code>")
                 return result
             else:
             #> Non-test
                 if entry:
-                    xylog.log (level, f"Entering '{name}' (args= '{args}', kwargs={kwargs}")
+                    xylog.log (level, f"Entering '{name}'\n<code>\nargs:\n{args}'\n\nkwargs={kwargs}</code>")
                 result = func(*args, **kwargs)
                 if exit:
-                    xylog.log(level, f"Exiting '{name}' (result=\n \n<code>{result}</code>)")
+                    xylog.log(level, f"Exiting '{name}'<code>\nresult:\n<{result}</code>")
                 return result
         return wrapped
     return wrapper

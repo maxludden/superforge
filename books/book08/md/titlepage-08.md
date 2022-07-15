@@ -1,20 +1,15 @@
+---
 Title: The Systems of Chaos and the Very High
 Book: 8
-viewport: width=device-width
-CSS: ../Styles/style.css
- 
- ## The Systems of Chaos and the Very High
-
-### Book Eight
-
-<figure>
-	<img src="../Images/gem.gif" alt="gem" id="gem" width="240" height="120" />
+CSS: ../Styles/styles.css
+viewport: width=device-width, initial-scale=1.0
+...
+# The Systems of Chaos and the Very High
+<br />
+### Book Eight<br /><figure>
+	<img class="titlepage" src="../Images/gem.gif" alt="gem" />
 </figure>
-<br>
 
-  
-<p class="title">Written by Twelve Winged Burning Seraphim</p>
-  
+
+<p class="title">Written by Twelve Winged Dark Seraphim</p>
 <p class="title">Complied and Edited by Max Ludden</p>
-  
-

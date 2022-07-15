@@ -62,7 +62,7 @@ def get_atlas_uri(database: str = "SUPERGENE"):
             raise ConnectionError(f"{database} is not a valid DB.")
 
     URI = os.environ.get(db)
-    log.debug(f"URI: {URI}")
+    log.debug(f"URI retrieved from .env:\n<code>{URI}</code>")
     return URI
 
 
@@ -86,16 +86,13 @@ def sg(database: str = "SUPERGENE"):
             db = "SUPERGENE"
         else:
             raise ConnectionError(f"{database} is not a valid DB.")
-
-    URI = os.environ.get(db)
-    log.debug(f"URI: {URI}")
     
-    URI = get_atlas_uri(database)
+    URI = get_atlas_uri(db)
     log.debug(f"Retrieved connection URI: {URI}")
     
     #> Attempt to connect to MongoDB    
     try:
-        connect(database, host=URI)
+        connect(db, host=URI)
         log.debug(f"Connected to {database}")
     except ConnectionError as ce:
         log.error(f"Connection Error: {ce}")

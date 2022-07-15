@@ -11,12 +11,12 @@ import core.epubmetadata as epubmd
 import core.metadata as metad
 import core.myaml as myaml
 import core.section as sec
-import core.titlepage as titlepage
+import core.old_title as old_title
 from core.atlas import BASE, sg
 from core.chapter import Chapter
 from core.cover import Coverpage
 from core.log import errwrap, log
-from core.titlepage import Titlepage
+from core.old_title import Titlepage
 from utilities.yay import superyay, yay
 
 load_dotenv(".env")

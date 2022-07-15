@@ -20,7 +20,7 @@ try:
     import core.endofbook as eob_
     import core.myaml as myaml
     import core.section as section_
-    import core.titlepage as titlepage_
+    import core.old_title as titlepage_
     from core.atlas import BASE, sg
     from core.book import Book
     from core.log import errwrap, log

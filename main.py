@@ -20,7 +20,7 @@ import core.endofbook as eob_
 import core.epubmetadata as epubmd
 import core.metadata as coremd
 import core.section as section_
-import core.titlepage as titlepg
+import core.old_title as titlepg
 
 # . Start a new run
 new_run()
