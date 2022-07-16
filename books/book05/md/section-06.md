@@ -1,21 +1,18 @@
+---
 Title: Planet Kate
 Book: 5
-Section: 6
-Part: 1
-CSS:../Styles/style.css
-viewport: width=device-width
-  
-  ## Part One
+Part: None
+CSS: ../Styles/style.css
+viewport: width=device-width, initial-scale=1.0
+...
+
+# Planet Kate
+## Book Five
+### Section 6
 
 <figure>
-<img src="../Images/gem.gif" alt="gem" id="gem" width="120" height="60" />
+	<img src="../Images/gem.gif" alt="Spinning Black Gem" width="120" height="60" />
 </figure>
-  
-### Chapter 1712 - Chapter 1821
-<br>
-<br>
-<br>
-<br>
-  
-<p class="title">Written by Twelve Winged Burning Seraphim</p>
-<p class="title">Compiled and edited by Max Ludden</p>
+
+<p class="title">Written by Twelve Winged Dark Seraphim</p>
+<p class="title">Compiled and Edited by Max Ludden</p>

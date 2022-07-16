@@ -1,21 +1,18 @@
+---
 Title: The Universe of Kingdoms
 Book: 10
-Section: 16
-Part: 1
-CSS:../Styles/style.css
-viewport: width=device-width
-  
-  ## Part One
+Part: None
+CSS: ../Styles/style.css
+viewport: width=device-width, initial-scale=1.0
+...
+
+# The Universe of Kingdoms
+## Book Ten
+### Section 16
 
 <figure>
-<img src="../Images/gem.gif" alt="gem" id="gem" width="120" height="60" />
+	<img src="../Images/gem.gif" alt="Spinning Black Gem" width="120" height="60" />
 </figure>
-  
-### Chapter 3034 - Chapter 3303
-<br>
-<br>
-<br>
-<br>
-  
-<p class="title">Written by Twelve Winged Burning Seraphim</p>
-<p class="title">Compiled and edited by Max Ludden</p>
+
+<p class="title">Written by Twelve Winged Dark Seraphim</p>
+<p class="title">Compiled and Edited by Max Ludden</p>

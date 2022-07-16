@@ -1,22 +1,18 @@
+---
 Title: The Extreme Kings
 Book: 7
-Section: 11
-Part: 2
-CSS:../Styles/style.css
-viewport: width=device-width
-  
-  ## Part Two
+Part: None
+CSS: ../Styles/style.css
+viewport: width=device-width, initial-scale=1.0
+...
+
+# The Extreme Kings
+## Book Seven
+### Section 11
 
 <figure>
-<img src="../Images/gem.gif" alt="gem" id="gem" width="120" height="60" />
+	<img src="../Images/gem.gif" alt="Spinning Black Gem" width="120" height="60" />
 </figure>
-  
-### Chapter 2300 - Chapter 2443
-<br>
-<br>
-<br>
-<br>
-<br>
-  
-<p class="title">Written by Twelve Winged Burning Seraphim</p>
-<p class="title">Compiled and edited by Max Ludden</p>
+
+<p class="title">Written by Twelve Winged Dark Seraphim</p>
+<p class="title">Compiled and Edited by Max Ludden</p>
