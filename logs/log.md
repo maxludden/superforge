@@ -53533,3 +53533,13310 @@ Section 14's Title: Meeting God and Fighting Sacred1
         </div>
     </div>
 </a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:206:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 741 | 9:24:39 PM | section.py | Line 206
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_title'
+<code>
+args:
+(14,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:178:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 741 | 9:24:39 PM | section.py | Line 178
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(14,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:178:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 741 | 9:24:39 PM | section.py | Line 178
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<9</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 741 | 9:24:39 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 741 | 9:24:39 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 741 | 9:24:40 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:186:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 741 | 9:24:41 PM | section.py | Line 186
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_part'
+<code>
+args:
+(14,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:186:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 741 | 9:24:41 PM | section.py | Line 186
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_part'<code>
+result:
+<1</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:187:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 741 | 9:24:41 PM | section.py | Line 187
+        </div>
+        \<div class="container-debug">
+            <pre>
+Section 14's Part is 1
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 741 | 9:24:41 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 741 | 9:24:41 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 741 | 9:24:41 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:198:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 741 | 9:24:42 PM | section.py | Line 198
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved title for Section 14's Section Page to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:206:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 741 | 9:24:42 PM | section.py | Line 206
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_title'<code>
+result:
+<Meeting God and Fighting Sacred1</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:207:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 741 | 9:24:42 PM | section.py | Line 207
+        </div>
+        \<div class="container-info">
+            <pre>
+Section 14's Title: Meeting God and Fighting Sacred1
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:214:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 742 | 9:28:58 PM | section.py | Line 214
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_title'
+<code>
+args:
+(14,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:178:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 742 | 9:28:58 PM | section.py | Line 178
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(14,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:178:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 742 | 9:28:58 PM | section.py | Line 178
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<9</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 742 | 9:28:58 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 742 | 9:28:58 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 742 | 9:28:58 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:186:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 742 | 9:28:59 PM | section.py | Line 186
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_part'
+<code>
+args:
+(14,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:186:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 742 | 9:28:59 PM | section.py | Line 186
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_part'<code>
+result:
+<1</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:196:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 742 | 9:28:59 PM | section.py | Line 196
+        </div>
+        \<div class="container-debug">
+            <pre>
+Section 14's title: Meeting God and Fighting Sacred - Part 1
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 742 | 9:28:59 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 742 | 9:28:59 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 742 | 9:28:59 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:206:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 742 | 9:29:00 PM | section.py | Line 206
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved title for Section 14's Section Page to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:214:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 742 | 9:29:00 PM | section.py | Line 214
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_title'<code>
+result:
+<Meeting God and Fighting Sacred - Part 1</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:215:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 742 | 9:29:00 PM | section.py | Line 215
+        </div>
+        \<div class="container-info">
+            <pre>
+Section 14's Title: Meeting God and Fighting Sacred - Part 1
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:214:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 743 | 9:29:12 PM | section.py | Line 214
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_title'
+<code>
+args:
+(5,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:178:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 743 | 9:29:12 PM | section.py | Line 178
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(5,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:178:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 743 | 9:29:12 PM | section.py | Line 178
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<4</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 743 | 9:29:12 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 743 | 9:29:12 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 743 | 9:29:12 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:186:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 743 | 9:29:13 PM | section.py | Line 186
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_part'
+<code>
+args:
+(5,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:186:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 743 | 9:29:13 PM | section.py | Line 186
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_part'<code>
+result:
+<2</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:196:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 743 | 9:29:13 PM | section.py | Line 196
+        </div>
+        \<div class="container-debug">
+            <pre>
+Section 5's title: Fourth and Fifth God's Sanctuary - Part 2
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 743 | 9:29:13 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 743 | 9:29:13 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 743 | 9:29:13 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:206:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 743 | 9:29:14 PM | section.py | Line 206
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved title for Section 5's Section Page to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:214:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 743 | 9:29:14 PM | section.py | Line 214
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_title'<code>
+result:
+<Fourth and Fifth God's Sanctuary - Part 2</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:215:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 743 | 9:29:14 PM | section.py | Line 215
+        </div>
+        \<div class="container-info">
+            <pre>
+Section 5's Title: Fourth and Fifth God's Sanctuary - Part 2
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:251:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 745 | 9:46:58 PM | section.py | Line 251
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_md_path'
+<code>
+args:
+(4,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 745 | 9:46:58 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(4,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 745 | 9:46:58 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-04</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:251:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 745 | 9:46:58 PM | section.py | Line 251
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_md_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/book04/md/section-04.md</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:251:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 745 | 9:46:58 PM | section.py | Line 251
+        </div>
+        \<div class="container-info">
+            <pre>
+/Users/maxludden/dev/py/superforge/books/book04/md/section-04.md
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:251:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 746 | 9:47:17 PM | section.py | Line 251
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_md_path'
+<code>
+args:
+(9,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 746 | 9:47:17 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(9,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 746 | 9:47:17 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-09</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:251:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 746 | 9:47:17 PM | section.py | Line 251
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_md_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/book09/md/section-09.md</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:251:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 746 | 9:47:17 PM | section.py | Line 251
+        </div>
+        \<div class="container-info">
+            <pre>
+/Users/maxludden/dev/py/superforge/books/book09/md/section-09.md
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:252:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 747 | 9:48:04 PM | section.py | Line 252
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_md_path'
+<code>
+args:
+(9,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 747 | 9:48:04 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(9,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 747 | 9:48:04 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-09</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 747 | 9:48:04 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(9,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 747 | 9:48:04 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<6</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:252:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 747 | 9:48:04 PM | section.py | Line 252
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_md_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/book06/md/section-09.md</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:252:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 747 | 9:48:04 PM | section.py | Line 252
+        </div>
+        \<div class="container-info">
+            <pre>
+/Users/maxludden/dev/py/superforge/books/book06/md/section-09.md
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_md_path'
+<code>
+args:
+(13,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(13,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-13</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(13,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<8</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_md_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/book08/md/section-13.md</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 749 | 9:49:52 PM | section.py | Line 253
+        </div>
+        \<div class="container-info">
+            <pre>
+/Users/maxludden/dev/py/superforge/books/book08/md/section-13.md
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_md_path'
+<code>
+args:
+(13,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(13,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-13</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(13,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<8</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_md_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/book08/md/section-13.md</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 749 | 9:49:52 PM | section.py | Line 253
+        </div>
+        \<div class="container-info">
+            <pre>
+/Users/maxludden/dev/py/superforge/books/book08/md/section-13.md
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_md_path'
+<code>
+args:
+(13,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(13,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-13</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(13,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<8</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_md_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/book08/md/section-13.md</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 749 | 9:49:52 PM | section.py | Line 253
+        </div>
+        \<div class="container-info">
+            <pre>
+/Users/maxludden/dev/py/superforge/books/book08/md/section-13.md
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_md_path'
+<code>
+args:
+(13,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(13,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-13</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(13,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<8</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_md_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/book08/md/section-13.md</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 749 | 9:49:52 PM | section.py | Line 253
+        </div>
+        \<div class="container-info">
+            <pre>
+/Users/maxludden/dev/py/superforge/books/book08/md/section-13.md
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_md_path'
+<code>
+args:
+(13,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(13,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-13</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(13,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<8</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_md_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/book08/md/section-13.md</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 749 | 9:49:52 PM | section.py | Line 253
+        </div>
+        \<div class="container-info">
+            <pre>
+/Users/maxludden/dev/py/superforge/books/book08/md/section-13.md
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_md_path'
+<code>
+args:
+(13,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(13,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-13</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(13,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<8</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_md_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/book08/md/section-13.md</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 749 | 9:49:52 PM | section.py | Line 253
+        </div>
+        \<div class="container-info">
+            <pre>
+/Users/maxludden/dev/py/superforge/books/book08/md/section-13.md
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_md_path'
+<code>
+args:
+(13,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(13,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-13</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(13,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<8</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_md_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/book08/md/section-13.md</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 749 | 9:49:52 PM | section.py | Line 253
+        </div>
+        \<div class="container-info">
+            <pre>
+/Users/maxludden/dev/py/superforge/books/book08/md/section-13.md
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_md_path'
+<code>
+args:
+(13,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(13,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-13</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(13,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<8</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_md_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/book08/md/section-13.md</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 749 | 9:49:52 PM | section.py | Line 253
+        </div>
+        \<div class="container-info">
+            <pre>
+/Users/maxludden/dev/py/superforge/books/book08/md/section-13.md
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_md_path'
+<code>
+args:
+(13,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(13,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-13</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(13,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<8</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_md_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/book08/md/section-13.md</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 749 | 9:49:52 PM | section.py | Line 253
+        </div>
+        \<div class="container-info">
+            <pre>
+/Users/maxludden/dev/py/superforge/books/book08/md/section-13.md
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_md_path'
+<code>
+args:
+(13,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(13,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-13</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(13,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<8</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 749 | 9:49:52 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_md_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/book08/md/section-13.md</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 749 | 9:49:52 PM | section.py | Line 253
+        </div>
+        \<div class="container-info">
+            <pre>
+/Users/maxludden/dev/py/superforge/books/book08/md/section-13.md
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_md_path'
+<code>
+args:
+(1,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(1,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-01</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(1,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<1</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_md_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/book01/md/section-01.md</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 750 | 9:50:17 PM | section.py | Line 253
+        </div>
+        \<div class="container-info">
+            <pre>
+/Users/maxludden/dev/py/superforge/books/book01/md/section-01.md
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_md_path'
+<code>
+args:
+(2,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(2,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-02</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(2,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<2</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_md_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/book02/md/section-02.md</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 750 | 9:50:17 PM | section.py | Line 253
+        </div>
+        \<div class="container-info">
+            <pre>
+/Users/maxludden/dev/py/superforge/books/book02/md/section-02.md
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_md_path'
+<code>
+args:
+(3,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(3,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-03</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(3,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<3</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_md_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/book03/md/section-03.md</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 750 | 9:50:17 PM | section.py | Line 253
+        </div>
+        \<div class="container-info">
+            <pre>
+/Users/maxludden/dev/py/superforge/books/book03/md/section-03.md
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_md_path'
+<code>
+args:
+(4,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(4,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-04</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(4,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<4</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_md_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/book04/md/section-04.md</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 750 | 9:50:17 PM | section.py | Line 253
+        </div>
+        \<div class="container-info">
+            <pre>
+/Users/maxludden/dev/py/superforge/books/book04/md/section-04.md
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_md_path'
+<code>
+args:
+(5,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(5,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-05</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(5,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<4</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_md_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/book04/md/section-05.md</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 750 | 9:50:17 PM | section.py | Line 253
+        </div>
+        \<div class="container-info">
+            <pre>
+/Users/maxludden/dev/py/superforge/books/book04/md/section-05.md
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_md_path'
+<code>
+args:
+(6,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(6,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-06</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(6,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<5</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_md_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/book05/md/section-06.md</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 750 | 9:50:17 PM | section.py | Line 253
+        </div>
+        \<div class="container-info">
+            <pre>
+/Users/maxludden/dev/py/superforge/books/book05/md/section-06.md
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_md_path'
+<code>
+args:
+(7,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(7,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-07</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(7,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<5</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_md_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/book05/md/section-07.md</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 750 | 9:50:17 PM | section.py | Line 253
+        </div>
+        \<div class="container-info">
+            <pre>
+/Users/maxludden/dev/py/superforge/books/book05/md/section-07.md
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_md_path'
+<code>
+args:
+(8,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(8,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-08</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(8,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<6</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_md_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/book06/md/section-08.md</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 750 | 9:50:17 PM | section.py | Line 253
+        </div>
+        \<div class="container-info">
+            <pre>
+/Users/maxludden/dev/py/superforge/books/book06/md/section-08.md
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_md_path'
+<code>
+args:
+(9,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(9,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-09</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(9,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<6</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_md_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/book06/md/section-09.md</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 750 | 9:50:17 PM | section.py | Line 253
+        </div>
+        \<div class="container-info">
+            <pre>
+/Users/maxludden/dev/py/superforge/books/book06/md/section-09.md
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_md_path'
+<code>
+args:
+(10,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(10,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-10</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(10,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<7</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 750 | 9:50:17 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_md_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/book07/md/section-10.md</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 750 | 9:50:17 PM | section.py | Line 253
+        </div>
+        \<div class="container-info">
+            <pre>
+/Users/maxludden/dev/py/superforge/books/book07/md/section-10.md
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 751 | 9:50:43 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_md_path'
+<code>
+args:
+(1,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 751 | 9:50:43 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(1,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 751 | 9:50:43 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-01</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 751 | 9:50:43 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(1,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 751 | 9:50:43 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<1</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 751 | 9:50:43 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 751 | 9:50:43 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 751 | 9:50:44 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:12 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_md_path'
+<code>
+args:
+(1,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:12 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(1,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:12 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-01</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:12 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(1,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:12 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<1</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:12 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:12 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:14 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:249:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:15 PM | section.py | Line 249
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved md_path for section 1 to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:15 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_md_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/book01/md/section-01.md</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 752 | 9:51:15 PM | section.py | Line 253
+        </div>
+        \<div class="container-info">
+            <pre>
+/Users/maxludden/dev/py/superforge/books/book01/md/section-01.md
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:15 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_md_path'
+<code>
+args:
+(2,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:15 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(2,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:15 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-02</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:15 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(2,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:15 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<2</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:15 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:15 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:15 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:249:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:16 PM | section.py | Line 249
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved md_path for section 2 to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:16 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_md_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/book02/md/section-02.md</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 752 | 9:51:16 PM | section.py | Line 253
+        </div>
+        \<div class="container-info">
+            <pre>
+/Users/maxludden/dev/py/superforge/books/book02/md/section-02.md
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:16 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_md_path'
+<code>
+args:
+(3,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:16 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(3,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:16 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-03</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:16 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(3,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:16 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<3</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:16 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:16 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:16 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:249:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:17 PM | section.py | Line 249
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved md_path for section 3 to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:17 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_md_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/book03/md/section-03.md</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 752 | 9:51:17 PM | section.py | Line 253
+        </div>
+        \<div class="container-info">
+            <pre>
+/Users/maxludden/dev/py/superforge/books/book03/md/section-03.md
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:17 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_md_path'
+<code>
+args:
+(4,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:17 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(4,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:17 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-04</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:17 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(4,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:17 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<4</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:17 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:17 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:17 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:249:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:18 PM | section.py | Line 249
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved md_path for section 4 to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:18 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_md_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/book04/md/section-04.md</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 752 | 9:51:18 PM | section.py | Line 253
+        </div>
+        \<div class="container-info">
+            <pre>
+/Users/maxludden/dev/py/superforge/books/book04/md/section-04.md
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:18 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_md_path'
+<code>
+args:
+(5,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:18 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(5,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:18 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-05</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:18 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(5,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:18 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<4</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:18 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:18 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:18 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:249:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:18 PM | section.py | Line 249
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved md_path for section 5 to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:18 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_md_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/book04/md/section-05.md</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 752 | 9:51:18 PM | section.py | Line 253
+        </div>
+        \<div class="container-info">
+            <pre>
+/Users/maxludden/dev/py/superforge/books/book04/md/section-05.md
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:18 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_md_path'
+<code>
+args:
+(6,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:18 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(6,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:18 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-06</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:18 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(6,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:18 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<5</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:18 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:18 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:19 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:249:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:19 PM | section.py | Line 249
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved md_path for section 6 to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:19 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_md_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/book05/md/section-06.md</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 752 | 9:51:19 PM | section.py | Line 253
+        </div>
+        \<div class="container-info">
+            <pre>
+/Users/maxludden/dev/py/superforge/books/book05/md/section-06.md
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:19 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_md_path'
+<code>
+args:
+(7,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:19 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(7,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:19 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-07</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:19 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(7,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:19 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<5</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:19 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:19 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:20 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:249:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:20 PM | section.py | Line 249
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved md_path for section 7 to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:20 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_md_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/book05/md/section-07.md</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 752 | 9:51:20 PM | section.py | Line 253
+        </div>
+        \<div class="container-info">
+            <pre>
+/Users/maxludden/dev/py/superforge/books/book05/md/section-07.md
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:20 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_md_path'
+<code>
+args:
+(8,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:20 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(8,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:20 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-08</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:20 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(8,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:20 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<6</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:20 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:20 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:20 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:249:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:21 PM | section.py | Line 249
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved md_path for section 8 to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:21 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_md_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/book06/md/section-08.md</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 752 | 9:51:21 PM | section.py | Line 253
+        </div>
+        \<div class="container-info">
+            <pre>
+/Users/maxludden/dev/py/superforge/books/book06/md/section-08.md
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:21 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_md_path'
+<code>
+args:
+(9,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:21 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(9,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:21 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-09</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:21 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(9,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:21 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<6</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:21 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:21 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:21 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:249:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:22 PM | section.py | Line 249
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved md_path for section 9 to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:22 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_md_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/book06/md/section-09.md</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 752 | 9:51:22 PM | section.py | Line 253
+        </div>
+        \<div class="container-info">
+            <pre>
+/Users/maxludden/dev/py/superforge/books/book06/md/section-09.md
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:22 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_md_path'
+<code>
+args:
+(10,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:22 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(10,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:22 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-10</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:22 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(10,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:22 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<7</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:22 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:22 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:22 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:249:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:23 PM | section.py | Line 249
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved md_path for section 10 to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:23 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_md_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/book07/md/section-10.md</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 752 | 9:51:23 PM | section.py | Line 253
+        </div>
+        \<div class="container-info">
+            <pre>
+/Users/maxludden/dev/py/superforge/books/book07/md/section-10.md
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:23 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_md_path'
+<code>
+args:
+(11,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:23 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(11,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:23 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-11</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:23 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(11,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:23 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<7</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:23 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:23 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:23 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:249:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:24 PM | section.py | Line 249
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved md_path for section 11 to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:24 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_md_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/book07/md/section-11.md</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 752 | 9:51:24 PM | section.py | Line 253
+        </div>
+        \<div class="container-info">
+            <pre>
+/Users/maxludden/dev/py/superforge/books/book07/md/section-11.md
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:24 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_md_path'
+<code>
+args:
+(12,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:24 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(12,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:24 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-12</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:24 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(12,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:24 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<8</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:24 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:24 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:24 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:249:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:24 PM | section.py | Line 249
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved md_path for section 12 to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:24 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_md_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/book08/md/section-12.md</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 752 | 9:51:24 PM | section.py | Line 253
+        </div>
+        \<div class="container-info">
+            <pre>
+/Users/maxludden/dev/py/superforge/books/book08/md/section-12.md
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:24 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_md_path'
+<code>
+args:
+(13,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:24 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(13,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:24 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-13</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:24 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(13,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:24 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<8</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:25 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:25 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:25 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:249:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:25 PM | section.py | Line 249
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved md_path for section 13 to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:25 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_md_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/book08/md/section-13.md</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 752 | 9:51:25 PM | section.py | Line 253
+        </div>
+        \<div class="container-info">
+            <pre>
+/Users/maxludden/dev/py/superforge/books/book08/md/section-13.md
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:26 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_md_path'
+<code>
+args:
+(14,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:26 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(14,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:26 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-14</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:26 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(14,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:26 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<9</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:26 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:26 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:26 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:249:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:27 PM | section.py | Line 249
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved md_path for section 14 to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:27 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_md_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/book09/md/section-14.md</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 752 | 9:51:27 PM | section.py | Line 253
+        </div>
+        \<div class="container-info">
+            <pre>
+/Users/maxludden/dev/py/superforge/books/book09/md/section-14.md
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:27 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_md_path'
+<code>
+args:
+(15,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:27 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(15,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:27 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-15</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:27 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(15,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:27 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<9</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:27 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:27 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:27 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:249:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:27 PM | section.py | Line 249
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved md_path for section 15 to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:27 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_md_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/book09/md/section-15.md</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 752 | 9:51:27 PM | section.py | Line 253
+        </div>
+        \<div class="container-info">
+            <pre>
+/Users/maxludden/dev/py/superforge/books/book09/md/section-15.md
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:27 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_md_path'
+<code>
+args:
+(16,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:27 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(16,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:27 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-16</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:27 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(16,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:27 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<10</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:27 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:27 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:28 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:249:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:28 PM | section.py | Line 249
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved md_path for section 16 to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:28 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_md_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/book10/md/section-16.md</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 752 | 9:51:28 PM | section.py | Line 253
+        </div>
+        \<div class="container-info">
+            <pre>
+/Users/maxludden/dev/py/superforge/books/book10/md/section-16.md
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:28 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_md_path'
+<code>
+args:
+(17,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:28 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(17,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:236:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:28 PM | section.py | Line 236
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-17</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:28 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(17,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:237:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:28 PM | section.py | Line 237
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<10</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:28 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:28 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:28 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:249:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:29 PM | section.py | Line 249
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved md_path for section 17 to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 752 | 9:51:29 PM | section.py | Line 253
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_md_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/book10/md/section-17.md</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:253:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 752 | 9:51:29 PM | section.py | Line 253
+        </div>
+        \<div class="container-info">
+            <pre>
+/Users/maxludden/dev/py/superforge/books/book10/md/section-17.md
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:283:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:28 PM | section.py | Line 283
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_html_path'
+<code>
+args:
+(1,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:266:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:28 PM | section.py | Line 266
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(1,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:266:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:28 PM | section.py | Line 266
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-01</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:267:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:28 PM | section.py | Line 267
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(1,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:267:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:28 PM | section.py | Line 267
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<1</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:28 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:28 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:28 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:279:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:29 PM | section.py | Line 279
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved html_path for section 1 to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:283:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:29 PM | section.py | Line 283
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_html_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/01/html/section-01.html</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:283:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:29 PM | section.py | Line 283
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_html_path'
+<code>
+args:
+(2,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:266:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:29 PM | section.py | Line 266
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(2,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:266:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:29 PM | section.py | Line 266
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-02</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:267:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:29 PM | section.py | Line 267
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(2,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:267:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:29 PM | section.py | Line 267
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<2</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:29 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:29 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:29 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:279:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:29 PM | section.py | Line 279
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved html_path for section 2 to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:283:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:29 PM | section.py | Line 283
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_html_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/02/html/section-02.html</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:283:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:29 PM | section.py | Line 283
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_html_path'
+<code>
+args:
+(3,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:266:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:29 PM | section.py | Line 266
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(3,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:266:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:29 PM | section.py | Line 266
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-03</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:267:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:29 PM | section.py | Line 267
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(3,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:267:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:29 PM | section.py | Line 267
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<3</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:29 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:29 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:30 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:279:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:30 PM | section.py | Line 279
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved html_path for section 3 to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:283:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:30 PM | section.py | Line 283
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_html_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/03/html/section-03.html</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:283:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:30 PM | section.py | Line 283
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_html_path'
+<code>
+args:
+(4,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:266:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:30 PM | section.py | Line 266
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(4,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:266:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:30 PM | section.py | Line 266
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-04</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:267:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:30 PM | section.py | Line 267
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(4,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:267:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:30 PM | section.py | Line 267
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<4</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:30 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:30 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:30 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:279:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:31 PM | section.py | Line 279
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved html_path for section 4 to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:283:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:31 PM | section.py | Line 283
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_html_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/04/html/section-04.html</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:283:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:31 PM | section.py | Line 283
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_html_path'
+<code>
+args:
+(5,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:266:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:31 PM | section.py | Line 266
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(5,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:266:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:31 PM | section.py | Line 266
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-05</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:267:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:31 PM | section.py | Line 267
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(5,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:267:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:31 PM | section.py | Line 267
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<4</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:31 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:31 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:31 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:279:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:32 PM | section.py | Line 279
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved html_path for section 5 to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:283:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:32 PM | section.py | Line 283
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_html_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/04/html/section-05.html</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:283:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:32 PM | section.py | Line 283
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_html_path'
+<code>
+args:
+(6,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:266:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:32 PM | section.py | Line 266
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(6,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:266:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:32 PM | section.py | Line 266
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-06</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:267:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:32 PM | section.py | Line 267
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(6,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:267:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:32 PM | section.py | Line 267
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<5</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:32 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:32 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:32 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:279:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:33 PM | section.py | Line 279
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved html_path for section 6 to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:283:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:33 PM | section.py | Line 283
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_html_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/05/html/section-06.html</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:283:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:33 PM | section.py | Line 283
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_html_path'
+<code>
+args:
+(7,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:266:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:33 PM | section.py | Line 266
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(7,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:266:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:33 PM | section.py | Line 266
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-07</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:267:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:33 PM | section.py | Line 267
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(7,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:267:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:33 PM | section.py | Line 267
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<5</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:33 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:33 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:33 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:279:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:33 PM | section.py | Line 279
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved html_path for section 7 to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:283:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:33 PM | section.py | Line 283
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_html_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/05/html/section-07.html</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:283:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:33 PM | section.py | Line 283
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_html_path'
+<code>
+args:
+(8,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:266:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:33 PM | section.py | Line 266
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(8,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:266:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:33 PM | section.py | Line 266
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-08</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:267:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:33 PM | section.py | Line 267
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(8,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:267:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:33 PM | section.py | Line 267
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<6</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:33 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:33 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:34 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:279:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:34 PM | section.py | Line 279
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved html_path for section 8 to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:283:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:34 PM | section.py | Line 283
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_html_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/06/html/section-08.html</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:283:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:34 PM | section.py | Line 283
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_html_path'
+<code>
+args:
+(9,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:266:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:34 PM | section.py | Line 266
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(9,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:266:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:34 PM | section.py | Line 266
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-09</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:267:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:34 PM | section.py | Line 267
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(9,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:267:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:34 PM | section.py | Line 267
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<6</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:34 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:34 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:34 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:279:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:35 PM | section.py | Line 279
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved html_path for section 9 to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:283:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:35 PM | section.py | Line 283
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_html_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/06/html/section-09.html</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:283:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:35 PM | section.py | Line 283
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_html_path'
+<code>
+args:
+(10,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:266:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:35 PM | section.py | Line 266
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(10,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:266:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:35 PM | section.py | Line 266
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-10</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:267:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:35 PM | section.py | Line 267
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(10,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:267:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:35 PM | section.py | Line 267
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<7</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:35 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:35 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:35 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:279:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:36 PM | section.py | Line 279
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved html_path for section 10 to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:283:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:36 PM | section.py | Line 283
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_html_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/07/html/section-10.html</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:283:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:36 PM | section.py | Line 283
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_html_path'
+<code>
+args:
+(11,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:266:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:36 PM | section.py | Line 266
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(11,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:266:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:36 PM | section.py | Line 266
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-11</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:267:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:36 PM | section.py | Line 267
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(11,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:267:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:36 PM | section.py | Line 267
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<7</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:36 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:36 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:36 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:279:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:36 PM | section.py | Line 279
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved html_path for section 11 to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:283:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:36 PM | section.py | Line 283
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_html_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/07/html/section-11.html</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:283:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:36 PM | section.py | Line 283
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_html_path'
+<code>
+args:
+(12,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:266:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:36 PM | section.py | Line 266
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(12,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:266:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:36 PM | section.py | Line 266
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-12</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:267:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:36 PM | section.py | Line 267
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(12,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:267:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:36 PM | section.py | Line 267
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<8</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:36 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:36 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:36 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:279:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:37 PM | section.py | Line 279
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved html_path for section 12 to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:283:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:37 PM | section.py | Line 283
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_html_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/08/html/section-12.html</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:283:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:37 PM | section.py | Line 283
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_html_path'
+<code>
+args:
+(13,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:266:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:37 PM | section.py | Line 266
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(13,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:266:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:37 PM | section.py | Line 266
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-13</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:267:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:37 PM | section.py | Line 267
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(13,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:267:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:37 PM | section.py | Line 267
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<8</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:37 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:37 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:37 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:279:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:38 PM | section.py | Line 279
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved html_path for section 13 to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:283:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:38 PM | section.py | Line 283
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_html_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/08/html/section-13.html</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:283:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:38 PM | section.py | Line 283
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_html_path'
+<code>
+args:
+(14,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:266:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:38 PM | section.py | Line 266
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(14,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:266:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:38 PM | section.py | Line 266
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-14</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:267:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:38 PM | section.py | Line 267
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(14,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:267:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:38 PM | section.py | Line 267
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<9</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:38 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:38 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:38 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:279:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:38 PM | section.py | Line 279
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved html_path for section 14 to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:283:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:38 PM | section.py | Line 283
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_html_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/09/html/section-14.html</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:283:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:38 PM | section.py | Line 283
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_html_path'
+<code>
+args:
+(15,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:266:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:38 PM | section.py | Line 266
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(15,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:266:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:38 PM | section.py | Line 266
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-15</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:267:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:38 PM | section.py | Line 267
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(15,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:267:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:38 PM | section.py | Line 267
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<9</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:38 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:38 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:38 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:279:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:39 PM | section.py | Line 279
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved html_path for section 15 to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:283:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:39 PM | section.py | Line 283
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_html_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/09/html/section-15.html</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:283:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:39 PM | section.py | Line 283
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_html_path'
+<code>
+args:
+(16,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:266:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:39 PM | section.py | Line 266
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(16,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:266:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:39 PM | section.py | Line 266
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-16</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:267:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:39 PM | section.py | Line 267
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(16,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:267:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:39 PM | section.py | Line 267
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<10</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:39 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:39 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:39 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:279:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:40 PM | section.py | Line 279
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved html_path for section 16 to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:283:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:40 PM | section.py | Line 283
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_html_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/10/html/section-16.html</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:283:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:40 PM | section.py | Line 283
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_html_path'
+<code>
+args:
+(17,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:266:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:40 PM | section.py | Line 266
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_filename'
+<code>
+args:
+(17,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:266:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:40 PM | section.py | Line 266
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_filename'<code>
+result:
+<section-17</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:267:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:40 PM | section.py | Line 267
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(17,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:267:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:40 PM | section.py | Line 267
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<10</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:40 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:40 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:40 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:279:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:40 PM | section.py | Line 279
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved html_path for section 17 to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:283:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 753 | 10:43:40 PM | section.py | Line 283
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_html_path'<code>
+result:
+</Users/maxludden/dev/py/superforge/books/10/html/section-17.html</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:300:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 754 | 10:44:57 PM | section.py | Line 300
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_start'
+<code>
+args:
+(3,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 754 | 10:44:57 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 754 | 10:44:57 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 754 | 10:44:57 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:300:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 754 | 10:44:57 PM | section.py | Line 300
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_start'<code>
+result:
+<883</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:301:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 755 | 10:46:21 PM | section.py | Line 301
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_start'
+<code>
+args:
+(13,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 755 | 10:46:21 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 755 | 10:46:21 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 755 | 10:46:22 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:301:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 755 | 10:46:22 PM | section.py | Line 301
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_start'<code>
+result:
+<2640</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:301:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 755 | 10:46:22 PM | section.py | Line 301
+        </div>
+        \<div class="container-info">
+            <pre>
+Section 13: 2640
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:301:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 756 | 10:46:33 PM | section.py | Line 301
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_start'
+<code>
+args:
+(17,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 756 | 10:46:33 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 756 | 10:46:33 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 756 | 10:46:33 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:301:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 756 | 10:46:33 PM | section.py | Line 301
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_start'<code>
+result:
+<3304</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="info" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:301:1">
+    \<div class="card-info">
+        \<div class="header-info">
+            Run 756 | 10:46:33 PM | section.py | Line 301
+        </div>
+        \<div class="container-info">
+            <pre>
+Section 17: 3304
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:494:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:41 PM | section.py | Line 494
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_section_titles'
+<code>
+args:
+()'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:41 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:41 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:41 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:489:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:42 PM | section.py | Line 489
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_title'
+<code>
+args:
+(1,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:178:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:42 PM | section.py | Line 178
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(1,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:178:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:42 PM | section.py | Line 178
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<1</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:42 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:42 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:42 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:186:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:42 PM | section.py | Line 186
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_part'
+<code>
+args:
+(1,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:186:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:42 PM | section.py | Line 186
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_part'<code>
+result:
+<0</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:196:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:42 PM | section.py | Line 196
+        </div>
+        \<div class="container-debug">
+            <pre>
+Section 1's title: First God's Sanctuary
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:42 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:42 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:42 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:206:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:43 PM | section.py | Line 206
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved title for Section 1's Section Page to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:489:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:43 PM | section.py | Line 489
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_title'<code>
+result:
+<First God's Sanctuary</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:489:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:43 PM | section.py | Line 489
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_title'
+<code>
+args:
+(2,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:178:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:43 PM | section.py | Line 178
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(2,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:178:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:43 PM | section.py | Line 178
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<2</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:43 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:43 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:43 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:186:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:43 PM | section.py | Line 186
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_part'
+<code>
+args:
+(2,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:186:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:43 PM | section.py | Line 186
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_part'<code>
+result:
+<0</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:196:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:43 PM | section.py | Line 196
+        </div>
+        \<div class="container-debug">
+            <pre>
+Section 2's title: Second God's Sanctuary
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:43 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:43 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:44 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:206:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:44 PM | section.py | Line 206
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved title for Section 2's Section Page to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:489:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:44 PM | section.py | Line 489
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_title'<code>
+result:
+<Second God's Sanctuary</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:489:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:44 PM | section.py | Line 489
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_title'
+<code>
+args:
+(3,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:178:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:44 PM | section.py | Line 178
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(3,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:178:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:44 PM | section.py | Line 178
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<3</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:44 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:44 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:44 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:186:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:45 PM | section.py | Line 186
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_part'
+<code>
+args:
+(3,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:186:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:45 PM | section.py | Line 186
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_part'<code>
+result:
+<0</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:196:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:45 PM | section.py | Line 196
+        </div>
+        \<div class="container-debug">
+            <pre>
+Section 3's title: Third God's Sanctuary
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:45 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:45 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:45 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:206:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:45 PM | section.py | Line 206
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved title for Section 3's Section Page to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:489:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:45 PM | section.py | Line 489
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_title'<code>
+result:
+<Third God's Sanctuary</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:489:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:45 PM | section.py | Line 489
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_title'
+<code>
+args:
+(4,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:178:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:45 PM | section.py | Line 178
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(4,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:178:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:45 PM | section.py | Line 178
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<4</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:45 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:45 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:45 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:186:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:46 PM | section.py | Line 186
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_part'
+<code>
+args:
+(4,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:186:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:46 PM | section.py | Line 186
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_part'<code>
+result:
+<1</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:196:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:46 PM | section.py | Line 196
+        </div>
+        \<div class="container-debug">
+            <pre>
+Section 4's title: Fourth and Fifth God's Sanctuary - Part 1
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:46 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:46 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:46 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:206:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:47 PM | section.py | Line 206
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved title for Section 4's Section Page to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:489:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:47 PM | section.py | Line 489
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_title'<code>
+result:
+<Fourth and Fifth God's Sanctuary - Part 1</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:489:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:47 PM | section.py | Line 489
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_title'
+<code>
+args:
+(5,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:178:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:47 PM | section.py | Line 178
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(5,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:178:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:47 PM | section.py | Line 178
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<4</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:47 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:47 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:47 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:186:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:47 PM | section.py | Line 186
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_part'
+<code>
+args:
+(5,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:186:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:47 PM | section.py | Line 186
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_part'<code>
+result:
+<2</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:196:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:47 PM | section.py | Line 196
+        </div>
+        \<div class="container-debug">
+            <pre>
+Section 5's title: Fourth and Fifth God's Sanctuary - Part 2
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:47 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:47 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:47 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:206:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:48 PM | section.py | Line 206
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved title for Section 5's Section Page to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:489:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:48 PM | section.py | Line 489
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_title'<code>
+result:
+<Fourth and Fifth God's Sanctuary - Part 2</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:489:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:48 PM | section.py | Line 489
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_title'
+<code>
+args:
+(6,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:178:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:48 PM | section.py | Line 178
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(6,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:178:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:48 PM | section.py | Line 178
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<5</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:48 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:48 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:48 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:186:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:48 PM | section.py | Line 186
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_part'
+<code>
+args:
+(6,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:186:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:48 PM | section.py | Line 186
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_part'<code>
+result:
+<1</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:196:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:48 PM | section.py | Line 196
+        </div>
+        \<div class="container-debug">
+            <pre>
+Section 6's title: Planet Kate and Narrow Moon - Part 1
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:49 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:49 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:49 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:206:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:49 PM | section.py | Line 206
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved title for Section 6's Section Page to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:489:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:49 PM | section.py | Line 489
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_title'<code>
+result:
+<Planet Kate and Narrow Moon - Part 1</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:489:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:49 PM | section.py | Line 489
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_title'
+<code>
+args:
+(7,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:178:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:49 PM | section.py | Line 178
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(7,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:178:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:49 PM | section.py | Line 178
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<5</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:49 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:49 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:49 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:186:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:50 PM | section.py | Line 186
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_part'
+<code>
+args:
+(7,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:186:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:50 PM | section.py | Line 186
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_part'<code>
+result:
+<2</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:196:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:50 PM | section.py | Line 196
+        </div>
+        \<div class="container-debug">
+            <pre>
+Section 7's title: Planet Kate and Narrow Moon - Part 2
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:50 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:50 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:50 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:206:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:50 PM | section.py | Line 206
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved title for Section 7's Section Page to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:489:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:50 PM | section.py | Line 489
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_title'<code>
+result:
+<Planet Kate and Narrow Moon - Part 2</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:489:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:50 PM | section.py | Line 489
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_title'
+<code>
+args:
+(8,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:178:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:50 PM | section.py | Line 178
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(8,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:178:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:50 PM | section.py | Line 178
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<6</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:50 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:50 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:51 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:186:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:51 PM | section.py | Line 186
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_part'
+<code>
+args:
+(8,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:186:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:51 PM | section.py | Line 186
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_part'<code>
+result:
+<1</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:196:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:51 PM | section.py | Line 196
+        </div>
+        \<div class="container-debug">
+            <pre>
+Section 8's title: Sky Palace, Blade, and Eclipse - Part 1
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:51 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:51 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:51 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:206:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:52 PM | section.py | Line 206
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved title for Section 8's Section Page to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:489:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:52 PM | section.py | Line 489
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_title'<code>
+result:
+<Sky Palace, Blade, and Eclipse - Part 1</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:489:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:52 PM | section.py | Line 489
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_title'
+<code>
+args:
+(9,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:178:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:52 PM | section.py | Line 178
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(9,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:178:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:52 PM | section.py | Line 178
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<6</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:52 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:52 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:52 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:186:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:52 PM | section.py | Line 186
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_part'
+<code>
+args:
+(9,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:186:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:52 PM | section.py | Line 186
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_part'<code>
+result:
+<2</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:196:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:52 PM | section.py | Line 196
+        </div>
+        \<div class="container-debug">
+            <pre>
+Section 9's title: Sky Palace, Blade, and Eclipse - Part 2
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:52 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:52 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:53 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:206:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:53 PM | section.py | Line 206
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved title for Section 9's Section Page to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:489:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:53 PM | section.py | Line 489
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_title'<code>
+result:
+<Sky Palace, Blade, and Eclipse - Part 2</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:489:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:53 PM | section.py | Line 489
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_title'
+<code>
+args:
+(10,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:178:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:53 PM | section.py | Line 178
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(10,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:178:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:53 PM | section.py | Line 178
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<7</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:53 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:53 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:53 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:186:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:54 PM | section.py | Line 186
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_part'
+<code>
+args:
+(10,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:186:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:54 PM | section.py | Line 186
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_part'<code>
+result:
+<1</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:196:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:54 PM | section.py | Line 196
+        </div>
+        \<div class="container-debug">
+            <pre>
+Section 10's title: The Ice Blue Knights and The Extreme Kings - Part 1
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:54 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:54 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:54 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:206:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:55 PM | section.py | Line 206
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved title for Section 10's Section Page to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:489:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:55 PM | section.py | Line 489
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_title'<code>
+result:
+<The Ice Blue Knights and The Extreme Kings - Part 1</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:489:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:55 PM | section.py | Line 489
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_title'
+<code>
+args:
+(11,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:178:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:55 PM | section.py | Line 178
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(11,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:178:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:55 PM | section.py | Line 178
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<7</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:55 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:55 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:55 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:186:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:55 PM | section.py | Line 186
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_part'
+<code>
+args:
+(11,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:186:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:55 PM | section.py | Line 186
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_part'<code>
+result:
+<2</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:196:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:55 PM | section.py | Line 196
+        </div>
+        \<div class="container-debug">
+            <pre>
+Section 11's title: The Ice Blue Knights and The Extreme Kings - Part 2
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:55 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:55 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:55 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:206:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:56 PM | section.py | Line 206
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved title for Section 11's Section Page to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:489:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:56 PM | section.py | Line 489
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_title'<code>
+result:
+<The Ice Blue Knights and The Extreme Kings - Part 2</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:489:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:56 PM | section.py | Line 489
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_title'
+<code>
+args:
+(12,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:178:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:56 PM | section.py | Line 178
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(12,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:178:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:56 PM | section.py | Line 178
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<8</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:56 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:56 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:56 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:186:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:56 PM | section.py | Line 186
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_part'
+<code>
+args:
+(12,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:186:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:56 PM | section.py | Line 186
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_part'<code>
+result:
+<1</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:196:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:56 PM | section.py | Line 196
+        </div>
+        \<div class="container-debug">
+            <pre>
+Section 12's title: The Systems of Chaos and The Very High - Part 1
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:56 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:56 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:57 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:206:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:57 PM | section.py | Line 206
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved title for Section 12's Section Page to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:489:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:57 PM | section.py | Line 489
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_title'<code>
+result:
+<The Systems of Chaos and The Very High - Part 1</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:489:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:57 PM | section.py | Line 489
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_title'
+<code>
+args:
+(13,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:178:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:57 PM | section.py | Line 178
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(13,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:178:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:57 PM | section.py | Line 178
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<8</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:57 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:57 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:57 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:186:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:58 PM | section.py | Line 186
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_part'
+<code>
+args:
+(13,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:186:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:58 PM | section.py | Line 186
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_part'<code>
+result:
+<2</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:196:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:58 PM | section.py | Line 196
+        </div>
+        \<div class="container-debug">
+            <pre>
+Section 13's title: The Systems of Chaos and The Very High - Part 2
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:58 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:58 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:58 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:206:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:58 PM | section.py | Line 206
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved title for Section 13's Section Page to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:489:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:58 PM | section.py | Line 489
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_title'<code>
+result:
+<The Systems of Chaos and The Very High - Part 2</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:489:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:58 PM | section.py | Line 489
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_title'
+<code>
+args:
+(14,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:178:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:58 PM | section.py | Line 178
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(14,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:178:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:58 PM | section.py | Line 178
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<9</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:58 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:58 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:59 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:186:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:59 PM | section.py | Line 186
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_part'
+<code>
+args:
+(14,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:186:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:59 PM | section.py | Line 186
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_part'<code>
+result:
+<1</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:196:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:59 PM | section.py | Line 196
+        </div>
+        \<div class="container-debug">
+            <pre>
+Section 14's title: Meeting God and Fighting Sacred - Part 1
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:59 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:59 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:51:59 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:206:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:00 PM | section.py | Line 206
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved title for Section 14's Section Page to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:489:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:00 PM | section.py | Line 489
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_title'<code>
+result:
+<Meeting God and Fighting Sacred - Part 1</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:489:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:00 PM | section.py | Line 489
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_title'
+<code>
+args:
+(15,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:178:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:00 PM | section.py | Line 178
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(15,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:178:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:00 PM | section.py | Line 178
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<9</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:00 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:00 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:00 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:186:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:00 PM | section.py | Line 186
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_part'
+<code>
+args:
+(15,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:186:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:00 PM | section.py | Line 186
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_part'<code>
+result:
+<2</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:196:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:00 PM | section.py | Line 196
+        </div>
+        \<div class="container-debug">
+            <pre>
+Section 15's title: Meeting God and Fighting Sacred - Part 2
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:00 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:00 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:00 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:206:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:01 PM | section.py | Line 206
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved title for Section 15's Section Page to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:489:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:01 PM | section.py | Line 489
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_title'<code>
+result:
+<Meeting God and Fighting Sacred - Part 2</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:489:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:01 PM | section.py | Line 489
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_title'
+<code>
+args:
+(16,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:178:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:01 PM | section.py | Line 178
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(16,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:178:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:01 PM | section.py | Line 178
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<10</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:01 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:01 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:01 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:186:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:01 PM | section.py | Line 186
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_part'
+<code>
+args:
+(16,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:186:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:01 PM | section.py | Line 186
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_part'<code>
+result:
+<1</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:196:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:01 PM | section.py | Line 196
+        </div>
+        \<div class="container-debug">
+            <pre>
+Section 16's title: The Universe of Kingdoms and Quin Kiu - Part 1
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:02 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:02 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:02 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:206:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:02 PM | section.py | Line 206
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved title for Section 16's Section Page to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:489:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:02 PM | section.py | Line 489
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_title'<code>
+result:
+<The Universe of Kingdoms and Quin Kiu - Part 1</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:489:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:02 PM | section.py | Line 489
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_title'
+<code>
+args:
+(17,)'
+
+kwargs={'save': True}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:178:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:02 PM | section.py | Line 178
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'get_book'
+<code>
+args:
+(17,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:178:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:02 PM | section.py | Line 178
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'get_book'<code>
+result:
+<10</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:02 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:02 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:02 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:186:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:03 PM | section.py | Line 186
+        </div>
+        \<div class="container-debug">
+            <pre>
+Entering 'generate_part'
+<code>
+args:
+(17,)'
+
+kwargs={}</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:186:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:03 PM | section.py | Line 186
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_part'<code>
+result:
+<2</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:196:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:03 PM | section.py | Line 196
+        </div>
+        \<div class="container-debug">
+            <pre>
+Section 17's title: The Universe of Kingdoms and Quin Kiu - Part 2
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:65:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:03 PM | atlas.py | Line 65
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:91:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:03 PM | atlas.py | Line 91
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:96:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:03 PM | atlas.py | Line 96
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:206:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:03 PM | section.py | Line 206
+        </div>
+        \<div class="container-debug">
+            <pre>
+Saved title for Section 17's Section Page to MongoDB.
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:489:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:03 PM | section.py | Line 489
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_title'<code>
+result:
+<The Universe of Kingdoms and Quin Kiu - Part 2</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/section.py:494:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 757 | 10:52:03 PM | section.py | Line 494
+        </div>
+        \<div class="container-debug">
+            <pre>
+Exiting 'generate_section_titles'<code>
+result:
+<None</code>
+            </pre>
+        </div>
+    </div>
+</a>

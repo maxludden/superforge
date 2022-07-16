@@ -9,7 +9,7 @@ from mongoengine import Document, disconnect_all
 from mongoengine.fields import IntField, ListField, StringField
 from num2words import num2words
 from pyparsing import str_type
-from tqdm.auto import tqdm
+from tqdm.auto import tqdm, trange
 from alive_progress import alive_bar, alive_it
 from yaml import dump_all
 
@@ -150,16 +150,16 @@ def generate_part_word(section: int) -> str:
     part1 = [4, 6, 8, 10, 12, 14, 16]
     part2 = [5, 7, 9, 11, 13, 15, 17]
     if section in part0:
-        return ''
+        return 0
     elif section in part1:
-        return " - Part One"
+        return 1
     elif section in part2:
-        return " - Part Two"
+        return 2
     else:
         raise InvalidPartException(f"Section {section} is not a valid section.")
 
 
-@errwrap()
+@errwrap()  # . Verified
 def generate_title(section: int, save: bool = False):
     """
     Generate the title for the given section.
@@ -184,8 +184,16 @@ def generate_title(section: int, save: bool = False):
 
     # > Part (if applicable)
     part = generate_part(section)
-    log.debug(f"Section {section}'s Part is {part}")
-    title = f"{title}{part}"
+    if part == 2:
+        title = f"{title} - Part 2"
+    elif part == 1:
+        title = f"{title} - Part 1"
+    elif part == 0:
+        title = f"{title}"
+    else:
+        raise InvalidPartException(f"Section {section} is not a valid section.")
+
+    log.debug(f"Section {section}'s title: {title}")
 
     if save:
         sg()
@@ -200,27 +208,20 @@ def generate_title(section: int, save: bool = False):
     return title
 
 
-
-
-section = 14
-title = generate_title(section, save=True)
-log.info(f"Section {section}'s Title: {title}")
-
-
 @errwrap()
 def get_title(section: int) -> str:
     sg()
-    for doc in Section.objects(section=section):
-        return max_title(doc.title)
+    doc = Section.objects(section=section).first()
+    return max_title(doc.title)
 
 
 @errwrap()
-def get_filename(section: int) -> str:
+def generate_filename(section: int) -> str:
     section = str(section).zfill(2)
     return f"section-{section}"
 
 
-@errwrap()
+@errwrap()  # . Verified
 def generate_md_path(section: int, save: bool = False) -> str:
     """Generate the md_path of the given section.
 
@@ -232,8 +233,9 @@ def generate_md_path(section: int, save: bool = False) -> str:
         `md` (str):
             The filepath of the section's multimarkdown.
     """
-    filename = get_filename(section)
-    book_str = str(section).zfill(2)
+    filename = generate_filename(section)
+    book = get_book(section)
+    book_str = str(book).zfill(2)
     book_dir = f"book{book_str}"
     md_path = f"{BASE}/books/{book_dir}/md/{filename}.md"
     if save:
@@ -244,12 +246,12 @@ def generate_md_path(section: int, save: bool = False) -> str:
         else:
             section_page.md_path = md_path
             section_page.save()
-            log.indebugo(f"Saved md_path for section {section} to MongoDB.")
+            log.debug(f"Saved md_path for section {section} to MongoDB.")
     return md_path
 
 
-@errwrap()
-def get_html_path(section: int) -> str:
+@errwrap() # . Verified
+def generate_html_path(section: int, save: bool = False) -> str:
     """
     Generate the html_path of the given section.
 
@@ -261,12 +263,24 @@ def get_html_path(section: int) -> str:
         `md` (str):
             The filepath of the section's HTML.
     """
-    filename = get_filename(section)
-    book = str(get_book(section)).zfill(2)
-    return f"/Users/maxludden/dev/py/superforge/books/book{book}/html/{filename}.html"
+    filename = generate_filename(section)
+    book = get_book(section)
+    book_str = str(book).zfill(2)
+    book_dir = f"book{book_str}"
+    html_path = f"{BASE}/books/{book_str}/html/{filename}.html"
+    if save:
+        sg()
+        section_page = Section.objects(section=section).first()
+        if section_page is None:
+            raise SectionNotFound(f"Section {section} not found.")
+        else:
+            section_page.html_path = html_path
+            section_page.save()
+            log.debug(f"Saved html_path for section {section} to MongoDB.")
+    return html_path
+    
 
-
-@errwrap()
+@errwrap() # . Verified
 def get_start(section: int) -> int:
     """
     Determine the chapter the sections starts at.
@@ -284,7 +298,7 @@ def get_start(section: int) -> int:
     return doc.start
 
 
-@errwrap()
+@errwrap() # . Verified
 def get_end(section: int) -> int:
     """
     Determine the chapter the section ends.
@@ -302,7 +316,7 @@ def get_end(section: int) -> int:
         return doc.end
 
 
-@errwrap()
+@errwrap() # . Verified
 def generate_md(section: int, save: bool = False, write: bool = False):
     """
     Generate the markdown for Section {section}'s Section Page.
@@ -358,7 +372,7 @@ def generate_md(section: int, save: bool = False, write: bool = False):
         return md
 
 
-@errwrap()
+@errwrap() # . Verified
 def get_md(section: int):
     """
     Retrieve the multimarkdown for the given section from MongoDB.
@@ -376,7 +390,7 @@ def get_md(section: int):
         return doc.md
 
 
-@errwrap()
+@errwrap()  #. Verified
 def generate_html(section: int, save: bool = False):
     """
     Generate the given section's HTML from it's markdown.
@@ -436,7 +450,7 @@ def generate_html(section: int, save: bool = False):
             return html
 
 
-@errwrap()
+@errwrap() # . Verified
 def generate_section_pages():
     sg()
     bar = alive_it(
