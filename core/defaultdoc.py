@@ -23,7 +23,7 @@ try:
     import core.metadata as meta
     import core.myaml as myaml
     import core.section as sec
-    import core.old_title as titlepg
+    import core.titlepage as titlepg
     from core.atlas import BASE, sg
     from core.log import errwrap, log
 except ImportError:
@@ -45,7 +45,8 @@ load_dotenv(".env")
 # .┌─────────────────────────────────────────────────────────────────┐.#
 # .│                          Default Doc                            │.#
 # .└─────────────────────────────────────────────────────────────────┘.#
-
+class InvalidBookError(Exception):
+    pass
 
 class Defaultdoc(Document):
     book = IntField(unique=True, min_value=1, max_value=10)
@@ -186,8 +187,8 @@ def generate_sections(book: int):
 @errwrap()
 def get_sections(book: int):
     sg()
-    for doc in Defaultdoc.objects(book=book):
-        return doc.sections
+    doc = Defaultdoc.objects(book=book).first()
+    return doc.sections
 
 
 # > Book Word
@@ -587,10 +588,38 @@ def generate_default_doc(book: int, save: bool = False):
     # > Validate book
     valid_books = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     if book not in valid_books:
-        raise ValueError(f"Invalid book: {book}\n\nValid books are 1-10.")
-
-    default_doc = [{"from": "html"}]
+        raise InvalidBookError(f"Invalid book: {book}\nValid books are 1-10.")
+    
     sg()
-    #! for doc in Defaultdoc.objects(book=book):
-
-
+    mongodefault = Defaultdoc.objects(book=book).first()
+    
+    default_doc = {
+        "from": "html",
+        "to:": "epub",
+        "output-file": mongodefault.output,
+        "input-files": mongodefault.input_files,
+        "standalone": True,
+        "self-contained": True,
+        "resource-files": mongodefault.resource_paths,
+        "toc": True,
+        "toc-depth": 2,
+        "epub-chapter-level":2,
+        "epub-cover-image": mongodefault.cover,
+        "epub-fonts": [
+            "Urbanist-Italic.ttf",
+            "Urbanist-Regular.ttf",
+            "Urbanist-thin.ttf",
+            "Urbanist-ThinItalic.ttf",
+            "White Modesty.ttf"
+        ],
+        "epub-metadata": mongodefault.epubmetadata,
+        "metadata-file": [f"epub-meta{book}.yaml",f"meta{book}.yaml"],
+        "css": [
+            "style.css"
+        ]
+    }
+    filepath = mongodefault.html_path
+    with open (filepath, "w") as outfile:
+        myaml.dumps(default_doc, outfile)
+        
+generate_default_doc(1, True)
