@@ -1,0 +1,218 @@
+"---\nfrom: html\nto: epub\n  \noutput-file: mongodefault.output\n\n  \ninput-files:\n\n-
+  cover9.html\n- titlepage-09.html\n- section-14.html\n- chapter-2766.html\n- chapter-2767.html\n-
+  chapter-2768.html\n- chapter-2769.html\n- chapter-2770.html\n- chapter-2771.html\n-
+  chapter-2772.html\n- chapter-2773.html\n- chapter-2774.html\n- chapter-2775.html\n-
+  chapter-2776.html\n- chapter-2777.html\n- chapter-2778.html\n- chapter-2779.html\n-
+  chapter-2780.html\n- chapter-2781.html\n- chapter-2782.html\n- chapter-2783.html\n-
+  chapter-2784.html\n- chapter-2785.html\n- chapter-2786.html\n- chapter-2787.html\n-
+  chapter-2788.html\n- chapter-2789.html\n- chapter-2790.html\n- chapter-2791.html\n-
+  chapter-2792.html\n- chapter-2793.html\n- chapter-2794.html\n- chapter-2795.html\n-
+  chapter-2796.html\n- chapter-2797.html\n- chapter-2798.html\n- chapter-2799.html\n-
+  chapter-2800.html\n- chapter-2801.html\n- chapter-2802.html\n- chapter-2803.html\n-
+  chapter-2804.html\n- chapter-2805.html\n- chapter-2806.html\n- chapter-2807.html\n-
+  chapter-2808.html\n- chapter-2809.html\n- chapter-2810.html\n- chapter-2811.html\n-
+  chapter-2812.html\n- chapter-2813.html\n- chapter-2814.html\n- chapter-2815.html\n-
+  chapter-2816.html\n- chapter-2817.html\n- chapter-2818.html\n- chapter-2819.html\n-
+  chapter-2820.html\n- chapter-2821.html\n- chapter-2822.html\n- chapter-2823.html\n-
+  chapter-2824.html\n- chapter-2825.html\n- chapter-2826.html\n- chapter-2827.html\n-
+  chapter-2828.html\n- chapter-2829.html\n- chapter-2830.html\n- chapter-2831.html\n-
+  chapter-2832.html\n- chapter-2833.html\n- chapter-2834.html\n- chapter-2835.html\n-
+  chapter-2836.html\n- chapter-2837.html\n- chapter-2838.html\n- chapter-2839.html\n-
+  chapter-2840.html\n- chapter-2841.html\n- chapter-2842.html\n- chapter-2843.html\n-
+  chapter-2844.html\n- chapter-2845.html\n- chapter-2846.html\n- chapter-2847.html\n-
+  chapter-2848.html\n- chapter-2849.html\n- chapter-2850.html\n- chapter-2851.html\n-
+  chapter-2852.html\n- chapter-2853.html\n- chapter-2854.html\n- chapter-2855.html\n-
+  chapter-2856.html\n- chapter-2857.html\n- chapter-2858.html\n- chapter-2859.html\n-
+  chapter-2860.html\n- chapter-2861.html\n- chapter-2862.html\n- chapter-2863.html\n-
+  chapter-2864.html\n- chapter-2865.html\n- chapter-2866.html\n- chapter-2867.html\n-
+  chapter-2868.html\n- chapter-2869.html\n- chapter-2870.html\n- chapter-2871.html\n-
+  chapter-2872.html\n- chapter-2873.html\n- chapter-2874.html\n- chapter-2875.html\n-
+  chapter-2876.html\n- chapter-2877.html\n- chapter-2878.html\n- chapter-2879.html\n-
+  chapter-2880.html\n- chapter-2881.html\n- chapter-2882.html\n- chapter-2883.html\n-
+  chapter-2884.html\n- chapter-2885.html\n- chapter-2886.html\n- chapter-2887.html\n-
+  chapter-2888.html\n- chapter-2889.html\n- chapter-2890.html\n- chapter-2891.html\n-
+  section-15.html\n- chapter-2892.html\n- chapter-2893.html\n- chapter-2894.html\n-
+  chapter-2895.html\n- chapter-2896.html\n- chapter-2897.html\n- chapter-2898.html\n-
+  chapter-2899.html\n- chapter-2900.html\n- chapter-2901.html\n- chapter-2902.html\n-
+  chapter-2903.html\n- chapter-2904.html\n- chapter-2905.html\n- chapter-2906.html\n-
+  chapter-2907.html\n- chapter-2908.html\n- chapter-2909.html\n- chapter-2910.html\n-
+  chapter-2911.html\n- chapter-2912.html\n- chapter-2913.html\n- chapter-2914.html\n-
+  chapter-2915.html\n- chapter-2916.html\n- chapter-2917.html\n- chapter-2918.html\n-
+  chapter-2919.html\n- chapter-2920.html\n- chapter-2921.html\n- chapter-2922.html\n-
+  chapter-2923.html\n- chapter-2924.html\n- chapter-2925.html\n- chapter-2926.html\n-
+  chapter-2927.html\n- chapter-2928.html\n- chapter-2929.html\n- chapter-2930.html\n-
+  chapter-2931.html\n- chapter-2932.html\n- chapter-2933.html\n- chapter-2934.html\n-
+  chapter-2935.html\n- chapter-2936.html\n- chapter-2937.html\n- chapter-2938.html\n-
+  chapter-2939.html\n- chapter-2940.html\n- chapter-2941.html\n- chapter-2942.html\n-
+  chapter-2943.html\n- chapter-2944.html\n- chapter-2945.html\n- chapter-2946.html\n-
+  chapter-2947.html\n- chapter-2948.html\n- chapter-2949.html\n- chapter-2950.html\n-
+  chapter-2951.html\n- chapter-2952.html\n- chapter-2953.html\n- chapter-2954.html\n-
+  chapter-2955.html\n- chapter-2956.html\n- chapter-2957.html\n- chapter-2958.html\n-
+  chapter-2959.html\n- chapter-2960.html\n- chapter-2961.html\n- chapter-2962.html\n-
+  chapter-2963.html\n- chapter-2964.html\n- chapter-2965.html\n- chapter-2966.html\n-
+  chapter-2967.html\n- chapter-2968.html\n- chapter-2969.html\n- chapter-2970.html\n-
+  chapter-2971.html\n- chapter-2972.html\n- chapter-2973.html\n- chapter-2974.html\n-
+  chapter-2975.html\n- chapter-2976.html\n- chapter-2977.html\n- chapter-2978.html\n-
+  chapter-2979.html\n- chapter-2980.html\n- chapter-2981.html\n- chapter-2982.html\n-
+  chapter-2983.html\n- chapter-2984.html\n- chapter-2985.html\n- chapter-2986.html\n-
+  chapter-2987.html\n- chapter-2988.html\n- chapter-2989.html\n- chapter-2990.html\n-
+  chapter-2991.html\n- chapter-2992.html\n- chapter-2993.html\n- chapter-2994.html\n-
+  chapter-2995.html\n- chapter-2996.html\n- chapter-2997.html\n- chapter-2998.html\n-
+  chapter-2999.html\n- chapter-3000.html\n- chapter-3001.html\n- chapter-3002.html\n-
+  chapter-3003.html\n- chapter-3004.html\n- chapter-3005.html\n- chapter-3006.html\n-
+  chapter-3007.html\n- chapter-3008.html\n- chapter-3009.html\n- chapter-3010.html\n-
+  chapter-3011.html\n- chapter-3012.html\n- chapter-3013.html\n- chapter-3014.html\n-
+  chapter-3015.html\n- chapter-3016.html\n- chapter-3017.html\n- chapter-3018.html\n-
+  chapter-3019.html\n- chapter-3020.html\n- chapter-3021.html\n- chapter-3022.html\n-
+  chapter-3023.html\n- chapter-3024.html\n- chapter-3025.html\n- chapter-3026.html\n-
+  chapter-3027.html\n- chapter-3028.html\n- chapter-3029.html\n- chapter-3030.html\n-
+  chapter-3031.html\n- chapter-3032.html\n- chapter-3033.html\n- endofbook-09.html\n\n\nstandalone:
+  true\nself-contained: true\n\nresource-files:\n- .\n- .\n- ${.}/books/book09/Images/cover9.png\n-
+  ${.}/books/book09/Images/title.png\n- ${.}/books/book09/Images/gem.gif\n- ${.}/books/book09/Styles/Century
+  Gothic.ttf\n- ${.}/books/book09/Styles/Photograph Signature.ttf\n- ${.}/books/book09/Styles/style.css\n-
+  ${.}/books/book09/html/meta9.yaml\n- ${.}/books/book09/html/epub-meta9.yml\n- ${.}/books/book09/html/cover9.html\n-
+  ${.}/books/book09/html/titlepage-09.html\n- ${.}/books/book09/html/section-14.html\n-
+  ${.}/books/book09/html/chapter-2766.html\n- ${.}/books/book09/html/chapter-2767.html\n-
+  ${.}/books/book09/html/chapter-2768.html\n- ${.}/books/book09/html/chapter-2769.html\n-
+  ${.}/books/book09/html/chapter-2770.html\n- ${.}/books/book09/html/chapter-2771.html\n-
+  ${.}/books/book09/html/chapter-2772.html\n- ${.}/books/book09/html/chapter-2773.html\n-
+  ${.}/books/book09/html/chapter-2774.html\n- ${.}/books/book09/html/chapter-2775.html\n-
+  ${.}/books/book09/html/chapter-2776.html\n- ${.}/books/book09/html/chapter-2777.html\n-
+  ${.}/books/book09/html/chapter-2778.html\n- ${.}/books/book09/html/chapter-2779.html\n-
+  ${.}/books/book09/html/chapter-2780.html\n- ${.}/books/book09/html/chapter-2781.html\n-
+  ${.}/books/book09/html/chapter-2782.html\n- ${.}/books/book09/html/chapter-2783.html\n-
+  ${.}/books/book09/html/chapter-2784.html\n- ${.}/books/book09/html/chapter-2785.html\n-
+  ${.}/books/book09/html/chapter-2786.html\n- ${.}/books/book09/html/chapter-2787.html\n-
+  ${.}/books/book09/html/chapter-2788.html\n- ${.}/books/book09/html/chapter-2789.html\n-
+  ${.}/books/book09/html/chapter-2790.html\n- ${.}/books/book09/html/chapter-2791.html\n-
+  ${.}/books/book09/html/chapter-2792.html\n- ${.}/books/book09/html/chapter-2793.html\n-
+  ${.}/books/book09/html/chapter-2794.html\n- ${.}/books/book09/html/chapter-2795.html\n-
+  ${.}/books/book09/html/chapter-2796.html\n- ${.}/books/book09/html/chapter-2797.html\n-
+  ${.}/books/book09/html/chapter-2798.html\n- ${.}/books/book09/html/chapter-2799.html\n-
+  ${.}/books/book09/html/chapter-2800.html\n- ${.}/books/book09/html/chapter-2801.html\n-
+  ${.}/books/book09/html/chapter-2802.html\n- ${.}/books/book09/html/chapter-2803.html\n-
+  ${.}/books/book09/html/chapter-2804.html\n- ${.}/books/book09/html/chapter-2805.html\n-
+  ${.}/books/book09/html/chapter-2806.html\n- ${.}/books/book09/html/chapter-2807.html\n-
+  ${.}/books/book09/html/chapter-2808.html\n- ${.}/books/book09/html/chapter-2809.html\n-
+  ${.}/books/book09/html/chapter-2810.html\n- ${.}/books/book09/html/chapter-2811.html\n-
+  ${.}/books/book09/html/chapter-2812.html\n- ${.}/books/book09/html/chapter-2813.html\n-
+  ${.}/books/book09/html/chapter-2814.html\n- ${.}/books/book09/html/chapter-2815.html\n-
+  ${.}/books/book09/html/chapter-2816.html\n- ${.}/books/book09/html/chapter-2817.html\n-
+  ${.}/books/book09/html/chapter-2818.html\n- ${.}/books/book09/html/chapter-2819.html\n-
+  ${.}/books/book09/html/chapter-2820.html\n- ${.}/books/book09/html/chapter-2821.html\n-
+  ${.}/books/book09/html/chapter-2822.html\n- ${.}/books/book09/html/chapter-2823.html\n-
+  ${.}/books/book09/html/chapter-2824.html\n- ${.}/books/book09/html/chapter-2825.html\n-
+  ${.}/books/book09/html/chapter-2826.html\n- ${.}/books/book09/html/chapter-2827.html\n-
+  ${.}/books/book09/html/chapter-2828.html\n- ${.}/books/book09/html/chapter-2829.html\n-
+  ${.}/books/book09/html/chapter-2830.html\n- ${.}/books/book09/html/chapter-2831.html\n-
+  ${.}/books/book09/html/chapter-2832.html\n- ${.}/books/book09/html/chapter-2833.html\n-
+  ${.}/books/book09/html/chapter-2834.html\n- ${.}/books/book09/html/chapter-2835.html\n-
+  ${.}/books/book09/html/chapter-2836.html\n- ${.}/books/book09/html/chapter-2837.html\n-
+  ${.}/books/book09/html/chapter-2838.html\n- ${.}/books/book09/html/chapter-2839.html\n-
+  ${.}/books/book09/html/chapter-2840.html\n- ${.}/books/book09/html/chapter-2841.html\n-
+  ${.}/books/book09/html/chapter-2842.html\n- ${.}/books/book09/html/chapter-2843.html\n-
+  ${.}/books/book09/html/chapter-2844.html\n- ${.}/books/book09/html/chapter-2845.html\n-
+  ${.}/books/book09/html/chapter-2846.html\n- ${.}/books/book09/html/chapter-2847.html\n-
+  ${.}/books/book09/html/chapter-2848.html\n- ${.}/books/book09/html/chapter-2849.html\n-
+  ${.}/books/book09/html/chapter-2850.html\n- ${.}/books/book09/html/chapter-2851.html\n-
+  ${.}/books/book09/html/chapter-2852.html\n- ${.}/books/book09/html/chapter-2853.html\n-
+  ${.}/books/book09/html/chapter-2854.html\n- ${.}/books/book09/html/chapter-2855.html\n-
+  ${.}/books/book09/html/chapter-2856.html\n- ${.}/books/book09/html/chapter-2857.html\n-
+  ${.}/books/book09/html/chapter-2858.html\n- ${.}/books/book09/html/chapter-2859.html\n-
+  ${.}/books/book09/html/chapter-2860.html\n- ${.}/books/book09/html/chapter-2861.html\n-
+  ${.}/books/book09/html/chapter-2862.html\n- ${.}/books/book09/html/chapter-2863.html\n-
+  ${.}/books/book09/html/chapter-2864.html\n- ${.}/books/book09/html/chapter-2865.html\n-
+  ${.}/books/book09/html/chapter-2866.html\n- ${.}/books/book09/html/chapter-2867.html\n-
+  ${.}/books/book09/html/chapter-2868.html\n- ${.}/books/book09/html/chapter-2869.html\n-
+  ${.}/books/book09/html/chapter-2870.html\n- ${.}/books/book09/html/chapter-2871.html\n-
+  ${.}/books/book09/html/chapter-2872.html\n- ${.}/books/book09/html/chapter-2873.html\n-
+  ${.}/books/book09/html/chapter-2874.html\n- ${.}/books/book09/html/chapter-2875.html\n-
+  ${.}/books/book09/html/chapter-2876.html\n- ${.}/books/book09/html/chapter-2877.html\n-
+  ${.}/books/book09/html/chapter-2878.html\n- ${.}/books/book09/html/chapter-2879.html\n-
+  ${.}/books/book09/html/chapter-2880.html\n- ${.}/books/book09/html/chapter-2881.html\n-
+  ${.}/books/book09/html/chapter-2882.html\n- ${.}/books/book09/html/chapter-2883.html\n-
+  ${.}/books/book09/html/chapter-2884.html\n- ${.}/books/book09/html/chapter-2885.html\n-
+  ${.}/books/book09/html/chapter-2886.html\n- ${.}/books/book09/html/chapter-2887.html\n-
+  ${.}/books/book09/html/chapter-2888.html\n- ${.}/books/book09/html/chapter-2889.html\n-
+  ${.}/books/book09/html/chapter-2890.html\n- ${.}/books/book09/html/chapter-2891.html\n-
+  ${.}/books/book09/html/section-15.html\n- ${.}/books/book09/html/chapter-2892.html\n-
+  ${.}/books/book09/html/chapter-2893.html\n- ${.}/books/book09/html/chapter-2894.html\n-
+  ${.}/books/book09/html/chapter-2895.html\n- ${.}/books/book09/html/chapter-2896.html\n-
+  ${.}/books/book09/html/chapter-2897.html\n- ${.}/books/book09/html/chapter-2898.html\n-
+  ${.}/books/book09/html/chapter-2899.html\n- ${.}/books/book09/html/chapter-2900.html\n-
+  ${.}/books/book09/html/chapter-2901.html\n- ${.}/books/book09/html/chapter-2902.html\n-
+  ${.}/books/book09/html/chapter-2903.html\n- ${.}/books/book09/html/chapter-2904.html\n-
+  ${.}/books/book09/html/chapter-2905.html\n- ${.}/books/book09/html/chapter-2906.html\n-
+  ${.}/books/book09/html/chapter-2907.html\n- ${.}/books/book09/html/chapter-2908.html\n-
+  ${.}/books/book09/html/chapter-2909.html\n- ${.}/books/book09/html/chapter-2910.html\n-
+  ${.}/books/book09/html/chapter-2911.html\n- ${.}/books/book09/html/chapter-2912.html\n-
+  ${.}/books/book09/html/chapter-2913.html\n- ${.}/books/book09/html/chapter-2914.html\n-
+  ${.}/books/book09/html/chapter-2915.html\n- ${.}/books/book09/html/chapter-2916.html\n-
+  ${.}/books/book09/html/chapter-2917.html\n- ${.}/books/book09/html/chapter-2918.html\n-
+  ${.}/books/book09/html/chapter-2919.html\n- ${.}/books/book09/html/chapter-2920.html\n-
+  ${.}/books/book09/html/chapter-2921.html\n- ${.}/books/book09/html/chapter-2922.html\n-
+  ${.}/books/book09/html/chapter-2923.html\n- ${.}/books/book09/html/chapter-2924.html\n-
+  ${.}/books/book09/html/chapter-2925.html\n- ${.}/books/book09/html/chapter-2926.html\n-
+  ${.}/books/book09/html/chapter-2927.html\n- ${.}/books/book09/html/chapter-2928.html\n-
+  ${.}/books/book09/html/chapter-2929.html\n- ${.}/books/book09/html/chapter-2930.html\n-
+  ${.}/books/book09/html/chapter-2931.html\n- ${.}/books/book09/html/chapter-2932.html\n-
+  ${.}/books/book09/html/chapter-2933.html\n- ${.}/books/book09/html/chapter-2934.html\n-
+  ${.}/books/book09/html/chapter-2935.html\n- ${.}/books/book09/html/chapter-2936.html\n-
+  ${.}/books/book09/html/chapter-2937.html\n- ${.}/books/book09/html/chapter-2938.html\n-
+  ${.}/books/book09/html/chapter-2939.html\n- ${.}/books/book09/html/chapter-2940.html\n-
+  ${.}/books/book09/html/chapter-2941.html\n- ${.}/books/book09/html/chapter-2942.html\n-
+  ${.}/books/book09/html/chapter-2943.html\n- ${.}/books/book09/html/chapter-2944.html\n-
+  ${.}/books/book09/html/chapter-2945.html\n- ${.}/books/book09/html/chapter-2946.html\n-
+  ${.}/books/book09/html/chapter-2947.html\n- ${.}/books/book09/html/chapter-2948.html\n-
+  ${.}/books/book09/html/chapter-2949.html\n- ${.}/books/book09/html/chapter-2950.html\n-
+  ${.}/books/book09/html/chapter-2951.html\n- ${.}/books/book09/html/chapter-2952.html\n-
+  ${.}/books/book09/html/chapter-2953.html\n- ${.}/books/book09/html/chapter-2954.html\n-
+  ${.}/books/book09/html/chapter-2955.html\n- ${.}/books/book09/html/chapter-2956.html\n-
+  ${.}/books/book09/html/chapter-2957.html\n- ${.}/books/book09/html/chapter-2958.html\n-
+  ${.}/books/book09/html/chapter-2959.html\n- ${.}/books/book09/html/chapter-2960.html\n-
+  ${.}/books/book09/html/chapter-2961.html\n- ${.}/books/book09/html/chapter-2962.html\n-
+  ${.}/books/book09/html/chapter-2963.html\n- ${.}/books/book09/html/chapter-2964.html\n-
+  ${.}/books/book09/html/chapter-2965.html\n- ${.}/books/book09/html/chapter-2966.html\n-
+  ${.}/books/book09/html/chapter-2967.html\n- ${.}/books/book09/html/chapter-2968.html\n-
+  ${.}/books/book09/html/chapter-2969.html\n- ${.}/books/book09/html/chapter-2970.html\n-
+  ${.}/books/book09/html/chapter-2971.html\n- ${.}/books/book09/html/chapter-2972.html\n-
+  ${.}/books/book09/html/chapter-2973.html\n- ${.}/books/book09/html/chapter-2974.html\n-
+  ${.}/books/book09/html/chapter-2975.html\n- ${.}/books/book09/html/chapter-2976.html\n-
+  ${.}/books/book09/html/chapter-2977.html\n- ${.}/books/book09/html/chapter-2978.html\n-
+  ${.}/books/book09/html/chapter-2979.html\n- ${.}/books/book09/html/chapter-2980.html\n-
+  ${.}/books/book09/html/chapter-2981.html\n- ${.}/books/book09/html/chapter-2982.html\n-
+  ${.}/books/book09/html/chapter-2983.html\n- ${.}/books/book09/html/chapter-2984.html\n-
+  ${.}/books/book09/html/chapter-2985.html\n- ${.}/books/book09/html/chapter-2986.html\n-
+  ${.}/books/book09/html/chapter-2987.html\n- ${.}/books/book09/html/chapter-2988.html\n-
+  ${.}/books/book09/html/chapter-2989.html\n- ${.}/books/book09/html/chapter-2990.html\n-
+  ${.}/books/book09/html/chapter-2991.html\n- ${.}/books/book09/html/chapter-2992.html\n-
+  ${.}/books/book09/html/chapter-2993.html\n- ${.}/books/book09/html/chapter-2994.html\n-
+  ${.}/books/book09/html/chapter-2995.html\n- ${.}/books/book09/html/chapter-2996.html\n-
+  ${.}/books/book09/html/chapter-2997.html\n- ${.}/books/book09/html/chapter-2998.html\n-
+  ${.}/books/book09/html/chapter-2999.html\n- ${.}/books/book09/html/chapter-3000.html\n-
+  ${.}/books/book09/html/chapter-3001.html\n- ${.}/books/book09/html/chapter-3002.html\n-
+  ${.}/books/book09/html/chapter-3003.html\n- ${.}/books/book09/html/chapter-3004.html\n-
+  ${.}/books/book09/html/chapter-3005.html\n- ${.}/books/book09/html/chapter-3006.html\n-
+  ${.}/books/book09/html/chapter-3007.html\n- ${.}/books/book09/html/chapter-3008.html\n-
+  ${.}/books/book09/html/chapter-3009.html\n- ${.}/books/book09/html/chapter-3010.html\n-
+  ${.}/books/book09/html/chapter-3011.html\n- ${.}/books/book09/html/chapter-3012.html\n-
+  ${.}/books/book09/html/chapter-3013.html\n- ${.}/books/book09/html/chapter-3014.html\n-
+  ${.}/books/book09/html/chapter-3015.html\n- ${.}/books/book09/html/chapter-3016.html\n-
+  ${.}/books/book09/html/chapter-3017.html\n- ${.}/books/book09/html/chapter-3018.html\n-
+  ${.}/books/book09/html/chapter-3019.html\n- ${.}/books/book09/html/chapter-3020.html\n-
+  ${.}/books/book09/html/chapter-3021.html\n- ${.}/books/book09/html/chapter-3022.html\n-
+  ${.}/books/book09/html/chapter-3023.html\n- ${.}/books/book09/html/chapter-3024.html\n-
+  ${.}/books/book09/html/chapter-3025.html\n- ${.}/books/book09/html/chapter-3026.html\n-
+  ${.}/books/book09/html/chapter-3027.html\n- ${.}/books/book09/html/chapter-3028.html\n-
+  ${.}/books/book09/html/chapter-3029.html\n- ${.}/books/book09/html/chapter-3030.html\n-
+  ${.}/books/book09/html/chapter-3031.html\n- ${.}/books/book09/html/chapter-3032.html\n-
+  ${.}/books/book09/html/chapter-3033.html\n- ${.}/books/book09/html/endofbook-09.html\ntoc:
+  true\ntoc-depth: 2\nepub-chapter-level: 2\nepub-cover-image: cover9.png\n  \n\nepub-fonts:\n-
+  Urbanist-Italic.ttf\n- Urbanist-Regular.ttf\n- Urbanist-Thin.ttf\n- Urbanist-ThinItalic.ttf\n-
+  White Modesty.ttf\n\nepub-metadata: ---\nbelongs-to-collection: Super Gene\ncover-image:
+  Images/cover9.png\ncreator:\n- role: author\n  text: Twelve Winged Dark Seraphim\n-
+  role: editor\n  text: Max Ludden\ncss:\n- style.css\ngroup-position: 9\nibooks:\n-
+  version: '4.4'\n- specified-fonts: true\n- iphone-orientation-lock: portrait-only\n-
+  scroll-axis: vertical\npage-progression-direction: ltr\ntitle:\n- text: Meeting
+  God and Fighting Sacred\n  type: main\n- text: Book Nine\n  type: subtitle\n...\n\nmetadata-files:\n-
+  meta9.yml\n- epub-meta9.yml\n\ncss-files:\n- style.css\n"

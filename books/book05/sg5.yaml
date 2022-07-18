@@ -1,0 +1,205 @@
+"---\nfrom: html\nto: epub\n  \noutput-file: mongodefault.output\n\n  \ninput-files:\n\n-
+  cover5.html\n- titlepage-05.html\n- section-06.html\n- chapter-1712.html\n- chapter-1713.html\n-
+  chapter-1714.html\n- chapter-1715.html\n- chapter-1716.html\n- chapter-1717.html\n-
+  chapter-1718.html\n- chapter-1719.html\n- chapter-1720.html\n- chapter-1721.html\n-
+  chapter-1722.html\n- chapter-1723.html\n- chapter-1724.html\n- chapter-1725.html\n-
+  chapter-1726.html\n- chapter-1727.html\n- chapter-1728.html\n- chapter-1729.html\n-
+  chapter-1730.html\n- chapter-1731.html\n- chapter-1732.html\n- chapter-1733.html\n-
+  chapter-1734.html\n- chapter-1735.html\n- chapter-1736.html\n- chapter-1737.html\n-
+  chapter-1738.html\n- chapter-1739.html\n- chapter-1740.html\n- chapter-1741.html\n-
+  chapter-1742.html\n- chapter-1743.html\n- chapter-1744.html\n- chapter-1745.html\n-
+  chapter-1746.html\n- chapter-1747.html\n- chapter-1748.html\n- chapter-1749.html\n-
+  chapter-1750.html\n- chapter-1751.html\n- chapter-1752.html\n- chapter-1753.html\n-
+  chapter-1754.html\n- chapter-1755.html\n- chapter-1756.html\n- chapter-1757.html\n-
+  chapter-1758.html\n- chapter-1759.html\n- chapter-1760.html\n- chapter-1761.html\n-
+  chapter-1762.html\n- chapter-1763.html\n- chapter-1764.html\n- chapter-1765.html\n-
+  chapter-1766.html\n- chapter-1767.html\n- chapter-1768.html\n- chapter-1769.html\n-
+  chapter-1770.html\n- chapter-1771.html\n- chapter-1772.html\n- chapter-1773.html\n-
+  chapter-1774.html\n- chapter-1775.html\n- chapter-1776.html\n- chapter-1777.html\n-
+  chapter-1778.html\n- chapter-1779.html\n- chapter-1780.html\n- chapter-1781.html\n-
+  chapter-1782.html\n- chapter-1783.html\n- chapter-1784.html\n- chapter-1785.html\n-
+  chapter-1786.html\n- chapter-1787.html\n- chapter-1788.html\n- chapter-1789.html\n-
+  chapter-1790.html\n- chapter-1791.html\n- chapter-1792.html\n- chapter-1793.html\n-
+  chapter-1794.html\n- chapter-1795.html\n- chapter-1796.html\n- chapter-1797.html\n-
+  chapter-1798.html\n- chapter-1799.html\n- chapter-1800.html\n- chapter-1801.html\n-
+  chapter-1802.html\n- chapter-1803.html\n- chapter-1804.html\n- chapter-1805.html\n-
+  chapter-1806.html\n- chapter-1807.html\n- chapter-1808.html\n- chapter-1809.html\n-
+  chapter-1810.html\n- chapter-1811.html\n- chapter-1812.html\n- chapter-1813.html\n-
+  chapter-1814.html\n- chapter-1815.html\n- chapter-1816.html\n- chapter-1817.html\n-
+  chapter-1818.html\n- chapter-1819.html\n- chapter-1820.html\n- chapter-1821.html\n-
+  section-07.html\n- chapter-1822.html\n- chapter-1823.html\n- chapter-1824.html\n-
+  chapter-1825.html\n- chapter-1826.html\n- chapter-1827.html\n- chapter-1828.html\n-
+  chapter-1829.html\n- chapter-1830.html\n- chapter-1831.html\n- chapter-1832.html\n-
+  chapter-1833.html\n- chapter-1834.html\n- chapter-1835.html\n- chapter-1836.html\n-
+  chapter-1837.html\n- chapter-1838.html\n- chapter-1839.html\n- chapter-1840.html\n-
+  chapter-1841.html\n- chapter-1842.html\n- chapter-1843.html\n- chapter-1844.html\n-
+  chapter-1845.html\n- chapter-1846.html\n- chapter-1847.html\n- chapter-1848.html\n-
+  chapter-1849.html\n- chapter-1850.html\n- chapter-1851.html\n- chapter-1852.html\n-
+  chapter-1853.html\n- chapter-1854.html\n- chapter-1855.html\n- chapter-1856.html\n-
+  chapter-1857.html\n- chapter-1858.html\n- chapter-1859.html\n- chapter-1860.html\n-
+  chapter-1861.html\n- chapter-1862.html\n- chapter-1863.html\n- chapter-1864.html\n-
+  chapter-1865.html\n- chapter-1866.html\n- chapter-1867.html\n- chapter-1868.html\n-
+  chapter-1869.html\n- chapter-1870.html\n- chapter-1871.html\n- chapter-1872.html\n-
+  chapter-1873.html\n- chapter-1874.html\n- chapter-1875.html\n- chapter-1876.html\n-
+  chapter-1877.html\n- chapter-1878.html\n- chapter-1879.html\n- chapter-1880.html\n-
+  chapter-1881.html\n- chapter-1882.html\n- chapter-1883.html\n- chapter-1884.html\n-
+  chapter-1885.html\n- chapter-1886.html\n- chapter-1887.html\n- chapter-1888.html\n-
+  chapter-1889.html\n- chapter-1890.html\n- chapter-1891.html\n- chapter-1892.html\n-
+  chapter-1893.html\n- chapter-1894.html\n- chapter-1895.html\n- chapter-1896.html\n-
+  chapter-1897.html\n- chapter-1898.html\n- chapter-1899.html\n- chapter-1900.html\n-
+  chapter-1901.html\n- chapter-1902.html\n- chapter-1903.html\n- chapter-1904.html\n-
+  chapter-1905.html\n- chapter-1906.html\n- chapter-1907.html\n- chapter-1908.html\n-
+  chapter-1909.html\n- chapter-1910.html\n- chapter-1911.html\n- chapter-1912.html\n-
+  chapter-1913.html\n- chapter-1914.html\n- chapter-1915.html\n- chapter-1916.html\n-
+  chapter-1917.html\n- chapter-1918.html\n- chapter-1919.html\n- chapter-1920.html\n-
+  chapter-1921.html\n- chapter-1922.html\n- chapter-1923.html\n- chapter-1924.html\n-
+  chapter-1925.html\n- chapter-1926.html\n- chapter-1927.html\n- chapter-1928.html\n-
+  chapter-1929.html\n- chapter-1930.html\n- chapter-1931.html\n- chapter-1932.html\n-
+  chapter-1933.html\n- chapter-1934.html\n- chapter-1935.html\n- chapter-1936.html\n-
+  chapter-1937.html\n- chapter-1938.html\n- chapter-1939.html\n- chapter-1940.html\n-
+  chapter-1941.html\n- chapter-1942.html\n- chapter-1943.html\n- chapter-1944.html\n-
+  chapter-1945.html\n- chapter-1946.html\n- chapter-1947.html\n- chapter-1948.html\n-
+  chapter-1949.html\n- chapter-1950.html\n- chapter-1951.html\n- chapter-1952.html\n-
+  chapter-1953.html\n- chapter-1954.html\n- chapter-1955.html\n- chapter-1956.html\n-
+  chapter-1957.html\n- chapter-1958.html\n- chapter-1959.html\n- chapter-1960.html\n-
+  endofbook-05.html\n\n\nstandalone: true\nself-contained: true\n\nresource-files:\n-
+  .\n- .\n- ${.}/books/book05/Images/cover5.png\n- ${.}/books/book05/Images/title.png\n-
+  ${.}/books/book05/Images/gem.gif\n- ${.}/books/book05/Styles/Century Gothic.ttf\n-
+  ${.}/books/book05/Styles/Photograph Signature.ttf\n- ${.}/books/book05/Styles/style.css\n-
+  ${.}/books/book05/html/meta5.yaml\n- ${.}/books/book05/html/epub-meta5.yml\n- ${.}/books/book05/html/cover5.html\n-
+  ${.}/books/book05/html/titlepage-05.html\n- ${.}/books/book05/html/section-06.html\n-
+  ${.}/books/book05/html/chapter-1712.html\n- ${.}/books/book05/html/chapter-1713.html\n-
+  ${.}/books/book05/html/chapter-1714.html\n- ${.}/books/book05/html/chapter-1715.html\n-
+  ${.}/books/book05/html/chapter-1716.html\n- ${.}/books/book05/html/chapter-1717.html\n-
+  ${.}/books/book05/html/chapter-1718.html\n- ${.}/books/book05/html/chapter-1719.html\n-
+  ${.}/books/book05/html/chapter-1720.html\n- ${.}/books/book05/html/chapter-1721.html\n-
+  ${.}/books/book05/html/chapter-1722.html\n- ${.}/books/book05/html/chapter-1723.html\n-
+  ${.}/books/book05/html/chapter-1724.html\n- ${.}/books/book05/html/chapter-1725.html\n-
+  ${.}/books/book05/html/chapter-1726.html\n- ${.}/books/book05/html/chapter-1727.html\n-
+  ${.}/books/book05/html/chapter-1728.html\n- ${.}/books/book05/html/chapter-1729.html\n-
+  ${.}/books/book05/html/chapter-1730.html\n- ${.}/books/book05/html/chapter-1731.html\n-
+  ${.}/books/book05/html/chapter-1732.html\n- ${.}/books/book05/html/chapter-1733.html\n-
+  ${.}/books/book05/html/chapter-1734.html\n- ${.}/books/book05/html/chapter-1735.html\n-
+  ${.}/books/book05/html/chapter-1736.html\n- ${.}/books/book05/html/chapter-1737.html\n-
+  ${.}/books/book05/html/chapter-1738.html\n- ${.}/books/book05/html/chapter-1739.html\n-
+  ${.}/books/book05/html/chapter-1740.html\n- ${.}/books/book05/html/chapter-1741.html\n-
+  ${.}/books/book05/html/chapter-1742.html\n- ${.}/books/book05/html/chapter-1743.html\n-
+  ${.}/books/book05/html/chapter-1744.html\n- ${.}/books/book05/html/chapter-1745.html\n-
+  ${.}/books/book05/html/chapter-1746.html\n- ${.}/books/book05/html/chapter-1747.html\n-
+  ${.}/books/book05/html/chapter-1748.html\n- ${.}/books/book05/html/chapter-1749.html\n-
+  ${.}/books/book05/html/chapter-1750.html\n- ${.}/books/book05/html/chapter-1751.html\n-
+  ${.}/books/book05/html/chapter-1752.html\n- ${.}/books/book05/html/chapter-1753.html\n-
+  ${.}/books/book05/html/chapter-1754.html\n- ${.}/books/book05/html/chapter-1755.html\n-
+  ${.}/books/book05/html/chapter-1756.html\n- ${.}/books/book05/html/chapter-1757.html\n-
+  ${.}/books/book05/html/chapter-1758.html\n- ${.}/books/book05/html/chapter-1759.html\n-
+  ${.}/books/book05/html/chapter-1760.html\n- ${.}/books/book05/html/chapter-1761.html\n-
+  ${.}/books/book05/html/chapter-1762.html\n- ${.}/books/book05/html/chapter-1763.html\n-
+  ${.}/books/book05/html/chapter-1764.html\n- ${.}/books/book05/html/chapter-1765.html\n-
+  ${.}/books/book05/html/chapter-1766.html\n- ${.}/books/book05/html/chapter-1767.html\n-
+  ${.}/books/book05/html/chapter-1768.html\n- ${.}/books/book05/html/chapter-1769.html\n-
+  ${.}/books/book05/html/chapter-1770.html\n- ${.}/books/book05/html/chapter-1771.html\n-
+  ${.}/books/book05/html/chapter-1772.html\n- ${.}/books/book05/html/chapter-1773.html\n-
+  ${.}/books/book05/html/chapter-1774.html\n- ${.}/books/book05/html/chapter-1775.html\n-
+  ${.}/books/book05/html/chapter-1776.html\n- ${.}/books/book05/html/chapter-1777.html\n-
+  ${.}/books/book05/html/chapter-1778.html\n- ${.}/books/book05/html/chapter-1779.html\n-
+  ${.}/books/book05/html/chapter-1780.html\n- ${.}/books/book05/html/chapter-1781.html\n-
+  ${.}/books/book05/html/chapter-1782.html\n- ${.}/books/book05/html/chapter-1783.html\n-
+  ${.}/books/book05/html/chapter-1784.html\n- ${.}/books/book05/html/chapter-1785.html\n-
+  ${.}/books/book05/html/chapter-1786.html\n- ${.}/books/book05/html/chapter-1787.html\n-
+  ${.}/books/book05/html/chapter-1788.html\n- ${.}/books/book05/html/chapter-1789.html\n-
+  ${.}/books/book05/html/chapter-1790.html\n- ${.}/books/book05/html/chapter-1791.html\n-
+  ${.}/books/book05/html/chapter-1792.html\n- ${.}/books/book05/html/chapter-1793.html\n-
+  ${.}/books/book05/html/chapter-1794.html\n- ${.}/books/book05/html/chapter-1795.html\n-
+  ${.}/books/book05/html/chapter-1796.html\n- ${.}/books/book05/html/chapter-1797.html\n-
+  ${.}/books/book05/html/chapter-1798.html\n- ${.}/books/book05/html/chapter-1799.html\n-
+  ${.}/books/book05/html/chapter-1800.html\n- ${.}/books/book05/html/chapter-1801.html\n-
+  ${.}/books/book05/html/chapter-1802.html\n- ${.}/books/book05/html/chapter-1803.html\n-
+  ${.}/books/book05/html/chapter-1804.html\n- ${.}/books/book05/html/chapter-1805.html\n-
+  ${.}/books/book05/html/chapter-1806.html\n- ${.}/books/book05/html/chapter-1807.html\n-
+  ${.}/books/book05/html/chapter-1808.html\n- ${.}/books/book05/html/chapter-1809.html\n-
+  ${.}/books/book05/html/chapter-1810.html\n- ${.}/books/book05/html/chapter-1811.html\n-
+  ${.}/books/book05/html/chapter-1812.html\n- ${.}/books/book05/html/chapter-1813.html\n-
+  ${.}/books/book05/html/chapter-1814.html\n- ${.}/books/book05/html/chapter-1815.html\n-
+  ${.}/books/book05/html/chapter-1816.html\n- ${.}/books/book05/html/chapter-1817.html\n-
+  ${.}/books/book05/html/chapter-1818.html\n- ${.}/books/book05/html/chapter-1819.html\n-
+  ${.}/books/book05/html/chapter-1820.html\n- ${.}/books/book05/html/chapter-1821.html\n-
+  ${.}/books/book05/html/section-07.html\n- ${.}/books/book05/html/chapter-1822.html\n-
+  ${.}/books/book05/html/chapter-1823.html\n- ${.}/books/book05/html/chapter-1824.html\n-
+  ${.}/books/book05/html/chapter-1825.html\n- ${.}/books/book05/html/chapter-1826.html\n-
+  ${.}/books/book05/html/chapter-1827.html\n- ${.}/books/book05/html/chapter-1828.html\n-
+  ${.}/books/book05/html/chapter-1829.html\n- ${.}/books/book05/html/chapter-1830.html\n-
+  ${.}/books/book05/html/chapter-1831.html\n- ${.}/books/book05/html/chapter-1832.html\n-
+  ${.}/books/book05/html/chapter-1833.html\n- ${.}/books/book05/html/chapter-1834.html\n-
+  ${.}/books/book05/html/chapter-1835.html\n- ${.}/books/book05/html/chapter-1836.html\n-
+  ${.}/books/book05/html/chapter-1837.html\n- ${.}/books/book05/html/chapter-1838.html\n-
+  ${.}/books/book05/html/chapter-1839.html\n- ${.}/books/book05/html/chapter-1840.html\n-
+  ${.}/books/book05/html/chapter-1841.html\n- ${.}/books/book05/html/chapter-1842.html\n-
+  ${.}/books/book05/html/chapter-1843.html\n- ${.}/books/book05/html/chapter-1844.html\n-
+  ${.}/books/book05/html/chapter-1845.html\n- ${.}/books/book05/html/chapter-1846.html\n-
+  ${.}/books/book05/html/chapter-1847.html\n- ${.}/books/book05/html/chapter-1848.html\n-
+  ${.}/books/book05/html/chapter-1849.html\n- ${.}/books/book05/html/chapter-1850.html\n-
+  ${.}/books/book05/html/chapter-1851.html\n- ${.}/books/book05/html/chapter-1852.html\n-
+  ${.}/books/book05/html/chapter-1853.html\n- ${.}/books/book05/html/chapter-1854.html\n-
+  ${.}/books/book05/html/chapter-1855.html\n- ${.}/books/book05/html/chapter-1856.html\n-
+  ${.}/books/book05/html/chapter-1857.html\n- ${.}/books/book05/html/chapter-1858.html\n-
+  ${.}/books/book05/html/chapter-1859.html\n- ${.}/books/book05/html/chapter-1860.html\n-
+  ${.}/books/book05/html/chapter-1861.html\n- ${.}/books/book05/html/chapter-1862.html\n-
+  ${.}/books/book05/html/chapter-1863.html\n- ${.}/books/book05/html/chapter-1864.html\n-
+  ${.}/books/book05/html/chapter-1865.html\n- ${.}/books/book05/html/chapter-1866.html\n-
+  ${.}/books/book05/html/chapter-1867.html\n- ${.}/books/book05/html/chapter-1868.html\n-
+  ${.}/books/book05/html/chapter-1869.html\n- ${.}/books/book05/html/chapter-1870.html\n-
+  ${.}/books/book05/html/chapter-1871.html\n- ${.}/books/book05/html/chapter-1872.html\n-
+  ${.}/books/book05/html/chapter-1873.html\n- ${.}/books/book05/html/chapter-1874.html\n-
+  ${.}/books/book05/html/chapter-1875.html\n- ${.}/books/book05/html/chapter-1876.html\n-
+  ${.}/books/book05/html/chapter-1877.html\n- ${.}/books/book05/html/chapter-1878.html\n-
+  ${.}/books/book05/html/chapter-1879.html\n- ${.}/books/book05/html/chapter-1880.html\n-
+  ${.}/books/book05/html/chapter-1881.html\n- ${.}/books/book05/html/chapter-1882.html\n-
+  ${.}/books/book05/html/chapter-1883.html\n- ${.}/books/book05/html/chapter-1884.html\n-
+  ${.}/books/book05/html/chapter-1885.html\n- ${.}/books/book05/html/chapter-1886.html\n-
+  ${.}/books/book05/html/chapter-1887.html\n- ${.}/books/book05/html/chapter-1888.html\n-
+  ${.}/books/book05/html/chapter-1889.html\n- ${.}/books/book05/html/chapter-1890.html\n-
+  ${.}/books/book05/html/chapter-1891.html\n- ${.}/books/book05/html/chapter-1892.html\n-
+  ${.}/books/book05/html/chapter-1893.html\n- ${.}/books/book05/html/chapter-1894.html\n-
+  ${.}/books/book05/html/chapter-1895.html\n- ${.}/books/book05/html/chapter-1896.html\n-
+  ${.}/books/book05/html/chapter-1897.html\n- ${.}/books/book05/html/chapter-1898.html\n-
+  ${.}/books/book05/html/chapter-1899.html\n- ${.}/books/book05/html/chapter-1900.html\n-
+  ${.}/books/book05/html/chapter-1901.html\n- ${.}/books/book05/html/chapter-1902.html\n-
+  ${.}/books/book05/html/chapter-1903.html\n- ${.}/books/book05/html/chapter-1904.html\n-
+  ${.}/books/book05/html/chapter-1905.html\n- ${.}/books/book05/html/chapter-1906.html\n-
+  ${.}/books/book05/html/chapter-1907.html\n- ${.}/books/book05/html/chapter-1908.html\n-
+  ${.}/books/book05/html/chapter-1909.html\n- ${.}/books/book05/html/chapter-1910.html\n-
+  ${.}/books/book05/html/chapter-1911.html\n- ${.}/books/book05/html/chapter-1912.html\n-
+  ${.}/books/book05/html/chapter-1913.html\n- ${.}/books/book05/html/chapter-1914.html\n-
+  ${.}/books/book05/html/chapter-1915.html\n- ${.}/books/book05/html/chapter-1916.html\n-
+  ${.}/books/book05/html/chapter-1917.html\n- ${.}/books/book05/html/chapter-1918.html\n-
+  ${.}/books/book05/html/chapter-1919.html\n- ${.}/books/book05/html/chapter-1920.html\n-
+  ${.}/books/book05/html/chapter-1921.html\n- ${.}/books/book05/html/chapter-1922.html\n-
+  ${.}/books/book05/html/chapter-1923.html\n- ${.}/books/book05/html/chapter-1924.html\n-
+  ${.}/books/book05/html/chapter-1925.html\n- ${.}/books/book05/html/chapter-1926.html\n-
+  ${.}/books/book05/html/chapter-1927.html\n- ${.}/books/book05/html/chapter-1928.html\n-
+  ${.}/books/book05/html/chapter-1929.html\n- ${.}/books/book05/html/chapter-1930.html\n-
+  ${.}/books/book05/html/chapter-1931.html\n- ${.}/books/book05/html/chapter-1932.html\n-
+  ${.}/books/book05/html/chapter-1933.html\n- ${.}/books/book05/html/chapter-1934.html\n-
+  ${.}/books/book05/html/chapter-1935.html\n- ${.}/books/book05/html/chapter-1936.html\n-
+  ${.}/books/book05/html/chapter-1937.html\n- ${.}/books/book05/html/chapter-1938.html\n-
+  ${.}/books/book05/html/chapter-1939.html\n- ${.}/books/book05/html/chapter-1940.html\n-
+  ${.}/books/book05/html/chapter-1941.html\n- ${.}/books/book05/html/chapter-1942.html\n-
+  ${.}/books/book05/html/chapter-1943.html\n- ${.}/books/book05/html/chapter-1944.html\n-
+  ${.}/books/book05/html/chapter-1945.html\n- ${.}/books/book05/html/chapter-1946.html\n-
+  ${.}/books/book05/html/chapter-1947.html\n- ${.}/books/book05/html/chapter-1948.html\n-
+  ${.}/books/book05/html/chapter-1949.html\n- ${.}/books/book05/html/chapter-1950.html\n-
+  ${.}/books/book05/html/chapter-1951.html\n- ${.}/books/book05/html/chapter-1952.html\n-
+  ${.}/books/book05/html/chapter-1953.html\n- ${.}/books/book05/html/chapter-1954.html\n-
+  ${.}/books/book05/html/chapter-1955.html\n- ${.}/books/book05/html/chapter-1956.html\n-
+  ${.}/books/book05/html/chapter-1957.html\n- ${.}/books/book05/html/chapter-1958.html\n-
+  ${.}/books/book05/html/chapter-1959.html\n- ${.}/books/book05/html/chapter-1960.html\n-
+  ${.}/books/book05/html/endofbook-05.html\ntoc: true\ntoc-depth: 2\nepub-chapter-level:
+  2\nepub-cover-image: cover5.png\n  \n\nepub-fonts:\n- Urbanist-Italic.ttf\n- Urbanist-Regular.ttf\n-
+  Urbanist-Thin.ttf\n- Urbanist-ThinItalic.ttf\n- White Modesty.ttf\n\nepub-metadata:
+  ---\nbelongs-to-collection: Super Gene\ncover-image: Images/cover5.png\ncreator:\n-
+  role: author\n  text: Twelve Winged Dark Seraphim\n- role: editor\n  text: Max Ludden\ncss:\n-
+  style.css\ngroup-position: 5\nibooks:\n- version: '4.4'\n- specified-fonts: true\n-
+  iphone-orientation-lock: portrait-only\n- scroll-axis: vertical\npage-progression-direction:
+  ltr\ntitle:\n- text: Planet Kate and Narrow Moon\n  type: main\n- text: Book Five\n
+  \ type: subtitle\n...\n\nmetadata-files:\n- meta5.yml\n- epub-meta5.yml\n\ncss-files:\n-
+  style.css\n"

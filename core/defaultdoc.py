@@ -7,16 +7,18 @@ from json import dump, loads
 from platform import platform
 from pprint import pprint
 from timeit import timeit
+from turtle import title
 
 from dotenv import load_dotenv
 from mongoengine import Document, connect, disconnect_all
 from mongoengine.fields import IntField, ListField, StringField
 from num2words import num2words
 from tqdm.auto import tqdm, trange
+from alive_progress import alive_bar
 
 try:
     # < If run from main()
-    import core.book as bk
+    import core.book as book_
     import core.chapter as ch
     import core.endofbook as eob
     import core.epubmetadata as epubmeta
@@ -28,7 +30,7 @@ try:
     from core.log import errwrap, log
 except ImportError:
     # < If run from the core sub-directory
-    import book as bk
+    import book as book_
     import chapter as ch
     import endofbook as eob
     import epubmetadata as epubmeta
@@ -48,6 +50,7 @@ load_dotenv(".env")
 class InvalidBookError(Exception):
     pass
 
+
 class Defaultdoc(Document):
     book = IntField(unique=True, min_value=1, max_value=10)
     book_word = StringField()
@@ -66,6 +69,7 @@ class Defaultdoc(Document):
     epubmetadata = StringField()
     metadata = StringField()
     default_doc = StringField()
+    title = StringField()
     meta = {"collection": "defaultdoc"}
 
 
@@ -102,7 +106,7 @@ def generate_filepath(book: int, save: bool = False):
     """
     book_str = str(book).zfill(2)
     book_dir = f"{BASE}/books/book{book_str}"
-    filepath = f"{book_dir}/sg{book}.yaml"
+    filepath = f"{book_dir}/sg{book}.yml"
     log.debug(f"Generated filepath:\n<code>{filepath}</code>")
     if save:
         sg()
@@ -292,7 +296,7 @@ def generate_cover_path(book: int):
 
 
 @errwrap()  # . Verified
-def generate_output(book: int):
+def generate_output(book: int, save: bool = False):
     """
     Generate the filename for the the epub of the given book.
 
@@ -305,9 +309,18 @@ def generate_output(book: int):
             The filename for the given book's epub.
     """
     sg()
-    for doc in Defaultdoc.objects(book=book):
-        log.debug(f"Accessed Book {book}'s MongoDB Default Document.")
-        return doc.output
+    book_doc = book_.Book.objects(book=book).first()
+    output = f"{book_doc.title}.epub"
+    log.debug(f"Generated output filename:\n<code>{output}</code>")
+
+    if save:
+        sg()
+        doc = Defaultdoc.objects(book=book).first()
+        doc.output = output
+        doc.save()
+        log.debug(f"Saved Book {book}'s output file's filename to MongoDB.")
+
+    return doc.output
 
 
 @errwrap()  # . Verified
@@ -477,7 +490,7 @@ def get_input_files(book: int):
 
 def generate_resource_paths(book: int, save: bool = False):
     book_str = str(book).zfill(2)
-    book_dir = f"${{.}}/books/book{book_str}"
+    book_dir = f"${{.}}"
     resource_files = ["."]
 
     # > Non-content files
@@ -569,7 +582,7 @@ def load_meta(book: int):
 
 
 @errwrap()
-def generate_default_doc(book: int, save: bool = False):
+def generate_default_doc_f(book: int, save: bool = False):
     """
     Generates the default doc for a given book.
 
@@ -589,37 +602,227 @@ def generate_default_doc(book: int, save: bool = False):
     valid_books = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     if book not in valid_books:
         raise InvalidBookError(f"Invalid book: {book}\nValid books are 1-10.")
-    
+
     sg()
     mongodefault = Defaultdoc.objects(book=book).first()
+    output = mongodefault.output
     
-    default_doc = {
-        "from": "html",
-        "to:": "epub",
-        "output-file": mongodefault.output,
-        "input-files": mongodefault.input_files,
-        "standalone": True,
-        "self-contained": True,
-        "resource-files": mongodefault.resource_paths,
-        "toc": True,
-        "toc-depth": 2,
-        "epub-chapter-level":2,
-        "epub-cover-image": mongodefault.cover,
-        "epub-fonts": [
-            "Urbanist-Italic.ttf",
-            "Urbanist-Regular.ttf",
-            "Urbanist-thin.ttf",
-            "Urbanist-ThinItalic.ttf",
-            "White Modesty.ttf"
-        ],
-        "epub-metadata": mongodefault.epubmetadata,
-        "metadata-file": [f"epub-meta{book}.yaml",f"meta{book}.yaml"],
-        "css": [
-            "style.css"
-        ]
-    }
-    filepath = mongodefault.html_path
-    with open (filepath, "w") as outfile:
-        myaml.dumps(default_doc, outfile)
+
+    default_1= f"from: html\nto: epub\n  \noutput-file: {output}"
+
+    input_file_list = mongodefault.input_files
+    input_files = f"\n  \ninput-files:\n"
+    for file in input_file_list:
+        input_files = f"{input_files}\n- {file}"
+
+    default3 = f"\n\nstandalone: true\nself-contained: true\n"
+
+    resource_files = "resource-files:\n- ."
+    resource_file_list = mongodefault.resource_paths
+    for file in resource_file_list:
+        resource_files = f"{resource_files}\n- {file}"
+
+    epub = f"toc: true\ntoc-depth: 2\nepub-chapter-level: 2\nepub-cover-image: cover{book}.png\n  "
+
+    fonts = f"\nepub-fonts:\n- Urbanist-Italic.ttf\n- Urbanist-Regular.ttf\n- Urbanist-Thin.ttf\n- Urbanist-ThinItalic.ttf\n- White Modesty.ttf\n"
+
+    meta = f"epub-metadata: {mongodefault.epubmetadata}\nmetadata-files:\n- meta{book}.yml\n- epub-meta{book}.yml\n"
+
+    css = "css-files:\n- style.css\n"
+
+    default_doc = f"{default_1}\n{input_files}\n{default3}\n{resource_files}\n{epub}\n{fonts}\n{meta}\n{css}"
+
+    filepath = mongodefault.filepath
+    yaml_str = myaml.dump(default_doc)
+    with open(filepath, "w") as outfile:
+        outfile.write(yaml_str)
+
+    if save:
+        sg()
+        default_mongo_doc = Defaultdoc.objects(book=book).first()
+        default_mongo_doc.default_doc = default_doc
+        default_mongo_doc.save()
+        log.info(f"Updated Book {book}'s defualtdoc with default doc.")
+    return default_doc
+
+
+@errwrap()
+def generate_cover(book: int, save: bool = False):
+    cover = f"cover{book}.png"
+    if save:
+        sg()
+        doc = Defaultdoc.objects(book=book).first()
+        doc.cover = cover
+        doc.save()
+    return cover
+
+
+@errwrap()
+def generate_cover_path(book: int, save: bool = False):
+    sg()
+    for doc in Defaultdoc.objects(book=book):
+        book = doc.book
+        book_str = str(book).zfill(2)
+        book_dir = f"book{book_str}"
+        cover_path = f"{BASE}/books/{book_dir}/Images/cover{book}.png"
+
+        if save:
+            doc.cover_path = cover_path
+            doc.save()
+
+        return cover_path
         
-generate_default_doc(1, True)
+         
+@errwrap()
+def generate_title(book: int, save: bool = False):
+    """
+    Generates the default doc for a given book.
+
+    Args:
+        `book` (int):
+            The given book.
+        `save` (bool):
+            Whether or not to save the default doc to MongoDB.
+        `write` (bool):
+            Whether or not to write the default doc to a file.
+
+    Raises:
+        `ValueError`:
+            Invalid Book Input. Valid books are 1-10.
+
+    Returns:
+        `default_doc` (dict):
+            The default doc for a given book.
+    """
+    bar_title = f"Generating title for Book {book}"
+    bar_title_length = len(bar_title)
+    title_length = bar_title_length + 1
+    sg()
+    doc = book_.Book.objects(book=book).first()
+    if doc is None:
+        raise InvalidBookError(f"Invalid book: {book}\nValid books are 1-10.")
+
+    title = doc.title
+    log.debug(f"Retrieved title for Book {book}")
+
+    if save:
+        sg()
+        default_ = Defaultdoc.objects(book=book).first()
+        default_.title = title
+        default_.save()
+        log.debug(f"Updated Book {book}'s defualtdoc with title.")
+
+    return title
+
+    
+
+def generate_default_doc(book: int, save: bool = True, write: bool = True):
+    sg()
+    doc = Defaultdoc.objects(book=book).first()
+    
+    #. Read default variable from MongoDB
+    #> Book
+    book = doc.book
+    book_str = str(book).zfill(2)
+    book_dir = f"book{book_str}"
+    
+    #> Output
+    output = doc.output
+    title = doc.title
+    
+    #> Book Word
+    book_word = doc.book_word
+    
+    #> Cover
+    cover = doc.cover
+    cover_path = doc.cover_path
+    
+    #> Filename and Path
+    filename = doc
+    filepath = doc
+    
+    #> Input FIles
+    doc_input_files = doc.input_files
+    input_files = "input-files:\n"
+    for file in doc_input_files:
+        input_files = f"{input_files}\n- {file}"
+    log.debug(input_files)
+    
+    #> Resource_Files
+    resource_files = doc.resource_paths
+    resource_path = "resource-files:\n"
+    for file in resource_files:
+        resource_path = f"{resource_path}\n- {file}"
+    log.debug(resource_path)
+
+    #> Epub
+    epubmetadata = doc.epubmetadata 
+    #> Metadata
+    metadata = doc.metadata
+    
+    #> CSS
+    css = "css:\n- style.css\n..."
+    
+    #> Default Doc
+    default = f"---\nfrom: html\nto: epub\n\n"
+    default = f"{default}\noutput-file: {book} - {title}.epub\n\n"
+    
+    inputfiles = "input-files:\n"
+    for file in input_files:
+        log.info(f"File to add {file}")
+        inputfiles = f"{inputfiles}\n- {file}"
+        log.info(inputfiles)
+        
+    inputfiles = f"{inputfiles}\n\n"
+    
+    default = f"{default}\n{inputfiles}"
+    
+    #> Mid
+    default = f"{default}standalone: true\nself-contained: true\n"
+    
+    #> Resource Path
+    default = f"{default}\n{resource_path}"
+    
+    #> toc 
+    default = f"{default}\n\ntoc: true\ntoc-depth: 2\n\nepub-chapter-level: 2\nepub-cover-image: {cover}\n"
+    
+    #> epubfonts
+    default = f"{default}\nepub-fonts:\n- Urbanist-Italic.ttf\n- Urbanist-Regular.ttf\n- Urbanist-Thin.ttf\n- Urbanist-ThinItalic.ttf\n- White Modesty.ttf\n"
+    
+    #>Meta
+    default = f"{default}\nepub-metadata: epub-meta{book}.yml\n\nmetadata-files:\n- meta{book}.yml\n- epub-meta{book}.yml\n"
+    
+    #> CSS
+    default = f"{default}\ncss-files:\n- style.css\n..."
+    
+    #> Default Doc
+    log.info(default)
+    
+    #> Filepath
+    if write:
+
+        filepath = doc.filepath
+        with open (filepath, "w") as outfile:
+            outfile. write(default)
+        log.debug(f"Saved Book {book}'s defualtdoc to disk.")
+    
+    #> Save
+    if save:
+        sg()
+        default_mongo_doc = Defaultdoc.objects(book=book).first()
+        default_mongo_doc.default_doc = default
+        default_mongo_doc.save()
+        log.info(f"Updated Book {book}'s defualtdoc with default doc.")
+    return default
+    
+
+
+
+# generate_default_doc(book=1) 
+sg()
+doc = Defaultdoc.objects(book=1).first()
+pprint(doc.input_files)
+inputf = "input-files:"
+for file in doc.input_files:
+    inputf = f"{inputf}\n- {file}"
+print(inputf)

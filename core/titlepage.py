@@ -303,6 +303,3 @@ def generate_titlepages():
                 else:
                     tbar()
                     tbar.title(f"Generated all titlepages.")
-
-
-generate_titlepages(1)

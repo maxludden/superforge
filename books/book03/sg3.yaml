@@ -1,0 +1,359 @@
+"---\nfrom: html\nto: epub\n  \noutput-file: mongodefault.output\n\n  \ninput-files:\n\n-
+  cover3.html\n- titlepage-03.html\n- section-03.html\n- chapter-0883.html\n- chapter-0884.html\n-
+  chapter-0885.html\n- chapter-0886.html\n- chapter-0887.html\n- chapter-0888.html\n-
+  chapter-0889.html\n- chapter-0890.html\n- chapter-0891.html\n- chapter-0892.html\n-
+  chapter-0893.html\n- chapter-0894.html\n- chapter-0895.html\n- chapter-0896.html\n-
+  chapter-0897.html\n- chapter-0898.html\n- chapter-0899.html\n- chapter-0900.html\n-
+  chapter-0901.html\n- chapter-0902.html\n- chapter-0903.html\n- chapter-0904.html\n-
+  chapter-0905.html\n- chapter-0906.html\n- chapter-0907.html\n- chapter-0908.html\n-
+  chapter-0909.html\n- chapter-0910.html\n- chapter-0911.html\n- chapter-0912.html\n-
+  chapter-0913.html\n- chapter-0914.html\n- chapter-0915.html\n- chapter-0916.html\n-
+  chapter-0917.html\n- chapter-0918.html\n- chapter-0919.html\n- chapter-0920.html\n-
+  chapter-0921.html\n- chapter-0922.html\n- chapter-0923.html\n- chapter-0924.html\n-
+  chapter-0925.html\n- chapter-0926.html\n- chapter-0927.html\n- chapter-0928.html\n-
+  chapter-0929.html\n- chapter-0930.html\n- chapter-0931.html\n- chapter-0932.html\n-
+  chapter-0933.html\n- chapter-0934.html\n- chapter-0935.html\n- chapter-0936.html\n-
+  chapter-0937.html\n- chapter-0938.html\n- chapter-0939.html\n- chapter-0940.html\n-
+  chapter-0941.html\n- chapter-0942.html\n- chapter-0943.html\n- chapter-0944.html\n-
+  chapter-0945.html\n- chapter-0946.html\n- chapter-0947.html\n- chapter-0948.html\n-
+  chapter-0949.html\n- chapter-0950.html\n- chapter-0951.html\n- chapter-0952.html\n-
+  chapter-0953.html\n- chapter-0954.html\n- chapter-0955.html\n- chapter-0956.html\n-
+  chapter-0957.html\n- chapter-0958.html\n- chapter-0959.html\n- chapter-0960.html\n-
+  chapter-0961.html\n- chapter-0962.html\n- chapter-0963.html\n- chapter-0964.html\n-
+  chapter-0965.html\n- chapter-0966.html\n- chapter-0967.html\n- chapter-0968.html\n-
+  chapter-0969.html\n- chapter-0970.html\n- chapter-0971.html\n- chapter-0972.html\n-
+  chapter-0973.html\n- chapter-0974.html\n- chapter-0975.html\n- chapter-0976.html\n-
+  chapter-0977.html\n- chapter-0978.html\n- chapter-0979.html\n- chapter-0980.html\n-
+  chapter-0981.html\n- chapter-0982.html\n- chapter-0983.html\n- chapter-0984.html\n-
+  chapter-0985.html\n- chapter-0986.html\n- chapter-0987.html\n- chapter-0988.html\n-
+  chapter-0989.html\n- chapter-0990.html\n- chapter-0991.html\n- chapter-0992.html\n-
+  chapter-0993.html\n- chapter-0994.html\n- chapter-0995.html\n- chapter-0996.html\n-
+  chapter-0997.html\n- chapter-0998.html\n- chapter-0999.html\n- chapter-1000.html\n-
+  chapter-1001.html\n- chapter-1002.html\n- chapter-1003.html\n- chapter-1004.html\n-
+  chapter-1005.html\n- chapter-1006.html\n- chapter-1007.html\n- chapter-1008.html\n-
+  chapter-1009.html\n- chapter-1010.html\n- chapter-1011.html\n- chapter-1012.html\n-
+  chapter-1013.html\n- chapter-1014.html\n- chapter-1015.html\n- chapter-1016.html\n-
+  chapter-1017.html\n- chapter-1018.html\n- chapter-1019.html\n- chapter-1020.html\n-
+  chapter-1021.html\n- chapter-1022.html\n- chapter-1023.html\n- chapter-1024.html\n-
+  chapter-1025.html\n- chapter-1026.html\n- chapter-1027.html\n- chapter-1028.html\n-
+  chapter-1029.html\n- chapter-1030.html\n- chapter-1031.html\n- chapter-1032.html\n-
+  chapter-1033.html\n- chapter-1034.html\n- chapter-1035.html\n- chapter-1036.html\n-
+  chapter-1037.html\n- chapter-1038.html\n- chapter-1039.html\n- chapter-1040.html\n-
+  chapter-1041.html\n- chapter-1042.html\n- chapter-1043.html\n- chapter-1044.html\n-
+  chapter-1045.html\n- chapter-1046.html\n- chapter-1047.html\n- chapter-1048.html\n-
+  chapter-1049.html\n- chapter-1050.html\n- chapter-1051.html\n- chapter-1052.html\n-
+  chapter-1053.html\n- chapter-1054.html\n- chapter-1055.html\n- chapter-1056.html\n-
+  chapter-1057.html\n- chapter-1058.html\n- chapter-1059.html\n- chapter-1060.html\n-
+  chapter-1061.html\n- chapter-1062.html\n- chapter-1063.html\n- chapter-1064.html\n-
+  chapter-1065.html\n- chapter-1066.html\n- chapter-1067.html\n- chapter-1068.html\n-
+  chapter-1069.html\n- chapter-1070.html\n- chapter-1071.html\n- chapter-1072.html\n-
+  chapter-1073.html\n- chapter-1074.html\n- chapter-1075.html\n- chapter-1076.html\n-
+  chapter-1077.html\n- chapter-1078.html\n- chapter-1079.html\n- chapter-1080.html\n-
+  chapter-1081.html\n- chapter-1082.html\n- chapter-1083.html\n- chapter-1084.html\n-
+  chapter-1085.html\n- chapter-1086.html\n- chapter-1087.html\n- chapter-1088.html\n-
+  chapter-1089.html\n- chapter-1090.html\n- chapter-1091.html\n- chapter-1092.html\n-
+  chapter-1093.html\n- chapter-1094.html\n- chapter-1095.html\n- chapter-1096.html\n-
+  chapter-1097.html\n- chapter-1098.html\n- chapter-1099.html\n- chapter-1100.html\n-
+  chapter-1101.html\n- chapter-1102.html\n- chapter-1103.html\n- chapter-1104.html\n-
+  chapter-1105.html\n- chapter-1106.html\n- chapter-1107.html\n- chapter-1108.html\n-
+  chapter-1109.html\n- chapter-1110.html\n- chapter-1111.html\n- chapter-1112.html\n-
+  chapter-1113.html\n- chapter-1114.html\n- chapter-1115.html\n- chapter-1116.html\n-
+  chapter-1117.html\n- chapter-1118.html\n- chapter-1119.html\n- chapter-1120.html\n-
+  chapter-1121.html\n- chapter-1122.html\n- chapter-1123.html\n- chapter-1124.html\n-
+  chapter-1125.html\n- chapter-1126.html\n- chapter-1127.html\n- chapter-1128.html\n-
+  chapter-1129.html\n- chapter-1130.html\n- chapter-1131.html\n- chapter-1132.html\n-
+  chapter-1133.html\n- chapter-1134.html\n- chapter-1135.html\n- chapter-1136.html\n-
+  chapter-1137.html\n- chapter-1138.html\n- chapter-1139.html\n- chapter-1140.html\n-
+  chapter-1141.html\n- chapter-1142.html\n- chapter-1143.html\n- chapter-1144.html\n-
+  chapter-1145.html\n- chapter-1146.html\n- chapter-1147.html\n- chapter-1148.html\n-
+  chapter-1149.html\n- chapter-1150.html\n- chapter-1151.html\n- chapter-1152.html\n-
+  chapter-1153.html\n- chapter-1154.html\n- chapter-1155.html\n- chapter-1156.html\n-
+  chapter-1157.html\n- chapter-1158.html\n- chapter-1159.html\n- chapter-1160.html\n-
+  chapter-1161.html\n- chapter-1162.html\n- chapter-1163.html\n- chapter-1164.html\n-
+  chapter-1165.html\n- chapter-1166.html\n- chapter-1167.html\n- chapter-1168.html\n-
+  chapter-1169.html\n- chapter-1170.html\n- chapter-1171.html\n- chapter-1172.html\n-
+  chapter-1173.html\n- chapter-1174.html\n- chapter-1175.html\n- chapter-1176.html\n-
+  chapter-1177.html\n- chapter-1178.html\n- chapter-1179.html\n- chapter-1180.html\n-
+  chapter-1181.html\n- chapter-1182.html\n- chapter-1183.html\n- chapter-1184.html\n-
+  chapter-1185.html\n- chapter-1186.html\n- chapter-1187.html\n- chapter-1188.html\n-
+  chapter-1189.html\n- chapter-1190.html\n- chapter-1191.html\n- chapter-1192.html\n-
+  chapter-1193.html\n- chapter-1194.html\n- chapter-1195.html\n- chapter-1196.html\n-
+  chapter-1197.html\n- chapter-1198.html\n- chapter-1199.html\n- chapter-1200.html\n-
+  chapter-1201.html\n- chapter-1202.html\n- chapter-1203.html\n- chapter-1204.html\n-
+  chapter-1205.html\n- chapter-1206.html\n- chapter-1207.html\n- chapter-1208.html\n-
+  chapter-1209.html\n- chapter-1210.html\n- chapter-1211.html\n- chapter-1212.html\n-
+  chapter-1213.html\n- chapter-1214.html\n- chapter-1215.html\n- chapter-1216.html\n-
+  chapter-1217.html\n- chapter-1218.html\n- chapter-1219.html\n- chapter-1220.html\n-
+  chapter-1221.html\n- chapter-1222.html\n- chapter-1223.html\n- chapter-1224.html\n-
+  chapter-1225.html\n- chapter-1226.html\n- chapter-1227.html\n- chapter-1228.html\n-
+  chapter-1229.html\n- chapter-1230.html\n- chapter-1231.html\n- chapter-1232.html\n-
+  chapter-1233.html\n- chapter-1234.html\n- chapter-1235.html\n- chapter-1236.html\n-
+  chapter-1237.html\n- chapter-1238.html\n- chapter-1239.html\n- chapter-1240.html\n-
+  chapter-1241.html\n- chapter-1242.html\n- chapter-1243.html\n- chapter-1244.html\n-
+  chapter-1245.html\n- chapter-1246.html\n- chapter-1247.html\n- chapter-1248.html\n-
+  chapter-1249.html\n- chapter-1250.html\n- chapter-1251.html\n- chapter-1252.html\n-
+  chapter-1253.html\n- chapter-1254.html\n- chapter-1255.html\n- chapter-1256.html\n-
+  chapter-1257.html\n- chapter-1258.html\n- chapter-1259.html\n- chapter-1260.html\n-
+  chapter-1261.html\n- chapter-1262.html\n- chapter-1263.html\n- chapter-1264.html\n-
+  chapter-1265.html\n- chapter-1266.html\n- chapter-1267.html\n- chapter-1268.html\n-
+  chapter-1269.html\n- chapter-1270.html\n- chapter-1271.html\n- chapter-1272.html\n-
+  chapter-1273.html\n- chapter-1274.html\n- chapter-1275.html\n- chapter-1276.html\n-
+  chapter-1277.html\n- chapter-1278.html\n- chapter-1279.html\n- chapter-1280.html\n-
+  chapter-1281.html\n- chapter-1282.html\n- chapter-1283.html\n- chapter-1284.html\n-
+  chapter-1285.html\n- chapter-1286.html\n- chapter-1287.html\n- chapter-1288.html\n-
+  chapter-1289.html\n- chapter-1290.html\n- chapter-1291.html\n- chapter-1292.html\n-
+  chapter-1293.html\n- chapter-1294.html\n- chapter-1295.html\n- chapter-1296.html\n-
+  chapter-1297.html\n- chapter-1298.html\n- chapter-1299.html\n- chapter-1300.html\n-
+  chapter-1301.html\n- chapter-1302.html\n- chapter-1303.html\n- chapter-1304.html\n-
+  chapter-1305.html\n- chapter-1306.html\n- chapter-1307.html\n- chapter-1308.html\n-
+  chapter-1309.html\n- chapter-1310.html\n- chapter-1311.html\n- chapter-1312.html\n-
+  chapter-1313.html\n- chapter-1314.html\n- chapter-1315.html\n- chapter-1316.html\n-
+  chapter-1317.html\n- chapter-1318.html\n- chapter-1319.html\n- chapter-1320.html\n-
+  chapter-1321.html\n- chapter-1322.html\n- chapter-1323.html\n- chapter-1324.html\n-
+  chapter-1325.html\n- chapter-1326.html\n- chapter-1327.html\n- chapter-1328.html\n-
+  chapter-1329.html\n- chapter-1330.html\n- chapter-1331.html\n- chapter-1332.html\n-
+  chapter-1333.html\n- chapter-1334.html\n- chapter-1335.html\n- chapter-1336.html\n-
+  chapter-1337.html\n- chapter-1338.html\n- endofbook-03.html\n\n\nstandalone: true\nself-contained:
+  true\n\nresource-files:\n- .\n- .\n- ${.}/books/book03/Images/cover3.png\n- ${.}/books/book03/Images/title.png\n-
+  ${.}/books/book03/Images/gem.gif\n- ${.}/books/book03/Styles/Century Gothic.ttf\n-
+  ${.}/books/book03/Styles/Photograph Signature.ttf\n- ${.}/books/book03/Styles/style.css\n-
+  ${.}/books/book03/html/meta3.yaml\n- ${.}/books/book03/html/epub-meta3.yml\n- ${.}/books/book03/html/cover3.html\n-
+  ${.}/books/book03/html/titlepage-03.html\n- ${.}/books/book03/html/section-03.html\n-
+  ${.}/books/book03/html/chapter-0883.html\n- ${.}/books/book03/html/chapter-0884.html\n-
+  ${.}/books/book03/html/chapter-0885.html\n- ${.}/books/book03/html/chapter-0886.html\n-
+  ${.}/books/book03/html/chapter-0887.html\n- ${.}/books/book03/html/chapter-0888.html\n-
+  ${.}/books/book03/html/chapter-0889.html\n- ${.}/books/book03/html/chapter-0890.html\n-
+  ${.}/books/book03/html/chapter-0891.html\n- ${.}/books/book03/html/chapter-0892.html\n-
+  ${.}/books/book03/html/chapter-0893.html\n- ${.}/books/book03/html/chapter-0894.html\n-
+  ${.}/books/book03/html/chapter-0895.html\n- ${.}/books/book03/html/chapter-0896.html\n-
+  ${.}/books/book03/html/chapter-0897.html\n- ${.}/books/book03/html/chapter-0898.html\n-
+  ${.}/books/book03/html/chapter-0899.html\n- ${.}/books/book03/html/chapter-0900.html\n-
+  ${.}/books/book03/html/chapter-0901.html\n- ${.}/books/book03/html/chapter-0902.html\n-
+  ${.}/books/book03/html/chapter-0903.html\n- ${.}/books/book03/html/chapter-0904.html\n-
+  ${.}/books/book03/html/chapter-0905.html\n- ${.}/books/book03/html/chapter-0906.html\n-
+  ${.}/books/book03/html/chapter-0907.html\n- ${.}/books/book03/html/chapter-0908.html\n-
+  ${.}/books/book03/html/chapter-0909.html\n- ${.}/books/book03/html/chapter-0910.html\n-
+  ${.}/books/book03/html/chapter-0911.html\n- ${.}/books/book03/html/chapter-0912.html\n-
+  ${.}/books/book03/html/chapter-0913.html\n- ${.}/books/book03/html/chapter-0914.html\n-
+  ${.}/books/book03/html/chapter-0915.html\n- ${.}/books/book03/html/chapter-0916.html\n-
+  ${.}/books/book03/html/chapter-0917.html\n- ${.}/books/book03/html/chapter-0918.html\n-
+  ${.}/books/book03/html/chapter-0919.html\n- ${.}/books/book03/html/chapter-0920.html\n-
+  ${.}/books/book03/html/chapter-0921.html\n- ${.}/books/book03/html/chapter-0922.html\n-
+  ${.}/books/book03/html/chapter-0923.html\n- ${.}/books/book03/html/chapter-0924.html\n-
+  ${.}/books/book03/html/chapter-0925.html\n- ${.}/books/book03/html/chapter-0926.html\n-
+  ${.}/books/book03/html/chapter-0927.html\n- ${.}/books/book03/html/chapter-0928.html\n-
+  ${.}/books/book03/html/chapter-0929.html\n- ${.}/books/book03/html/chapter-0930.html\n-
+  ${.}/books/book03/html/chapter-0931.html\n- ${.}/books/book03/html/chapter-0932.html\n-
+  ${.}/books/book03/html/chapter-0933.html\n- ${.}/books/book03/html/chapter-0934.html\n-
+  ${.}/books/book03/html/chapter-0935.html\n- ${.}/books/book03/html/chapter-0936.html\n-
+  ${.}/books/book03/html/chapter-0937.html\n- ${.}/books/book03/html/chapter-0938.html\n-
+  ${.}/books/book03/html/chapter-0939.html\n- ${.}/books/book03/html/chapter-0940.html\n-
+  ${.}/books/book03/html/chapter-0941.html\n- ${.}/books/book03/html/chapter-0942.html\n-
+  ${.}/books/book03/html/chapter-0943.html\n- ${.}/books/book03/html/chapter-0944.html\n-
+  ${.}/books/book03/html/chapter-0945.html\n- ${.}/books/book03/html/chapter-0946.html\n-
+  ${.}/books/book03/html/chapter-0947.html\n- ${.}/books/book03/html/chapter-0948.html\n-
+  ${.}/books/book03/html/chapter-0949.html\n- ${.}/books/book03/html/chapter-0950.html\n-
+  ${.}/books/book03/html/chapter-0951.html\n- ${.}/books/book03/html/chapter-0952.html\n-
+  ${.}/books/book03/html/chapter-0953.html\n- ${.}/books/book03/html/chapter-0954.html\n-
+  ${.}/books/book03/html/chapter-0955.html\n- ${.}/books/book03/html/chapter-0956.html\n-
+  ${.}/books/book03/html/chapter-0957.html\n- ${.}/books/book03/html/chapter-0958.html\n-
+  ${.}/books/book03/html/chapter-0959.html\n- ${.}/books/book03/html/chapter-0960.html\n-
+  ${.}/books/book03/html/chapter-0961.html\n- ${.}/books/book03/html/chapter-0962.html\n-
+  ${.}/books/book03/html/chapter-0963.html\n- ${.}/books/book03/html/chapter-0964.html\n-
+  ${.}/books/book03/html/chapter-0965.html\n- ${.}/books/book03/html/chapter-0966.html\n-
+  ${.}/books/book03/html/chapter-0967.html\n- ${.}/books/book03/html/chapter-0968.html\n-
+  ${.}/books/book03/html/chapter-0969.html\n- ${.}/books/book03/html/chapter-0970.html\n-
+  ${.}/books/book03/html/chapter-0971.html\n- ${.}/books/book03/html/chapter-0972.html\n-
+  ${.}/books/book03/html/chapter-0973.html\n- ${.}/books/book03/html/chapter-0974.html\n-
+  ${.}/books/book03/html/chapter-0975.html\n- ${.}/books/book03/html/chapter-0976.html\n-
+  ${.}/books/book03/html/chapter-0977.html\n- ${.}/books/book03/html/chapter-0978.html\n-
+  ${.}/books/book03/html/chapter-0979.html\n- ${.}/books/book03/html/chapter-0980.html\n-
+  ${.}/books/book03/html/chapter-0981.html\n- ${.}/books/book03/html/chapter-0982.html\n-
+  ${.}/books/book03/html/chapter-0983.html\n- ${.}/books/book03/html/chapter-0984.html\n-
+  ${.}/books/book03/html/chapter-0985.html\n- ${.}/books/book03/html/chapter-0986.html\n-
+  ${.}/books/book03/html/chapter-0987.html\n- ${.}/books/book03/html/chapter-0988.html\n-
+  ${.}/books/book03/html/chapter-0989.html\n- ${.}/books/book03/html/chapter-0990.html\n-
+  ${.}/books/book03/html/chapter-0991.html\n- ${.}/books/book03/html/chapter-0992.html\n-
+  ${.}/books/book03/html/chapter-0993.html\n- ${.}/books/book03/html/chapter-0994.html\n-
+  ${.}/books/book03/html/chapter-0995.html\n- ${.}/books/book03/html/chapter-0996.html\n-
+  ${.}/books/book03/html/chapter-0997.html\n- ${.}/books/book03/html/chapter-0998.html\n-
+  ${.}/books/book03/html/chapter-0999.html\n- ${.}/books/book03/html/chapter-1000.html\n-
+  ${.}/books/book03/html/chapter-1001.html\n- ${.}/books/book03/html/chapter-1002.html\n-
+  ${.}/books/book03/html/chapter-1003.html\n- ${.}/books/book03/html/chapter-1004.html\n-
+  ${.}/books/book03/html/chapter-1005.html\n- ${.}/books/book03/html/chapter-1006.html\n-
+  ${.}/books/book03/html/chapter-1007.html\n- ${.}/books/book03/html/chapter-1008.html\n-
+  ${.}/books/book03/html/chapter-1009.html\n- ${.}/books/book03/html/chapter-1010.html\n-
+  ${.}/books/book03/html/chapter-1011.html\n- ${.}/books/book03/html/chapter-1012.html\n-
+  ${.}/books/book03/html/chapter-1013.html\n- ${.}/books/book03/html/chapter-1014.html\n-
+  ${.}/books/book03/html/chapter-1015.html\n- ${.}/books/book03/html/chapter-1016.html\n-
+  ${.}/books/book03/html/chapter-1017.html\n- ${.}/books/book03/html/chapter-1018.html\n-
+  ${.}/books/book03/html/chapter-1019.html\n- ${.}/books/book03/html/chapter-1020.html\n-
+  ${.}/books/book03/html/chapter-1021.html\n- ${.}/books/book03/html/chapter-1022.html\n-
+  ${.}/books/book03/html/chapter-1023.html\n- ${.}/books/book03/html/chapter-1024.html\n-
+  ${.}/books/book03/html/chapter-1025.html\n- ${.}/books/book03/html/chapter-1026.html\n-
+  ${.}/books/book03/html/chapter-1027.html\n- ${.}/books/book03/html/chapter-1028.html\n-
+  ${.}/books/book03/html/chapter-1029.html\n- ${.}/books/book03/html/chapter-1030.html\n-
+  ${.}/books/book03/html/chapter-1031.html\n- ${.}/books/book03/html/chapter-1032.html\n-
+  ${.}/books/book03/html/chapter-1033.html\n- ${.}/books/book03/html/chapter-1034.html\n-
+  ${.}/books/book03/html/chapter-1035.html\n- ${.}/books/book03/html/chapter-1036.html\n-
+  ${.}/books/book03/html/chapter-1037.html\n- ${.}/books/book03/html/chapter-1038.html\n-
+  ${.}/books/book03/html/chapter-1039.html\n- ${.}/books/book03/html/chapter-1040.html\n-
+  ${.}/books/book03/html/chapter-1041.html\n- ${.}/books/book03/html/chapter-1042.html\n-
+  ${.}/books/book03/html/chapter-1043.html\n- ${.}/books/book03/html/chapter-1044.html\n-
+  ${.}/books/book03/html/chapter-1045.html\n- ${.}/books/book03/html/chapter-1046.html\n-
+  ${.}/books/book03/html/chapter-1047.html\n- ${.}/books/book03/html/chapter-1048.html\n-
+  ${.}/books/book03/html/chapter-1049.html\n- ${.}/books/book03/html/chapter-1050.html\n-
+  ${.}/books/book03/html/chapter-1051.html\n- ${.}/books/book03/html/chapter-1052.html\n-
+  ${.}/books/book03/html/chapter-1053.html\n- ${.}/books/book03/html/chapter-1054.html\n-
+  ${.}/books/book03/html/chapter-1055.html\n- ${.}/books/book03/html/chapter-1056.html\n-
+  ${.}/books/book03/html/chapter-1057.html\n- ${.}/books/book03/html/chapter-1058.html\n-
+  ${.}/books/book03/html/chapter-1059.html\n- ${.}/books/book03/html/chapter-1060.html\n-
+  ${.}/books/book03/html/chapter-1061.html\n- ${.}/books/book03/html/chapter-1062.html\n-
+  ${.}/books/book03/html/chapter-1063.html\n- ${.}/books/book03/html/chapter-1064.html\n-
+  ${.}/books/book03/html/chapter-1065.html\n- ${.}/books/book03/html/chapter-1066.html\n-
+  ${.}/books/book03/html/chapter-1067.html\n- ${.}/books/book03/html/chapter-1068.html\n-
+  ${.}/books/book03/html/chapter-1069.html\n- ${.}/books/book03/html/chapter-1070.html\n-
+  ${.}/books/book03/html/chapter-1071.html\n- ${.}/books/book03/html/chapter-1072.html\n-
+  ${.}/books/book03/html/chapter-1073.html\n- ${.}/books/book03/html/chapter-1074.html\n-
+  ${.}/books/book03/html/chapter-1075.html\n- ${.}/books/book03/html/chapter-1076.html\n-
+  ${.}/books/book03/html/chapter-1077.html\n- ${.}/books/book03/html/chapter-1078.html\n-
+  ${.}/books/book03/html/chapter-1079.html\n- ${.}/books/book03/html/chapter-1080.html\n-
+  ${.}/books/book03/html/chapter-1081.html\n- ${.}/books/book03/html/chapter-1082.html\n-
+  ${.}/books/book03/html/chapter-1083.html\n- ${.}/books/book03/html/chapter-1084.html\n-
+  ${.}/books/book03/html/chapter-1085.html\n- ${.}/books/book03/html/chapter-1086.html\n-
+  ${.}/books/book03/html/chapter-1087.html\n- ${.}/books/book03/html/chapter-1088.html\n-
+  ${.}/books/book03/html/chapter-1089.html\n- ${.}/books/book03/html/chapter-1090.html\n-
+  ${.}/books/book03/html/chapter-1091.html\n- ${.}/books/book03/html/chapter-1092.html\n-
+  ${.}/books/book03/html/chapter-1093.html\n- ${.}/books/book03/html/chapter-1094.html\n-
+  ${.}/books/book03/html/chapter-1095.html\n- ${.}/books/book03/html/chapter-1096.html\n-
+  ${.}/books/book03/html/chapter-1097.html\n- ${.}/books/book03/html/chapter-1098.html\n-
+  ${.}/books/book03/html/chapter-1099.html\n- ${.}/books/book03/html/chapter-1100.html\n-
+  ${.}/books/book03/html/chapter-1101.html\n- ${.}/books/book03/html/chapter-1102.html\n-
+  ${.}/books/book03/html/chapter-1103.html\n- ${.}/books/book03/html/chapter-1104.html\n-
+  ${.}/books/book03/html/chapter-1105.html\n- ${.}/books/book03/html/chapter-1106.html\n-
+  ${.}/books/book03/html/chapter-1107.html\n- ${.}/books/book03/html/chapter-1108.html\n-
+  ${.}/books/book03/html/chapter-1109.html\n- ${.}/books/book03/html/chapter-1110.html\n-
+  ${.}/books/book03/html/chapter-1111.html\n- ${.}/books/book03/html/chapter-1112.html\n-
+  ${.}/books/book03/html/chapter-1113.html\n- ${.}/books/book03/html/chapter-1114.html\n-
+  ${.}/books/book03/html/chapter-1115.html\n- ${.}/books/book03/html/chapter-1116.html\n-
+  ${.}/books/book03/html/chapter-1117.html\n- ${.}/books/book03/html/chapter-1118.html\n-
+  ${.}/books/book03/html/chapter-1119.html\n- ${.}/books/book03/html/chapter-1120.html\n-
+  ${.}/books/book03/html/chapter-1121.html\n- ${.}/books/book03/html/chapter-1122.html\n-
+  ${.}/books/book03/html/chapter-1123.html\n- ${.}/books/book03/html/chapter-1124.html\n-
+  ${.}/books/book03/html/chapter-1125.html\n- ${.}/books/book03/html/chapter-1126.html\n-
+  ${.}/books/book03/html/chapter-1127.html\n- ${.}/books/book03/html/chapter-1128.html\n-
+  ${.}/books/book03/html/chapter-1129.html\n- ${.}/books/book03/html/chapter-1130.html\n-
+  ${.}/books/book03/html/chapter-1131.html\n- ${.}/books/book03/html/chapter-1132.html\n-
+  ${.}/books/book03/html/chapter-1133.html\n- ${.}/books/book03/html/chapter-1134.html\n-
+  ${.}/books/book03/html/chapter-1135.html\n- ${.}/books/book03/html/chapter-1136.html\n-
+  ${.}/books/book03/html/chapter-1137.html\n- ${.}/books/book03/html/chapter-1138.html\n-
+  ${.}/books/book03/html/chapter-1139.html\n- ${.}/books/book03/html/chapter-1140.html\n-
+  ${.}/books/book03/html/chapter-1141.html\n- ${.}/books/book03/html/chapter-1142.html\n-
+  ${.}/books/book03/html/chapter-1143.html\n- ${.}/books/book03/html/chapter-1144.html\n-
+  ${.}/books/book03/html/chapter-1145.html\n- ${.}/books/book03/html/chapter-1146.html\n-
+  ${.}/books/book03/html/chapter-1147.html\n- ${.}/books/book03/html/chapter-1148.html\n-
+  ${.}/books/book03/html/chapter-1149.html\n- ${.}/books/book03/html/chapter-1150.html\n-
+  ${.}/books/book03/html/chapter-1151.html\n- ${.}/books/book03/html/chapter-1152.html\n-
+  ${.}/books/book03/html/chapter-1153.html\n- ${.}/books/book03/html/chapter-1154.html\n-
+  ${.}/books/book03/html/chapter-1155.html\n- ${.}/books/book03/html/chapter-1156.html\n-
+  ${.}/books/book03/html/chapter-1157.html\n- ${.}/books/book03/html/chapter-1158.html\n-
+  ${.}/books/book03/html/chapter-1159.html\n- ${.}/books/book03/html/chapter-1160.html\n-
+  ${.}/books/book03/html/chapter-1161.html\n- ${.}/books/book03/html/chapter-1162.html\n-
+  ${.}/books/book03/html/chapter-1163.html\n- ${.}/books/book03/html/chapter-1164.html\n-
+  ${.}/books/book03/html/chapter-1165.html\n- ${.}/books/book03/html/chapter-1166.html\n-
+  ${.}/books/book03/html/chapter-1167.html\n- ${.}/books/book03/html/chapter-1168.html\n-
+  ${.}/books/book03/html/chapter-1169.html\n- ${.}/books/book03/html/chapter-1170.html\n-
+  ${.}/books/book03/html/chapter-1171.html\n- ${.}/books/book03/html/chapter-1172.html\n-
+  ${.}/books/book03/html/chapter-1173.html\n- ${.}/books/book03/html/chapter-1174.html\n-
+  ${.}/books/book03/html/chapter-1175.html\n- ${.}/books/book03/html/chapter-1176.html\n-
+  ${.}/books/book03/html/chapter-1177.html\n- ${.}/books/book03/html/chapter-1178.html\n-
+  ${.}/books/book03/html/chapter-1179.html\n- ${.}/books/book03/html/chapter-1180.html\n-
+  ${.}/books/book03/html/chapter-1181.html\n- ${.}/books/book03/html/chapter-1182.html\n-
+  ${.}/books/book03/html/chapter-1183.html\n- ${.}/books/book03/html/chapter-1184.html\n-
+  ${.}/books/book03/html/chapter-1185.html\n- ${.}/books/book03/html/chapter-1186.html\n-
+  ${.}/books/book03/html/chapter-1187.html\n- ${.}/books/book03/html/chapter-1188.html\n-
+  ${.}/books/book03/html/chapter-1189.html\n- ${.}/books/book03/html/chapter-1190.html\n-
+  ${.}/books/book03/html/chapter-1191.html\n- ${.}/books/book03/html/chapter-1192.html\n-
+  ${.}/books/book03/html/chapter-1193.html\n- ${.}/books/book03/html/chapter-1194.html\n-
+  ${.}/books/book03/html/chapter-1195.html\n- ${.}/books/book03/html/chapter-1196.html\n-
+  ${.}/books/book03/html/chapter-1197.html\n- ${.}/books/book03/html/chapter-1198.html\n-
+  ${.}/books/book03/html/chapter-1199.html\n- ${.}/books/book03/html/chapter-1200.html\n-
+  ${.}/books/book03/html/chapter-1201.html\n- ${.}/books/book03/html/chapter-1202.html\n-
+  ${.}/books/book03/html/chapter-1203.html\n- ${.}/books/book03/html/chapter-1204.html\n-
+  ${.}/books/book03/html/chapter-1205.html\n- ${.}/books/book03/html/chapter-1206.html\n-
+  ${.}/books/book03/html/chapter-1207.html\n- ${.}/books/book03/html/chapter-1208.html\n-
+  ${.}/books/book03/html/chapter-1209.html\n- ${.}/books/book03/html/chapter-1210.html\n-
+  ${.}/books/book03/html/chapter-1211.html\n- ${.}/books/book03/html/chapter-1212.html\n-
+  ${.}/books/book03/html/chapter-1213.html\n- ${.}/books/book03/html/chapter-1214.html\n-
+  ${.}/books/book03/html/chapter-1215.html\n- ${.}/books/book03/html/chapter-1216.html\n-
+  ${.}/books/book03/html/chapter-1217.html\n- ${.}/books/book03/html/chapter-1218.html\n-
+  ${.}/books/book03/html/chapter-1219.html\n- ${.}/books/book03/html/chapter-1220.html\n-
+  ${.}/books/book03/html/chapter-1221.html\n- ${.}/books/book03/html/chapter-1222.html\n-
+  ${.}/books/book03/html/chapter-1223.html\n- ${.}/books/book03/html/chapter-1224.html\n-
+  ${.}/books/book03/html/chapter-1225.html\n- ${.}/books/book03/html/chapter-1226.html\n-
+  ${.}/books/book03/html/chapter-1227.html\n- ${.}/books/book03/html/chapter-1228.html\n-
+  ${.}/books/book03/html/chapter-1229.html\n- ${.}/books/book03/html/chapter-1230.html\n-
+  ${.}/books/book03/html/chapter-1231.html\n- ${.}/books/book03/html/chapter-1232.html\n-
+  ${.}/books/book03/html/chapter-1233.html\n- ${.}/books/book03/html/chapter-1234.html\n-
+  ${.}/books/book03/html/chapter-1235.html\n- ${.}/books/book03/html/chapter-1236.html\n-
+  ${.}/books/book03/html/chapter-1237.html\n- ${.}/books/book03/html/chapter-1238.html\n-
+  ${.}/books/book03/html/chapter-1239.html\n- ${.}/books/book03/html/chapter-1240.html\n-
+  ${.}/books/book03/html/chapter-1241.html\n- ${.}/books/book03/html/chapter-1242.html\n-
+  ${.}/books/book03/html/chapter-1243.html\n- ${.}/books/book03/html/chapter-1244.html\n-
+  ${.}/books/book03/html/chapter-1245.html\n- ${.}/books/book03/html/chapter-1246.html\n-
+  ${.}/books/book03/html/chapter-1247.html\n- ${.}/books/book03/html/chapter-1248.html\n-
+  ${.}/books/book03/html/chapter-1249.html\n- ${.}/books/book03/html/chapter-1250.html\n-
+  ${.}/books/book03/html/chapter-1251.html\n- ${.}/books/book03/html/chapter-1252.html\n-
+  ${.}/books/book03/html/chapter-1253.html\n- ${.}/books/book03/html/chapter-1254.html\n-
+  ${.}/books/book03/html/chapter-1255.html\n- ${.}/books/book03/html/chapter-1256.html\n-
+  ${.}/books/book03/html/chapter-1257.html\n- ${.}/books/book03/html/chapter-1258.html\n-
+  ${.}/books/book03/html/chapter-1259.html\n- ${.}/books/book03/html/chapter-1260.html\n-
+  ${.}/books/book03/html/chapter-1261.html\n- ${.}/books/book03/html/chapter-1262.html\n-
+  ${.}/books/book03/html/chapter-1263.html\n- ${.}/books/book03/html/chapter-1264.html\n-
+  ${.}/books/book03/html/chapter-1265.html\n- ${.}/books/book03/html/chapter-1266.html\n-
+  ${.}/books/book03/html/chapter-1267.html\n- ${.}/books/book03/html/chapter-1268.html\n-
+  ${.}/books/book03/html/chapter-1269.html\n- ${.}/books/book03/html/chapter-1270.html\n-
+  ${.}/books/book03/html/chapter-1271.html\n- ${.}/books/book03/html/chapter-1272.html\n-
+  ${.}/books/book03/html/chapter-1273.html\n- ${.}/books/book03/html/chapter-1274.html\n-
+  ${.}/books/book03/html/chapter-1275.html\n- ${.}/books/book03/html/chapter-1276.html\n-
+  ${.}/books/book03/html/chapter-1277.html\n- ${.}/books/book03/html/chapter-1278.html\n-
+  ${.}/books/book03/html/chapter-1279.html\n- ${.}/books/book03/html/chapter-1280.html\n-
+  ${.}/books/book03/html/chapter-1281.html\n- ${.}/books/book03/html/chapter-1282.html\n-
+  ${.}/books/book03/html/chapter-1283.html\n- ${.}/books/book03/html/chapter-1284.html\n-
+  ${.}/books/book03/html/chapter-1285.html\n- ${.}/books/book03/html/chapter-1286.html\n-
+  ${.}/books/book03/html/chapter-1287.html\n- ${.}/books/book03/html/chapter-1288.html\n-
+  ${.}/books/book03/html/chapter-1289.html\n- ${.}/books/book03/html/chapter-1290.html\n-
+  ${.}/books/book03/html/chapter-1291.html\n- ${.}/books/book03/html/chapter-1292.html\n-
+  ${.}/books/book03/html/chapter-1293.html\n- ${.}/books/book03/html/chapter-1294.html\n-
+  ${.}/books/book03/html/chapter-1295.html\n- ${.}/books/book03/html/chapter-1296.html\n-
+  ${.}/books/book03/html/chapter-1297.html\n- ${.}/books/book03/html/chapter-1298.html\n-
+  ${.}/books/book03/html/chapter-1299.html\n- ${.}/books/book03/html/chapter-1300.html\n-
+  ${.}/books/book03/html/chapter-1301.html\n- ${.}/books/book03/html/chapter-1302.html\n-
+  ${.}/books/book03/html/chapter-1303.html\n- ${.}/books/book03/html/chapter-1304.html\n-
+  ${.}/books/book03/html/chapter-1305.html\n- ${.}/books/book03/html/chapter-1306.html\n-
+  ${.}/books/book03/html/chapter-1307.html\n- ${.}/books/book03/html/chapter-1308.html\n-
+  ${.}/books/book03/html/chapter-1309.html\n- ${.}/books/book03/html/chapter-1310.html\n-
+  ${.}/books/book03/html/chapter-1311.html\n- ${.}/books/book03/html/chapter-1312.html\n-
+  ${.}/books/book03/html/chapter-1313.html\n- ${.}/books/book03/html/chapter-1314.html\n-
+  ${.}/books/book03/html/chapter-1315.html\n- ${.}/books/book03/html/chapter-1316.html\n-
+  ${.}/books/book03/html/chapter-1317.html\n- ${.}/books/book03/html/chapter-1318.html\n-
+  ${.}/books/book03/html/chapter-1319.html\n- ${.}/books/book03/html/chapter-1320.html\n-
+  ${.}/books/book03/html/chapter-1321.html\n- ${.}/books/book03/html/chapter-1322.html\n-
+  ${.}/books/book03/html/chapter-1323.html\n- ${.}/books/book03/html/chapter-1324.html\n-
+  ${.}/books/book03/html/chapter-1325.html\n- ${.}/books/book03/html/chapter-1326.html\n-
+  ${.}/books/book03/html/chapter-1327.html\n- ${.}/books/book03/html/chapter-1328.html\n-
+  ${.}/books/book03/html/chapter-1329.html\n- ${.}/books/book03/html/chapter-1330.html\n-
+  ${.}/books/book03/html/chapter-1331.html\n- ${.}/books/book03/html/chapter-1332.html\n-
+  ${.}/books/book03/html/chapter-1333.html\n- ${.}/books/book03/html/chapter-1334.html\n-
+  ${.}/books/book03/html/chapter-1335.html\n- ${.}/books/book03/html/chapter-1336.html\n-
+  ${.}/books/book03/html/chapter-1337.html\n- ${.}/books/book03/html/chapter-1338.html\n-
+  ${.}/books/book03/html/endofbook-03.html\ntoc: true\ntoc-depth: 2\nepub-chapter-level:
+  2\nepub-cover-image: cover3.png\n  \n\nepub-fonts:\n- Urbanist-Italic.ttf\n- Urbanist-Regular.ttf\n-
+  Urbanist-Thin.ttf\n- Urbanist-ThinItalic.ttf\n- White Modesty.ttf\n\nepub-metadata:
+  ---\nbelongs-to-collection: Super Gene\ncover-image: Images/cover3.png\ncreator:\n-
+  role: author\n  text: Twelve Winged Dark Seraphim\n- role: editor\n  text: Max Ludden\ncss:\n-
+  style.css\ngroup-position: 3\nibooks:\n- version: '4.4'\n- specified-fonts: true\n-
+  iphone-orientation-lock: portrait-only\n- scroll-axis: vertical\npage-progression-direction:
+  ltr\ntitle:\n- text: Third God's Sanctuary\n  type: main\n- text: Book Three\n  type:
+  subtitle\n...\n\nmetadata-files:\n- meta3.yml\n- epub-meta3.yml\n\ncss-files:\n-
+  style.css\n"

@@ -243,4 +243,3 @@ def generate_text(book:int, save: bool = False, write: bool = False):
                 outfile.write(text)
                 log.debug(f"Wrote Book {book}'s epub metadata to file.")
 
-generate_text(1, save=True, write=True)

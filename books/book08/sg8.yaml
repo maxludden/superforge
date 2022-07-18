@@ -1,0 +1,259 @@
+"---\nfrom: html\nto: epub\n  \noutput-file: mongodefault.output\n\n  \ninput-files:\n\n-
+  cover8.html\n- titlepage-08.html\n- section-12.html\n- chapter-2444.html\n- chapter-2445.html\n-
+  chapter-2446.html\n- chapter-2447.html\n- chapter-2448.html\n- chapter-2449.html\n-
+  chapter-2450.html\n- chapter-2451.html\n- chapter-2452.html\n- chapter-2453.html\n-
+  chapter-2454.html\n- chapter-2455.html\n- chapter-2456.html\n- chapter-2457.html\n-
+  chapter-2458.html\n- chapter-2459.html\n- chapter-2460.html\n- chapter-2461.html\n-
+  chapter-2462.html\n- chapter-2463.html\n- chapter-2464.html\n- chapter-2465.html\n-
+  chapter-2466.html\n- chapter-2467.html\n- chapter-2468.html\n- chapter-2469.html\n-
+  chapter-2470.html\n- chapter-2471.html\n- chapter-2472.html\n- chapter-2473.html\n-
+  chapter-2474.html\n- chapter-2475.html\n- chapter-2476.html\n- chapter-2477.html\n-
+  chapter-2478.html\n- chapter-2479.html\n- chapter-2480.html\n- chapter-2481.html\n-
+  chapter-2482.html\n- chapter-2483.html\n- chapter-2484.html\n- chapter-2485.html\n-
+  chapter-2486.html\n- chapter-2487.html\n- chapter-2488.html\n- chapter-2489.html\n-
+  chapter-2490.html\n- chapter-2491.html\n- chapter-2492.html\n- chapter-2493.html\n-
+  chapter-2494.html\n- chapter-2495.html\n- chapter-2496.html\n- chapter-2497.html\n-
+  chapter-2498.html\n- chapter-2499.html\n- chapter-2500.html\n- chapter-2501.html\n-
+  chapter-2502.html\n- chapter-2503.html\n- chapter-2504.html\n- chapter-2505.html\n-
+  chapter-2506.html\n- chapter-2507.html\n- chapter-2508.html\n- chapter-2509.html\n-
+  chapter-2510.html\n- chapter-2511.html\n- chapter-2512.html\n- chapter-2513.html\n-
+  chapter-2514.html\n- chapter-2515.html\n- chapter-2516.html\n- chapter-2517.html\n-
+  chapter-2518.html\n- chapter-2519.html\n- chapter-2520.html\n- chapter-2521.html\n-
+  chapter-2522.html\n- chapter-2523.html\n- chapter-2524.html\n- chapter-2525.html\n-
+  chapter-2526.html\n- chapter-2527.html\n- chapter-2528.html\n- chapter-2529.html\n-
+  chapter-2530.html\n- chapter-2531.html\n- chapter-2532.html\n- chapter-2533.html\n-
+  chapter-2534.html\n- chapter-2535.html\n- chapter-2536.html\n- chapter-2537.html\n-
+  chapter-2538.html\n- chapter-2539.html\n- chapter-2540.html\n- chapter-2541.html\n-
+  chapter-2542.html\n- chapter-2543.html\n- chapter-2544.html\n- chapter-2545.html\n-
+  chapter-2546.html\n- chapter-2547.html\n- chapter-2548.html\n- chapter-2549.html\n-
+  chapter-2550.html\n- chapter-2551.html\n- chapter-2552.html\n- chapter-2553.html\n-
+  chapter-2554.html\n- chapter-2555.html\n- chapter-2556.html\n- chapter-2557.html\n-
+  chapter-2558.html\n- chapter-2559.html\n- chapter-2560.html\n- chapter-2561.html\n-
+  chapter-2562.html\n- chapter-2563.html\n- chapter-2564.html\n- chapter-2565.html\n-
+  chapter-2566.html\n- chapter-2567.html\n- chapter-2568.html\n- chapter-2569.html\n-
+  chapter-2570.html\n- chapter-2571.html\n- chapter-2572.html\n- chapter-2573.html\n-
+  chapter-2574.html\n- chapter-2575.html\n- chapter-2576.html\n- chapter-2577.html\n-
+  chapter-2578.html\n- chapter-2579.html\n- chapter-2580.html\n- chapter-2581.html\n-
+  chapter-2582.html\n- chapter-2583.html\n- chapter-2584.html\n- chapter-2585.html\n-
+  chapter-2586.html\n- chapter-2587.html\n- chapter-2588.html\n- chapter-2589.html\n-
+  chapter-2590.html\n- chapter-2591.html\n- chapter-2592.html\n- chapter-2593.html\n-
+  chapter-2594.html\n- chapter-2595.html\n- chapter-2596.html\n- chapter-2597.html\n-
+  chapter-2598.html\n- chapter-2599.html\n- chapter-2600.html\n- chapter-2601.html\n-
+  chapter-2602.html\n- chapter-2603.html\n- chapter-2604.html\n- chapter-2605.html\n-
+  chapter-2606.html\n- chapter-2607.html\n- chapter-2608.html\n- chapter-2609.html\n-
+  chapter-2610.html\n- chapter-2611.html\n- chapter-2612.html\n- chapter-2613.html\n-
+  chapter-2614.html\n- chapter-2615.html\n- chapter-2616.html\n- chapter-2617.html\n-
+  chapter-2618.html\n- chapter-2619.html\n- chapter-2620.html\n- chapter-2621.html\n-
+  chapter-2622.html\n- chapter-2623.html\n- chapter-2624.html\n- chapter-2625.html\n-
+  chapter-2626.html\n- chapter-2627.html\n- chapter-2628.html\n- chapter-2629.html\n-
+  chapter-2630.html\n- chapter-2631.html\n- chapter-2632.html\n- chapter-2633.html\n-
+  chapter-2634.html\n- chapter-2635.html\n- chapter-2636.html\n- chapter-2637.html\n-
+  chapter-2638.html\n- chapter-2639.html\n- section-13.html\n- chapter-2640.html\n-
+  chapter-2641.html\n- chapter-2642.html\n- chapter-2643.html\n- chapter-2644.html\n-
+  chapter-2645.html\n- chapter-2646.html\n- chapter-2647.html\n- chapter-2648.html\n-
+  chapter-2649.html\n- chapter-2650.html\n- chapter-2651.html\n- chapter-2652.html\n-
+  chapter-2653.html\n- chapter-2654.html\n- chapter-2655.html\n- chapter-2656.html\n-
+  chapter-2657.html\n- chapter-2658.html\n- chapter-2659.html\n- chapter-2660.html\n-
+  chapter-2661.html\n- chapter-2662.html\n- chapter-2663.html\n- chapter-2664.html\n-
+  chapter-2665.html\n- chapter-2666.html\n- chapter-2667.html\n- chapter-2668.html\n-
+  chapter-2669.html\n- chapter-2670.html\n- chapter-2671.html\n- chapter-2672.html\n-
+  chapter-2673.html\n- chapter-2674.html\n- chapter-2675.html\n- chapter-2676.html\n-
+  chapter-2677.html\n- chapter-2678.html\n- chapter-2679.html\n- chapter-2680.html\n-
+  chapter-2681.html\n- chapter-2682.html\n- chapter-2683.html\n- chapter-2684.html\n-
+  chapter-2685.html\n- chapter-2686.html\n- chapter-2687.html\n- chapter-2688.html\n-
+  chapter-2689.html\n- chapter-2690.html\n- chapter-2691.html\n- chapter-2692.html\n-
+  chapter-2693.html\n- chapter-2694.html\n- chapter-2695.html\n- chapter-2696.html\n-
+  chapter-2697.html\n- chapter-2698.html\n- chapter-2699.html\n- chapter-2700.html\n-
+  chapter-2701.html\n- chapter-2702.html\n- chapter-2703.html\n- chapter-2704.html\n-
+  chapter-2705.html\n- chapter-2706.html\n- chapter-2707.html\n- chapter-2708.html\n-
+  chapter-2709.html\n- chapter-2710.html\n- chapter-2711.html\n- chapter-2712.html\n-
+  chapter-2713.html\n- chapter-2714.html\n- chapter-2715.html\n- chapter-2716.html\n-
+  chapter-2717.html\n- chapter-2718.html\n- chapter-2719.html\n- chapter-2720.html\n-
+  chapter-2721.html\n- chapter-2722.html\n- chapter-2723.html\n- chapter-2724.html\n-
+  chapter-2725.html\n- chapter-2726.html\n- chapter-2727.html\n- chapter-2728.html\n-
+  chapter-2729.html\n- chapter-2730.html\n- chapter-2731.html\n- chapter-2732.html\n-
+  chapter-2733.html\n- chapter-2734.html\n- chapter-2735.html\n- chapter-2736.html\n-
+  chapter-2737.html\n- chapter-2738.html\n- chapter-2739.html\n- chapter-2740.html\n-
+  chapter-2741.html\n- chapter-2742.html\n- chapter-2743.html\n- chapter-2744.html\n-
+  chapter-2745.html\n- chapter-2746.html\n- chapter-2747.html\n- chapter-2748.html\n-
+  chapter-2749.html\n- chapter-2750.html\n- chapter-2751.html\n- chapter-2752.html\n-
+  chapter-2753.html\n- chapter-2754.html\n- chapter-2755.html\n- chapter-2756.html\n-
+  chapter-2757.html\n- chapter-2758.html\n- chapter-2759.html\n- chapter-2760.html\n-
+  chapter-2761.html\n- chapter-2762.html\n- chapter-2763.html\n- chapter-2764.html\n-
+  chapter-2765.html\n- endofbook-08.html\n\n\nstandalone: true\nself-contained: true\n\nresource-files:\n-
+  .\n- .\n- ${.}/books/book08/Images/cover8.png\n- ${.}/books/book08/Images/title.png\n-
+  ${.}/books/book08/Images/gem.gif\n- ${.}/books/book08/Styles/Century Gothic.ttf\n-
+  ${.}/books/book08/Styles/Photograph Signature.ttf\n- ${.}/books/book08/Styles/style.css\n-
+  ${.}/books/book08/html/meta8.yaml\n- ${.}/books/book08/html/epub-meta8.yml\n- ${.}/books/book08/html/cover8.html\n-
+  ${.}/books/book08/html/titlepage-08.html\n- ${.}/books/book08/html/section-12.html\n-
+  ${.}/books/book08/html/chapter-2444.html\n- ${.}/books/book08/html/chapter-2445.html\n-
+  ${.}/books/book08/html/chapter-2446.html\n- ${.}/books/book08/html/chapter-2447.html\n-
+  ${.}/books/book08/html/chapter-2448.html\n- ${.}/books/book08/html/chapter-2449.html\n-
+  ${.}/books/book08/html/chapter-2450.html\n- ${.}/books/book08/html/chapter-2451.html\n-
+  ${.}/books/book08/html/chapter-2452.html\n- ${.}/books/book08/html/chapter-2453.html\n-
+  ${.}/books/book08/html/chapter-2454.html\n- ${.}/books/book08/html/chapter-2455.html\n-
+  ${.}/books/book08/html/chapter-2456.html\n- ${.}/books/book08/html/chapter-2457.html\n-
+  ${.}/books/book08/html/chapter-2458.html\n- ${.}/books/book08/html/chapter-2459.html\n-
+  ${.}/books/book08/html/chapter-2460.html\n- ${.}/books/book08/html/chapter-2461.html\n-
+  ${.}/books/book08/html/chapter-2462.html\n- ${.}/books/book08/html/chapter-2463.html\n-
+  ${.}/books/book08/html/chapter-2464.html\n- ${.}/books/book08/html/chapter-2465.html\n-
+  ${.}/books/book08/html/chapter-2466.html\n- ${.}/books/book08/html/chapter-2467.html\n-
+  ${.}/books/book08/html/chapter-2468.html\n- ${.}/books/book08/html/chapter-2469.html\n-
+  ${.}/books/book08/html/chapter-2470.html\n- ${.}/books/book08/html/chapter-2471.html\n-
+  ${.}/books/book08/html/chapter-2472.html\n- ${.}/books/book08/html/chapter-2473.html\n-
+  ${.}/books/book08/html/chapter-2474.html\n- ${.}/books/book08/html/chapter-2475.html\n-
+  ${.}/books/book08/html/chapter-2476.html\n- ${.}/books/book08/html/chapter-2477.html\n-
+  ${.}/books/book08/html/chapter-2478.html\n- ${.}/books/book08/html/chapter-2479.html\n-
+  ${.}/books/book08/html/chapter-2480.html\n- ${.}/books/book08/html/chapter-2481.html\n-
+  ${.}/books/book08/html/chapter-2482.html\n- ${.}/books/book08/html/chapter-2483.html\n-
+  ${.}/books/book08/html/chapter-2484.html\n- ${.}/books/book08/html/chapter-2485.html\n-
+  ${.}/books/book08/html/chapter-2486.html\n- ${.}/books/book08/html/chapter-2487.html\n-
+  ${.}/books/book08/html/chapter-2488.html\n- ${.}/books/book08/html/chapter-2489.html\n-
+  ${.}/books/book08/html/chapter-2490.html\n- ${.}/books/book08/html/chapter-2491.html\n-
+  ${.}/books/book08/html/chapter-2492.html\n- ${.}/books/book08/html/chapter-2493.html\n-
+  ${.}/books/book08/html/chapter-2494.html\n- ${.}/books/book08/html/chapter-2495.html\n-
+  ${.}/books/book08/html/chapter-2496.html\n- ${.}/books/book08/html/chapter-2497.html\n-
+  ${.}/books/book08/html/chapter-2498.html\n- ${.}/books/book08/html/chapter-2499.html\n-
+  ${.}/books/book08/html/chapter-2500.html\n- ${.}/books/book08/html/chapter-2501.html\n-
+  ${.}/books/book08/html/chapter-2502.html\n- ${.}/books/book08/html/chapter-2503.html\n-
+  ${.}/books/book08/html/chapter-2504.html\n- ${.}/books/book08/html/chapter-2505.html\n-
+  ${.}/books/book08/html/chapter-2506.html\n- ${.}/books/book08/html/chapter-2507.html\n-
+  ${.}/books/book08/html/chapter-2508.html\n- ${.}/books/book08/html/chapter-2509.html\n-
+  ${.}/books/book08/html/chapter-2510.html\n- ${.}/books/book08/html/chapter-2511.html\n-
+  ${.}/books/book08/html/chapter-2512.html\n- ${.}/books/book08/html/chapter-2513.html\n-
+  ${.}/books/book08/html/chapter-2514.html\n- ${.}/books/book08/html/chapter-2515.html\n-
+  ${.}/books/book08/html/chapter-2516.html\n- ${.}/books/book08/html/chapter-2517.html\n-
+  ${.}/books/book08/html/chapter-2518.html\n- ${.}/books/book08/html/chapter-2519.html\n-
+  ${.}/books/book08/html/chapter-2520.html\n- ${.}/books/book08/html/chapter-2521.html\n-
+  ${.}/books/book08/html/chapter-2522.html\n- ${.}/books/book08/html/chapter-2523.html\n-
+  ${.}/books/book08/html/chapter-2524.html\n- ${.}/books/book08/html/chapter-2525.html\n-
+  ${.}/books/book08/html/chapter-2526.html\n- ${.}/books/book08/html/chapter-2527.html\n-
+  ${.}/books/book08/html/chapter-2528.html\n- ${.}/books/book08/html/chapter-2529.html\n-
+  ${.}/books/book08/html/chapter-2530.html\n- ${.}/books/book08/html/chapter-2531.html\n-
+  ${.}/books/book08/html/chapter-2532.html\n- ${.}/books/book08/html/chapter-2533.html\n-
+  ${.}/books/book08/html/chapter-2534.html\n- ${.}/books/book08/html/chapter-2535.html\n-
+  ${.}/books/book08/html/chapter-2536.html\n- ${.}/books/book08/html/chapter-2537.html\n-
+  ${.}/books/book08/html/chapter-2538.html\n- ${.}/books/book08/html/chapter-2539.html\n-
+  ${.}/books/book08/html/chapter-2540.html\n- ${.}/books/book08/html/chapter-2541.html\n-
+  ${.}/books/book08/html/chapter-2542.html\n- ${.}/books/book08/html/chapter-2543.html\n-
+  ${.}/books/book08/html/chapter-2544.html\n- ${.}/books/book08/html/chapter-2545.html\n-
+  ${.}/books/book08/html/chapter-2546.html\n- ${.}/books/book08/html/chapter-2547.html\n-
+  ${.}/books/book08/html/chapter-2548.html\n- ${.}/books/book08/html/chapter-2549.html\n-
+  ${.}/books/book08/html/chapter-2550.html\n- ${.}/books/book08/html/chapter-2551.html\n-
+  ${.}/books/book08/html/chapter-2552.html\n- ${.}/books/book08/html/chapter-2553.html\n-
+  ${.}/books/book08/html/chapter-2554.html\n- ${.}/books/book08/html/chapter-2555.html\n-
+  ${.}/books/book08/html/chapter-2556.html\n- ${.}/books/book08/html/chapter-2557.html\n-
+  ${.}/books/book08/html/chapter-2558.html\n- ${.}/books/book08/html/chapter-2559.html\n-
+  ${.}/books/book08/html/chapter-2560.html\n- ${.}/books/book08/html/chapter-2561.html\n-
+  ${.}/books/book08/html/chapter-2562.html\n- ${.}/books/book08/html/chapter-2563.html\n-
+  ${.}/books/book08/html/chapter-2564.html\n- ${.}/books/book08/html/chapter-2565.html\n-
+  ${.}/books/book08/html/chapter-2566.html\n- ${.}/books/book08/html/chapter-2567.html\n-
+  ${.}/books/book08/html/chapter-2568.html\n- ${.}/books/book08/html/chapter-2569.html\n-
+  ${.}/books/book08/html/chapter-2570.html\n- ${.}/books/book08/html/chapter-2571.html\n-
+  ${.}/books/book08/html/chapter-2572.html\n- ${.}/books/book08/html/chapter-2573.html\n-
+  ${.}/books/book08/html/chapter-2574.html\n- ${.}/books/book08/html/chapter-2575.html\n-
+  ${.}/books/book08/html/chapter-2576.html\n- ${.}/books/book08/html/chapter-2577.html\n-
+  ${.}/books/book08/html/chapter-2578.html\n- ${.}/books/book08/html/chapter-2579.html\n-
+  ${.}/books/book08/html/chapter-2580.html\n- ${.}/books/book08/html/chapter-2581.html\n-
+  ${.}/books/book08/html/chapter-2582.html\n- ${.}/books/book08/html/chapter-2583.html\n-
+  ${.}/books/book08/html/chapter-2584.html\n- ${.}/books/book08/html/chapter-2585.html\n-
+  ${.}/books/book08/html/chapter-2586.html\n- ${.}/books/book08/html/chapter-2587.html\n-
+  ${.}/books/book08/html/chapter-2588.html\n- ${.}/books/book08/html/chapter-2589.html\n-
+  ${.}/books/book08/html/chapter-2590.html\n- ${.}/books/book08/html/chapter-2591.html\n-
+  ${.}/books/book08/html/chapter-2592.html\n- ${.}/books/book08/html/chapter-2593.html\n-
+  ${.}/books/book08/html/chapter-2594.html\n- ${.}/books/book08/html/chapter-2595.html\n-
+  ${.}/books/book08/html/chapter-2596.html\n- ${.}/books/book08/html/chapter-2597.html\n-
+  ${.}/books/book08/html/chapter-2598.html\n- ${.}/books/book08/html/chapter-2599.html\n-
+  ${.}/books/book08/html/chapter-2600.html\n- ${.}/books/book08/html/chapter-2601.html\n-
+  ${.}/books/book08/html/chapter-2602.html\n- ${.}/books/book08/html/chapter-2603.html\n-
+  ${.}/books/book08/html/chapter-2604.html\n- ${.}/books/book08/html/chapter-2605.html\n-
+  ${.}/books/book08/html/chapter-2606.html\n- ${.}/books/book08/html/chapter-2607.html\n-
+  ${.}/books/book08/html/chapter-2608.html\n- ${.}/books/book08/html/chapter-2609.html\n-
+  ${.}/books/book08/html/chapter-2610.html\n- ${.}/books/book08/html/chapter-2611.html\n-
+  ${.}/books/book08/html/chapter-2612.html\n- ${.}/books/book08/html/chapter-2613.html\n-
+  ${.}/books/book08/html/chapter-2614.html\n- ${.}/books/book08/html/chapter-2615.html\n-
+  ${.}/books/book08/html/chapter-2616.html\n- ${.}/books/book08/html/chapter-2617.html\n-
+  ${.}/books/book08/html/chapter-2618.html\n- ${.}/books/book08/html/chapter-2619.html\n-
+  ${.}/books/book08/html/chapter-2620.html\n- ${.}/books/book08/html/chapter-2621.html\n-
+  ${.}/books/book08/html/chapter-2622.html\n- ${.}/books/book08/html/chapter-2623.html\n-
+  ${.}/books/book08/html/chapter-2624.html\n- ${.}/books/book08/html/chapter-2625.html\n-
+  ${.}/books/book08/html/chapter-2626.html\n- ${.}/books/book08/html/chapter-2627.html\n-
+  ${.}/books/book08/html/chapter-2628.html\n- ${.}/books/book08/html/chapter-2629.html\n-
+  ${.}/books/book08/html/chapter-2630.html\n- ${.}/books/book08/html/chapter-2631.html\n-
+  ${.}/books/book08/html/chapter-2632.html\n- ${.}/books/book08/html/chapter-2633.html\n-
+  ${.}/books/book08/html/chapter-2634.html\n- ${.}/books/book08/html/chapter-2635.html\n-
+  ${.}/books/book08/html/chapter-2636.html\n- ${.}/books/book08/html/chapter-2637.html\n-
+  ${.}/books/book08/html/chapter-2638.html\n- ${.}/books/book08/html/chapter-2639.html\n-
+  ${.}/books/book08/html/section-13.html\n- ${.}/books/book08/html/chapter-2640.html\n-
+  ${.}/books/book08/html/chapter-2641.html\n- ${.}/books/book08/html/chapter-2642.html\n-
+  ${.}/books/book08/html/chapter-2643.html\n- ${.}/books/book08/html/chapter-2644.html\n-
+  ${.}/books/book08/html/chapter-2645.html\n- ${.}/books/book08/html/chapter-2646.html\n-
+  ${.}/books/book08/html/chapter-2647.html\n- ${.}/books/book08/html/chapter-2648.html\n-
+  ${.}/books/book08/html/chapter-2649.html\n- ${.}/books/book08/html/chapter-2650.html\n-
+  ${.}/books/book08/html/chapter-2651.html\n- ${.}/books/book08/html/chapter-2652.html\n-
+  ${.}/books/book08/html/chapter-2653.html\n- ${.}/books/book08/html/chapter-2654.html\n-
+  ${.}/books/book08/html/chapter-2655.html\n- ${.}/books/book08/html/chapter-2656.html\n-
+  ${.}/books/book08/html/chapter-2657.html\n- ${.}/books/book08/html/chapter-2658.html\n-
+  ${.}/books/book08/html/chapter-2659.html\n- ${.}/books/book08/html/chapter-2660.html\n-
+  ${.}/books/book08/html/chapter-2661.html\n- ${.}/books/book08/html/chapter-2662.html\n-
+  ${.}/books/book08/html/chapter-2663.html\n- ${.}/books/book08/html/chapter-2664.html\n-
+  ${.}/books/book08/html/chapter-2665.html\n- ${.}/books/book08/html/chapter-2666.html\n-
+  ${.}/books/book08/html/chapter-2667.html\n- ${.}/books/book08/html/chapter-2668.html\n-
+  ${.}/books/book08/html/chapter-2669.html\n- ${.}/books/book08/html/chapter-2670.html\n-
+  ${.}/books/book08/html/chapter-2671.html\n- ${.}/books/book08/html/chapter-2672.html\n-
+  ${.}/books/book08/html/chapter-2673.html\n- ${.}/books/book08/html/chapter-2674.html\n-
+  ${.}/books/book08/html/chapter-2675.html\n- ${.}/books/book08/html/chapter-2676.html\n-
+  ${.}/books/book08/html/chapter-2677.html\n- ${.}/books/book08/html/chapter-2678.html\n-
+  ${.}/books/book08/html/chapter-2679.html\n- ${.}/books/book08/html/chapter-2680.html\n-
+  ${.}/books/book08/html/chapter-2681.html\n- ${.}/books/book08/html/chapter-2682.html\n-
+  ${.}/books/book08/html/chapter-2683.html\n- ${.}/books/book08/html/chapter-2684.html\n-
+  ${.}/books/book08/html/chapter-2685.html\n- ${.}/books/book08/html/chapter-2686.html\n-
+  ${.}/books/book08/html/chapter-2687.html\n- ${.}/books/book08/html/chapter-2688.html\n-
+  ${.}/books/book08/html/chapter-2689.html\n- ${.}/books/book08/html/chapter-2690.html\n-
+  ${.}/books/book08/html/chapter-2691.html\n- ${.}/books/book08/html/chapter-2692.html\n-
+  ${.}/books/book08/html/chapter-2693.html\n- ${.}/books/book08/html/chapter-2694.html\n-
+  ${.}/books/book08/html/chapter-2695.html\n- ${.}/books/book08/html/chapter-2696.html\n-
+  ${.}/books/book08/html/chapter-2697.html\n- ${.}/books/book08/html/chapter-2698.html\n-
+  ${.}/books/book08/html/chapter-2699.html\n- ${.}/books/book08/html/chapter-2700.html\n-
+  ${.}/books/book08/html/chapter-2701.html\n- ${.}/books/book08/html/chapter-2702.html\n-
+  ${.}/books/book08/html/chapter-2703.html\n- ${.}/books/book08/html/chapter-2704.html\n-
+  ${.}/books/book08/html/chapter-2705.html\n- ${.}/books/book08/html/chapter-2706.html\n-
+  ${.}/books/book08/html/chapter-2707.html\n- ${.}/books/book08/html/chapter-2708.html\n-
+  ${.}/books/book08/html/chapter-2709.html\n- ${.}/books/book08/html/chapter-2710.html\n-
+  ${.}/books/book08/html/chapter-2711.html\n- ${.}/books/book08/html/chapter-2712.html\n-
+  ${.}/books/book08/html/chapter-2713.html\n- ${.}/books/book08/html/chapter-2714.html\n-
+  ${.}/books/book08/html/chapter-2715.html\n- ${.}/books/book08/html/chapter-2716.html\n-
+  ${.}/books/book08/html/chapter-2717.html\n- ${.}/books/book08/html/chapter-2718.html\n-
+  ${.}/books/book08/html/chapter-2719.html\n- ${.}/books/book08/html/chapter-2720.html\n-
+  ${.}/books/book08/html/chapter-2721.html\n- ${.}/books/book08/html/chapter-2722.html\n-
+  ${.}/books/book08/html/chapter-2723.html\n- ${.}/books/book08/html/chapter-2724.html\n-
+  ${.}/books/book08/html/chapter-2725.html\n- ${.}/books/book08/html/chapter-2726.html\n-
+  ${.}/books/book08/html/chapter-2727.html\n- ${.}/books/book08/html/chapter-2728.html\n-
+  ${.}/books/book08/html/chapter-2729.html\n- ${.}/books/book08/html/chapter-2730.html\n-
+  ${.}/books/book08/html/chapter-2731.html\n- ${.}/books/book08/html/chapter-2732.html\n-
+  ${.}/books/book08/html/chapter-2733.html\n- ${.}/books/book08/html/chapter-2734.html\n-
+  ${.}/books/book08/html/chapter-2735.html\n- ${.}/books/book08/html/chapter-2736.html\n-
+  ${.}/books/book08/html/chapter-2737.html\n- ${.}/books/book08/html/chapter-2738.html\n-
+  ${.}/books/book08/html/chapter-2739.html\n- ${.}/books/book08/html/chapter-2740.html\n-
+  ${.}/books/book08/html/chapter-2741.html\n- ${.}/books/book08/html/chapter-2742.html\n-
+  ${.}/books/book08/html/chapter-2743.html\n- ${.}/books/book08/html/chapter-2744.html\n-
+  ${.}/books/book08/html/chapter-2745.html\n- ${.}/books/book08/html/chapter-2746.html\n-
+  ${.}/books/book08/html/chapter-2747.html\n- ${.}/books/book08/html/chapter-2748.html\n-
+  ${.}/books/book08/html/chapter-2749.html\n- ${.}/books/book08/html/chapter-2750.html\n-
+  ${.}/books/book08/html/chapter-2751.html\n- ${.}/books/book08/html/chapter-2752.html\n-
+  ${.}/books/book08/html/chapter-2753.html\n- ${.}/books/book08/html/chapter-2754.html\n-
+  ${.}/books/book08/html/chapter-2755.html\n- ${.}/books/book08/html/chapter-2756.html\n-
+  ${.}/books/book08/html/chapter-2757.html\n- ${.}/books/book08/html/chapter-2758.html\n-
+  ${.}/books/book08/html/chapter-2759.html\n- ${.}/books/book08/html/chapter-2760.html\n-
+  ${.}/books/book08/html/chapter-2761.html\n- ${.}/books/book08/html/chapter-2762.html\n-
+  ${.}/books/book08/html/chapter-2763.html\n- ${.}/books/book08/html/chapter-2764.html\n-
+  ${.}/books/book08/html/chapter-2765.html\n- ${.}/books/book08/html/endofbook-08.html\ntoc:
+  true\ntoc-depth: 2\nepub-chapter-level: 2\nepub-cover-image: cover8.png\n  \n\nepub-fonts:\n-
+  Urbanist-Italic.ttf\n- Urbanist-Regular.ttf\n- Urbanist-Thin.ttf\n- Urbanist-ThinItalic.ttf\n-
+  White Modesty.ttf\n\nepub-metadata: ---\nbelongs-to-collection: Super Gene\ncover-image:
+  Images/cover8.png\ncreator:\n- role: author\n  text: Twelve Winged Dark Seraphim\n-
+  role: editor\n  text: Max Ludden\ncss:\n- style.css\ngroup-position: 8\nibooks:\n-
+  version: '4.4'\n- specified-fonts: true\n- iphone-orientation-lock: portrait-only\n-
+  scroll-axis: vertical\npage-progression-direction: ltr\ntitle:\n- text: The Systems
+  of Chaos and the Very High\n  type: main\n- text: Book Eight\n  type: subtitle\n...\n\nmetadata-files:\n-
+  meta8.yml\n- epub-meta8.yml\n\ncss-files:\n- style.css\n"
