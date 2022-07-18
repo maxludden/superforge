@@ -2,6 +2,7 @@
 from mongoengine import Document
 from mongoengine.fields import IntField, StringField
 from tqdm.auto import tqdm, trange
+from alive_progress import alive_bar
 
 try:
     from core.atlas import BASE, errwrap, max_title, sg
@@ -66,7 +67,7 @@ def get_filename(book: int):
         return doc.filename
 
 @errwrap()
-def generate_filepaths():
+def generate_filepath(book: int, save: bool = True):
     '''
     Generate filepath for the given book's Metadatadata.
 
@@ -78,23 +79,23 @@ def generate_filepaths():
         `filepath` (str): 
             The filepath for the given book's Metadatadata.
     '''
-    for i in range(1,11):
-        book = i
-        #> Generate filepath
-        filename = generate_filename(book)
-        book_str = str(book).zfill(2)
-        book_dir = f"book{book_str}"
-        filepath = f"{BASE}/books/{book_dir}/html/{filename}"
-        
-        #> Update Filepath in MongoDB
+    #> Generate filepath
+    filename = generate_filename(book)
+    book_str = str(book).zfill(2)
+    book_dir = f"book{book_str}"
+    filepath = f"{BASE}/books/{book_dir}/yaml/{filename}"
+    
+    #> Update Filepath in MongoDB
+    if save:
         sg()
         for doc in Metadata.objects():
             doc.filepath = filepath
             doc.html_path = filepath
             doc.save()
-        return filepath
+            log.debug(f"Updated Book {book}' Metadata's filepath:\n{filepath}")
+    return filepath
 
-generate_filepaths()
+
 
 @errwrap()
 def get_filepath(book: int):
@@ -109,9 +110,8 @@ def get_filepath(book: int):
         `md_path` (str):
             The filepath of the given book's Metadatadata.
     '''
-    sg()
-    for doc in Metadata.objects(book=book):
-        return doc.filepath
+    filepath = generate_filepath(book)
+    return filepath
     
 @errwrap()
 def get_title(book: int):
@@ -162,7 +162,7 @@ def generate_text(book: int, save: bool = False, write: bool = False):
         }
         text = myaml.dump(pyobject)
         text = f"---\n{text}..."
-        log.info(f"Generated yaml text for book {book}'s Metadata. \n \n{text}")
+        log.debug(f"Generated yaml text for book {book}'s Metadata. \n \n{text}")
         #> Save text to MongoDB
         if save:
             doc.text = text
@@ -172,7 +172,7 @@ def generate_text(book: int, save: bool = False, write: bool = False):
         if write:
             with open(doc.filepath, 'w') as f:
                 f.write(text)
-                log.info(f"Wrote yaml text for book {book}'s Metadata to disk.")
+                log.debug(f"Wrote yaml text for book {book}'s Metadata to disk.")
             
         return text
 
@@ -205,7 +205,7 @@ def create_Metadata():
             text = text
         )
         new_Metadata.save()
-        log.info(f'Added Metadatadata for Book {book}.')
+        log.debug(f'Added Metadatadata for Book {book}.')
 
 @errwrap()
 def write_Metadata(book: int):
@@ -228,3 +228,15 @@ def write_Metadatadata():
     sg()
     for doc in tqdm(Metadata.objects(), unit="book", desc="Writing Metadatadata"):
         write_Metadata(doc.book)
+       
+with alive_bar(30, title="Ad-hoc Generating Metadata", dual_line=True) as bar: 
+    for i in range(1,11):
+        bar.text=f"Book {i}: Metadata"
+        bar()
+        filepath = generate_filepath(i, save=True)
+        log.debug("Generated filepath for Book {i}'s Metadata.")
+        bar()
+        bar.text=f"Book {i}: Text"
+        log.debug(f"Generated Book {i}'s Filepath.")
+        generate_text(i, save=True, write=True)
+        bar()

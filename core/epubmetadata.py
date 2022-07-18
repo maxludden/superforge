@@ -1,5 +1,6 @@
 # core/epubmeta.py
 from pprint import pprint
+import os
 
 from mongoengine import Document
 from mongoengine.fields import IntField, StringField
@@ -86,7 +87,7 @@ def generate_filepath(book: int, save: bool = False):
             The filepath for the given book's Epub metadata.
     '''
     book_str = str(book).zfill(2)
-    filepath = f"{BASE}/book{book_str}/html/epub-meta{book}.yaml"
+    filepath = f"{BASE}/books/book{book_str}/yaml/epub-meta{book}.yml"
     log.debug(f"Generated Book {book}' Epub metadata's filepath: \n{filepath}")
     if save:
         sg()
@@ -206,7 +207,6 @@ def generate_text(book:int, save: bool = False, write: bool = False):
         title = doc.title
         book_word = doc.book_word
         author = 'Twelve Winged Dark Seraphim'
-        cover_path = doc.cover_path
         
         epub_meta = {
             'title': [
@@ -218,7 +218,7 @@ def generate_text(book:int, save: bool = False, write: bool = False):
                 {'role': 'editor', 'text': 'Max Ludden'}
                 ],
             'css': ['style.css'],
-            'cover-image': cover_path,
+            'cover-image': f'cover{book}.png',
             'ibooks': [
                 {'version': '4.4'},
                 {'specified-fonts': True}, 
@@ -243,3 +243,22 @@ def generate_text(book:int, save: bool = False, write: bool = False):
                 outfile.write(text)
                 log.debug(f"Wrote Book {book}'s epub metadata to file.")
 
+def make_yaml_dir(book: int) -> None:
+    '''
+    Generate a directory for the given book's yaml files.
+
+    Args:
+        `book` (int):
+            The given book.
+    '''
+    book_str = str(book).zfill(2)
+    yaml_dir = f"{BASE}/books/book{book_str}/yaml"
+    if not os.path.exists(yaml_dir):
+        os.makedirs(yaml_dir)
+        log.debug(f"Created yaml directory for book {book}.")
+    else:
+        log.debug(f"Yaml directory for book {book} already exists.")
+        
+for i in trange(1,11):
+    generate_filepath(i, save=True)
+    generate_text(i, save=True, write=True)

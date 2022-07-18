@@ -500,9 +500,12 @@ def generate_resource_paths(book: int, save: bool = False):
     resource_files.append(f"{book_dir}/Images/gem.gif")
 
     # Fonts
-    resource_files.append(f"{book_dir}/Styles/Century Gothic.ttf")
-    resource_files.append(f"{book_dir}/Styles/Photograph Signature.ttf")
-
+    resource_files.append(f"{book_dir}/Styles/Urbanist-Regular.ttf")
+    resource_files.append(f"{book_dir}/Styles/Urbanist-Thin.ttf")
+    resource_files.append(f"{book_dir}/Styles/Urbanist-Italit.ttf")
+    resource_files.append(f"{book_dir}/Styles/Urbanist-ThinItalic.ttf")
+    resource_files.append(f"{book_dir}/Styles/White Modestry.ttf")
+    
     # CSS
     resource_files.append(f"{book_dir}/Styles/style.css")
 
@@ -529,7 +532,7 @@ def generate_resource_paths(book: int, save: bool = False):
             doc.resource_paths = resource_files
             doc.save()
 
-    log.info(f"Finished generating resource files for book {book}.")
+    log.debug(f"Finished generating resource files for book {book}.")
 
     return resource_files
 
@@ -578,7 +581,7 @@ def load_meta(book: int):
         doc.metadata = metadata
         doc.epubmetadata = epub_metadata
         doc.save()
-        log.info(f"Updated Book {book}'s defualtdoc with Metadata and ePub Metadata.")
+        log.debug(f"Updated Book {book}'s defualtdoc with Metadata and ePub Metadata.")
 
 
 @errwrap()
@@ -642,7 +645,7 @@ def generate_default_doc_f(book: int, save: bool = False):
         default_mongo_doc = Defaultdoc.objects(book=book).first()
         default_mongo_doc.default_doc = default_doc
         default_mongo_doc.save()
-        log.info(f"Updated Book {book}'s defualtdoc with default doc.")
+        log.debug(f"Updated Book {book}'s defualtdoc with default doc.")
     return default_doc
 
 
@@ -714,8 +717,25 @@ def generate_title(book: int, save: bool = False):
 
     return title
 
-    
 
+def get_input_files(book: int) -> str:
+    sg()
+    doc = Defaultdoc.objects(book=book).first()
+    inputf = "input-files:"
+    for file in doc.input_files:
+        inputf = f"{inputf}\n- {file}"
+    log.debug(f"Retrieved input files for Book {book}:</code>\n{inputf}</code>")
+    return inputf
+
+def get_resource_path(book: int) -> str:
+    sg()
+    doc = Defaultdoc.objects(book=1).first()
+    resourcef = "resource-files:"
+    for file in doc.resource_paths:
+        resourcef = f"{resourcef}\n- {file}"
+    log.debug(f"Retrieved resource path for Book {book}:</code>\n{resourcef}</code>")
+    return resourcef
+    
 def generate_default_doc(book: int, save: bool = True, write: bool = True):
     sg()
     doc = Defaultdoc.objects(book=book).first()
@@ -738,22 +758,13 @@ def generate_default_doc(book: int, save: bool = True, write: bool = True):
     cover_path = doc.cover_path
     
     #> Filename and Path
-    filename = doc
-    filepath = doc
+    filepath = doc .filepath
     
     #> Input FIles
-    doc_input_files = doc.input_files
-    input_files = "input-files:\n"
-    for file in doc_input_files:
-        input_files = f"{input_files}\n- {file}"
-    log.debug(input_files)
+    input_files = get_input_files(book)
     
     #> Resource_Files
-    resource_files = doc.resource_paths
-    resource_path = "resource-files:\n"
-    for file in resource_files:
-        resource_path = f"{resource_path}\n- {file}"
-    log.debug(resource_path)
+    resource_path = get_resource_path(book)
 
     #> Epub
     epubmetadata = doc.epubmetadata 
@@ -765,20 +776,13 @@ def generate_default_doc(book: int, save: bool = True, write: bool = True):
     
     #> Default Doc
     default = f"---\nfrom: html\nto: epub\n\n"
-    default = f"{default}\noutput-file: {book} - {title}.epub\n\n"
+    default = f"{default}\output-file: {book} - {title}.epub\n"
     
-    inputfiles = "input-files:\n"
-    for file in input_files:
-        log.info(f"File to add {file}")
-        inputfiles = f"{inputfiles}\n- {file}"
-        log.info(inputfiles)
-        
-    inputfiles = f"{inputfiles}\n\n"
-    
-    default = f"{default}\n{inputfiles}"
+    #> Input Files
+    default = f"{default}\n{input_files}\n"
     
     #> Mid
-    default = f"{default}standalone: true\nself-contained: true\n"
+    default = f"{default}\nstandalone: true\nself-contained: true\n"
     
     #> Resource Path
     default = f"{default}\n{resource_path}"
@@ -796,7 +800,7 @@ def generate_default_doc(book: int, save: bool = True, write: bool = True):
     default = f"{default}\ncss-files:\n- style.css\n..."
     
     #> Default Doc
-    log.info(default)
+    log.debug(default)
     
     #> Filepath
     if write:
@@ -812,17 +816,8 @@ def generate_default_doc(book: int, save: bool = True, write: bool = True):
         default_mongo_doc = Defaultdoc.objects(book=book).first()
         default_mongo_doc.default_doc = default
         default_mongo_doc.save()
-        log.info(f"Updated Book {book}'s defualtdoc with default doc.")
+        log.debug(f"Updated MongoDB with Book {book}'s defualt file.")
     return default
     
-
-
-
-# generate_default_doc(book=1) 
-sg()
-doc = Defaultdoc.objects(book=1).first()
-pprint(doc.input_files)
-inputf = "input-files:"
-for file in doc.input_files:
-    inputf = f"{inputf}\n- {file}"
-print(inputf)
+# for i in trange(1,11):
+#     generate_default_doc(i, save=True, write=True)

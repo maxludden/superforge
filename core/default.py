@@ -107,8 +107,8 @@ class Default(Document):
     sections = ListField(IntField(min_value=1, max_value=17))
     meta = {'collection': 'default'}
     
-sg()
-log.info(f"Count: {str(Default.objects().count())}")
+# sg()
+# log.info(f"Count: {str(Default.objects().count())}")
 # for x, doc in tqdm(Default.objects().order_by('book'), unit="books"):
 #     book = int(doc.book)
 #     log.info(f"Book: {book}")
