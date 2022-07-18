@@ -155,7 +155,7 @@ def generate_text(book: int, save: bool = False, write: bool = False):
     #> Retrieve Components from MongoDB
     author = 'Twelve Winged Dark Seraphim'
     sg()
-    for doc in tqdm(Metadata.objects(book=book), unit="books", desc="Generating Metadata"):
+    for doc in Metadata.objects(book=book):
         #> Generate Text
         pyobject = {
             "title": doc.title,
