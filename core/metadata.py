@@ -26,7 +26,7 @@ class Metadata(Document):
     meta = {'collection': 'metadata'}
     
 @errwrap()
-def generate_filename(book: int):
+def generate_filename(book: int, save: bool = True):
     '''
     Generate the filename for the given book's Metadatadata.
 
@@ -39,13 +39,14 @@ def generate_filename(book: int):
             The filename for the given book's Metadatadata.
     '''
     #> Generate Filename
-    filename =  f'meta{book}.yaml'
+    filename =  f'meta{book}.yml'
     
     #> Update filename in MongoDB
-    sg()
-    for doc in Metadata.objects():
-        doc.filename = filename
-        doc.save()
+    if save:
+        sg()
+        for doc in Metadata.objects():
+            doc.filename = filename
+            doc.save()
         
     return filename
 
@@ -229,9 +230,12 @@ def write_Metadatadata():
     for doc in tqdm(Metadata.objects(), unit="book", desc="Writing Metadatadata"):
         write_Metadata(doc.book)
        
-with alive_bar(30, title="Ad-hoc Generating Metadata", dual_line=True) as bar: 
+with alive_bar(40, title="Ad-hoc Generating Metadata", dual_line=True) as bar: 
     for i in range(1,11):
         bar.text=f"Book {i}: Metadata"
+        bar()
+        generate_filename(i, save = True)
+        log.debug(f"Generated filename for Book {i}'s Metadata.")
         bar()
         filepath = generate_filepath(i, save=True)
         log.debug("Generated filepath for Book {i}'s Metadata.")

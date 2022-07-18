@@ -510,8 +510,8 @@ def generate_resource_paths(book: int, save: bool = False):
     resource_files.append(f"{book_dir}/Styles/style.css")
 
     # Metadata
-    resource_files.append(f"{book_dir}/html/meta{book}.yaml")
-    resource_files.append(f"{book_dir}/html/epub-meta{book}.yml")
+    resource_files.append(f"{book_dir}/yaml/meta{book}.ymml")
+    resource_files.append(f"{book_dir}/yaml/epub-meta{book}.yml")
 
     # > Content files
     sg()
