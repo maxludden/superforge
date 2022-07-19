@@ -6,12 +6,14 @@ import sys
 from fileinput import filename
 from platform import platform
 from subprocess import run
-from typing import Optional
+from typing import Callable, Optional
+from json import dump, load
 
 from icecream import ic
 from mongoengine import Document
 from mongoengine.fields import EnumField, IntField, StringField
 from tqdm.auto import tqdm
+from alive_progress import alive_bar
 
 try:
     from core.atlas import max_title, sg
@@ -626,6 +628,79 @@ def update_html_paths():
         doc.html_path = filepath
         doc.save()
 
+@errwrap()
+def replace_geno_core(match):
+    '''
+    Replace the geno core with the correct version.
+    '''
+    match_str = match.group(0) # The entire match
+    class_group = str(match.group('class')).capitalize() # The class group
+    core_group = max_title(str(match.group('core'))) # The core group
+    
+    replacement = f"""<div class="tables">
+    <table class="center70">
+        <tr>
+            <th>{class_group} Geno Core</th>
+        <tr></tr>
+            <td>{core_group}</td>
+        </tr>
+    </table>
+    <!--{match_str}-->
+</div>"""
+    return replacement
 
+@errwrap()
+def edit(pattern: str, replacement: str|Callable) -> None:
+    regex = re.compile(pattern)
+    results = []
+    sg()
+    with alive_bar(13840, dual_line=True, title='SuperForge Edits', receipt=True, receipt_text = results) as bar:
+        for doc in Chapter.objects():
+            # Read Chapter Data from MongoDB
+            chapter = doc.chapter
+            msg = f"Chapter {chapter}"
+            log.debug(msg)
+            bar.text=msg
+            bar()
+            
+            # Search Chapter for Pattern
+            text = doc.text
+            matches = re.findall(regex, text)
+            bar.text=f"Chapter {chapter} - {len(matches)} matches"
+            bar()
+            
+            if len(matches) > 0:
+                chapter_matches = {"chapter": chapter, "matches": len(matches)}
+                for x, match in enumerate(matches, start=1):
+                    chapter_matches[f'match{x}'] = match
+                    if callable(replacement):
+                        text = re.sub(pattern, replacement(match), text)
+                    else:
+                        text = re.sub(pattern, replacement, text)
+                
+                results.append(chapter_matches)
+                bar.text-f"Chapter {chapter} - Made {len(matches)} replacements"
+                bar()
+                doc.text = text
+                doc.save()
+                msg = f"Chapter {chapter} - Saved Updated Chapter "
+                log.debug(msg)
+                bar.text=msg
+                bar()
+            else:
+                msg = f"Chapter {chapter} - No Matches"
+                log.debug(msg)
+                bar.text=msg
+                bar()
+                bar()
+            log.debug(f"Finished chapter {doc.chapter}")
+            bar.text=f"Finished chapter {doc.chapter}"
+            
+    with open ('json/run.json', 'r') as infile:
+        current_run = load(infile)
+    with open ('../json/results{current_run}.json', 'w') as outfile:
+        dump(results, outfile, indent=4)
+    
+    
 
-
+edit(r"((?P<class>\w+) Geno Core: (?P<core>.\*))", replace_geno_core)

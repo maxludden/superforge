@@ -230,17 +230,17 @@ def write_Metadatadata():
     for doc in tqdm(Metadata.objects(), unit="book", desc="Writing Metadatadata"):
         write_Metadata(doc.book)
        
-with alive_bar(40, title="Ad-hoc Generating Metadata", dual_line=True) as bar: 
-    for i in range(1,11):
-        bar.text=f"Book {i}: Metadata"
-        bar()
-        generate_filename(i, save = True)
-        log.debug(f"Generated filename for Book {i}'s Metadata.")
-        bar()
-        filepath = generate_filepath(i, save=True)
-        log.debug("Generated filepath for Book {i}'s Metadata.")
-        bar()
-        bar.text=f"Book {i}: Text"
-        log.debug(f"Generated Book {i}'s Filepath.")
-        generate_text(i, save=True, write=True)
-        bar()
+# with alive_bar(40, title="Ad-hoc Generating Metadata", dual_line=True) as bar: 
+#     for i in range(1,11):
+#         bar.text=f"Book {i}: Metadata"
+#         bar()
+#         generate_filename(i, save = True)
+#         log.debug(f"Generated filename for Book {i}'s Metadata.")
+#         bar()
+#         filepath = generate_filepath(i, save=True)
+#         log.debug("Generated filepath for Book {i}'s Metadata.")
+#         bar()
+#         bar.text=f"Book {i}: Text"
+#         log.debug(f"Generated Book {i}'s Filepath.")
+#         generate_text(i, save=True, write=True)
+#         bar()

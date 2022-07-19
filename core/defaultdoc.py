@@ -74,7 +74,7 @@ class Defaultdoc(Document):
 
 
 @errwrap()
-def generate_filename(book: int):
+def generate_filename(book: int, save: bool = False):
     """
     Generates the filename of the given book's default file.
 
@@ -86,7 +86,14 @@ def generate_filename(book: int):
         `filename` (str):
             The filename of the given book's default file.
     """
-    return f"sg{book}.yaml"
+    filename = f"sg{book}.yml"
+    if save:
+        sg()
+        doc = Defaultdoc.objects(book=book).first()
+        doc.filename = filename
+        doc.save()
+    log.debug(f"Generated Book {book}filename for book {book}: {filename}")
+    return filename
 
 
 @errwrap()
@@ -510,7 +517,7 @@ def generate_resource_paths(book: int, save: bool = False):
     resource_files.append(f"{book_dir}/Styles/style.css")
 
     # Metadata
-    resource_files.append(f"{book_dir}/yaml/meta{book}.ymml")
+    resource_files.append(f"{book_dir}/yaml/meta{book}.yml")
     resource_files.append(f"{book_dir}/yaml/epub-meta{book}.yml")
 
     # > Content files
