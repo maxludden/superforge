@@ -654,20 +654,18 @@ def edit(pattern: str, replacement: str|Callable) -> None:
     regex = re.compile(pattern)
     results = []
     sg()
-    with alive_bar(13840, dual_line=True, title='SuperForge Edits', receipt=True, receipt_text = results) as bar:
-        for doc in Chapter.objects():
+    chapters = Chapter.objects.all()
+ 
+    for doc in tqdm(chapters, unit="ch", desc="Editing"):
             # Read Chapter Data from MongoDB
             chapter = doc.chapter
             msg = f"Chapter {chapter}"
-            log.debug(msg)
-            bar.text=msg
-            bar()
+
             
             # Search Chapter for Pattern
             text = doc.text
             matches = re.findall(regex, text)
-            bar.text=f"Chapter {chapter} - {len(matches)} matches"
-            bar()
+       
             
             if len(matches) > 0:
                 chapter_matches = {"chapter": chapter, "matches": len(matches)}
@@ -679,22 +677,14 @@ def edit(pattern: str, replacement: str|Callable) -> None:
                         text = re.sub(pattern, replacement, text)
                 
                 results.append(chapter_matches)
-                bar.text-f"Chapter {chapter} - Made {len(matches)} replacements"
-                bar()
                 doc.text = text
                 doc.save()
                 msg = f"Chapter {chapter} - Saved Updated Chapter "
                 log.debug(msg)
-                bar.text=msg
-                bar()
             else:
                 msg = f"Chapter {chapter} - No Matches"
                 log.debug(msg)
-                bar.text=msg
-                bar()
-                bar()
             log.debug(f"Finished chapter {doc.chapter}")
-            bar.text=f"Finished chapter {doc.chapter}"
             
     with open ('json/run.json', 'r') as infile:
         current_run = load(infile)

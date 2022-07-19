@@ -20,22 +20,12 @@ import core.endofbook as eob_
 import core.epubmetadata as epubmd
 import core.metadata as coremd
 import core.section as section_
-import core.old_title as titlepg
+import core.titlepage as titlepg
 
 # . Start a new run
 new_run()
 
-
+chapter_.edit(r"^((?P<class>\w+) Geno Core: (?P<core>.*))$\n", chapter_.replace_geno_core)
 
 # < Fix tags.
 fix_tags()
-
-@errwrap()
-def book_to_disk(book: int):
-    '''
-    Generate or retrive all of the needed documents of the given doc, and write them to disk.
-
-    Args:
-        `book` (int):
-            The given book.
-    '''
