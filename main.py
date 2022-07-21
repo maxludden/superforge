@@ -7,6 +7,7 @@ import re
 from json import dump, dumps, load, loads
 from pprint import pprint
 from subprocess import run
+from multiprocessing import Process, Manager, Pool
 
 from tqdm.auto import tqdm
 from dotenv import load_dotenv
@@ -24,26 +25,21 @@ import core.epubmetadata as epubmd
 import core.metadata as coremd
 import core.section as section_
 import core.titlepage as titlepg
+from utilities.yay import yay
 
 load_dotenv()
 # . Start a new run
 new_run()
 
-URI = os.environ.get("SUPERGENE")
-connect("supergene", host=URI)
+# URI = os.environ.get("SUPERGENE")
+# connect("supergene", host=URI)
+chapter = 1027
 
-with open ("json/chapter.json", 'r') as infile:
-    chapters = dict((load(infile)))
-    
-# for doc in tqdm(chapter_.Chapter.objects(), unit="ch",desc="Chapter"):
-#     regex = re.compile(r"^((?P<class>\w+) Geno Core: (?P<core>.*))$\n")
-#     matches = re.findall(regex, doc.text, re.M |re.I)
-#     if len(matches) < 0:
-#         for match in matches:
-#             complete = match.group[0]
-#             class_group = match.group["class"]
-#             core_group = match.group["core"]
-#             log.info(f"Match: {complete}\nClass: {class_group}\nCore: {core_group}")
+chapter_.generate_md(1027, save=True, write=True)
+chapter_.generate_html(1027, save=True)
+doc.save()
+yay()
+
 
 # < Fix tags.
 fix_tags()

@@ -39,6 +39,7 @@ URI = os.getenv("SUPERGENE")
 class ChapterNotFound(Exception):
     pass
 
+
 class Chapter(Document):
     chapter = IntField(required=True, unique=True)
     section = IntField()
@@ -340,7 +341,7 @@ def get_html_path(chapter: int):
 
 
 @errwrap(entry=False, exit=False)
-def generate_md(chapter: int):
+def generate_md(chapter: int, save: bool = False, write: bool = False) -> str:
     """
     Generates the multimarkdown string for the given chapter. Saves the markdown string to disk (md_path) as well as to MongoDB.
 
@@ -355,7 +356,8 @@ def generate_md(chapter: int):
             The multimarkdown for the given chapter.
     """
     sg()
-    for doc in Chapter.objects(book__gt=3):
+    for doc in Chapter.objects(chapter=chapter):
+        # Books 4-10 have two sections a piece
         title = max_title(doc.title)
         # > Multimarkdown Metadata
         meta = f"Title:{title} \nChapter:{doc.chapter} \nSection:{doc.section} \nBook:{doc.book} \nCSS:../Styles/style.css \nviewport: width=device-width\n  \n"
@@ -370,12 +372,15 @@ def generate_md(chapter: int):
 
         # > Concatenate Multimarkdown
         md = f"{meta}{atx}{text}"
-        doc.md = md
-        doc.save()
-
-        with open(doc.md_path, "w") as outfile:
-            outfile.write(md)
-        log.debug("Wrote Chapter {doc.chapter}'s multimarkdown to disk.")
+        
+        if save:
+            doc.md = md
+            doc.save()
+        
+        if write:
+            with open(doc.md_path, "w") as outfile:
+                outfile.write(md)
+                log.debug("Wrote Chapter {doc.chapter}'s multimarkdown to disk.")
         return md
 
 
@@ -398,7 +403,7 @@ def get_md(chapter: int):
 
 
 @errwrap(entry=False, exit=False)
-def generate_html(chapter: int):
+def generate_html(chapter: int, save: bool = False) -> str:
     """
     Generate the HTML for a given chapter. Save the given chapter's HTML to disk (html_path) as well as to MongoDB.
 
@@ -441,6 +446,7 @@ def generate_html(chapter: int):
         else:
             log.debug(f"Result of MD Command: {result.__str__}")
 
+        if save:
             with open(doc.html_path, "r") as chapter:
                 html = chapter.read()
             log.debug(f"Saved Chapter {chapter}'s HTML to disk.")
@@ -719,6 +725,7 @@ def edit(pattern: str, replacement: str | Callable) -> None:
         log.debug(f"Finished chapter {doc.chapter}")
     return results
 
+
 @errwrap()
 def generate_text_path(chapter: int) -> str:
     """
@@ -739,7 +746,8 @@ def get_text(chapter: int) -> str:
         raise ChapterNotFound(f"Unable to find chapter {chapter}")
     text = doc.text
     return text
-    
+
+
 @errwrap()
 def write_text(chapter: int) -> None:
     """
@@ -751,7 +759,8 @@ def write_text(chapter: int) -> None:
     with open(text_path, "w") as outfile:
         outfile.write(text)
     log.debug(f"Wrote CHapter {chapter}'s text to disk.")
-    
+
+
 @errwrap()
 def write_texts() -> None:
     """
@@ -761,54 +770,53 @@ def write_texts() -> None:
     for chapter in tqdm(Chapter.objects(), unit="ch", desc="Writing Text"):
         write_text(chapter.chapter)
     log.info("Finished writing text.")
-    
+
 
 @errwrap()
 def mget_text(chunk, input):
     """
     Retrieve the text of a given chapter.
-    
+
     Args:
         chapter (int): The chapter to retrieve.
-        
+
     Returns:
         text (str): The text of the chapter.
     """
-    #> Connect to MongoDB
+    # > Connect to MongoDB
     URI = get_atlas_uri("SUPERGENE")
     client = client = MongoClient(URI, maxPoolSize=250)
     db = client.SUPERGENE
     chapters = db["chapter"]
-    
- 
-    
-    #> Loop over the _id's in the chunk and retrieve the text from each
+
+    # > Loop over the _id's in the chunk and retrieve the text from each
     chunk_result_list = []
     for chapters in chunk:
-    #> Get Chapter and it's text
+        # > Get Chapter and it's text
         chapter = chapters.find_one({"chapter": chapter})
         text = chapter["text"]
-        chunk_result_list.append({"chapter":chapter, "text": text})
+        chunk_result_list.append({"chapter": chapter, "text": text})
     return chunk_result_list
 
-        
+
 @errwrap()
 def make_text_dirs() -> None:
-    for i in trange(1,11,unit="ch", desc="Creating Text Directories"):
+    for i in trange(1, 11, unit="ch", desc="Creating Text Directories"):
         book_str = str(i).zfill(2)
         path = os.path(f"BASE/books/book{book_str}/text")
         os.makedirs(path, exist_ok=True)
         log.debug(f"Created {path}")
-        
+
 
 @errwrap()
-def chunks (l, n):
+def chunks(l, n):
     """Yield successive n-sized chunks from l."""
     for i in range(1, 3463, n):
         if i == 3095 | i == 3117:
             continue
         else:
-            yield l[i:i + n]
+            yield l[i : i + n]
+
 
 @errwrap()
 def mget_text(chunk):
@@ -816,33 +824,44 @@ def mget_text(chunk):
     Retrieve the text of a given chapter.
 
     """
-    #> Connect to MongoDB
+    # > Connect to MongoDB
     URI = get_atlas_uri("SUPERGENE")
     client = client = MongoClient(URI, maxPoolSize=250)
     db = client.SUPERGENE
     chapters = db["chapter"]
-    
-    #> Loop over the _id's in the chunk and retrieve the text from each
+
+    # > Loop over the _id's in the chunk and retrieve the text from each
     chunk_result_list = []
     for chapter in chunk:
-        
-        #> Get Chapter and it's text
+
+        # > Get Chapter and it's text
         chapter_doc = chapters.find_one({"chapter": chapter})
         text = chapter_doc["text"]
         chapter = chapter_doc["chapter"]
         text_path = generate_text_path(chapter)
         with open(text_path, "w") as outfile:
             outfile.write(text)
-        chunk_result_list.append({"chapter":chapter, "text": text})
-    
-    
-#> Connect to MongoDB
-URI = get_atlas_uri("SUPERGENE")
-client = client = MongoClient(URI, maxPoolSize=250)
-db = client.SUPERGENE
-chapters = db["chapter"]
+        chunk_result_list.append({"chapter": chapter, "text": text})
 
-# pool object creation
-pool = Pool(processes=8) #spawn 8 processes
-calculate_partial  = partial(mget_text, input = input) #partial function creation to allow input to be sent to the calculate function
-result = pool.map(calculate_partial,list(chunks(chapters,200))  
+
+@errwrap()
+def search(phrase: str, db: str = "SUPERGENE") -> int:
+    """
+    Search chapters for a phrase.
+    
+    Args:
+        phrase (str): The phrase to search for.
+        db (str): The database to search.
+    
+    Returns:
+        chapters (int): The number of chapters containing the phrase.
+    """
+    #> Connect to SUPERGENE
+    if db == "SUPERGENE":
+        sg()
+        for doc in tqdm(Chapter.objects(), unit="ch", desc="Searching"):
+            text = doc.text
+            if phrase in text:
+                yield doc.chapter
+
+

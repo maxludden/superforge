@@ -8,7 +8,10 @@ from subprocess import run
 from typing import Optional
 
 from loguru import logger
-from tqdm.auto import tqdm
+from tqdm.auto import tqdm, trange
+from pymongo import monitoring
+
+
 
 #.############################################################
 #.                                                          .#
@@ -502,5 +505,22 @@ def errwrap(*, entry=True, exit=True, level="DEBUG", test: bool=False):
     return wrapper
 
 
+class CommandLogger(monitoring.CommandListener):
+    def started(self, event):
+        log.debug("Command {0.command_name} with request id "
+                  "{0.request_id} started on server "
+                  "{0.connection_id}".format(event))
 
+    def succeeded(self, event):
+        log.debug("Command {0.command_name} with request id "
+                  "{0.request_id} on server {0.connection_id} "
+                  "succeeded in {0.duration_micros} "
+                  "microseconds".format(event))
 
+    def failed(self, event):
+        log.debug("Command {0.command_name} with request id "
+                  "{0.request_id} on server {0.connection_id} "
+                  "failed in {0.duration_micros} "
+                  "microseconds".format(event))
+                  
+monitoring.register(CommandLogger())
