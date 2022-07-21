@@ -8,33 +8,43 @@ from platform import platform
 from subprocess import run
 from typing import Callable, Optional
 from json import dump, load
+from multiprocessing import Pool, Queue, Process
+from functools import partial
+from itertools import chain
 
 from icecream import ic
 from mongoengine import Document
 from mongoengine.fields import EnumField, IntField, StringField
-from tqdm.auto import tqdm
+from pymongo import MongoClient
+from tqdm.auto import tqdm, trange
 from alive_progress import alive_bar
+from dotenv import load_dotenv
 
 try:
-    from core.atlas import max_title, sg
+    from core.atlas import max_title, sg, mconnect
     from core.log import errwrap, log
 except ImportError:
-    from atlas import max_title, sg
+    from atlas import max_title, sg, get_atlas_uri, BASE
     from log import errwrap, log
-    
 
 
-#.┌─────────────────────────────────────────────────────────────────┐.#
-#.│                           Chapter                               │.#
-#.└─────────────────────────────────────────────────────────────────┘.#
-#   
+# .┌─────────────────────────────────────────────────────────────────┐.#
+# .│                           Chapter                               │.#
+# .└─────────────────────────────────────────────────────────────────┘.#
+#
+load_dotenv()
+URI = os.getenv("SUPERGENE")
+
+
+class ChapterNotFound(Exception):
+    pass
 
 class Chapter(Document):
-    chapter = IntField(Required=True, unique=True)
+    chapter = IntField(required=True, unique=True)
     section = IntField()
-    book = IntField()
-    title = StringField(max_length=500, Required=True)
-    text = StringField(Required=True)
+    book = IntField(min_value=1, max_value=10, required=True)
+    title = StringField(max_length=500, required=True)
+    text = StringField()
     filename = StringField()
     md_path = StringField()
     html_path = StringField()
@@ -42,22 +52,22 @@ class Chapter(Document):
     html = StringField()
 
 
-@errwrap() 
+@errwrap()
 def generate_section(chapter: int):
-    '''
+    """
     Determines the given chapter's section.
 
     Args:
         `chapter` (int):
             The given chapter.
-            
+
     Raises:
         `ValueError`: Invalid Chapter Number
 
     Returns:
-        `section` (int): 
+        `section` (int):
             The section that the given chapter belongs to.
-    '''
+    """
     log.debug(f"Called generate_section(chapter={chapter})")
     if chapter <= 424:
         return 1
@@ -97,9 +107,9 @@ def generate_section(chapter: int):
         raise ValueError("Invalid Chapter", f"\nChapter: {chapter}")
 
 
-@errwrap() 
+@errwrap()
 def get_section(chapter: int):
-    '''
+    """
     Retrieve the section of a given chapter from MongoDB.
 
     Args:
@@ -110,9 +120,9 @@ def get_section(chapter: int):
         ValueError: Invalid Chapter number
 
     Returns:
-        `section` (int): 
+        `section` (int):
             The section of the given chapter.
-    '''
+    """
     sg()
     for doc in Chapter.objects(chapter=chapter):
         return doc.section
@@ -120,7 +130,7 @@ def get_section(chapter: int):
 
 @errwrap()
 def generate_book(chapter: int):
-    '''
+    """
     Generate the book for a given chapter.
 
     Args:
@@ -131,9 +141,9 @@ def generate_book(chapter: int):
         `ValueError`: Invalid Section Number
 
     Returns:
-        `book` (int): 
+        `book` (int):
             The book of the given chapter
-    '''
+    """
 
     section = generate_section(chapter)
     log.debug(f"Section: {section}")
@@ -158,12 +168,12 @@ def generate_book(chapter: int):
     elif section == 16 | section == 17:
         return 10
     else:
-        raise ValueError("Invalid Section Input.", f'Section: {section}')
+        raise ValueError("Invalid Section Input.", f"Section: {section}")
 
 
 @errwrap()
 def get_book(chapter: int):
-    '''
+    """
     Retrieve the book for the given chapter from MongoDB.
 
     Args:
@@ -171,9 +181,9 @@ def get_book(chapter: int):
             The given chapter.
 
     Returns:
-        `book` (int): 
+        `book` (int):
             The book for the given chapter.
-    '''
+    """
     sg()
     for doc in Chapter.objects(chapter=chapter):
         return doc.book
@@ -181,17 +191,17 @@ def get_book(chapter: int):
 
 @errwrap()
 def get_title(chapter: int):
-    '''
+    """
     Retrieve the Title of the given chapter from MongoDB.
 
     Args:
         `chapter` (int):
             The given chapter.
-            
+
     Returns:
         `title` (str):
             The title of the given chapter.
-    '''
+    """
     sg()
     for doc in Chapter.objects(chapter=chapter):
         title = max_title(doc.title)
@@ -200,7 +210,7 @@ def get_title(chapter: int):
 
 @errwrap()
 def generate_filename(chapter: int):
-    '''
+    """
     Generate the filename for the given chapter.
 
     Args:
@@ -208,16 +218,16 @@ def generate_filename(chapter: int):
             The given chapter.
 
     Returns:
-        `filename` (str): 
+        `filename` (str):
             the filename (without extension) for the given chapter.
-    '''
+    """
     chapter_str = str(chapter).zfill(4)
     return f"chapter-{chapter_str}"
 
 
 @errwrap()
 def get_filename(chapter: int):
-    '''
+    """
     Retrieve the filename of the given chapter from MongoDB.
 
     Args:
@@ -225,9 +235,9 @@ def get_filename(chapter: int):
             The given chapter.
 
     Returns:
-        `filename` (str): 
+        `filename` (str):
             The filename of the given chapter without a file extension.
-    '''
+    """
     sg()
     for doc in Chapter.objects(chapter=chapter):
         return doc.filename
@@ -235,7 +245,7 @@ def get_filename(chapter: int):
 
 @errwrap()
 def generate_md_path(chapter: int):
-    '''
+    """
     Generates the path to where the given chapter's multimarkdown will be stored.
 
     Args:
@@ -243,22 +253,22 @@ def generate_md_path(chapter: int):
             The given chapter.
 
     Returns:
-        `md_path` (str): 
+        `md_path` (str):
             The filepath of the the given chapter's multimarkdown.
-    '''
-    #> Generate book and filename from the given chapter
+    """
+    # > Generate book and filename from the given chapter
     book = generate_book(chapter)
     filename = generate_filename(chapter)
-    
-    #> Pad the chapter number to four digits
+
+    # > Pad the chapter number to four digits
     book_dir = str(book).zfill(2)
-    
-    #> Platform OS
-    if platform() == 'Linux':
-        ROOT = 'home' #< WSL2
+
+    # > Platform OS
+    if platform() == "Linux":
+        ROOT = "home"  # < WSL2
     else:
-        ROOT = 'Users' #< Max
-        
+        ROOT = "Users"  # < Max
+
     BASE = f"/{ROOT}/maxludden/dev/py/superforge/"
     md_path = f"{BASE}/books/book{book_dir}/md/{filename}.md"
     return md_path
@@ -266,7 +276,7 @@ def generate_md_path(chapter: int):
 
 @errwrap()
 def get_md_path(chapter: int):
-    '''
+    """
     Retrieve the path of the the given chapter's multimarkdown from MongoDB.
 
     Args:
@@ -274,9 +284,9 @@ def get_md_path(chapter: int):
             The given chapter.
 
     Returns:
-        `md_path` (str): 
+        `md_path` (str):
             The filepath for the given chapter.
-    '''
+    """
     sg()
     for doc in Chapter.objects(chapter=chapter):
         return doc.md_path
@@ -284,7 +294,7 @@ def get_md_path(chapter: int):
 
 @errwrap()
 def generate_html_path(chapter: int):
-    '''
+    """
     Generates the path to where the given chapter's HTML will be stored.
 
     Args:
@@ -292,20 +302,20 @@ def generate_html_path(chapter: int):
             The given chapter.
 
     Returns:
-        `html_path` (str): 
+        `html_path` (str):
             The filepath to the given chapter's HTML.
-    '''
+    """
     book = generate_book(chapter)
     filename = generate_filename(chapter)
-    
+
     book_dir = str(book).zfill(2)
-    
-    #> Platform OS
-    if platform() == 'Linux':
-        ROOT = 'home' #< WSL2
+
+    # > Platform OS
+    if platform() == "Linux":
+        ROOT = "home"  # < WSL2
     else:
-        ROOT = 'Users' #< Max
-        
+        ROOT = "Users"  # < Max
+
     BASE = f"/{ROOT}/maxludden/dev/py/superforge/"
     html_path = f"{BASE}/books/book{book_dir}/html/{filename}.html"
     return html_path
@@ -313,7 +323,7 @@ def generate_html_path(chapter: int):
 
 @errwrap()
 def get_html_path(chapter: int):
-    '''
+    """
     Retrieve the filepath of the given chapter from MongoDB.
 
     Args:
@@ -321,57 +331,57 @@ def get_html_path(chapter: int):
             The given chapter.
 
     Returns:
-        `html_path` (str): 
+        `html_path` (str):
             The filepath of the given chapter.
-    '''
+    """
     sg()
     for doc in Chapter.objects(chapter=chapter):
         return doc.html_path
 
 
-@errwrap(entry=False,exit=False)
+@errwrap(entry=False, exit=False)
 def generate_md(chapter: int):
-    '''
+    """
     Generates the multimarkdown string for the given chapter. Saves the markdown string to disk (md_path) as well as to MongoDB.
-    
+
     Requires an active connection to MongoDB.
 
     Args:
         `chapter` (int):
-            The given chapter. 
+            The given chapter.
 
     Returns:
-        `md` (str): 
+        `md` (str):
             The multimarkdown for the given chapter.
-    '''
+    """
     sg()
     for doc in Chapter.objects(book__gt=3):
         title = max_title(doc.title)
-        #> Multimarkdown Metadata
+        # > Multimarkdown Metadata
         meta = f"Title:{title} \nChapter:{doc.chapter} \nSection:{doc.section} \nBook:{doc.book} \nCSS:../Styles/style.css \nviewport: width=device-width\n  \n"
-        
-        #> ATX Headers
+
+        # > ATX Headers
         img = """<figure>\n\t<img src="../Images/gem.gif" alt="gem" id="gem" width="120" height="60" />\n</figure>\n  \n"""
-        
+
         atx = f"## {title}\n### Chapter {doc.chapter}\n  \n{img}\n  \n  "
-        
-        #> Chapter Text
+
+        # > Chapter Text
         text = f"{doc.text}\n"
-        
-        #> Concatenate Multimarkdown
+
+        # > Concatenate Multimarkdown
         md = f"{meta}{atx}{text}"
         doc.md = md
         doc.save()
-        
-        with open (doc.md_path, 'w') as outfile:
-            outfile.write (md)
+
+        with open(doc.md_path, "w") as outfile:
+            outfile.write(md)
         log.debug("Wrote Chapter {doc.chapter}'s multimarkdown to disk.")
         return md
 
 
 @errwrap(exit=False)
 def get_md(chapter: int):
-    '''
+    """
     Retrieve the multimarkdown for the given chapter from MongoDB.
 
     Args:
@@ -379,9 +389,9 @@ def get_md(chapter: int):
             The given chapter.
 
     Returns:
-        `md` (str): 
+        `md` (str):
             The multimarkdown of the given chapter.
-    '''
+    """
     sg()
     for doc in Chapter.objects(chapter=chapter):
         return doc.md
@@ -389,7 +399,7 @@ def get_md(chapter: int):
 
 @errwrap(entry=False, exit=False)
 def generate_html(chapter: int):
-    '''
+    """
     Generate the HTML for a given chapter. Save the given chapter's HTML to disk (html_path) as well as to MongoDB.
 
     Args:
@@ -397,37 +407,44 @@ def generate_html(chapter: int):
             The MongoDB Chapter document for the given chapter.
 
     Returns:
-        `html` (str): 
+        `html` (str):
             The HTML for the given chapter.
-    '''
+    """
     sg()
     for doc in Chapter.objects(chapter=chapter):
         md_cmd = [
-            "multimarkdown", "-f", "--nolabels", "-o", f"{doc.html_path}", f"{doc.md_path}"
+            "multimarkdown",
+            "-f",
+            "--nolabels",
+            "-o",
+            f"{doc.html_path}",
+            f"{doc.md_path}",
         ]
         log.debug(f"Markdown Path: {doc.md_path}")
         log.debug(f"HTML Path: {doc.html_path}")
         log.debug(f"Multitmarkdown Command: &quot; &quot;.join({md_cmd})")
         try:
             result = run(md_cmd)
-            
+
         except OSError as ose:
             raise OSError(ose)
-        
+
         except ValueError as ve:
             raise ValueError(ve)
-        
+
         except Exception as e:
             log.error(e)
-            sys.exit("Error occured in the proccess of creating HTML for Chapter {doc.chapter}")
-        
+            sys.exit(
+                "Error occured in the proccess of creating HTML for Chapter {doc.chapter}"
+            )
+
         else:
-            log.debug(f'Result of MD Command: {result.__str__}')
-            
-            with open (doc.html_path, 'r') as chapter:
+            log.debug(f"Result of MD Command: {result.__str__}")
+
+            with open(doc.html_path, "r") as chapter:
                 html = chapter.read()
             log.debug(f"Saved Chapter {chapter}'s HTML to disk.")
-            
+
             doc.html = html
             doc.save()
             log.debug(f"Saved Chapter {chapter}'s HTML to MongoDB.")
@@ -436,7 +453,7 @@ def generate_html(chapter: int):
 
 @errwrap(exit=False)
 def get_html(chapter: int):
-    '''
+    """
     Retrieve the HTML of the given chapter from MongoDB.
 
     Args:
@@ -444,9 +461,9 @@ def get_html(chapter: int):
             The given chapter.
 
     Returns:
-        `html` (str): 
+        `html` (str):
             The HTML of the given chapter.
-    '''
+    """
     sg()
     for doc in Chapter.objects(chapter=chapter):
         return doc.html
@@ -454,131 +471,131 @@ def get_html(chapter: int):
 
 @errwrap()
 def write_md(chapter: int):
-    '''
+    """
     Retrieves the given chapter's multimarkdown from MongoDB and writes it to disk (md_path)
 
     Args:
         `chapter` (int):
             The given chapter
-    '''
+    """
     sg()
     for doc in Chapter.objects(chapter=chapter):
         log.debug(f"MD Path: {doc.md_path}")
         length = len(doc.md)
         log.debug(f"Markdown Length: {length}")
 
-        with open (doc.md_path, 'w') as outfile:
+        with open(doc.md_path, "w") as outfile:
             outfile.write(doc.md)
     log.debug(f"Wrote Chapter {chapter}'s Multimarkdown to Disk.")
 
 
 @errwrap()
 def make_chapters():
-    '''
+    """
     Generate the values needed to create the chapter.
-    '''
+    """
     sg()
     for doc in tqdm(Chapter.objects(), unit="ch", desc="Creating Chapters"):
         chapter = doc.chapter
         log.debug(f"Accessed Chapter {chapter}'s MongoDB Document.")
-        
-        #> Section
+
+        # > Section
         section = generate_section(chapter)
         log.debug(f"Chapter {chapter}'s section: {section}")
         doc.section = section
         log.debug(f"Updated Chapter {chapter}'s {section}.")
-        
-        #> Book
+
+        # > Book
         book = generate_book(chapter)
         log.debug(f"Chapter {chapter}'s book: {book}")
         doc.book = book
         log.debug(f"Updated Chapter {chapter}'s {book}.")
-        
-        #> Title
+
+        # > Title
         title = get_title(chapter)
         log.debug(f"Chapter {chapter}'s title: {title}")
         doc.title = title
         log.debug(f"Updated Chapter {chapter}'s {title} in MongoDB.")
-        
-        #> Filename
+
+        # > Filename
         filename = generate_filename(chapter)
         log.debug(f"Chapter {chapter}'s Filename: {filename}")
         doc.filename = filename
         log.debug(f"Updated Chapter {chapter}'s filename in MongoDB")
-        
-        #> Md_path
+
+        # > Md_path
         md_path = generate_md_path(chapter)
         log.debug(f"Chapter {chapter}'s Multitmarkdown Path: {md_path}")
         doc.md_path = md_path
         log.debug(f"Updated Chapter {chapter}'s Multimarkdown filepath.")
-        
-        #> Html_path
+
+        # > Html_path
         html_path = generate_html_path(chapter)
         log.debug(f"Chapter {chapter}'s html_path: {html_path}")
         doc.html_path = html_path
         log.debug(f"Updated Chapter {chapter}'s {html_path}.")
-        
+
         # #> Md
         # md = generate_md(chapter)
         # length = len(md)
         # log.debug(f"Chapter {chapter}'s md: {length}")
         # doc.md = md
         # log.debug(f"Updated Chapter {chapter}'s {md}.")
-        
+
         # #> Html
         # html = generate_html(chapter)
         # length = len(html)
         # log.debug(f"Chapter {chapter}'s html length: {length}")
         # doc.html = html
         # log.debug(f"Updated Chapter {chapter}'s {html}.")
-        
+
         doc.save()
-        
+
         log.debug(f"Finished Chapter {chapter}.")
 
 
 @errwrap()
 def verify_chapters():
-    '''
+    """
     Update all the values of each chapter dict.
-    '''
+    """
     sg()
     for doc in tqdm(Chapter.objects(), unit="ch", desc="updating paths"):
         chapter = doc.chapter
-        
-        #> Section
+
+        # > Section
         if doc.section != "":
             section = doc.section
         else:
             section = generate_section(chapter)
         doc.section = section
         log.debug(f"Section: {section}")
-        
-        #> Book
+
+        # > Book
         if doc.book != "":
             book = doc.book
         else:
             book = generate_book(chapter)
         doc.book = book
         log.debug(f"Book: {book}")
-        
-        #> Md_path
+
+        # > Md_path
         if doc.md_path != "":
             md_path = doc.md_path
         else:
             md_path = generate_md_path(chapter)
         doc.md_path = md_path
         log.debug(f"MD Path: {md_path}")
-        
-        #> HTML_path
+
+        # > HTML_path
         if doc.html_path != "":
             html_path = doc.html_path
         else:
             html_path = generate_html_path(chapter)
         doc.html_path = html_path
         log.debug(f"HTML Path: {html_path}")
-        
-        #> MD
+
+        # > MD
         if doc.md != "":
             md = doc.md
         else:
@@ -586,8 +603,8 @@ def verify_chapters():
         doc.md = md
         length = len(md)
         log.debug(f"MD length: {length}")
-        
-        #> HTML
+
+        # > HTML
         if doc.html != "":
             html = doc.html
         else:
@@ -595,28 +612,30 @@ def verify_chapters():
         doc.html = html
         length = len(html)
         log.debug(f"HTML Length: {length}")
-        
+
         doc.save()
         log.info(f"Finished chapter {chapter}")
-            
+
 
 @errwrap()
 def write_book_md(book: int):
     sg()
-    for doc in tqdm(Chapter.objects(book=book), unit="ch", desc=f'Book {book}'):
-        with open(doc.md_path, 'w') as outfile:
+    for doc in tqdm(Chapter.objects(book=book), unit="ch", desc=f"Book {book}"):
+        with open(doc.md_path, "w") as outfile:
             outfile.write(doc.md)
         log.debug(f"Wrote CHapter {doc.chapter}'s Markdown to disk.")
-        
+
+
 @errwrap()
 def write_book_html(book: int):
     sg()
-    for doc in tqdm(Chapter.objects(book=book), unit="ch", desc=f'Book {book}'):
-        with open (doc.html_path, 'w') as outfile:
+    for doc in tqdm(Chapter.objects(book=book), unit="ch", desc=f"Book {book}"):
+        with open(doc.html_path, "w") as outfile:
             outfile.write(doc.html)
             log.debug(f"Wrote CHapter {doc.chapter}'s HTML to disk.")
 
 
+@errwrap()
 def update_html_paths():
     sg()
     for doc in tqdm(Chapter.objects(), unit="ch", desc="Updating filepath"):
@@ -628,15 +647,16 @@ def update_html_paths():
         doc.html_path = filepath
         doc.save()
 
+
 @errwrap()
 def replace_geno_core(match):
-    '''
+    """
     Replace the geno core with the correct version.
-    '''
-    match_str = match.group(0) # The entire match
-    class_group = str(match.group('class')).capitalize() # The class group
-    core_group = max_title(str(match.group('core'))) # The core group
-    
+    """
+    match_str = match.group(0)  # The entire match
+    class_group = str(match.group("class")).capitalize()  # The class group
+    core_group = max_title(str(match.group("core")))  # The core group
+
     replacement = f"""<div class="tables">
     <table class="center70">
         <tr>
@@ -649,48 +669,180 @@ def replace_geno_core(match):
 </div>"""
     return replacement
 
+
 @errwrap()
-def edit(pattern: str, replacement: str|Callable) -> None:
+def find(pattern: str | list[str]) -> list[str]:
+    """
+    Find all the matches of a pattern in Supergene.
+    """
+    if isinstance(pattern, str):
+        pattern = [pattern]
+    html = tqdm(Chapter.objects(), unit="ch", desc="")
+    for p in pattern:
+        html = re.sub(p, replace_geno_core, html)
+    return html
+
+
+@errwrap()
+def edit(pattern: str, replacement: str | Callable) -> None:
     regex = re.compile(pattern)
     results = []
     sg()
     chapters = Chapter.objects.all()
- 
+
     for doc in tqdm(chapters, unit="ch", desc="Editing"):
-            # Read Chapter Data from MongoDB
-            chapter = doc.chapter
-            msg = f"Chapter {chapter}"
+        # Read Chapter Data from MongoDB
+        chapter = doc.chapter
+        msg = f"Chapter {chapter}"
 
-            
-            # Search Chapter for Pattern
-            text = doc.text
-            matches = re.findall(regex, text)
-       
-            
-            if len(matches) > 0:
-                chapter_matches = {"chapter": chapter, "matches": len(matches)}
-                for x, match in enumerate(matches, start=1):
-                    chapter_matches[f'match{x}'] = match
-                    if callable(replacement):
-                        text = re.sub(pattern, replacement(match), text)
-                    else:
-                        text = re.sub(pattern, replacement, text)
-                
-                results.append(chapter_matches)
-                doc.text = text
-                doc.save()
-                msg = f"Chapter {chapter} - Saved Updated Chapter "
-                log.debug(msg)
-            else:
-                msg = f"Chapter {chapter} - No Matches"
-                log.debug(msg)
-            log.debug(f"Finished chapter {doc.chapter}")
-            
-    with open ('json/run.json', 'r') as infile:
-        current_run = load(infile)
-    with open ('../json/results{current_run}.json', 'w') as outfile:
-        dump(results, outfile, indent=4)
+        # Search Chapter for Pattern
+        text = doc.text
+        matches = re.findall(regex, text)
+
+        if len(matches) > 0:
+            chapter_matches = {"chapter": chapter, "matches": len(matches)}
+            for x, match in enumerate(matches, start=1):
+                chapter_matches[f"match{x}"] = match
+                if callable(replacement):
+                    text = re.sub(pattern, replacement(match), text)
+                else:
+                    text = re.sub(pattern, replacement, text)
+
+            results.append(chapter_matches)
+            doc.text = text
+            doc.save()
+            msg = f"Chapter {chapter} - Saved Updated Chapter "
+            log.debug(msg)
+        else:
+            msg = f"Chapter {chapter} - No Matches"
+            log.debug(msg)
+        log.debug(f"Finished chapter {doc.chapter}")
+    return results
+
+@errwrap()
+def generate_text_path(chapter: int) -> str:
+    """
+    Generate the path to the text file for a chapter.
+    """
+    text_path = f"{BASE}/text/{chapter}.txt"
+    return text_path
+
+
+@errwrap()
+def get_text(chapter: int) -> str:
+    """
+    Get the text of a chapter.
+    """
+    sg()
+    doc = Chapter.objects(chapter=chapter).first()
+    if doc is None:
+        raise ChapterNotFound(f"Unable to find chapter {chapter}")
+    text = doc.text
+    return text
+    
+@errwrap()
+def write_text(chapter: int) -> None:
+    """
+    Write the text of a chapter to a file.
+    """
+    sg()
+    text = get_text(chapter)
+    text_path = generate_text_path(chapter)
+    with open(text_path, "w") as outfile:
+        outfile.write(text)
+    log.debug(f"Wrote CHapter {chapter}'s text to disk.")
+    
+@errwrap()
+def write_texts() -> None:
+    """
+    Write the text of all chapters to disk.
+    """
+    sg()
+    for chapter in tqdm(Chapter.objects(), unit="ch", desc="Writing Text"):
+        write_text(chapter.chapter)
+    log.info("Finished writing text.")
+    
+
+@errwrap()
+def mget_text(chunk, input):
+    """
+    Retrieve the text of a given chapter.
+    
+    Args:
+        chapter (int): The chapter to retrieve.
+        
+    Returns:
+        text (str): The text of the chapter.
+    """
+    #> Connect to MongoDB
+    URI = get_atlas_uri("SUPERGENE")
+    client = client = MongoClient(URI, maxPoolSize=250)
+    db = client.SUPERGENE
+    chapters = db["chapter"]
+    
+ 
+    
+    #> Loop over the _id's in the chunk and retrieve the text from each
+    chunk_result_list = []
+    for chapters in chunk:
+    #> Get Chapter and it's text
+        chapter = chapters.find_one({"chapter": chapter})
+        text = chapter["text"]
+        chunk_result_list.append({"chapter":chapter, "text": text})
+    return chunk_result_list
+
+        
+@errwrap()
+def make_text_dirs() -> None:
+    for i in trange(1,11,unit="ch", desc="Creating Text Directories"):
+        book_str = str(i).zfill(2)
+        path = os.path(f"BASE/books/book{book_str}/text")
+        os.makedirs(path, exist_ok=True)
+        log.debug(f"Created {path}")
+        
+
+@errwrap()
+def chunks (l, n):
+    """Yield successive n-sized chunks from l."""
+    for i in range(1, 3463, n):
+        if i == 3095 | i == 3117:
+            continue
+        else:
+            yield l[i:i + n]
+
+@errwrap()
+def mget_text(chunk):
+    """
+    Retrieve the text of a given chapter.
+
+    """
+    #> Connect to MongoDB
+    URI = get_atlas_uri("SUPERGENE")
+    client = client = MongoClient(URI, maxPoolSize=250)
+    db = client.SUPERGENE
+    chapters = db["chapter"]
+    
+    #> Loop over the _id's in the chunk and retrieve the text from each
+    chunk_result_list = []
+    for chapter in chunk:
+        
+        #> Get Chapter and it's text
+        chapter_doc = chapters.find_one({"chapter": chapter})
+        text = chapter_doc["text"]
+        chapter = chapter_doc["chapter"]
+        text_path = generate_text_path(chapter)
+        with open(text_path, "w") as outfile:
+            outfile.write(text)
+        chunk_result_list.append({"chapter":chapter, "text": text})
     
     
+#> Connect to MongoDB
+URI = get_atlas_uri("SUPERGENE")
+client = client = MongoClient(URI, maxPoolSize=250)
+db = client.SUPERGENE
+chapters = db["chapter"]
 
-edit(r"((?P<class>\w+) Geno Core: (?P<core>.\*))", replace_geno_core)
+# pool object creation
+pool = Pool(processes=8) #spawn 8 processes
+calculate_partial  = partial(mget_text, input = input) #partial function creation to allow input to be sent to the calculate function
+result = pool.map(calculate_partial,list(chunks(chapters,200))  

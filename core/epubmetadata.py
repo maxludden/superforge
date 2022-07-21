@@ -259,6 +259,6 @@ def make_yaml_dir(book: int) -> None:
     else:
         log.debug(f"Yaml directory for book {book} already exists.")
         
-for i in trange(1,11):
-    generate_filepath(i, save=True)
-    generate_text(i, save=True, write=True)
+# for i in trange(1,11):
+#     generate_filepath(i, save=True)
+#     generate_text(i, save=True, write=True)

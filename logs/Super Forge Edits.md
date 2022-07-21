@@ -9,7 +9,7 @@ r"^((?P<bronze>Bronze) Geno Core: (?P<bronzecore>.*))$|^((?P<silver>Silver) Geno
 ### Generic Geno Core Regex
 
 ```python
-r"^((?P<class>\w+) Geno Core: (?P<core>.*))$\n
+r"^((?P<class>\w+) Geno Core: (?P<core>.*))$\n"
 ```
 
 #### Global pattern flags

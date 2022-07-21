@@ -8,6 +8,7 @@ from typing import Optional
 
 from dotenv import dotenv_values, load_dotenv
 from mongoengine import connect, disconnect_all
+from pymongo import MongoClient
 from pymongo.errors import ConnectionFailure, InvalidURI, NetworkTimeout
 
 try:
@@ -24,6 +25,7 @@ def generate_base():
         ROOT = "Users"  # < Mac
     BASE = f"/{ROOT}/maxludden/dev/py/superforge"
     return BASE
+
 
 BASE = generate_base()
 
@@ -75,9 +77,9 @@ def sg(database: str = "SUPERGENE"):
         `database` (Optional[str]):
             The alternative database you would like to connect to. Default is 'SUPERGENE'.
     """
-    #> Get Connection URI
+    # > Get Connection URI
     disconnect_all()
-    
+
     db_lower = str(database).lower()
     if "supergene" in db_lower:
         if "make" in db_lower:
@@ -86,11 +88,11 @@ def sg(database: str = "SUPERGENE"):
             db = "SUPERGENE"
         else:
             raise ConnectionError(f"{database} is not a valid DB.")
-    
+
     URI = get_atlas_uri(db)
     log.debug(f"Retrieved connection URI: {URI}")
-    
-    #> Attempt to connect to MongoDB    
+
+    # > Attempt to connect to MongoDB
     try:
         connect(db, host=URI)
         log.debug(f"Connected to {database}")
@@ -100,6 +102,39 @@ def sg(database: str = "SUPERGENE"):
     except Exception as e:
         log.warning(f"Unable to Connect to MongoDB. Error {e}")
         raise e
+
+
+@errwrap()
+def mconnect(db: Optional[str] = "SUPERGENE") -> MongoClient:
+    """
+    Custom function to connect to MongoDB with pymongo.
+
+    Args:
+        `database` (Optional[str]):
+            The alternative database you would like to connect to. Default is 'SUPERGENE'.
+    """
+    if db == "SUPERGENE":
+        URI = get_atlas_uri(db)
+        private_client = private_client = MongoClient(URI, maxPoolSize=10000)
+        return private_client
+
+    # > Get Connection URI
+    disconnect_all()
+    URI = get_atlas_uri()
+    log.debug(f"Retrieved connection URI: {URI}")
+
+    # > Attempt to connect to MongoDB
+    try:
+        client = MongoClient(URI)
+        log.debug(f"Connected to MongoDB")
+    except ConnectionFailure as ce:
+        log.error(f"Connection Error: {ce}")
+        raise ce
+    except Exception as e:
+        log.warning(f"Unable to Connect to MongoDB. Error {e}")
+        raise e
+
+    return client
 
 
 @errwrap()
