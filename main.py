@@ -34,9 +34,10 @@ new_run()
 # URI = os.environ.get("SUPERGENE")
 # connect("supergene", host=URI)
 chapter = 1027
-
-chapter_.generate_md(1027, save=True, write=True)
-chapter_.generate_html(1027, save=True)
+sg()
+doc = chapter_.Chapter.objects(chapter=chapter).first()
+doc.md =chapter_.generate_md(chapter, save=True, write=True)
+doc.html =chapter_.generate_html(chapter, save=True)
 doc.save()
 yay()
 
