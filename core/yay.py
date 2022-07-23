@@ -40,7 +40,7 @@ def finished(
     #> Command Strings
     # cd_cmd_str = f'workon supergene && cdproject;'
 
-    notification_str = f'alerter -title \"{title}\" -subtitle \"{filename}\"  -message \"{message}\" -closeLabel Dismiss -actions Yay -sender com.microsoft.VSCode -group code -sound "Crystal"'
+    notification_str = f'alerter -message \"{message}\" -actions \"Open Code\", Yay, Dismiss-title \"{title}\" -subtitle \"{filename}\"   -closeLabel Dismiss  -sender com.microsoft.VSCode -group code -sound "Crystal"'
     
     # #> Commands
     # cd_cmd = cd_cmd_str.split()
@@ -52,7 +52,11 @@ def finished(
     # system(notification_str)
     result = run( notification_cmd, capture_output=True)
     if result.returncode == 0:
-        log.info(result.stdout.decode('utf-8'))
+        selection = result.stdout.decode('utf-8')
+        log.info(f"Selected Action: {selection}")
+        if selection == "@CONTENTCLICKED" | selection == "@ACTIONCLICKED":
+            system("open -a 'Visual Studio Code'")
+        
                 
                 
 finished ("Test", 'yay.py')
