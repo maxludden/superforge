@@ -53,6 +53,7 @@ class Chapter(Document):
         md = "\n# Chapter {self.chapter} Markdown\n  \n{self.md}"
         text = f"Text:\n  \n{self.text}\n"
         html = f"HTML:\n  \n{self.html}"
+        return yaml_doc + md + text + html
         
 
 

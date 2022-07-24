@@ -27,16 +27,16 @@ import core.section as section_
 import core.titlepage as titlepg
 from core.yay import yay
 
-load_dotenv()
+load_dotenv() # > Load .env file
+
 # . Start a new run
 new_run()
 
-# URI = os.environ.get("SUPERGENE")
-# connect("supergene", host=URI)
-chapter = 3303
-sg()
-doc = chapter_.Chapter.objects(chapter=chapter).first()
-log.info(doc.__repr__())
 
-# < Fix tags.
+sg() #> Connect to MongoDB
+for doc in tqdm(chapter_.Chapter.objects(), unit="ch", desc="Editing Chapters"):
+    
+    log.info(doc.__repr__())
+
+# . Fix tags log.md tags
 fix_tags()
