@@ -1,18 +1,22 @@
-import requests
-from bs4 import BeautifulSoup
 import logging
 import re
-from json import load, dump
-from checkForUpdates import INDEX_PATH  
+from json import dump, load
+
+import requests
+from bs4 import BeautifulSoup
+from dotenv import load_dotenv
+
+from checkForUpdates import INDEX_PATH
 from main import lp
 
 # Full paths
-INDEX_PATH = 'JSON/index.json'
-TOC_PATH = 'JSON/toc.json'
+INDEX_PATH = 'json/index.json'
+TOC_PATH = 'json/toc.json'
 driverMacPath = 'Drivers/chromedriver'
-CHAPTERS_PATH = '/chapters'
+CHAPTERS_PATH = 'books/chapters'
 LOG_FILE = 'logs/checkForUpdates.log'
 
+load_dotenv()
 
 print('New Run')
 
@@ -55,7 +59,9 @@ for link in links:
     link_url = link["href"]
 
     # Save Path
-    savePath = str(CHAPTERS_PATH + '/chapter-' + chapter.zfill(5) + '.txt')
+    chapter_str = str(chapter).zfill(4)
+    book = f
+    savePath = str(f"{CHAPTERS_PATH}'/chapter-'{chapter_str}.txt')
 
     # Fix Chapter 39.1
     if "Saint Paul (1)" in title:

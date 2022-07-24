@@ -4,16 +4,10 @@ from mongoengine.fields import IntField, StringField
 from tqdm.auto import tqdm, trange
 from alive_progress import alive_bar
 
-try:
-    from core.atlas import BASE, errwrap, max_title, sg
-    from core.book import Book
-    from core.log import log, errwrap
-    import core.myaml as myaml
-except:
-    from atlas import BASE, max_title, sg
-    from book import Book
-    from log import errwrap, log
-    import myaml
+from core.atlas import BASE, errwrap, max_title, sg
+from core.book import Book
+from core.log import log, errwrap
+import core.myaml as myaml
 
 
 class Metadata(Document):

@@ -24,18 +24,18 @@ from tqdm.auto import tqdm
 from requests import get
 
 DRIVERS_PATH = "Driver/chromedriver"
-INDEX_PATH= 'JSON/index.json'
+INDEX_PATH= 'json/index.json'
 
 # Declair project paths as constsants
-CH_INDEX = "JSON/chapter_index.json"
-TOC_PATH = "JSON/toc.json"
-SAMPLES_PATH = "JSON/samples.json"
-CHAPTER_JSON = "JSON/chapter.json"
-SECTION_JSON = "JSON/section.json"
-INDEX_PATH = "JSON/index.json"
+CH_INDEX = "json/chapter_index.json"
+TOC_PATH = "json/toc.json"
+SAMPLES_PATH = "json/samples.json"
+CHAPTER_json = "json/chapter.json"
+SECTION_json = "json/section.json"
+INDEX_PATH = "json/index.json"
 LOG_PATH = "logs/db_main.log"
 DRIVERS_PATH = "Driver/chromedriver"
-GEM_IMG_URL = '<img src="https://i.imgur.com/FhWsZat.gif" alt="Spinning Black Gem" widtj="120" height="67.5" />\n\n'
+GEM_IMG_URL = '<img src="Images/gem.gif" alt="Spinning Black Gem" width="120" height="60" />\n\n'
 MISSING = [0,3095,3117]   
 BOOKS = {1:1,2:2,3:3,4:4,5:4,6:5,7:6,8:6,9:7,10:7,11:8,12:9}
 
@@ -61,7 +61,7 @@ def lp(msg):
 # Connect to MongoDB Atlas 
 def atlas_lp():    # Connect to Atlas using LP
     # Read Auth Credentials from file
-    with open("JSON/authkey.json", 'r') as infile:
+    with open("json/authkey.json", 'r') as infile:
         atlas_authkey = dict((load(infile)))
     URI = atlas_authkey["atlas"]["uri"]
 
@@ -77,7 +77,7 @@ def atlas_lp():    # Connect to Atlas using LP
 
 def atlas():        #  log.info
     # Read Auth Credentials from file
-    with open("JSON/authkey.json", 'r') as infile:
+    with open("json/authkey.json", 'r') as infile:
         atlas_authkey = dict((load(infile)))
     URI = atlas_authkey["atlas"]["uri"]
 
@@ -93,7 +93,7 @@ def atlas():        #  log.info
 
 
 def connect_old():
-    with open ("JSON/authkey.json", 'r') as json:
+    with open ("json/authkey.json", 'r') as json:
         auth = dict((load(json)))
     supergene = auth["supergene"]
     
@@ -144,7 +144,7 @@ def connect_old():
         log.info("\t\tQuiting Script.")
     
 def connect_sg():
-    with open ("JSON/authkey.json", 'r') as json:
+    with open ("json/authkey.json", 'r') as json:
         auth = dict((load(json)))
     sg = auth["sg"]
     
@@ -208,7 +208,7 @@ def get_text(doc):
 
 # Retrieve Atlas Loggin
 def atlas_auth(*key):
-    with open("JSON/authkey.json", 'r') as infile:
+    with open("json/authkey.json", 'r') as infile:
         atlas_authkey = dict((load(infile)))
     if key:
         match key:
@@ -276,7 +276,7 @@ def print_title(msg):
 #     driver = webdriver.Chrome(DRIVERS_PATH, options=options)
 
 #     # Get Chapter Page
-#     with open ("JSON/toc.json", 'r') as infile:
+#     with open ("json/toc.json", 'r') as infile:
 #         toc = dict((load(infile)))
 #     url = toc[str(chapter)]["url"]
 #     driver.get(url)
@@ -483,7 +483,7 @@ def clean_tags():
             doc.save()
             
 def update_titles():
-    with open ("JSON/toc.json", 'r') as infile:
+    with open ("json/toc.json", 'r') as infile:
         toc = dict((load(infile)))
     
     atlas()
@@ -510,7 +510,7 @@ def write_chapters():
 # Main()
 def update_db():
     # Get URIs from authkey.json and register them
-    with open ("JSON/authkey.json", "r") as json:
+    with open ("json/authkey.json", "r") as json:
         authkey = dict((load(json)))
     supergene = authkey["supergene"]
     sg = authkey["sg"]
@@ -556,14 +556,14 @@ def update_db():
             }
             dictionary[str(doc.chapter)] = chapter_doc  
     
-    with open ("JSON/chapter-out.json", 'w') as outfile:
+    with open ("json/chapter-out.json", 'w') as outfile:
         dump(dictionary, outfile, indent=4)
-    lp("wrote chapter data to JSON")
+    lp("wrote chapter data to json")
     disconnect_all()
     
 
 def new_db():
-    with open ("JSON/authkey.json", "r") as json:
+    with open ("json/authkey.json", "r") as json:
         authkey = dict((load(json)))
         
     supergene = authkey["supergene"]
@@ -576,7 +576,7 @@ def new_db():
     except:
         lp("Unable to connect to " + sg)
         
-    with open ("JSON/chapter-out.json", 'r') as infile:
+    with open ("json/chapter-out.json", 'r') as infile:
         chapters = dict((load(infile)))
         
     keys = chapters.keys()
@@ -615,7 +615,7 @@ def new_db():
     
 def make_book_db():
     
-    with open ("JSON/authkey.json", 'r') as json:
+    with open ("json/authkey.json", 'r') as json:
         auth = dict((load(json)))
     sg = auth["sg"]
     
@@ -633,7 +633,7 @@ def make_book_db():
         start = IntField()
         end = IntField()   
     
-    with open("JSON/drafts.json", 'r') as infile:
+    with open("json/drafts.json", 'r') as infile:
         json = dict((load(infile)))
         
     keys = json.keys()
@@ -654,7 +654,7 @@ def make_book_db():
         
 def make_section_db():
     
-    with open ("JSON/authkey.json", 'r') as json:
+    with open ("json/authkey.json", 'r') as json:
         auth = dict((load(json)))
     sg = auth["sg"]
     
@@ -669,7 +669,7 @@ def make_section_db():
         end = IntField()
         book = LazyReferenceField(Book)
         
-    with open ("JSON/section.json", 'r') as infile:
+    with open ("json/section.json", 'r') as infile:
         sections = load(infile)
     for sec in sections:
         sect = int(sec["section"])

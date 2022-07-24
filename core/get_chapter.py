@@ -12,27 +12,17 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from tqdm.auto import tqdm
 
-from atlas import sg, BASE, CommandLogger
+from core.atlas import sg, BASE
+import core.chapter as chapter_
 from sg310.SG import badWords, fixDemigod, geno_r, status, removeDotCom
+    
 
 LOG_PATH = "logs/supergene.log"
 DRIVERS_PATH = "driver/chromedriver"
 
-log = logging.getLogger()
-log.setLevel(logging.INFO)
-logging.basicConfig(
-    filename=LOG_PATH,
-    level=logging.INFO,
-    format="%(asctime)s: %(message)s",
-    datefmt="%m/%d/%Y %I:%M:%S %p",
-)
-
-
-monitoring.register(CommandLogger())
-
 
 def get_chapter_dict(chapter: str) -> dict:
-    with open("JSON/toc.json", "r") as infile:
+    with open("json/toc.json", "r") as infile:
         toc = dict((load(infile)))
     chapter_dict = toc[chapter]
     return chapter_dict
@@ -256,8 +246,10 @@ def parse_chapter(text: str, chapter: str) -> str:
     if jadeskin_results:
         for result in jadeskin_results:
             text = sub(result, "Jadeskin", text)
-
-    with open("chapters/ParseChapter.md", "w") as outfile:
+    
+    book = chapter_.generate_book(chapter_num)
+    book_str = str(book).zfill(2)
+    with open(f"books/book{book_str}/ParseChapter.md", "w") as outfile:
         outfile.write(text)
 
     lp("Parsed Chapter " + chapter + " to chapter/Parsed Chapter.")
@@ -269,4 +261,4 @@ def remake_doc(text: str, chapter: str) -> None:
     pass
 
 
-get_chapter(1)
+get_chapter(1027)

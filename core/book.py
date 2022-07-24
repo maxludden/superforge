@@ -10,12 +10,8 @@ from mongoengine.fields import IntField, ListField, StringField, UUIDField
 from pymongo import MongoClient
 from tqdm.auto import tqdm
 
-try:
-    from core.atlas import BASE, max_title, sg
-    from core.log import errwrap, log
-except ImportError:
-    from atlas import BASE, max_title, sg
-    from log import errwrap, log
+from core.atlas import BASE, max_title, sg
+from core.log import errwrap, log
 
 # . ############################################################### . #
 # .                                                                 . #

@@ -5,58 +5,83 @@ from subprocess import run, PIPE
 from typing import Optional
 from json import load
 
-try:
-    from core.log import log, errwrap
-except ImportError:
-    from log import log, errwrap
+from core.log import log, errwrap
 
-def yay(celebrate: bool=True):
-    if celebrate == True:
+
+def yay(clear: bool = True):
+    """
+    Celebrates Anything!
+
+    Args:
+        `clear` (bool, optional): Whether to clear the console prior to celebrating. Defaults to True.
+    """
+    if clear == True:
         system("clear")
-        sleep(0.75)
-        system('for i in {1..10}\ndo\n  open raycast://confetti && echo "Celebrate  🎉"\ndone')
+    sleep(0.75)
+    system(
+        'for i in {1..10}\ndo\n  open raycast://confetti && echo "Celebrate  🎉"\ndone'
+    )
 
 
-def superyay(celebrate: bool=True):
-    if celebrate == True:
+def superyay(clear: bool = True) -> None:
+    """
+    Excessively Celebrates Anything!
+
+    Args:
+        `clear` (bool, optional): Whether to clear the console prior to celebrating. Defaults to True.
+    """
+    if clear == True:
         system("clear")
-        sleep(0.75)
-        for i in range(0,4):
-            system('for i in {1..20}\ndo\n  open raycast://confetti && echo "Celebrate  🎉"\ndone')
-            sleep(1)
+    sleep(0.75)
+    for i in range(0, 4):
+        system(
+            'for i in {1..20}\ndo\n  open raycast://confetti && echo "Celebrate  🎉"\ndone'
+        )
+        sleep(1)
 
-        
+
 def finished(
-    message: Optional[str]|None,  
-    filename:Optional[str]|None,
-    title: str = "SUPERFORGE") -> None:
+    message: Optional[str] | None,
+    filename: Optional[str] | None,
+    title: str = "SUPERFORGE",
+    clear: bool = True,
+) -> None:
+
+    # > Initialize optional variables
     if message is None:
         receipt = "Code Complete"
     if filename is None:
-        with open ("../json/run.json", 'r') as infile:
+        with open("../json/run.json", "r") as infile:
             current_run = dict((load(infile)))["last_run"]
             filename = f"Run {current_run}"
-            
-    #> Command Strings
-    # cd_cmd_str = f'workon supergene && cdproject;'
 
-    notification_str = f'alerter -message \"{message}\" -actions \"Open Code\", Yay, Dismiss-title \"{title}\" -subtitle \"{filename}\"   -closeLabel Dismiss  -sender com.microsoft.VSCode -group code -sound "Crystal"'
-    
-    # #> Commands
-    # cd_cmd = cd_cmd_str.split()
-    # yay_cmd = yay_cmd_str.split()
+    # > Alerter Command
+    notification_str = f'alerter -message "{message}" -actions "Open Code", Yay, Dismiss-title "{title}" -subtitle "{filename}"   -closeLabel Dismiss  -sender com.microsoft.VSCode -group code -sound "Crystal" -timeout 15'
+
     notification_cmd = notification_str.split()
 
-
-    yay()
+    if clear:
+        yay()  # . Confetti!!!!
+    else:
+        yay(clear=False)  # . Confetti!!!!
     # system(notification_str)
-    result = run( notification_cmd, capture_output=True)
+    result = run(notification_cmd, capture_output=True)
     if result.returncode == 0:
-        selection = result.stdout.decode('utf-8')
-        log.info(f"Selected Action: {selection}")
-        if selection == "@CONTENTCLICKED" | selection == "@ACTIONCLICKED":
+        selection = result.stdout.decode("utf-8")
+        if selection == "@CONTENTCLICKED":
             system("open -a 'Visual Studio Code'")
-        
-                
-                
-finished ("Test", 'yay.py')
+            log.info(f"Alerter Returned: {selection}. Opened Visual Studio Code.")
+        elif selection == "@ACTIONCLICKED":
+            system("open -a 'Visual Studio Code'")
+            log.info(f"Alerter Returned: {selection}. Opened Visual Studio Code.")
+        elif selection == "@DISMISSED":
+            log.info(f"Alerter Returned {selection}. Notification Manuallly Dismissed.")
+        elif selection == "@TIMEOUT":
+            log.info(
+                f"Alerter Returned {selection}. Notification Automatically Dismissed."
+            )
+        else:
+            log.info(f"Unknown Response: {selection}")
+    else:
+        log.warning(f"Alerter Returned: {result.returncode}")
+        log.warning(f"Alerter Returned: {result.stderr.decode('utf-8')}")

@@ -5,14 +5,9 @@ from json import dump, load
 
 from tqdm.auto import tqdm
 
-try:
-    from core.atlas import max_title, sg
-    from core.chapter import Chapter
-    from core.log import errwrap, log
-except ImportError:
-    from atlas import max_title, sg
-    from chapter import Chapter
-    from log import errwrap, log
+from core.atlas import max_title, sg
+from core.chapter import Chapter
+from core.log import errwrap, log
 
 
 @errwrap()

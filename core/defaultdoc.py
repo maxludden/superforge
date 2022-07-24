@@ -16,33 +16,19 @@ from num2words import num2words
 from tqdm.auto import tqdm, trange
 from alive_progress import alive_bar
 
-try:
-    # < If run from main()
-    import core.book as book_
-    import core.chapter as ch
-    import core.endofbook as eob
-    import core.epubmetadata as epubmeta
-    import core.metadata as meta
-    import core.myaml as myaml
-    import core.section as sec
-    import core.titlepage as titlepg
-    from core.atlas import BASE, sg
-    from core.log import errwrap, log
-except ImportError:
-    # < If run from the core sub-directory
-    import book as book_
-    import chapter as ch
-    import endofbook as eob
-    import epubmetadata as epubmeta
-    import metadata as meta
-    import myaml
-    import section as sect
-    import titlepage as titlepg
-    from atlas import BASE, sg
-    from log import errwrap, log
+import core.book as book_
+import core.chapter as ch
+import core.endofbook as eob
+import core.epubmetadata as epubmeta
+import core.metadata as meta
+import core.myaml as myaml
+import core.section as sec
+import core.titlepage as titlepg
+from core.atlas import BASE, sg
+from core.log import errwrap, log
 
-    log.debug(f"Imported custom modules.")
-load_dotenv(".env")
+
+load_dotenv()
 
 # .┌─────────────────────────────────────────────────────────────────┐.#
 # .│                          Default Doc                            │.#

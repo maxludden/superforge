@@ -13,14 +13,9 @@ from tqdm.auto import tqdm, trange
 from alive_progress import alive_bar, alive_it
 from yaml import dump_all
 
-try:
-    from core.atlas import BASE, max_title, sg
-    from core.log import errwrap, log
-    import core.book as book_
-except ImportError:
-    from atlas import BASE, max_title, sg
-    from log import errwrap, log
-    import book as book_
+from core.atlas import BASE, max_title, sg
+from core.log import errwrap, log
+import core.book as book_
 
 # .┌─────────────────────────────────────────────────────────────────┐.#
 # .│                            Section                              │.#

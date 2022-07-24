@@ -4,12 +4,8 @@ from json import dump
 from mongoengine import Document
 from mongoengine.fields import IntField, StringField
 
-try:
-    from core.atlas import BASE, max_title, sg
-    from core.log import errwrap, log
-except ImportError:
-    from atlas import BASE, max_title, sg
-    from log import errwrap, log
+from core.atlas import BASE, max_title, sg
+from core.log import errwrap, log
 
 #.
 #.   ____                      ____                  

@@ -447,8 +447,9 @@ def new_run(test_loggers: bool=False):
     
     with open (run_json, 'r') as infile:
         last_run = dict((load(infile)))["last_run"]
-        if (last_run + 1)%3 == 0:
-            # If this run is a multple of 3: 
+        current_run = last_run + 1
+        if current_run % 3 == 0:
+            # If this run is a multiple of 3: 
             new_log = """# *SUPERFORGE* Log
             
 <img src="/Users/maxludden/dev/py/superforge/books/book01/Images/gem.gif" alt="gem" width="120" height="60" />

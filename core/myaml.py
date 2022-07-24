@@ -1,12 +1,15 @@
 # superforge/core/max_yaml.py
 import yaml
 
-try:
-    from core.atlas import BASE
-    from core.log import log
-except ImportError:
-    from atlas import BASE
-    from log import log
+import sys
+from pathlib import Path
+import oyaml as yaml
+from prettytable import PrettyTable
+from loremipsum import get_sentences
+import argparse
+
+from core.atlas import BASE
+from core.log import log
 
 #. Flags
 

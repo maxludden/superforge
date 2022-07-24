@@ -11,10 +11,7 @@ from mongoengine import connect, disconnect_all
 from pymongo import MongoClient
 from pymongo.errors import ConnectionFailure, InvalidURI, NetworkTimeout
 
-try:
-    from core.log import errwrap, log
-except ImportError:
-    from log import errwrap, log
+from core.log import errwrap, log
 
 
 @errwrap(entry=False, exit=False)

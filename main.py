@@ -25,7 +25,7 @@ import core.epubmetadata as epubmd
 import core.metadata as coremd
 import core.section as section_
 import core.titlepage as titlepg
-from utilities.yay import yay
+from core.yay import yay
 
 load_dotenv()
 # . Start a new run
@@ -33,14 +33,10 @@ new_run()
 
 # URI = os.environ.get("SUPERGENE")
 # connect("supergene", host=URI)
-chapter = 1027
+chapter = 3303
 sg()
 doc = chapter_.Chapter.objects(chapter=chapter).first()
-doc.md =chapter_.generate_md(chapter, save=True, write=True)
-doc.html =chapter_.generate_html(chapter, save=True)
-doc.save()
-yay()
-
+log.info(doc.__repr__())
 
 # < Fix tags.
 fix_tags()

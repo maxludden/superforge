@@ -20,12 +20,8 @@ from tqdm.auto import tqdm, trange
 from alive_progress import alive_bar
 from dotenv import load_dotenv
 
-try:
-    from core.atlas import max_title, sg, mconnect
-    from core.log import errwrap, log
-except ImportError:
-    from atlas import max_title, sg, get_atlas_uri, BASE
-    from log import errwrap, log
+from core.atlas import max_title, sg, mconnect
+from core.log import errwrap, log
 
 
 # .┌─────────────────────────────────────────────────────────────────┐.#
@@ -51,6 +47,13 @@ class Chapter(Document):
     html_path = StringField()
     md = StringField()
     html = StringField()
+    
+    def __repr__(self):
+        yaml_doc = f"---\nChapter: {self.chapter}\nSection: {self.section}\nBook {self.book}\nTitle: {self.title}\nFilename: {self.filename}\nMD Path: {self.md_path}\nHTML Path: {self.html_path}\n..."
+        md = "\n# Chapter {self.chapter} Markdown\n  \n{self.md}"
+        text = f"Text:\n  \n{self.text}\n"
+        html = f"HTML:\n  \n{self.html}"
+        
 
 
 @errwrap()
@@ -99,7 +102,13 @@ def generate_section(chapter: int):
     elif chapter <= 2891:
         return 14
     elif chapter <= 3033:
-        return 15
+        if chapter == 3095:
+            log.warning(f"Chapter {chapter} was inputted to generate_section().\nChapter {chapter} does not exist.")
+        elif chapter == 3117:
+            log.warning(f"Chapter {chapter} was inputted to generate_section(). \nChapter {chapter} does not exist.")
+            pass
+        else:
+            return 15
     elif chapter <= 3303:
         return 16
     elif chapter <= 3462:
@@ -372,11 +381,11 @@ def generate_md(chapter: int, save: bool = False, write: bool = False) -> str:
 
         # > Concatenate Multimarkdown
         md = f"{meta}{atx}{text}"
-        
+
         if save:
             doc.md = md
             doc.save()
-        
+
         if write:
             with open(doc.md_path, "w") as outfile:
                 outfile.write(md)
@@ -848,20 +857,18 @@ def mget_text(chunk):
 def search(phrase: str, db: str = "SUPERGENE") -> int:
     """
     Search chapters for a phrase.
-    
+
     Args:
         phrase (str): The phrase to search for.
         db (str): The database to search.
-    
+
     Returns:
         chapters (int): The number of chapters containing the phrase.
     """
-    #> Connect to SUPERGENE
+    # > Connect to SUPERGENE
     if db == "SUPERGENE":
         sg()
         for doc in tqdm(Chapter.objects(), unit="ch", desc="Searching"):
             text = doc.text
             if phrase in text:
                 yield doc.chapter
-
-
