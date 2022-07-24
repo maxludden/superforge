@@ -20,7 +20,7 @@ from tqdm.auto import tqdm, trange
 from alive_progress import alive_bar
 from dotenv import load_dotenv
 
-from core.atlas import max_title, sg, mconnect
+from core.atlas import max_title, sg, mconnect, BASE
 from core.log import errwrap, log
 
 
@@ -50,10 +50,10 @@ class Chapter(Document):
     
     def __repr__(self):
         yaml_doc = f"---\nChapter: {self.chapter}\nSection: {self.section}\nBook {self.book}\nTitle: {self.title}\nFilename: {self.filename}\nMD Path: {self.md_path}\nHTML Path: {self.html_path}\n..."
-        md = "\n# Chapter {self.chapter} Markdown\n  \n{self.md}"
-        text = f"Text:\n  \n{self.text}\n"
-        html = f"HTML:\n  \n{self.html}"
-        return yaml_doc + md + text + html
+        md = "\n# Chapter {self.chapter} Markdown\n  \n{self.md}\n  "
+        text = f"\n \nText:\n  \n{self.text}\n"
+        html = f"\n \nHTML:\n  \n{self.html}"
+        return f"\n \n{yaml_doc}{md}{text}{html}"
         
 
 
@@ -783,75 +783,12 @@ def write_texts() -> None:
 
 
 @errwrap()
-def mget_text(chunk, input):
-    """
-    Retrieve the text of a given chapter.
-
-    Args:
-        chapter (int): The chapter to retrieve.
-
-    Returns:
-        text (str): The text of the chapter.
-    """
-    # > Connect to MongoDB
-    URI = get_atlas_uri("SUPERGENE")
-    client = client = MongoClient(URI, maxPoolSize=250)
-    db = client.SUPERGENE
-    chapters = db["chapter"]
-
-    # > Loop over the _id's in the chunk and retrieve the text from each
-    chunk_result_list = []
-    for chapters in chunk:
-        # > Get Chapter and it's text
-        chapter = chapters.find_one({"chapter": chapter})
-        text = chapter["text"]
-        chunk_result_list.append({"chapter": chapter, "text": text})
-    return chunk_result_list
-
-
-@errwrap()
 def make_text_dirs() -> None:
     for i in trange(1, 11, unit="ch", desc="Creating Text Directories"):
         book_str = str(i).zfill(2)
         path = os.path(f"BASE/books/book{book_str}/text")
         os.makedirs(path, exist_ok=True)
         log.debug(f"Created {path}")
-
-
-@errwrap()
-def chunks(l, n):
-    """Yield successive n-sized chunks from l."""
-    for i in range(1, 3463, n):
-        if i == 3095 | i == 3117:
-            continue
-        else:
-            yield l[i : i + n]
-
-
-@errwrap()
-def mget_text(chunk):
-    """
-    Retrieve the text of a given chapter.
-
-    """
-    # > Connect to MongoDB
-    URI = get_atlas_uri("SUPERGENE")
-    client = client = MongoClient(URI, maxPoolSize=250)
-    db = client.SUPERGENE
-    chapters = db["chapter"]
-
-    # > Loop over the _id's in the chunk and retrieve the text from each
-    chunk_result_list = []
-    for chapter in chunk:
-
-        # > Get Chapter and it's text
-        chapter_doc = chapters.find_one({"chapter": chapter})
-        text = chapter_doc["text"]
-        chapter = chapter_doc["chapter"]
-        text_path = generate_text_path(chapter)
-        with open(text_path, "w") as outfile:
-            outfile.write(text)
-        chunk_result_list.append({"chapter": chapter, "text": text})
 
 
 @errwrap()
