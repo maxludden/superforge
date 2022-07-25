@@ -48,12 +48,25 @@ class Chapter(Document):
     md = StringField()
     html = StringField()
     
+
+    # def __init__(self, *args, **kwargs):
+    #     super().__init__(*args, **kwargs)
+    #     self.md_path = f"{BASE}/md/{self.book}/{self.chapter}.md"
+    #     self.html_path = f"{BASE}/html/{self.book}/{self.chapter}.html"
+    #     self.filename = f"chapter-{self.chapter}"
+    #     self.md = self.generate_md()
+    #     self.html = self.get_html()
+    #     self.text = self.get_text()
+    #     self.save()
+    
     def __repr__(self):
         yaml_doc = f"---\nChapter: {self.chapter}\nSection: {self.section}\nBook {self.book}\nTitle: {self.title}\nFilename: {self.filename}\nMD Path: {self.md_path}\nHTML Path: {self.html_path}\n..."
         md = "\n# Chapter {self.chapter} Markdown\n  \n{self.md}\n  "
         text = f"\n \nText:\n  \n{self.text}\n"
         html = f"\n \nHTML:\n  \n{self.html}"
         return f"\n \n{yaml_doc}{md}{text}{html}"
+        
+    
         
 
 

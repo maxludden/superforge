@@ -25,18 +25,24 @@ import core.epubmetadata as epubmd
 import core.metadata as coremd
 import core.section as section_
 import core.titlepage as titlepg
-from core.yay import yay
+from core.yay import yay, finished
 
-load_dotenv() # > Load .env file
+load_dotenv()  # > Load .env file
 
 # . Start a new run
 new_run()
 
 
-sg() #> Connect to MongoDB
-for doc in tqdm(chapter_.Chapter.objects(), unit="ch", desc="Editing Chapters"):
-    
+sg()  # > Connect to Mongo Database
+for doc in tqdm(
+    chapter_.Chapter.objects().order_by("chapter"), unit="ch", desc="Editing Chapters"
+):
+
     log.info(doc.__repr__())
 
-# . Fix tags log.md tags
+msg = "Testing Finished Function and Subsequent Notification"
+file = "SUPERFORGE/main.py"
+finished(msg, file)
+
+# Fix_log.md tags
 fix_tags()

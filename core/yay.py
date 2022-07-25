@@ -4,10 +4,20 @@ from time import sleep
 from subprocess import run, PIPE
 from typing import Optional
 from json import load
+from inspect import getframeinfo, stack
 
 from core.log import log, errwrap
 
+caller_log = log.opt(depth=1)
 
+@errwrap()
+def debuginfo(message, level: str = "DEBUG"):
+    caller = getframeinfo(stack()[1][0])
+    caller_dict = dict(caller.as_dict())
+    caller_log.log(level, f"{caller.filename}:{caller.function}:{caller.lineno} - {message}")
+    return caller_dict
+     
+    
 def yay(clear: bool = True):
     """
     Celebrates Anything!
@@ -44,8 +54,7 @@ def finished(
     message: Optional[str] | None,
     filename: Optional[str] | None,
     title: str = "SUPERFORGE",
-    clear: bool = True,
-) -> None:
+    clear: bool = True,) -> None:
 
     # > Initialize optional variables
     if message is None:
@@ -75,7 +84,7 @@ def finished(
             system("open -a 'Visual Studio Code'")
             log.info(f"Alerter Returned: {selection}. Opened Visual Studio Code.")
         elif selection == "@DISMISSED":
-            log.info(f"Alerter Returned {selection}. Notification Manuallly Dismissed.")
+            log.info(f"Alerter Returned {selection}. User Dismissed Notification.")
         elif selection == "@TIMEOUT":
             log.info(
                 f"Alerter Returned {selection}. Notification Automatically Dismissed."

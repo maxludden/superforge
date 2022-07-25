@@ -119,4 +119,4 @@ def generate_toc() -> dict:
         with open (TOC_PATH, 'w') as outfile:
             outfile.write(toc_json)
     
-    #>finished("Generated Table of Contents", "core/scrape.py",)
+    finished("Generated Table of Contents", "core/scrape.py",)
