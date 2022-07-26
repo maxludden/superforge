@@ -1,0 +1,18 @@
+{
+	
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"cSpell.words": [
+			"errwrap",
+			"htmlmsg",
+			"infile",
+			"pwrap",
+			"supergene",
+			"xylog"
+		]
+	}
+}

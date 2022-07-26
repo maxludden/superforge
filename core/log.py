@@ -221,7 +221,7 @@ def truncate_filenames(record):
     if 'ipython' in filename:
         filename = 'ipython'
     if len(filename) > 20:
-        filename = filename[0:17]
+        filename = filename[0:17] o
     record['file'].name = filename
     return record
     
@@ -266,10 +266,10 @@ if console_set == "INFO":
         
         extra = {
             "run": current_run,
-            "htmlmsg": ""
+            "htmlmsg": " "
         }
     )
-elif console_set == "DEBUG":
+elif console_set== "DEBUG":
     log.configure(
         handlers=[
             dict(
