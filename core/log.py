@@ -48,6 +48,10 @@ arc_bottom_right='╯'
 console_set = "INFO"
 # console_set = "DEBUG"
 
+#>┌─────────────────────────────────────────────────────────────────┐<#
+#>│                           Chapter                               │<#
+#>└─────────────────────────────────────────────────────────────────┘<#
+
 def generate_root():
     if platform() == "Linux":
         ROOT = "home"
@@ -221,7 +225,7 @@ def truncate_filenames(record):
     if 'ipython' in filename:
         filename = 'ipython'
     if len(filename) > 20:
-        filename = filename[0:17] o
+        filename = filename[0:17]
     record['file'].name = filename
     return record
     

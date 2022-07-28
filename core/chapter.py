@@ -450,7 +450,7 @@ def generate_html(chapter: int, save: bool = False) -> str:
         ]
         log.debug(f"Markdown Path: {doc.md_path}")
         log.debug(f"HTML Path: {doc.html_path}")
-        log.debug(f"Multitmarkdown Command: &quot; &quot;.join({md_cmd})")
+        log.debug(f"Multimarkdown Command: {md_cmd})")
         try:
             result = run(md_cmd)
 
@@ -463,7 +463,7 @@ def generate_html(chapter: int, save: bool = False) -> str:
         except Exception as e:
             log.error(e)
             sys.exit(
-                "Error occured in the proccess of creating HTML for Chapter {doc.chapter}"
+                "Error occurred in the process of creating HTML for Chapter {doc.chapter}"
             )
 
         else:
@@ -554,7 +554,7 @@ def make_chapters():
 
         # > Md_path
         md_path = generate_md_path(chapter)
-        log.debug(f"Chapter {chapter}'s Multitmarkdown Path: {md_path}")
+        log.debug(f"Chapter {chapter}'s Multimarkdown Path: {md_path}")
         doc.md_path = md_path
         log.debug(f"Updated Chapter {chapter}'s Multimarkdown filepath.")
 
