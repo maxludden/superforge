@@ -1,8 +1,9 @@
 ---
+verbosity: DEBUG
 from: html
 to: epub
 
-\output-file: 1 - First God's Sanctuary.epub
+output-file: 1 - First God's Sanctuary.epub
 
 input-files:
 - cover1.html
@@ -437,7 +438,7 @@ input-files:
 standalone: true
 self-contained: true
 
-resource-files:
+resource-path:
 - .
 - ${.}/Images/cover1.png
 - ${.}/Images/title.png
@@ -445,8 +446,8 @@ resource-files:
 - ${.}/Styles/Century Gothic.ttf
 - ${.}/Styles/Photograph Signature.ttf
 - ${.}/Styles/style.css
-- ${.}/html/meta1.yaml
-- ${.}/html/epub-meta1.yml
+- ${.}/yaml/meta1.yaml
+- ${.}/yaml/epub-meta1.yml
 - ${.}/html/cover1.html
 - ${.}/html/titlepage-01.html
 - ${.}/html/section-01.html
@@ -880,7 +881,7 @@ toc: true
 toc-depth: 2
 
 epub-chapter-level: 2
-epub-cover-image: cover1.png
+epub-cover-image: ${.}/Images/cover1.png
 
 epub-fonts:
 - Urbanist-Italic.ttf
@@ -889,12 +890,12 @@ epub-fonts:
 - Urbanist-ThinItalic.ttf
 - White Modesty.ttf
 
-epub-metadata: epub-meta1.yml
+epub-metadata: ${.}/yaml/epub-meta1.yml
 
 metadata-files:
-- meta1.yml
-- epub-meta1.yml
+- ${.}/yaml/meta1.yml
+- ${.}/yaml/epub-meta1.yml
 
-css-files:
+css:
 - style.css
 ...
