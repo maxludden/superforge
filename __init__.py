@@ -1,1 +1,1 @@
-__all__ = ['core', 'main']
+__all__ = ['core', 'main', 'utilities']

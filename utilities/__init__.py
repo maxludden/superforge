@@ -1,1 +1,1 @@
-__all__ = ['timer', 'update_css', 'yay']
+__all__ = ['timer', 'update_css', 'scratch']
