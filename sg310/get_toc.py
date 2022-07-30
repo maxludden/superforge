@@ -8,6 +8,7 @@ from dotenv import load_dotenv
 
 from checkForUpdates import INDEX_PATH
 from main import lp
+from core.chapter import generate_section, generate_book
 
 # Full paths
 INDEX_PATH = 'json/index.json'
@@ -34,8 +35,11 @@ links = results.find_all("a")
 for link in links:
     link_text = str(link.text)
     link_text = link_text.strip()
-    chapter_number = int(re.findall(r'\d+', link_text)[0])
-    chapter = str(chapter_number)
+    chapter = int(re.findall(r'\d+', link_text)[0])
+    chapter_str = str(chapter)
+    section = generate_section(chapter)
+    book = generate_book(chapter)
+    
 
     # Parse chapter title
     title = link_text.split(chapter)[1]
@@ -59,9 +63,10 @@ for link in links:
     link_url = link["href"]
 
     # Save Path
-    chapter_str = str(chapter).zfill(4)
-    book = f
-    savePath = str(f"{CHAPTERS_PATH}'/chapter-'{chapter_str}.txt')
+    chapter_dir_str = str(chapter).zfill(4)
+    book_str = str(book)
+    book_dir_str = book_str.zfill(2)
+    savePath = str(f"{CHAPTERS_PATH}'/chapter-'{chapter_str}.txt")
 
     # Fix Chapter 39.1
     if "Saint Paul (1)" in title:
@@ -71,8 +76,10 @@ for link in links:
         toc[40] = {"title": "Saint Paul - Part 2",
                     "url": link_url, "path": savePath}
     else:
-        toc[chapter_number] = {"title": title,
-                                "url": link_url, "path": savePath}
+        toc[chapter_str] = {
+            "title": title,
+            "url": link_url, 
+            "path": savePath}
 
     print("Saved Chapter " + chapter + " to TOC")
     # Update Count

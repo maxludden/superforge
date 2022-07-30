@@ -1,0 +1,101 @@
+[{
+  "_id": {
+    "$oid": "62c56f8183eeab52fdaa315c"
+  },
+  "book": 9,
+  "title": "Meeting God and Fighting Sacred",
+  "filename": "meta10.yml",
+  "filepath": "/Users/maxludden/dev/py/superforge/books/book10/yaml/meta10.yml",
+  "text": "---\nauthor: Twelve Winged Dark Seraphim\ntitle: Meeting God and Fighting Sacred\n...",
+  "html_path": "/Users/maxludden/dev/py/superforge/books/book10/yaml/meta10.yml"
+},{
+  "_id": {
+    "$oid": "62c56f8183eeab52fdaa3159"
+  },
+  "book": 4,
+  "title": "Fourth and Fifth God's Sanctuary",
+  "filename": "meta10.yml",
+  "filepath": "/Users/maxludden/dev/py/superforge/books/book10/yaml/meta10.yml",
+  "text": "---\nauthor: Twelve Winged Dark Seraphim\ntitle: Fourth and Fifth God's Sanctuary\n...",
+  "html_path": "/Users/maxludden/dev/py/superforge/books/book10/yaml/meta10.yml"
+},{
+  "_id": {
+    "$oid": "62c56f8183eeab52fdaa315f"
+  },
+  "book": 8,
+  "title": "The Systems of Chaos and The Very High",
+  "filename": "meta10.yml",
+  "filepath": "/Users/maxludden/dev/py/superforge/books/book10/yaml/meta10.yml",
+  "text": "---\nauthor: Twelve Winged Dark Seraphim\ntitle: The Systems of Chaos and The Very High\n...",
+  "html_path": "/Users/maxludden/dev/py/superforge/books/book10/yaml/meta10.yml"
+},{
+  "_id": {
+    "$oid": "62c56f8183eeab52fdaa3161"
+  },
+  "book": 5,
+  "title": "Planet Kate and Narrow Moon",
+  "filename": "meta10.yml",
+  "filepath": "/Users/maxludden/dev/py/superforge/books/book10/yaml/meta10.yml",
+  "text": "---\nauthor: Twelve Winged Dark Seraphim\ntitle: Planet Kate and Narrow Moon\n...",
+  "html_path": "/Users/maxludden/dev/py/superforge/books/book10/yaml/meta10.yml"
+},{
+  "_id": {
+    "$oid": "62c56f8183eeab52fdaa315d"
+  },
+  "book": 1,
+  "title": "First God's Sanctuary",
+  "filename": "meta10.yml",
+  "filepath": "/Users/maxludden/dev/py/superforge/books/book10/yaml/meta10.yml",
+  "text": "---\nauthor: Twelve Winged Dark Seraphim\ntitle: First God's Sanctuary\n...",
+  "html_path": "/Users/maxludden/dev/py/superforge/books/book10/yaml/meta10.yml"
+},{
+  "_id": {
+    "$oid": "62c56f8183eeab52fdaa3162"
+  },
+  "book": 6,
+  "title": "Sky Palace, Blade, and Eclipse",
+  "filename": "meta10.yml",
+  "filepath": "/Users/maxludden/dev/py/superforge/books/book10/yaml/meta10.yml",
+  "text": "---\nauthor: Twelve Winged Dark Seraphim\ntitle: Sky Palace, Blade, and Eclipse\n...",
+  "html_path": "/Users/maxludden/dev/py/superforge/books/book10/yaml/meta10.yml"
+},{
+  "_id": {
+    "$oid": "62c56f8183eeab52fdaa315e"
+  },
+  "book": 2,
+  "title": "Second God's Sanctuary",
+  "filename": "meta10.yml",
+  "filepath": "/Users/maxludden/dev/py/superforge/books/book10/yaml/meta10.yml",
+  "text": "---\nauthor: Twelve Winged Dark Seraphim\ntitle: Second God's Sanctuary\n...",
+  "html_path": "/Users/maxludden/dev/py/superforge/books/book10/yaml/meta10.yml"
+},{
+  "_id": {
+    "$oid": "62c56f8183eeab52fdaa3160"
+  },
+  "book": 3,
+  "title": "Third God's Sanctuary",
+  "filename": "meta10.yml",
+  "filepath": "/Users/maxludden/dev/py/superforge/books/book10/yaml/meta10.yml",
+  "text": "---\nauthor: Twelve Winged Dark Seraphim\ntitle: Third God's Sanctuary\n...",
+  "html_path": "/Users/maxludden/dev/py/superforge/books/book10/yaml/meta10.yml"
+},{
+  "_id": {
+    "$oid": "62c56f8183eeab52fdaa315a"
+  },
+  "book": 10,
+  "title": "The Universe of Kingdoms and Quin Kiu",
+  "filename": "meta10.yml",
+  "filepath": "/Users/maxludden/dev/py/superforge/books/book10/yaml/meta10.yml",
+  "text": "---\nauthor: Twelve Winged Dark Seraphim\ntitle: The Universe of Kingdoms and Quin Kiu\n...",
+  "html_path": "/Users/maxludden/dev/py/superforge/books/book10/yaml/meta10.yml"
+},{
+  "_id": {
+    "$oid": "62c56f8183eeab52fdaa315b"
+  },
+  "book": 7,
+  "title": "The Ice Blue Knights and The Extreme Kings",
+  "filename": "meta10.yml",
+  "filepath": "/Users/maxludden/dev/py/superforge/books/book10/yaml/meta10.yml",
+  "text": "---\nauthor: Twelve Winged Dark Seraphim\ntitle: The Ice Blue Knights and The Extreme Kings\n...",
+  "html_path": "/Users/maxludden/dev/py/superforge/books/book10/yaml/meta10.yml"
+}]

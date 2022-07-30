@@ -1,0 +1,131 @@
+[{
+  "_id": {
+    "$oid": "62c56f0783eeab52fdaa3145"
+  },
+  "book": 5,
+  "book_word": "Five",
+  "title": "Planet Kate and Narrow Moon",
+  "filename": "endofbook-05",
+  "mmd_path": "/Users/maxludden/dev/py/supergene/books/book05/mmd/endofbook-05.mmd",
+  "html_path": "/Users/maxludden/dev/py/supergene/books/book05/html/endofbook-05.html",
+  "mmd": "Title: Planet Kate and Narrow Moon\nBook: 5\nviewport: width=device-width\nCSS: ../Styles/style.css\n\n## Planet Kate and Narrow Moon\n### End of Book Five\n<figure>\n\t<img src=\"../Images/gem.gif\" alt=\"gem\" id=\"gem\" width=\"240\" height=\"120\" />\n</figure>\n\n##### The Story Continues in Book Six\n#### Sky Palace, Blade, and Eclipse...\n",
+  "html": "<!DOCTYPE html>\n<html class=\"eob\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <title>Planet Kate and Narrow Moon</title>\n    <meta name=\"book\" content=\"5\" />\n    <link type=\"text/css\" rel=\"stylesheet\" href=\"../Styles/style.css\" />\n    <meta name=\"viewport\" content=\"width=device-width\" />\n  </head>\n  <body class=\"cover\">\n    <h2 class=\"eob\">Planet Kate and Narrow Moon</h2>\n    <p class=\"eob\">End of Book Five of Super Gene</p>     \n      <picture class=\"eob\">\n        <source srcset=\"../Images/eob5-dark.png\"\n          alt=\"End of Book 5\"\n          media=\"(prefers-color-scheme: dark)\"/>\n          <img class=\"cover\" alt=\"End of Book 5 Page\" src=\"../Images/eob5-light.png\" />\n      </picture>\n    <p class=\"eob\">Written by Twelve Winged Burning Seraphim</p>\n    <p class=\"eob\">Compiled and Edited by Max Ludden</p>\n  </body>\n</html>\n",
+  "text": "##### The Story Continues in Book Six\n#### Sky Palace, Blade, and Eclipse..."
+},{
+  "_id": {
+    "$oid": "62c56f0783eeab52fdaa3143"
+  },
+  "book": 3,
+  "book_word": "Three",
+  "title": "Third God's Sanctuary",
+  "filename": "endofbook-03",
+  "mmd_path": "/Users/maxludden/dev/py/supergene/books/book03/mmd/endofbook-03.mmd",
+  "html_path": "/Users/maxludden/dev/py/supergene/books/book03/html/endofbook-03.html",
+  "mmd": "Title: Third God's Sanctuary\nBook: 3\nviewport: width=device-width\nCSS: ../Styles/style.css\n\n## Third God's Sanctuary\n### End of Book Three\n<figure>\n\t<img src=\"../Images/gem.gif\" alt=\"gem\" id=\"gem\" width=\"240\" height=\"120\" />\n</figure>\n\n##### The Story Continues in Book Four\n#### Fourth and Fifth God's Sanctuary...\n",
+  "html": "<!DOCTYPE html>\n<html class=\"eob\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <title>Third God's Sanctuary</title>\n    <meta name=\"book\" content=\"3\" />\n    <link type=\"text/css\" rel=\"stylesheet\" href=\"../Styles/style.css\" />\n    <meta name=\"viewport\" content=\"width=device-width\" />\n  </head>\n  <body class=\"cover\">\n    <h2 class=\"eob\">Third God's Sanctuary</h2>\n    <p class=\"eob\">End of Book Three of Super Gene</p>     \n      <picture class=\"eob\">\n        <source srcset=\"../Images/eob3-dark.png\"\n          alt=\"End of Book 3\"\n          media=\"(prefers-color-scheme: dark)\"/>\n          <img class=\"cover\" alt=\"End of Book 3 Page\" src=\"../Images/eob3-light.png\" />\n      </picture>\n    <p class=\"eob\">Written by Twelve Winged Burning Seraphim</p>\n    <p class=\"eob\">Compiled and Edited by Max Ludden</p>\n  </body>\n</html>\n",
+  "text": "##### The Story Continues in Book Four\n#### Fourth and Fifth God's Sanctuary..."
+},{
+  "_id": {
+    "$oid": "62c56f0783eeab52fdaa3149"
+  },
+  "book": 9,
+  "book_word": "Nine",
+  "title": "Meeting God and Fighting Sacred",
+  "filename": "endofbook-09",
+  "mmd_path": "/Users/maxludden/dev/py/supergene/books/book09/mmd/endofbook-09.mmd",
+  "html_path": "/Users/maxludden/dev/py/supergene/books/book09/html/endofbook-09.html",
+  "mmd": "Title: Meeting God and Fighting Sacred\nBook: 9\nviewport: width=device-width\nCSS: ../Styles/style.css\n\n## Meeting God and Fighting Sacred\n### End of Book Nine\n<figure>\n\t<img src=\"../Images/gem.gif\" alt=\"gem\" id=\"gem\" width=\"240\" height=\"120\" />\n</figure>\n\n##### The Story Continues in Book Ten\n#### The Universe of Kingdoms and Quin Kiu...\n",
+  "html": "<!DOCTYPE html>\n<html class=\"eob\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <title>Meeting God and Fighting Sacred</title>\n    <meta name=\"book\" content=\"9\" />\n    <link type=\"text/css\" rel=\"stylesheet\" href=\"../Styles/style.css\" />\n    <meta name=\"viewport\" content=\"width=device-width\" />\n  </head>\n  <body class=\"cover\">\n    <h2 class=\"eob\">Meeting God and Fighting Sacred</h2>\n    <p class=\"eob\">End of Book Nine of Super Gene</p>     \n      <picture class=\"eob\">\n        <source srcset=\"../Images/eob9-dark.png\"\n          alt=\"End of Book 9\"\n          media=\"(prefers-color-scheme: dark)\"/>\n          <img class=\"cover\" alt=\"End of Book 9 Page\" src=\"../Images/eob9-light.png\" />\n      </picture>\n    <p class=\"eob\">Written by Twelve Winged Burning Seraphim</p>\n    <p class=\"eob\">Compiled and Edited by Max Ludden</p>\n  </body>\n</html>\n",
+  "text": "##### The Story Continues in Book Ten\n#### The Universe of Kingdoms and Quin Kiu..."
+},{
+  "_id": {
+    "$oid": "62c56f0783eeab52fdaa3142"
+  },
+  "book": 2,
+  "book_word": "Two",
+  "title": "Second God's Sanctuary",
+  "filename": "endofbook-02",
+  "mmd_path": "/Users/maxludden/dev/py/supergene/books/book02/mmd/endofbook-02.mmd",
+  "html_path": "/Users/maxludden/dev/py/supergene/books/book02/html/endofbook-02.html",
+  "mmd": "Title: Second God's Sanctuary\nBook: 2\nviewport: width=device-width\nCSS: ../Styles/style.css\n\n## Second God's Sanctuary\n### End of Book Two\n<figure>\n\t<img src=\"../Images/gem.gif\" alt=\"gem\" id=\"gem\" width=\"240\" height=\"120\" />\n</figure>\n\n##### The Story Continues in Book Three\n#### Third God's Sanctuary...\n",
+  "html": "<!DOCTYPE html>\n<html class=\"eob\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <title>Second God's Sanctuary</title>\n    <meta name=\"book\" content=\"2\" />\n    <link type=\"text/css\" rel=\"stylesheet\" href=\"../Styles/style.css\" />\n    <meta name=\"viewport\" content=\"width=device-width\" />\n  </head>\n  <body class=\"cover\">\n    <h2 class=\"eob\">Second God's Sanctuary</h2>\n    <p class=\"eob\">End of Book Two of Super Gene</p>     \n      <picture class=\"eob\">\n        <source srcset=\"../Images/eob2-dark.png\"\n          alt=\"End of Book 2\"\n          media=\"(prefers-color-scheme: dark)\"/>\n          <img class=\"cover\" alt=\"End of Book 2 Page\" src=\"../Images/eob2-light.png\" />\n      </picture>\n    <p class=\"eob\">Written by Twelve Winged Burning Seraphim</p>\n    <p class=\"eob\">Compiled and Edited by Max Ludden</p>\n  </body>\n</html>\n",
+  "text": "##### The Story Continues in Book Three\n#### Third God's Sanctuary..."
+},{
+  "_id": {
+    "$oid": "62c56f0783eeab52fdaa3146"
+  },
+  "book": 6,
+  "book_word": "Six",
+  "title": "Sky Palace, Blade, and Eclipse",
+  "filename": "endofbook-06",
+  "mmd_path": "/Users/maxludden/dev/py/supergene/books/book06/mmd/endofbook-06.mmd",
+  "html_path": "/Users/maxludden/dev/py/supergene/books/book06/html/endofbook-06.html",
+  "mmd": "Title: Sky Palace, Blade, and Eclipse\nBook: 6\nviewport: width=device-width\nCSS: ../Styles/style.css\n\n## Sky Palace, Blade, and Eclipse\n### End of Book Six\n<figure>\n\t<img src=\"../Images/gem.gif\" alt=\"gem\" id=\"gem\" width=\"240\" height=\"120\" />\n</figure>\n\n##### The Story Continues in Book Seven\n#### The Ice Blue Knights and the Extreme Kings...\n",
+  "html": "<!DOCTYPE html>\n<html class=\"eob\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <title>Sky Palace, Blade, and Eclipse</title>\n    <meta name=\"book\" content=\"6\" />\n    <link type=\"text/css\" rel=\"stylesheet\" href=\"../Styles/style.css\" />\n    <meta name=\"viewport\" content=\"width=device-width\" />\n  </head>\n  <body class=\"cover\">\n    <h2 class=\"eob\">Sky Palace, Blade, and Eclipse</h2>\n    <p class=\"eob\">End of Book Six of Super Gene</p>     \n      <picture class=\"eob\">\n        <source srcset=\"../Images/eob6-dark.png\"\n          alt=\"End of Book 6\"\n          media=\"(prefers-color-scheme: dark)\"/>\n          <img class=\"cover\" alt=\"End of Book 6 Page\" src=\"../Images/eob6-light.png\" />\n      </picture>\n    <p class=\"eob\">Written by Twelve Winged Burning Seraphim</p>\n    <p class=\"eob\">Compiled and Edited by Max Ludden</p>\n  </body>\n</html>\n",
+  "text": "##### The Story Continues in Book Seven\n#### The Ice Blue Knights and the Extreme Kings..."
+},{
+  "_id": {
+    "$oid": "62c56f0783eeab52fdaa314a"
+  },
+  "book": 10,
+  "book_word": "Ten",
+  "title": "The Universe of Kingdoms and Quin Kiu",
+  "filename": "endofbook-10",
+  "mmd_path": "/Users/maxludden/dev/py/supergene/books/book10/mmd/endofbook-10.mmd",
+  "html_path": "/Users/maxludden/dev/py/supergene/books/book10/html/endofbook-10.html",
+  "mmd": "Title: The Universe of Kingdoms and Quin Kiu\nBook: 10\nviewport: width=device-width\nCSS: ../Styles/style.css\n\n## The Universe of Kingdoms and Quin Kiu\n### End of Book Ten\n<figure>\n\t<img src=\"../Images/gem.gif\" alt=\"gem\" id=\"gem\" width=\"240\" height=\"120\" />\n</figure>\n\n##### The Final Book of Supergene\n ### The End\n",
+  "html": "<!DOCTYPE html>\n<html class=\"eob\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <title>The Universe of Kingdoms and Quin Kiu</title>\n    <meta name=\"book\" content=\"10\" />\n    <link type=\"text/css\" rel=\"stylesheet\" href=\"../Styles/style.css\" />\n    <meta name=\"viewport\" content=\"width=device-width\" />\n  </head>\n  <body class=\"cover\">\n    <h2 class=\"eob\">The Universe of Kingdoms and Quin Kiu</h2>\n    <p class=\"eob\">End of Book Ten of Super Gene</p>     \n      <picture class=\"eob\">\n        <source srcset=\"../Images/eob10-dark.png\"\n          alt=\"End of Book 10\"\n          media=\"(prefers-color-scheme: dark)\"/>\n          <img class=\"cover\" alt=\"End of Book 10 Page\" src=\"../Images/eob10-light.png\" />\n      </picture>\n    <p class=\"eob\">Written by Twelve Winged Burning Seraphim</p>\n    <p class=\"eob\">Compiled and Edited by Max Ludden</p>\n  </body>\n</html>\n",
+  "text": "##### The Final Book of Supergene\n ### The End"
+},{
+  "_id": {
+    "$oid": "62c56f0783eeab52fdaa3141"
+  },
+  "book": 1,
+  "book_word": "One",
+  "title": "First God's Sanctuary",
+  "filename": "endofbook-01",
+  "mmd_path": "/Users/maxludden/dev/py/supergene/books/book01/mmd/endofbook-01.mmd",
+  "html_path": "/Users/maxludden/dev/py/supergene/books/book01/html/endofbook-01.html",
+  "mmd": "Title: First God's Sanctuary\nBook: 1\nviewport: width=device-width\nCSS: ../Styles/style.css\n\n## First God's Sanctuary\n### End of Book One\n<figure>\n\t<img src=\"../Images/gem.gif\" alt=\"gem\" id=\"gem\" width=\"240\" height=\"120\" />\n</figure>\n\n##### The Story Continues in Book Two\n#### Second God's Sanctuary...\n",
+  "html": "<!DOCTYPE html>\n<html class=\"eob\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <title>First God's Sanctuary</title>\n    <meta name=\"book\" content=\"1\" />\n    <link type=\"text/css\" rel=\"stylesheet\" href=\"../Styles/style.css\" />\n    <meta name=\"viewport\" content=\"width=device-width\" />\n  </head>\n  <body class=\"cover\">\n    <h2 class=\"eob\">First God's Sanctuary</h2>\n    <p class=\"eob\">End of Book One of Super Gene</p>     \n      <picture class=\"eob\">\n        <source srcset=\"../Images/eob1-dark.png\"\n          alt=\"End of Book 1\"\n          media=\"(prefers-color-scheme: dark)\"/>\n          <img class=\"cover\" alt=\"End of Book 1 Page\" src=\"../Images/eob1-light.png\" />\n      </picture>\n    <p class=\"eob\">Written by Twelve Winged Burning Seraphim</p>\n    <p class=\"eob\">Compiled and Edited by Max Ludden</p>\n  </body>\n</html>\n",
+  "text": "##### The Story Continues in Book Two\n#### Second God's Sanctuary..."
+},{
+  "_id": {
+    "$oid": "62c56f0783eeab52fdaa3148"
+  },
+  "book": 8,
+  "book_word": "Eight",
+  "title": "The Systems of Chaos and The Very High",
+  "filename": "endofbook-08",
+  "mmd_path": "/Users/maxludden/dev/py/supergene/books/book08/mmd/endofbook-08.mmd",
+  "html_path": "/Users/maxludden/dev/py/supergene/books/book08/html/endofbook-08.html",
+  "mmd": "Title: The Systems of Chaos and the Very High\nBook: 8\nviewport: width=device-width\nCSS: ../Styles/style.css\n\n## The Systems of Chaos and the Very High\n### End of Book Eight\n<figure>\n\t<img src=\"../Images/gem.gif\" alt=\"gem\" id=\"gem\" width=\"240\" height=\"120\" />\n</figure>\n\n##### The Story Continues in Book Nine\n#### Meeting God and Fighting Sacred...\n",
+  "html": "<!DOCTYPE html>\n<html class=\"eob\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <title>The Systems of Chaos and The Very High</title>\n    <meta name=\"book\" content=\"8\" />\n    <link type=\"text/css\" rel=\"stylesheet\" href=\"../Styles/style.css\" />\n    <meta name=\"viewport\" content=\"width=device-width\" />\n  </head>\n  <body class=\"cover\">\n    <h2 class=\"eob\">The Systems of Chaos and The Very High</h2>\n    <p class=\"eob\">End of Book Eight of Super Gene</p>     \n      <picture class=\"eob\">\n        <source srcset=\"../Images/eob8-dark.png\"\n          alt=\"End of Book 8\"\n          media=\"(prefers-color-scheme: dark)\"/>\n          <img class=\"cover\" alt=\"End of Book 8 Page\" src=\"../Images/eob8-light.png\" />\n      </picture>\n    <p class=\"eob\">Written by Twelve Winged Burning Seraphim</p>\n    <p class=\"eob\">Compiled and Edited by Max Ludden</p>\n  </body>\n</html>\n",
+  "text": "##### The Story Continues in Book Nine\n#### Meeting God and Fighting Sacred..."
+},{
+  "_id": {
+    "$oid": "62c56f0783eeab52fdaa3144"
+  },
+  "book": 4,
+  "book_word": "Four",
+  "title": "Fourth and Fifth God's Sanctuary",
+  "filename": "endofbook-04",
+  "mmd_path": "/Users/maxludden/dev/py/supergene/books/book04/mmd/endofbook-04.mmd",
+  "html_path": "/Users/maxludden/dev/py/supergene/books/book04/html/endofbook-04.html",
+  "mmd": "Title: Fourth and Fifth God's Sanctuary\nBook: 4\nviewport: width=device-width\nCSS: ../Styles/style.css\n\n## Fourth and Fifth God's Sanctuary\n### End of Book Four\n<figure>\n\t<img src=\"../Images/gem.gif\" alt=\"gem\" id=\"gem\" width=\"240\" height=\"120\" />\n</figure>\n\n##### The Story Continues in Book Five\n#### Planet Kate and Narrow Moon...\n",
+  "html": "<!DOCTYPE html>\n<html class=\"eob\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <title>Fourth and Fifth God's Sanctuary</title>\n    <meta name=\"book\" content=\"4\" />\n    <link type=\"text/css\" rel=\"stylesheet\" href=\"../Styles/style.css\" />\n    <meta name=\"viewport\" content=\"width=device-width\" />\n  </head>\n  <body class=\"cover\">\n    <h2 class=\"eob\">Fourth and Fifth God's Sanctuary</h2>\n    <p class=\"eob\">End of Book Four of Super Gene</p>     \n      <picture class=\"eob\">\n        <source srcset=\"../Images/eob4-dark.png\"\n          alt=\"End of Book 4\"\n          media=\"(prefers-color-scheme: dark)\"/>\n          <img class=\"cover\" alt=\"End of Book 4 Page\" src=\"../Images/eob4-light.png\" />\n      </picture>\n    <p class=\"eob\">Written by Twelve Winged Burning Seraphim</p>\n    <p class=\"eob\">Compiled and Edited by Max Ludden</p>\n  </body>\n</html>\n",
+  "text": "##### The Story Continues in Book Five\n#### Planet Kate and Narrow Moon..."
+},{
+  "_id": {
+    "$oid": "62c56f0783eeab52fdaa3147"
+  },
+  "book": 7,
+  "book_word": "Seven",
+  "title": "The Ice Blue Knights and The Extreme Kings",
+  "filename": "endofbook-07",
+  "mmd_path": "/Users/maxludden/dev/py/supergene/books/book07/mmd/endofbook-07.mmd",
+  "html_path": "/Users/maxludden/dev/py/supergene/books/book07/html/endofbook-07.html",
+  "mmd": "Title: The Ice Blue Knights and the Extreme Kings\nBook: 7\nviewport: width=device-width\nCSS: ../Styles/style.css\n\n## The Ice Blue Knights and the Extreme Kings\n### End of Book Seven\n<figure>\n\t<img src=\"../Images/gem.gif\" alt=\"gem\" id=\"gem\" width=\"240\" height=\"120\" />\n</figure>\n\n##### The Story Continues in Book Eight\n#### The Systems of Chaos and the Very High...\n",
+  "html": "<!DOCTYPE html>\n<html class=\"eob\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <title>The Ice Blue Knights and The Extreme Kings</title>\n    <meta name=\"book\" content=\"7\" />\n    <link type=\"text/css\" rel=\"stylesheet\" href=\"../Styles/style.css\" />\n    <meta name=\"viewport\" content=\"width=device-width\" />\n  </head>\n  <body class=\"cover\">\n    <h2 class=\"eob\">The Ice Blue Knights and The Extreme Kings</h2>\n    <p class=\"eob\">End of Book Seven of Super Gene</p>     \n      <picture class=\"eob\">\n        <source srcset=\"../Images/eob7-dark.png\"\n          alt=\"End of Book 7\"\n          media=\"(prefers-color-scheme: dark)\"/>\n          <img class=\"cover\" alt=\"End of Book 7 Page\" src=\"../Images/eob7-light.png\" />\n      </picture>\n    <p class=\"eob\">Written by Twelve Winged Burning Seraphim</p>\n    <p class=\"eob\">Compiled and Edited by Max Ludden</p>\n  </body>\n</html>\n",
+  "text": "##### The Story Continues in Book Eight\n#### The Systems of Chaos and the Very High..."
+}]

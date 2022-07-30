@@ -1,0 +1,121 @@
+[{
+  "_id": {
+    "$oid": "62c56f6083eeab52fdaa3156"
+  },
+  "book": 10,
+  "book_word": "Ten",
+  "title": "The Universe of Kingdoms and Quin Kiu",
+  "cover_path": "Images/cover10.png",
+  "filename": "epub-meta10.yaml",
+  "filepath": "/Users/maxludden/dev/py/superforge/books/book10/yaml/epub-meta10.yml",
+  "text": "---\nbelongs-to-collection: Super Gene\ncover-image: cover10.png\ncreator:\n- role: author\n  text: Twelve Winged Dark Seraphim\n- role: editor\n  text: Max Ludden\ncss:\n- style.css\ngroup-position: 10\nibooks:\n- version: '4.4'\n- specified-fonts: true\n- iphone-orientation-lock: portrait-only\n- scroll-axis: vertical\npage-progression-direction: ltr\ntitle:\n- text: The Universe of Kingdoms and Quin Kiu\n  type: main\n- text: Book Ten\n  type: subtitle\n...\n",
+  "html_path": "/Users/maxludden/dev/py/superforge/books/book10/html/epub-meta10.yaml"
+},{
+  "_id": {
+    "$oid": "62c56f6083eeab52fdaa3151"
+  },
+  "book": 5,
+  "book_word": "Five",
+  "title": "Planet Kate and Narrow Moon",
+  "cover_path": "Images/cover5.png",
+  "filename": "epub-meta5.yaml",
+  "filepath": "/Users/maxludden/dev/py/superforge/books/book05/yaml/epub-meta5.yml",
+  "text": "---\nbelongs-to-collection: Super Gene\ncover-image: cover5.png\ncreator:\n- role: author\n  text: Twelve Winged Dark Seraphim\n- role: editor\n  text: Max Ludden\ncss:\n- style.css\ngroup-position: 5\nibooks:\n- version: '4.4'\n- specified-fonts: true\n- iphone-orientation-lock: portrait-only\n- scroll-axis: vertical\npage-progression-direction: ltr\ntitle:\n- text: Planet Kate and Narrow Moon\n  type: main\n- text: Book Five\n  type: subtitle\n...\n",
+  "html_path": "/Users/maxludden/dev/py/superforge/books/book05/html/epub-meta5.yaml"
+},{
+  "_id": {
+    "$oid": "62c56f6083eeab52fdaa314e"
+  },
+  "book": 2,
+  "book_word": "Two",
+  "title": "Second God's Sanctuary",
+  "cover_path": "Images/cover2.png",
+  "filename": "epub-meta2.yaml",
+  "filepath": "/Users/maxludden/dev/py/superforge/books/book02/yaml/epub-meta2.yml",
+  "text": "---\nbelongs-to-collection: Super Gene\ncover-image: cover2.png\ncreator:\n- role: author\n  text: Twelve Winged Dark Seraphim\n- role: editor\n  text: Max Ludden\ncss:\n- style.css\ngroup-position: 2\nibooks:\n- version: '4.4'\n- specified-fonts: true\n- iphone-orientation-lock: portrait-only\n- scroll-axis: vertical\npage-progression-direction: ltr\ntitle:\n- text: Second God's Sanctuary\n  type: main\n- text: Book Two\n  type: subtitle\n...\n",
+  "html_path": "/Users/maxludden/dev/py/superforge/books/book02/html/epub-meta2.yaml"
+},{
+  "_id": {
+    "$oid": "62c56f6083eeab52fdaa3154"
+  },
+  "book": 8,
+  "book_word": "Eight",
+  "title": "The Systems of Chaos and the Very High",
+  "cover_path": "Images/cover8.png",
+  "filename": "epub-meta8.yaml",
+  "filepath": "/Users/maxludden/dev/py/superforge/books/book08/yaml/epub-meta8.yml",
+  "text": "---\nbelongs-to-collection: Super Gene\ncover-image: cover8.png\ncreator:\n- role: author\n  text: Twelve Winged Dark Seraphim\n- role: editor\n  text: Max Ludden\ncss:\n- style.css\ngroup-position: 8\nibooks:\n- version: '4.4'\n- specified-fonts: true\n- iphone-orientation-lock: portrait-only\n- scroll-axis: vertical\npage-progression-direction: ltr\ntitle:\n- text: The Systems of Chaos and the Very High\n  type: main\n- text: Book Eight\n  type: subtitle\n...\n",
+  "html_path": "/Users/maxludden/dev/py/superforge/books/book08/html/epub-meta8.yaml"
+},{
+  "_id": {
+    "$oid": "62c56f6083eeab52fdaa3152"
+  },
+  "book": 6,
+  "book_word": "Six",
+  "title": "Sky Palace, Blade, and Eclipse",
+  "cover_path": "Images/cover6.png",
+  "filename": "epub-meta6.yaml",
+  "filepath": "/Users/maxludden/dev/py/superforge/books/book06/yaml/epub-meta6.yml",
+  "text": "---\nbelongs-to-collection: Super Gene\ncover-image: cover6.png\ncreator:\n- role: author\n  text: Twelve Winged Dark Seraphim\n- role: editor\n  text: Max Ludden\ncss:\n- style.css\ngroup-position: 6\nibooks:\n- version: '4.4'\n- specified-fonts: true\n- iphone-orientation-lock: portrait-only\n- scroll-axis: vertical\npage-progression-direction: ltr\ntitle:\n- text: Sky Palace, Blade, and Eclipse\n  type: main\n- text: Book Six\n  type: subtitle\n...\n",
+  "html_path": "/Users/maxludden/dev/py/superforge/books/book06/html/epub-meta6.yaml"
+},{
+  "_id": {
+    "$oid": "62c56f6083eeab52fdaa3155"
+  },
+  "book": 9,
+  "book_word": "Nine",
+  "title": "Meeting God and Fighting Sacred",
+  "cover_path": "Images/cover9.png",
+  "filename": "epub-meta9.yaml",
+  "filepath": "/Users/maxludden/dev/py/superforge/books/book09/yaml/epub-meta9.yml",
+  "text": "---\nbelongs-to-collection: Super Gene\ncover-image: cover9.png\ncreator:\n- role: author\n  text: Twelve Winged Dark Seraphim\n- role: editor\n  text: Max Ludden\ncss:\n- style.css\ngroup-position: 9\nibooks:\n- version: '4.4'\n- specified-fonts: true\n- iphone-orientation-lock: portrait-only\n- scroll-axis: vertical\npage-progression-direction: ltr\ntitle:\n- text: Meeting God and Fighting Sacred\n  type: main\n- text: Book Nine\n  type: subtitle\n...\n",
+  "html_path": "/Users/maxludden/dev/py/superforge/books/book09/html/epub-meta9.yaml"
+},{
+  "_id": {
+    "$oid": "62c56f6083eeab52fdaa314f"
+  },
+  "book": 3,
+  "book_word": "Three",
+  "title": "Third God's Sanctuary",
+  "cover_path": "Images/cover3.png",
+  "filename": "epub-meta3.yaml",
+  "filepath": "/Users/maxludden/dev/py/superforge/books/book03/yaml/epub-meta3.yml",
+  "text": "---\nbelongs-to-collection: Super Gene\ncover-image: cover3.png\ncreator:\n- role: author\n  text: Twelve Winged Dark Seraphim\n- role: editor\n  text: Max Ludden\ncss:\n- style.css\ngroup-position: 3\nibooks:\n- version: '4.4'\n- specified-fonts: true\n- iphone-orientation-lock: portrait-only\n- scroll-axis: vertical\npage-progression-direction: ltr\ntitle:\n- text: Third God's Sanctuary\n  type: main\n- text: Book Three\n  type: subtitle\n...\n",
+  "html_path": "/Users/maxludden/dev/py/superforge/books/book03/html/epub-meta3.yaml"
+},{
+  "_id": {
+    "$oid": "62c56f6083eeab52fdaa3150"
+  },
+  "book": 4,
+  "book_word": "Four",
+  "title": "Fourth and Fifth God's Sanctuary",
+  "cover_path": "Images/cover4.png",
+  "filename": "epub-meta4.yaml",
+  "filepath": "/Users/maxludden/dev/py/superforge/books/book04/yaml/epub-meta4.yml",
+  "text": "---\nbelongs-to-collection: Super Gene\ncover-image: cover4.png\ncreator:\n- role: author\n  text: Twelve Winged Dark Seraphim\n- role: editor\n  text: Max Ludden\ncss:\n- style.css\ngroup-position: 4\nibooks:\n- version: '4.4'\n- specified-fonts: true\n- iphone-orientation-lock: portrait-only\n- scroll-axis: vertical\npage-progression-direction: ltr\ntitle:\n- text: Fourth and Fifth God's Sanctuary\n  type: main\n- text: Book Four\n  type: subtitle\n...\n",
+  "html_path": "/Users/maxludden/dev/py/superforge/books/book04/html/epub-meta4.yaml"
+},{
+  "_id": {
+    "$oid": "62c56f6083eeab52fdaa3153"
+  },
+  "book": 7,
+  "book_word": "Seven",
+  "title": "The Ice Blue Knights and the Extreme Kings",
+  "cover_path": "Images/cover7.png",
+  "filename": "epub-meta7.yaml",
+  "filepath": "/Users/maxludden/dev/py/superforge/books/book07/yaml/epub-meta7.yml",
+  "text": "---\nbelongs-to-collection: Super Gene\ncover-image: cover7.png\ncreator:\n- role: author\n  text: Twelve Winged Dark Seraphim\n- role: editor\n  text: Max Ludden\ncss:\n- style.css\ngroup-position: 7\nibooks:\n- version: '4.4'\n- specified-fonts: true\n- iphone-orientation-lock: portrait-only\n- scroll-axis: vertical\npage-progression-direction: ltr\ntitle:\n- text: The Ice Blue Knights and the Extreme Kings\n  type: main\n- text: Book Seven\n  type: subtitle\n...\n",
+  "html_path": "/Users/maxludden/dev/py/superforge/books/book07/html/epub-meta7.yaml"
+},{
+  "_id": {
+    "$oid": "62c56f6083eeab52fdaa314d"
+  },
+  "book": 1,
+  "book_word": "One",
+  "title": "First God's Sanctuary",
+  "cover_path": "Images/cover1.png",
+  "filename": "epub-meta1.yaml",
+  "filepath": "/Users/maxludden/dev/py/superforge/books/book01/yaml/epub-meta1.yml",
+  "text": "---\nbelongs-to-collection: Super Gene\ncover-image: cover1.png\ncreator:\n- role: author\n  text: Twelve Winged Dark Seraphim\n- role: editor\n  text: Max Ludden\ncss:\n- style.css\ngroup-position: 1\nibooks:\n- version: '4.4'\n- specified-fonts: true\n- iphone-orientation-lock: portrait-only\n- scroll-axis: vertical\npage-progression-direction: ltr\ntitle:\n- text: First God's Sanctuary\n  type: main\n- text: Book One\n  type: subtitle\n...\n",
+  "html_path": "/Users/maxludden/dev/py/superforge/books/book01/html/epub-meta1.yaml"
+}]

@@ -1,0 +1,131 @@
+[{
+  "_id": {
+    "$oid": "62c56fc883eeab52fdaa317e"
+  },
+  "book": 7,
+  "book_word": "Seven",
+  "title": "The Ice Blue Knights and the Extreme Kings",
+  "text": "Written by Twelve Winged Burning Seraphim\nComplied and Edited by Max Ludden",
+  "md": "---\nTitle: The Ice Blue Knights and the Extreme Kings\nBook: 7\nCSS: ../Styles/styles.css\nviewport: width=device-width, initial-scale=1.0\n...\n# The Ice Blue Knights and the Extreme Kings\n<br />\n### Book Seven<br /><figure>\n\t<img class=\"titlepage\" src=\"../Images/gem.gif\" alt=\"gem\" />\n</figure>\n\n\n<p class=\"title\">Written by Twelve Winged Dark Seraphim</p>\n<p class=\"title\">Complied and Edited by Max Ludden</p>",
+  "html": "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\">\n<head>\n\t<meta charset=\"utf-8\"/>\n\t<title>The Ice Blue Knights and the Extreme Kings</title>\n\t<meta name=\"book\" content=\"7\"/>\n\t<link type=\"text/css\" rel=\"stylesheet\" href=\"../Styles/styles.css\"/>\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0 ... # The Ice Blue Knights and the Extreme Kings &lt;br /&gt; ### Book Seven&lt;br /&gt;&lt;figure&gt; &lt;img class=&quot;titlepage&quot; src=&quot;../Images/gem.gif&quot; alt=&quot;gem&quot; /&gt; &lt;/figure&gt;\"/>\n</head>\n<body>\n\n<p class=\"title\">Written by Twelve Winged Dark Seraphim</p>\n<p class=\"title\">Complied and Edited by Max Ludden</p>\n\n</body>\n</html>\n\n",
+  "filename": "titlepage-07",
+  "md_path": "/Users/maxludden/dev/py/superforge/books/book07/md/titlepage-07.md",
+  "html_path": "/Users/maxludden/dev/py/superforge/books/book07/html/titlepage-07.html"
+},{
+  "_id": {
+    "$oid": "62c56fc883eeab52fdaa3181"
+  },
+  "book": 10,
+  "book_word": "Ten",
+  "title": "The Universe of Kingdoms and Quin Kiu",
+  "text": "Written by Twelve Winged Burning Seraphim\nComplied and Edited by Max Ludden",
+  "md": "---\nTitle: The Universe of Kingdoms and Quin Kiu\nBook: 10\nCSS: ../Styles/styles.css\nviewport: width=device-width, initial-scale=1.0\n...\n# The Universe of Kingdoms and Quin Kiu\n<br />\n### Book Ten<br /><figure>\n\t<img class=\"titlepage\" src=\"../Images/gem.gif\" alt=\"gem\" />\n</figure>\n\n\n<p class=\"title\">Written by Twelve Winged Dark Seraphim</p>\n<p class=\"title\">Complied and Edited by Max Ludden</p>",
+  "html": "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\">\n<head>\n\t<meta charset=\"utf-8\"/>\n\t<title>The Universe of Kingdoms and Quin Kiu</title>\n\t<meta name=\"book\" content=\"10\"/>\n\t<link type=\"text/css\" rel=\"stylesheet\" href=\"../Styles/styles.css\"/>\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0 ... # The Universe of Kingdoms and Quin Kiu &lt;br /&gt; ### Book Ten&lt;br /&gt;&lt;figure&gt; &lt;img class=&quot;titlepage&quot; src=&quot;../Images/gem.gif&quot; alt=&quot;gem&quot; /&gt; &lt;/figure&gt;\"/>\n</head>\n<body>\n\n<p class=\"title\">Written by Twelve Winged Dark Seraphim</p>\n<p class=\"title\">Complied and Edited by Max Ludden</p>\n\n</body>\n</html>\n\n",
+  "filename": "titlepage-10",
+  "md_path": "/Users/maxludden/dev/py/superforge/books/book10/md/titlepage-10.md",
+  "html_path": "/Users/maxludden/dev/py/superforge/books/book10/html/titlepage-10.html"
+},{
+  "_id": {
+    "$oid": "62c56fc883eeab52fdaa3179"
+  },
+  "book": 2,
+  "book_word": "Two",
+  "title": "Second God's Sanctuary",
+  "text": "Written by Twelve Winged Burning Seraphim\nComplied and Edited by Max Ludden",
+  "md": "---\nTitle: Second God's Sanctuary\nBook: 2\nCSS: ../Styles/styles.css\nviewport: width=device-width, initial-scale=1.0\n...\n# Second God's Sanctuary\n<br />\n### Book Two<br /><figure>\n\t<img class=\"titlepage\" src=\"../Images/gem.gif\" alt=\"gem\" />\n</figure>\n\n\n<p class=\"title\">Written by Twelve Winged Dark Seraphim</p>\n<p class=\"title\">Complied and Edited by Max Ludden</p>",
+  "html": "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\">\n<head>\n\t<meta charset=\"utf-8\"/>\n\t<title>Second God's Sanctuary</title>\n\t<meta name=\"book\" content=\"2\"/>\n\t<link type=\"text/css\" rel=\"stylesheet\" href=\"../Styles/styles.css\"/>\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0 ... # Second God's Sanctuary &lt;br /&gt; ### Book Two&lt;br /&gt;&lt;figure&gt; &lt;img class=&quot;titlepage&quot; src=&quot;../Images/gem.gif&quot; alt=&quot;gem&quot; /&gt; &lt;/figure&gt;\"/>\n</head>\n<body>\n\n<p class=\"title\">Written by Twelve Winged Dark Seraphim</p>\n<p class=\"title\">Complied and Edited by Max Ludden</p>\n\n</body>\n</html>\n\n",
+  "filename": "titlepage-02",
+  "md_path": "/Users/maxludden/dev/py/superforge/books/book02/md/titlepage-02.md",
+  "html_path": "/Users/maxludden/dev/py/superforge/books/book02/html/titlepage-02.html"
+},{
+  "_id": {
+    "$oid": "62c56fc883eeab52fdaa317d"
+  },
+  "book": 6,
+  "book_word": "Six",
+  "title": "Sky Palace, Blade, and Eclipse",
+  "text": "Written by Twelve Winged Burning Seraphim\nComplied and Edited by Max Ludden",
+  "md": "---\nTitle: Sky Palace, Blade, and Eclipse\nBook: 6\nCSS: ../Styles/styles.css\nviewport: width=device-width, initial-scale=1.0\n...\n# Sky Palace, Blade, and Eclipse\n<br />\n### Book Six<br /><figure>\n\t<img class=\"titlepage\" src=\"../Images/gem.gif\" alt=\"gem\" />\n</figure>\n\n\n<p class=\"title\">Written by Twelve Winged Dark Seraphim</p>\n<p class=\"title\">Complied and Edited by Max Ludden</p>",
+  "html": "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\">\n<head>\n\t<meta charset=\"utf-8\"/>\n\t<title>Sky Palace, Blade, and Eclipse</title>\n\t<meta name=\"book\" content=\"6\"/>\n\t<link type=\"text/css\" rel=\"stylesheet\" href=\"../Styles/styles.css\"/>\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0 ... # Sky Palace, Blade, and Eclipse &lt;br /&gt; ### Book Six&lt;br /&gt;&lt;figure&gt; &lt;img class=&quot;titlepage&quot; src=&quot;../Images/gem.gif&quot; alt=&quot;gem&quot; /&gt; &lt;/figure&gt;\"/>\n</head>\n<body>\n\n<p class=\"title\">Written by Twelve Winged Dark Seraphim</p>\n<p class=\"title\">Complied and Edited by Max Ludden</p>\n\n</body>\n</html>\n\n",
+  "filename": "titlepage-06",
+  "md_path": "/Users/maxludden/dev/py/superforge/books/book06/md/titlepage-06.md",
+  "html_path": "/Users/maxludden/dev/py/superforge/books/book06/html/titlepage-06.html"
+},{
+  "_id": {
+    "$oid": "62c56fc883eeab52fdaa317c"
+  },
+  "book": 5,
+  "book_word": "Five",
+  "title": "Planet Kate and Narrow Moon",
+  "text": "Written by Twelve Winged Burning Seraphim\nComplied and Edited by Max Ludden",
+  "md": "---\nTitle: Planet Kate and Narrow Moon\nBook: 5\nCSS: ../Styles/styles.css\nviewport: width=device-width, initial-scale=1.0\n...\n# Planet Kate and Narrow Moon\n<br />\n### Book Five<br /><figure>\n\t<img class=\"titlepage\" src=\"../Images/gem.gif\" alt=\"gem\" />\n</figure>\n\n\n<p class=\"title\">Written by Twelve Winged Dark Seraphim</p>\n<p class=\"title\">Complied and Edited by Max Ludden</p>",
+  "html": "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\">\n<head>\n\t<meta charset=\"utf-8\"/>\n\t<title>Planet Kate and Narrow Moon</title>\n\t<meta name=\"book\" content=\"5\"/>\n\t<link type=\"text/css\" rel=\"stylesheet\" href=\"../Styles/styles.css\"/>\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0 ... # Planet Kate and Narrow Moon &lt;br /&gt; ### Book Five&lt;br /&gt;&lt;figure&gt; &lt;img class=&quot;titlepage&quot; src=&quot;../Images/gem.gif&quot; alt=&quot;gem&quot; /&gt; &lt;/figure&gt;\"/>\n</head>\n<body>\n\n<p class=\"title\">Written by Twelve Winged Dark Seraphim</p>\n<p class=\"title\">Complied and Edited by Max Ludden</p>\n\n</body>\n</html>\n\n",
+  "filename": "titlepage-05",
+  "md_path": "/Users/maxludden/dev/py/superforge/books/book05/md/titlepage-05.md",
+  "html_path": "/Users/maxludden/dev/py/superforge/books/book05/html/titlepage-05.html"
+},{
+  "_id": {
+    "$oid": "62c56fc883eeab52fdaa317a"
+  },
+  "book": 3,
+  "book_word": "Three",
+  "title": "Third God's Sanctuary",
+  "text": "Written by Twelve Winged Burning Seraphim\nComplied and Edited by Max Ludden",
+  "md": "---\nTitle: Third God's Sanctuary\nBook: 3\nCSS: ../Styles/styles.css\nviewport: width=device-width, initial-scale=1.0\n...\n# Third God's Sanctuary\n<br />\n### Book Three<br /><figure>\n\t<img class=\"titlepage\" src=\"../Images/gem.gif\" alt=\"gem\" />\n</figure>\n\n\n<p class=\"title\">Written by Twelve Winged Dark Seraphim</p>\n<p class=\"title\">Complied and Edited by Max Ludden</p>",
+  "html": "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\">\n<head>\n\t<meta charset=\"utf-8\"/>\n\t<title>Third God's Sanctuary</title>\n\t<meta name=\"book\" content=\"3\"/>\n\t<link type=\"text/css\" rel=\"stylesheet\" href=\"../Styles/styles.css\"/>\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0 ... # Third God's Sanctuary &lt;br /&gt; ### Book Three&lt;br /&gt;&lt;figure&gt; &lt;img class=&quot;titlepage&quot; src=&quot;../Images/gem.gif&quot; alt=&quot;gem&quot; /&gt; &lt;/figure&gt;\"/>\n</head>\n<body>\n\n<p class=\"title\">Written by Twelve Winged Dark Seraphim</p>\n<p class=\"title\">Complied and Edited by Max Ludden</p>\n\n</body>\n</html>\n\n",
+  "filename": "titlepage-03",
+  "md_path": "/Users/maxludden/dev/py/superforge/books/book03/md/titlepage-03.md",
+  "html_path": "/Users/maxludden/dev/py/superforge/books/book03/html/titlepage-03.html"
+},{
+  "_id": {
+    "$oid": "62c56fc883eeab52fdaa317b"
+  },
+  "book": 4,
+  "book_word": "Four",
+  "title": "Fourth and Fifth God's Sanctuary",
+  "text": "Written by Twelve Winged Burning Seraphim\nComplied and Edited by Max Ludden",
+  "md": "---\nTitle: Fourth and Fifth God's Sanctuary\nBook: 4\nCSS: ../Styles/styles.css\nviewport: width=device-width, initial-scale=1.0\n...\n# Fourth and Fifth God's Sanctuary\n<br />\n### Book Four<br /><figure>\n\t<img class=\"titlepage\" src=\"../Images/gem.gif\" alt=\"gem\" />\n</figure>\n\n\n<p class=\"title\">Written by Twelve Winged Dark Seraphim</p>\n<p class=\"title\">Complied and Edited by Max Ludden</p>",
+  "html": "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\">\n<head>\n\t<meta charset=\"utf-8\"/>\n\t<title>Fourth and Fifth God's Sanctuary</title>\n\t<meta name=\"book\" content=\"4\"/>\n\t<link type=\"text/css\" rel=\"stylesheet\" href=\"../Styles/styles.css\"/>\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0 ... # Fourth and Fifth God's Sanctuary &lt;br /&gt; ### Book Four&lt;br /&gt;&lt;figure&gt; &lt;img class=&quot;titlepage&quot; src=&quot;../Images/gem.gif&quot; alt=&quot;gem&quot; /&gt; &lt;/figure&gt;\"/>\n</head>\n<body>\n\n<p class=\"title\">Written by Twelve Winged Dark Seraphim</p>\n<p class=\"title\">Complied and Edited by Max Ludden</p>\n\n</body>\n</html>\n\n",
+  "filename": "titlepage-04",
+  "md_path": "/Users/maxludden/dev/py/superforge/books/book04/md/titlepage-04.md",
+  "html_path": "/Users/maxludden/dev/py/superforge/books/book04/html/titlepage-04.html"
+},{
+  "_id": {
+    "$oid": "62c56fc883eeab52fdaa317f"
+  },
+  "book": 8,
+  "book_word": "Eight",
+  "title": "The Systems of Chaos and the Very High",
+  "text": "Written by Twelve Winged Burning Seraphim\nComplied and Edited by Max Ludden",
+  "md": "---\nTitle: The Systems of Chaos and the Very High\nBook: 8\nCSS: ../Styles/styles.css\nviewport: width=device-width, initial-scale=1.0\n...\n# The Systems of Chaos and the Very High\n<br />\n### Book Eight<br /><figure>\n\t<img class=\"titlepage\" src=\"../Images/gem.gif\" alt=\"gem\" />\n</figure>\n\n\n<p class=\"title\">Written by Twelve Winged Dark Seraphim</p>\n<p class=\"title\">Complied and Edited by Max Ludden</p>",
+  "html": "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\">\n<head>\n\t<meta charset=\"utf-8\"/>\n\t<title>The Systems of Chaos and the Very High</title>\n\t<meta name=\"book\" content=\"8\"/>\n\t<link type=\"text/css\" rel=\"stylesheet\" href=\"../Styles/styles.css\"/>\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0 ... # The Systems of Chaos and the Very High &lt;br /&gt; ### Book Eight&lt;br /&gt;&lt;figure&gt; &lt;img class=&quot;titlepage&quot; src=&quot;../Images/gem.gif&quot; alt=&quot;gem&quot; /&gt; &lt;/figure&gt;\"/>\n</head>\n<body>\n\n<p class=\"title\">Written by Twelve Winged Dark Seraphim</p>\n<p class=\"title\">Complied and Edited by Max Ludden</p>\n\n</body>\n</html>\n\n",
+  "filename": "titlepage-08",
+  "md_path": "/Users/maxludden/dev/py/superforge/books/book08/md/titlepage-08.md",
+  "html_path": "/Users/maxludden/dev/py/superforge/books/book08/html/titlepage-08.html"
+},{
+  "_id": {
+    "$oid": "62c56fc883eeab52fdaa3180"
+  },
+  "book": 9,
+  "book_word": "Nine",
+  "title": "Meeting God and Fighting Sacred",
+  "text": "Written by Twelve Winged Burning Seraphim\nComplied and Edited by Max Ludden",
+  "md": "---\nTitle: Meeting God and Fighting Sacred\nBook: 9\nCSS: ../Styles/styles.css\nviewport: width=device-width, initial-scale=1.0\n...\n# Meeting God and Fighting Sacred\n<br />\n### Book Nine<br /><figure>\n\t<img class=\"titlepage\" src=\"../Images/gem.gif\" alt=\"gem\" />\n</figure>\n\n\n<p class=\"title\">Written by Twelve Winged Dark Seraphim</p>\n<p class=\"title\">Complied and Edited by Max Ludden</p>",
+  "html": "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\">\n<head>\n\t<meta charset=\"utf-8\"/>\n\t<title>Meeting God and Fighting Sacred</title>\n\t<meta name=\"book\" content=\"9\"/>\n\t<link type=\"text/css\" rel=\"stylesheet\" href=\"../Styles/styles.css\"/>\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0 ... # Meeting God and Fighting Sacred &lt;br /&gt; ### Book Nine&lt;br /&gt;&lt;figure&gt; &lt;img class=&quot;titlepage&quot; src=&quot;../Images/gem.gif&quot; alt=&quot;gem&quot; /&gt; &lt;/figure&gt;\"/>\n</head>\n<body>\n\n<p class=\"title\">Written by Twelve Winged Dark Seraphim</p>\n<p class=\"title\">Complied and Edited by Max Ludden</p>\n\n</body>\n</html>\n\n",
+  "filename": "titlepage-09",
+  "md_path": "/Users/maxludden/dev/py/superforge/books/book09/md/titlepage-09.md",
+  "html_path": "/Users/maxludden/dev/py/superforge/books/book09/html/titlepage-09.html"
+},{
+  "_id": {
+    "$oid": "62c56fc883eeab52fdaa3178"
+  },
+  "book": 1,
+  "book_word": "One",
+  "title": "First God's Sanctuary",
+  "text": "Written by Twelve Winged Burning Seraphim\nComplied and Edited by Max Ludden",
+  "md": "---\nTitle: First God's Sanctuary\nBook: 1\nCSS: ../Styles/styles.css\nviewport: width=device-width, initial-scale=1.0\n...\n# First God's Sanctuary\n<br />\n### Book One<br /><figure>\n\t<img class=\"titlepage\" src=\"../Images/gem.gif\" alt=\"gem\" />\n</figure>\n\n\n<p class=\"title\">Written by Twelve Winged Dark Seraphim</p>\n<p class=\"title\">Complied and Edited by Max Ludden</p>",
+  "html": "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\">\n<head>\n\t<meta charset=\"utf-8\"/>\n\t<title>First God's Sanctuary</title>\n\t<meta name=\"book\" content=\"1\"/>\n\t<link type=\"text/css\" rel=\"stylesheet\" href=\"../Styles/styles.css\"/>\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0 ... # First God's Sanctuary &lt;br /&gt; ### Book One&lt;br /&gt;&lt;figure&gt; &lt;img class=&quot;titlepage&quot; src=&quot;../Images/gem.gif&quot; alt=&quot;gem&quot; /&gt; &lt;/figure&gt;\"/>\n</head>\n<body>\n\n<p class=\"title\">Written by Twelve Winged Dark Seraphim</p>\n<p class=\"title\">Complied and Edited by Max Ludden</p>\n\n</body>\n</html>\n\n",
+  "filename": "titlepage-01",
+  "md_path": "/Users/maxludden/dev/py/superforge/books/book01/md/titlepage-01.md",
+  "html_path": "/Users/maxludden/dev/py/superforge/books/book01/html/titlepage-01.html"
+}]

@@ -1,0 +1,141 @@
+[{
+  "_id": {
+    "$oid": "62c56e4183eeab52fdaa239d"
+  },
+  "title": "The Ice Blue Knights and The Extreme Kings",
+  "output": "The Ice Blue Knights and The Extreme Kings.epub",
+  "cover": "cover7.png",
+  "cover_path": "Images/cover7.png",
+  "uuid": "1f95e97a-c29b-45c9-b19c-66e9fd1c8148",
+  "default": "",
+  "start": 2244,
+  "end": 2639,
+  "book": 7,
+  "book_word": ""
+},{
+  "_id": {
+    "$oid": "62c56e4183eeab52fdaa239a"
+  },
+  "title": "Fourth and Fifth God's Sanctuary",
+  "output": "Fourth and Fifth God's Sanctuary.epub",
+  "cover": "cover4.png",
+  "cover_path": "Images/cover4.png",
+  "uuid": "f7197bf9-0abc-480f-81a0-2f806909a2d8",
+  "default": "",
+  "start": 1139,
+  "end": 1711,
+  "book": 4,
+  "book_word": ""
+},{
+  "_id": {
+    "$oid": "62c56e4183eeab52fdaa2398"
+  },
+  "title": "Second God's Sanctuary",
+  "output": "Second God's Sanctuary.epub",
+  "cover": "cover2.png",
+  "cover_path": "Images/cover2.png",
+  "uuid": "18afe34c-479d-495a-995e-00a009faf8c5",
+  "default": "",
+  "start": 425,
+  "end": 882,
+  "book": 2,
+  "book_word": ""
+},{
+  "_id": {
+    "$oid": "62c56e4183eeab52fdaa239e"
+  },
+  "title": "The Systems of Chaos and The Very High",
+  "output": "The Systems of Chaos and The Very High.epub",
+  "cover": "cover8.png",
+  "cover_path": "Images/cover8.png",
+  "uuid": "db5524d4-f6a7-4af4-9519-71694d4454b3",
+  "default": "",
+  "start": 2990,
+  "end": 3462,
+  "book": 8,
+  "book_word": ""
+},{
+  "_id": {
+    "$oid": "62c56e4183eeab52fdaa239b"
+  },
+  "title": "Planet Kate and Narrow Moon",
+  "output": "Planet Kate and Narrow Moon.epub",
+  "cover": "cover5.png",
+  "cover_path": "Images/cover5.png",
+  "uuid": "5b96795f-d106-45fa-b342-27f1aee2b8ea",
+  "default": "",
+  "start": 1712,
+  "end": 1960,
+  "book": 5,
+  "book_word": ""
+},{
+  "_id": {
+    "$oid": "62c56e4183eeab52fdaa2399"
+  },
+  "title": "Third God's Sanctuary",
+  "output": "Third God's Sanctuary.epub",
+  "cover": "cover3.png",
+  "cover_path": "Images/cover3.png",
+  "uuid": "20416fba-05c4-44d3-8168-b82833ce4e19",
+  "default": "",
+  "start": 883,
+  "end": 1138,
+  "book": 3,
+  "book_word": ""
+},{
+  "_id": {
+    "$oid": "62c56e4183eeab52fdaa239f"
+  },
+  "title": "Meeting God and Fighting Sacred",
+  "output": "Meeting God and Fighting Sacred.epub",
+  "cover": "cover9.png",
+  "cover_path": "Images/cover9.png",
+  "uuid": "9966e1f9-d1f1-4f9e-b03b-212910f7b461",
+  "default": "",
+  "start": 3034,
+  "end": 3462,
+  "book": 9,
+  "book_word": ""
+},{
+  "_id": {
+    "$oid": "62c56e4183eeab52fdaa2397"
+  },
+  "title": "First God's Sanctuary",
+  "output": "First God's Sanctuary.epub",
+  "cover": "cover1.png",
+  "cover_path": "Images/cover1.png",
+  "uuid": "5471037e-320e-4899-96b1-9009b1e4200b",
+  "default": "",
+  "start": 1,
+  "end": 424,
+  "book": 1,
+  "book_word": "One"
+},{
+  "_id": {
+    "$oid": "62c56e4183eeab52fdaa23a0"
+  },
+  "book": 10,
+  "title": "The Universe of Kingdoms and Quin Kiu",
+  "output": "The Universe of Kingdoms and Quin Kiu.epub",
+  "cover": "cover10.png",
+  "cover_path": "Images/cover10.png",
+  "default": "",
+  "start": 3034,
+  "end": 3462,
+  "uuid": "c005c47d-486c-4035-b77f-4ce4ae7db765",
+  "book_word": ""
+},{
+  "_id": {
+    "$oid": "62c56e4183eeab52fdaa239c"
+  },
+  "title": "Sky Palace, Blade, and Eclipse",
+  "output": "Sky Palace, Blade, and Eclipse.epub",
+  "cover": "cover6.png",
+  "cover_path": "Images/cover6.png",
+  "uuid": "98b040e2-52e4-4bf2-bd0a-226503ac060e",
+  "default": "",
+  "start": 1961,
+  "end": 2165,
+  "book": 6,
+  "book_word": ""
+}]

@@ -54,6 +54,10 @@ def get_atlas_uri(database: str = "SUPERGENE"):
             db = "SUPERGENE"
         else:
             raise ConnectionError(f"{database} is not a valid DB.")
+    elif db_lower == 'localdb':
+        db = "LOCALDB"
+    else:
+        raise ConnectionError(f"{database} is not a valid DB.")
 
     URI = os.environ.get(db)
     log.debug(f"URI retrieved from .env:\n<code>{URI}</code>")
@@ -80,6 +84,10 @@ def sg(database: str = "SUPERGENE"):
             db = "SUPERGENE"
         else:
             raise ConnectionError(f"{database} is not a valid DB.")
+    elif db_lower == 'localdb':
+        db = "LOCALDB"
+    else:
+        raise ConnectionError(f"{database} is not a valid DB.")
 
     URI = get_atlas_uri(db)
     log.debug(f"Retrieved connection URI: {URI}")
