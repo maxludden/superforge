@@ -80,13 +80,24 @@ NUM_THREADS = 24
 def timer(*, entry: bool = True, exit: bool = True, level="DEBUG"):
     def wrapper(func):
         name = func.__name__
-        
+        t1 = 0
+        t2 = 0
         @wraps(func)
         def wrapped(*args, **kwargs):
             timer_log = log.opt(depth=1)
+            t1 = perf_counter()
             if entry:
-                t1 
-                timer_log(level,)
+                timer_log(level,f"Entered {name}() at {t1})\n<code>args: {args}\nkwargs: {kwargs}</code>")
+            result = func(*args, **kwargs)
+            t2 = perf_counter()
+            if exit:
+                timer_log.log(level, f"Exiting {name}() @ {t2}<code>\nresult:\n<{result}</code>")
+            return result
+        duration = t2 - t1
+        log.debug(f"Function {name}() took {duration} seconds.")
+        return wrapped
+    return wrapper
+                
 
 def browser():
     driver = webdriver.Chrome(headless=True)
@@ -99,14 +110,8 @@ def get_chapter_dict(chapter: int) -> dict:
     chapter_dict = toc[chapter]
     return chapter_dict
 
-def get_chapter_text(chapter: int) -> str:
-    chapter_dict = get_chapter_dict(chapter)
-    chapter_url = chapter_dict['url']
-    chapter = int(chapter_dict["chapter"])
-    chapter_title = chapter_dict["title"]
-    driver = browser()
-    driver.get(chapter_url)
-    
+@timer()
+def click_settings(driver, chapter: int):
     # Wait for Settings Button to load, then click it
     try:
         settings_button = WebDriverWait(driver, 10).until(
@@ -117,6 +122,9 @@ def get_chapter_text(chapter: int) -> str:
         raise SettingsButtonNotFound(chapter)
     else:
         log.debug(f"Chapter {chapter}: Clicked settings button.")
+
+@timer()
+def click_bad_words(driver, chapter: int):
     # Click Bad Words Button
     try:
         change_bad_words_button = driver.find_element(
@@ -127,7 +135,10 @@ def get_chapter_text(chapter: int) -> str:
         raise BadWordsButtonNotFound(chapter)
     else:
         log.debug(f"Chapter {chapter}: Clicked bad words button.")
-        
+
+
+@timer()
+def get_chapter_text(driver, chapter: int) -> str:
     # Wait for text to load; then get it
     try:
             text = WebDriverWait(driver, 10).until(
@@ -148,7 +159,10 @@ def get_chapter_text(chapter: int) -> str:
         raise ChapterTextNotFoundInTime(chapter)
     else:
         log.debug(f"Chapter {chapter}: Found chapter text.")
-        
+    return text
+    
+@timer()
+def parse_chapter_text(chapter: int, text: str) -> str:
     # Parse Text
     try:
         text_split = text.split('\n\n')
@@ -176,30 +190,42 @@ def get_chapter_text(chapter: int) -> str:
         raise UnableToParseChapterText(chapter)
     else:
         log.debug(f"Chapter {chapter}: Parsed chapter text.")
-        
-        # Write chapter text to disk
-        book = generate_book(chapter)
-        chapter_zfill = str(chapter).zfill(4)
-        book_zfill = str(book).zfill(2)
-        filename = f"chapter-{chapter_zfill}.txt"
-        filepath = f"{BASE}/books/book{book_zfill}/text/{filename}"
-        
-        with open(filepath, "w") as outfile:
-            outfile.write(text)
-            
-        # Write chapter_dict to disk
-        chapter_dict = {
-            "chapter": chapter,
-            "title": chapter_title,
-            "url": chapter_url,
-            "text": text
-        }
-        with open (f"json/chapter_dicts/chapter-{chapter_zfill}.json", "w") as outfile:
-            dump(chapter_dict, outfile, indent = 4)
-        chapter_dicts[chapter] = chapter_dict
-
-    finally:
-        driver.quit()
     return text
     
-result = timeit.timeit(stmt="get_chapter_text()")
+def get_chapter_text(chapter: int) -> str:
+    chapter_dict = get_chapter_dict(chapter)
+    chapter_url = chapter_dict['url']
+    chapter = int(chapter_dict["chapter"])
+    chapter_title = chapter_dict["title"]
+    driver = browser()
+    driver.get(chapter_url)
+    
+    click_settings(driver, chapter)
+    click_bad_words(driver, chapter)
+    text = get_chapter_text(driver, chapter)
+    text = parse_chapter_text(chapter, text)
+        
+    # Write chapter text to disk
+    book = generate_book(chapter)
+    chapter_zfill = str(chapter).zfill(4)
+    book_zfill = str(book).zfill(2)
+    filename = f"chapter-{chapter_zfill}.txt"
+    filepath = f"{BASE}/books/book{book_zfill}/text/{filename}"
+    
+    with open(filepath, "w") as outfile:
+        outfile.write(text)
+        
+    # Write chapter_dict to disk
+    chapter_dict = {
+        "chapter": chapter,
+        "title": chapter_title,
+        "url": chapter_url,
+        "text": text
+    }
+    with open (f"json/chapter_dicts/chapter-{chapter_zfill}.json", "w") as outfile:
+        dump(chapter_dict, outfile, indent = 4)
+    chapter_dicts[chapter] = chapter_dict
+
+
+    driver.quit()
+    return text
