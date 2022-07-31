@@ -13,7 +13,7 @@ from core.log import errwrap, log
 @errwrap()
 def export_chapters():
     
-    chapter_json = "/Users/maxludden/dev/py/superforge/json/chapter_export.json"
+    chapter_json = f"{BASE}/json/chapter_export.json"
     response = input(f"Currently exporting to path:\n {chapter_json}\n\nIs that okay? (Y/N)")
     if response.lower() != 'y':
         chapter_json = input("Please enter the full path you would like to use:")
@@ -38,6 +38,6 @@ def export_chapters():
         }
         chapters[doc.chapter]=chapter
 
-    chapter_json = "/Users/maxludden/dev/py/superforge/json/chapter_export.json"
+    chapter_json = f"{BASE}/json/chapter_export.json"
     with open(chapter_json, 'w') as outfile:
         dump({int(x):chapters[x] for x in chapters.keys()}, outfile, sort_keys=True, indent=4)

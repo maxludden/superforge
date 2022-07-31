@@ -23,7 +23,7 @@ import core.book as book_
 # .└─────────────────────────────────────────────────────────────────┘.#
 
 # >  Static Variables
-BOOK_DIR = "/Users/maxludden/dev/py/superforge/books/"
+BOOK_DIR = f"{BASE}/books/"
 img = (
     f'<figure>\n\t<img src="../Images/gem.gif" alt="gem" width="120" height="60" />\n  '
 )

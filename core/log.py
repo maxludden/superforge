@@ -456,7 +456,7 @@ def new_run(test_loggers: bool=False):
             # If this run is a multiple of 3: 
             new_log = """# *SUPERFORGE* Log
             
-<img src="/Users/maxludden/dev/py/superforge/books/book01/Images/gem.gif" alt="gem" width="120" height="60" />
+<img src=f"{BASE}/books/book01/Images/gem.gif" alt="gem" width="120" height="60" />
 
 """
             with open (md_log, 'w') as outfile:
@@ -464,7 +464,7 @@ def new_run(test_loggers: bool=False):
         
     
     with open (md_log, 'a') as outfile:
-        outfile.write(f'\n <br> <br> \n \n \n ## Run {current_run}\n<br>\n<img src="/Users/maxludden/dev/py/superforge/books/book01/Images/gem.gif" alt="gem" id="gem" width="120" height="60" />\n\n')
+        outfile.write(f'\n <br> <br> \n \n \n ## Run {current_run}\n<br>\n<img src=f"{BASE}/books/book01/Images/gem.gif" alt="gem" id="gem" width="120" height="60" />\n\n')
     if test_loggers:
         test_logger()
     fix_tags()

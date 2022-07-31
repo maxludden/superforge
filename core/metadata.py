@@ -184,7 +184,7 @@ def create_Metadata():
         title = doc.title
         book_dir = str(book).zfill(2)
         filename = f"Metadata{book}.yaml"
-        filepath = "/Users/maxludden/dev/py/superforge/books/"
+        filepath = f"{BASE}/books/"
         filepath = f"{filepath}book{book_dir}/html/{filename}"
         author = 'Twelve Winged Dark Seraphim'
         text = f"---\ntitle: {title}"
