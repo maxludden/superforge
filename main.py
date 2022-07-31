@@ -32,40 +32,12 @@ import core.get_toc as toc_
 from core.yay import yay, finished
 import core.download_chapter as dc
 from core.base import BASE
+import get_text
 
 load_dotenv()  # > Load .env file
 
 # . Start a new run
 new_run()
-
-sg()
-chapters = []
-for doc in Chapter.objects():
-    if doc.chapter > 2473:
-        chapters.append(doc.chapter)
-
-
-def browser():  
-    driver = webdriver.Chrome()
-    return driver
- 
-def get_text(link):
-    driver = browser()  # Each browser use different driver.
-    driver.get(link)
-
-def multip():
-
-    pool = Pool(processes=7)
-    for i in range(0, len(chapters)):
-        pool.apply_async(dc.get_text_from_ch, args={chapters[i]})
-
-    pool.close()
-    pool.join()
-    
-if __name__ == '__main__':
-    log.info(f"Number of Cores: {cpu_count()}")
-    multip()
-
 
 
 # Fix_log.md tags
