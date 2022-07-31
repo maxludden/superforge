@@ -1,7 +1,7 @@
-from platform import platform
+import platform
 
 def generate_base():
-    if platform() == "Linux":
+    if platform.system() == "Linux":
         ROOT = "home"
     else:
         ROOT = "Users"  # < Mac

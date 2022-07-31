@@ -1,5 +1,7 @@
 # core/fix_tags.py
-LOG = "/Users/maxludden/dev/py/superforge/logs/log.md"
+from core.base import BASE
+
+LOG = f"{BASE}/logs/log.md"
 def fix_tags():
     with open (LOG, 'r') as infile:
         md = infile.read()

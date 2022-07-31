@@ -10,7 +10,13 @@ from typing import Optional
 from loguru import logger
 from tqdm.auto import tqdm, trange
 from pymongo import monitoring
-from core.base import BASE
+
+try:
+    from core.base import BASE
+except ImportError:
+    from base import BASE
+
+
 
 
 
@@ -33,16 +39,8 @@ from core.base import BASE
 #>│                           Chapter                               │<#
 #>└─────────────────────────────────────────────────────────────────┘<#
 
-def generate_root():
-    if platform() == "Linux":
-        ROOT = "home"
-    else:
-        ROOT = "Users"  # < Mac
-    return ROOT
-ROOT = generate_root()
-BASE =f'/{ROOT}/maxludden/dev/py/superforge'
 
-RUN_PATH = f"{BASE}/superforge/json/run.json"
+RUN_PATH = f"{BASE}/json/run.json"
 LOG_DIR = "logs/"
 MAIN_LOG = "logs.log.md"
 LOGGING_LOG = "logs/logging.log"
