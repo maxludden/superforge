@@ -20,13 +20,13 @@ try:
     from core.atlas import sg, get_atlas_uri
     from core.base import BASE
     from core.log import log, errwrap
-    from download_chapter import get_text_from_ch
+    from core.download_chapter import get_text_from_ch
 except ImportError:
     from chapter import Chapter, generate_book
     from atlas import sg, get_atlas_uri
     from base import BASE
-    from log improt log
-    from download_chapter import get_text_from_ch
+    from log import log
+    from core.download_chapter import get_text_from_ch
 
 with open ('json/toc2.json', 'r') as infile:
     toc = load(infile)
