@@ -15,23 +15,33 @@ from dotenv import load_dotenv
 from alive_progress import alive_it
 import sh
 
-from core.chapter import Chapter, generate_book
-from core.atlas import sg, get_atlas_uri
-from core.base import BASE
-from core. log import log, errwrap
-from core.download_chapter import get_text_from_ch
+try:
+    from core.chapter import Chapter, generate_book
+    from core.atlas import sg, get_atlas_uri
+    from core.base import BASE
+    from core.log import log, errwrap
+    from download_chapter import get_text_from_ch
+except ImportError:
+    from chapter import Chapter, generate_book
+    from atlas import sg, get_atlas_uri
+    from base import BASE
+    from log improt log
+    from download_chapter import get_text_from_ch
 
-
+with open ('json/toc2.json', 'r') as infile:
+    toc = load(infile)
 
 def chunks(l, n):
     for i in range(0, len(l), n):
         yield l[i:i + n]
         
-def get_text(chunk, input) -> str:
-    chapter = int(toc[key]["chapter"])
+def get_text(chapter: int) -> dict:
+    chapter = int(toc[str(chapter)]["chapter"])
     CHAPTER = str(chapter)
-    url = toc[key]["url"]
-    title = toc[key]["title"]
+    with open ("json/toc2.json", 'r') as infile:
+        toc = load(infile)
+    url = toc[CHAPTER]["url"]
+    title = toc[CHAPTER]["title"]
     
     
     # > Initial Variables
@@ -118,15 +128,15 @@ def get_text(chunk, input) -> str:
         driver.quit()
 
 pool = mp.Pool(mp.cpu_count()-1)
-get_text_partial = partial(get_text, input = input)
-list_of_keys = []
-with open ("json/toc2.json", 'r') as infile:
-    toc = dict((load(infile)))
-    keys = toc.keys()
-    for key in keys:
-        list_of_keys.append(key)
 
-result = pool.map(get_text_partial, list(chunks(list_of_keys, 100)))
+chapters = []
+for x in range(1,3463):
+    if x == 3095 | x == 3117:
+        continue
+    else:
+        chapters.append(x)
+
+result = pool.map(get_text, chapters)
 pool.close()
 
 final_result = list(chain.from_iterable([r.items() for r in result]))

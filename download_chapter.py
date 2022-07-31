@@ -5,6 +5,7 @@ import sys
 from json import dump, load
 from re import I, M, findall, sub
 from time import sleep
+from typing import KeysView
 
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options as ChromeOptions
@@ -20,11 +21,11 @@ from core.log import log, errwrap
 from core.chapter import Chapter
 import core.chapter as chapter_
 
-DRIVER_PATH = "driver/chromedriver"
+DRIVER_PATH = "/home/maxludden/dev/py/superforge/driver/chromedriver"
 
 def get_text_from_ch(chapter: int) -> str:
     # > Get chapter document from MOngoDB
-    sg("LOCALDB")
+    sg()
     chapter_dict = Chapter.objects(chapter=chapter).first()
     TITLE = chapter_dict.title
     CHAPTER = str(chapter_dict.chapter)
@@ -120,3 +121,11 @@ def get_text_from_ch(chapter: int) -> str:
     finally:
         driver.quit()
     return text
+
+with open ("json/toc2.json", 'r') as infile:
+    toc = load(infile)
+
+keys = toc.keys()
+for key in alive_it(keys):
+    chapter = toc[key]["chapter"]
+    text = get_text_from_ch(chapter)

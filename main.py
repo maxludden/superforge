@@ -30,7 +30,7 @@ import core.section as section_
 import core.titlepage as titlepg
 import core.get_toc as toc_
 from core.yay import yay, finished
-import core.download_chapter as dc
+import download_chapter as dc
 from core.base import BASE
 import get_text
 

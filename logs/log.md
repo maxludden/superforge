@@ -1604,3 +1604,356 @@ Imported CDumper from yaml.
         </div>
     </div>
 </a>
+
+<br>
+\<a class="debug" href="vscode://file//home/maxludden/dev/py/superforge/core/atlas.py:62:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 1605 | 5:17:12 AM | atlas.py | Line 62
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb://localhost:27017/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//home/maxludden/dev/py/superforge/core/atlas.py:92:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 1605 | 5:17:12 AM | atlas.py | Line 92
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb://localhost:27017/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//home/maxludden/dev/py/superforge/core/atlas.py:97:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 1605 | 5:17:12 AM | atlas.py | Line 97
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to LOCALDB
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//home/maxludden/dev/py/superforge/core/atlas.py:62:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 1606 | 5:18:00 AM | atlas.py | Line 62
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//home/maxludden/dev/py/superforge/core/atlas.py:92:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 1606 | 5:18:00 AM | atlas.py | Line 92
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//home/maxludden/dev/py/superforge/core/atlas.py:97:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 1606 | 5:18:00 AM | atlas.py | Line 97
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//home/maxludden/dev/py/superforge/core/log.py:516:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 1606 | 5:18:01 AM | log.py | Line 516
+        </div>
+        \<div class="container-debug">
+            <pre>
+Command saslStart with request id 1025202362 started on server ('ac-qrc1b1r-shard-00-02.wmopsoc.mongodb.net', 27017)
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//home/maxludden/dev/py/superforge/core/log.py:521:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 1606 | 5:18:01 AM | log.py | Line 521
+        </div>
+        \<div class="container-debug">
+            <pre>
+Command saslStart with request id 1025202362 on server ('ac-qrc1b1r-shard-00-02.wmopsoc.mongodb.net', 27017) succeeded in 41290 microseconds
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//home/maxludden/dev/py/superforge/core/log.py:516:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 1606 | 5:18:01 AM | log.py | Line 516
+        </div>
+        \<div class="container-debug">
+            <pre>
+Command saslContinue with request id 1350490027 started on server ('ac-qrc1b1r-shard-00-02.wmopsoc.mongodb.net', 27017)
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//home/maxludden/dev/py/superforge/core/log.py:521:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 1606 | 5:18:01 AM | log.py | Line 521
+        </div>
+        \<div class="container-debug">
+            <pre>
+Command saslContinue with request id 1350490027 on server ('ac-qrc1b1r-shard-00-02.wmopsoc.mongodb.net', 27017) succeeded in 40974 microseconds
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//home/maxludden/dev/py/superforge/core/log.py:516:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 1606 | 5:18:01 AM | log.py | Line 516
+        </div>
+        \<div class="container-debug">
+            <pre>
+Command createIndexes with request id 783368690 started on server ('ac-qrc1b1r-shard-00-02.wmopsoc.mongodb.net', 27017)
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//home/maxludden/dev/py/superforge/core/log.py:521:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 1606 | 5:18:01 AM | log.py | Line 521
+        </div>
+        \<div class="container-debug">
+            <pre>
+Command createIndexes with request id 783368690 on server ('ac-qrc1b1r-shard-00-02.wmopsoc.mongodb.net', 27017) succeeded in 53900 microseconds
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//home/maxludden/dev/py/superforge/core/log.py:516:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 1606 | 5:18:01 AM | log.py | Line 516
+        </div>
+        \<div class="container-debug">
+            <pre>
+Command find with request id 1102520059 started on server ('ac-qrc1b1r-shard-00-02.wmopsoc.mongodb.net', 27017)
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//home/maxludden/dev/py/superforge/core/log.py:521:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 1606 | 5:18:01 AM | log.py | Line 521
+        </div>
+        \<div class="container-debug">
+            <pre>
+Command find with request id 1102520059 on server ('ac-qrc1b1r-shard-00-02.wmopsoc.mongodb.net', 27017) succeeded in 84526 microseconds
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//home/maxludden/dev/py/superforge/core/atlas.py:62:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 1607 | 5:18:48 AM | atlas.py | Line 62
+        </div>
+        \<div class="container-debug">
+            <pre>
+URI retrieved from .env:
+<code>mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE</code>
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//home/maxludden/dev/py/superforge/core/atlas.py:92:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 1607 | 5:18:48 AM | atlas.py | Line 92
+        </div>
+        \<div class="container-debug">
+            <pre>
+Retrieved connection URI: mongodb+srv://dev:uqt4QTX6fmg*zjb4fej@maxludden.wmopsoc.mongodb.net/SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//home/maxludden/dev/py/superforge/core/atlas.py:97:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 1607 | 5:18:48 AM | atlas.py | Line 97
+        </div>
+        \<div class="container-debug">
+            <pre>
+Connected to SUPERGENE
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//home/maxludden/dev/py/superforge/core/log.py:516:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 1607 | 5:18:48 AM | log.py | Line 516
+        </div>
+        \<div class="container-debug">
+            <pre>
+Command saslStart with request id 1025202362 started on server ('ac-qrc1b1r-shard-00-02.wmopsoc.mongodb.net', 27017)
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//home/maxludden/dev/py/superforge/core/log.py:521:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 1607 | 5:18:48 AM | log.py | Line 521
+        </div>
+        \<div class="container-debug">
+            <pre>
+Command saslStart with request id 1025202362 on server ('ac-qrc1b1r-shard-00-02.wmopsoc.mongodb.net', 27017) succeeded in 41481 microseconds
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//home/maxludden/dev/py/superforge/core/log.py:516:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 1607 | 5:18:48 AM | log.py | Line 516
+        </div>
+        \<div class="container-debug">
+            <pre>
+Command saslContinue with request id 1350490027 started on server ('ac-qrc1b1r-shard-00-02.wmopsoc.mongodb.net', 27017)
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//home/maxludden/dev/py/superforge/core/log.py:521:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 1607 | 5:18:48 AM | log.py | Line 521
+        </div>
+        \<div class="container-debug">
+            <pre>
+Command saslContinue with request id 1350490027 on server ('ac-qrc1b1r-shard-00-02.wmopsoc.mongodb.net', 27017) succeeded in 39679 microseconds
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//home/maxludden/dev/py/superforge/core/log.py:516:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 1607 | 5:18:48 AM | log.py | Line 516
+        </div>
+        \<div class="container-debug">
+            <pre>
+Command createIndexes with request id 783368690 started on server ('ac-qrc1b1r-shard-00-02.wmopsoc.mongodb.net', 27017)
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//home/maxludden/dev/py/superforge/core/log.py:521:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 1607 | 5:18:48 AM | log.py | Line 521
+        </div>
+        \<div class="container-debug">
+            <pre>
+Command createIndexes with request id 783368690 on server ('ac-qrc1b1r-shard-00-02.wmopsoc.mongodb.net', 27017) succeeded in 51287 microseconds
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//home/maxludden/dev/py/superforge/core/log.py:516:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 1607 | 5:18:48 AM | log.py | Line 516
+        </div>
+        \<div class="container-debug">
+            <pre>
+Command find with request id 1102520059 started on server ('ac-qrc1b1r-shard-00-02.wmopsoc.mongodb.net', 27017)
+            </pre>
+        </div>
+    </div>
+</a>
+
+<br>
+\<a class="debug" href="vscode://file//home/maxludden/dev/py/superforge/core/log.py:521:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 1607 | 5:18:48 AM | log.py | Line 521
+        </div>
+        \<div class="container-debug">
+            <pre>
+Command find with request id 1102520059 on server ('ac-qrc1b1r-shard-00-02.wmopsoc.mongodb.net', 27017) succeeded in 80570 microseconds
+            </pre>
+        </div>
+    </div>
+</a>
