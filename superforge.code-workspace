@@ -13,7 +13,8 @@
 			"infile",
 			"pwrap",
 			"supergene",
-			"xylog"
+			"xylog",
+			"webdriver"
 		],
 		"cSpell.language": "en,en-US"
 	}

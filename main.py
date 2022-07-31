@@ -62,10 +62,11 @@ def multip():
     pool.close()
     pool.join()
     
-# if __name__ == '__main__':
-#     multip()
+if __name__ == '__main__':
+    log.info(f"Number of Cores: {cpu_count()}")
+    multip()
 
-print (cpu_count)
+
 
 # Fix_log.md tags
 fix_tags()

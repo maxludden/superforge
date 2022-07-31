@@ -50,7 +50,6 @@ def get_text_from_ch(chapter: int) -> str:
     article_title = article_title.replace(title_prefix, "").replace(title_suffix, "")
 
     try:
-        sleep(2)
         settings_button = WebDriverWait(driver, 10).until(
             EC.presence_of_element_located((By.LINK_TEXT, "SETTING"))
         )
