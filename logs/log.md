@@ -126858,3 +126858,17 @@ Command getMore with request id 1167255252 on server ('ac-qrc1b1r-shard-00-02.wm
         </div>
     </div>
 </a>
+
+<br>
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:516:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 1578 | 1:48:13 AM | log.py | Line 516
+        </div>
+        \<div class="container-debug">
+            <pre>
+Command getMore with request id 248887755 started on server ('ac-qrc1b1r-shard-00-02.wmopsoc.mongodb.net', 27017)
+            </pre>
+        </div>
+    </div>
+</a>
