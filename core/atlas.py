@@ -23,7 +23,6 @@ def generate_base():
     BASE = f"/{ROOT}/maxludden/dev/py/superforge"
     return BASE
 
-
 BASE = generate_base()
 
 # .┌─────────────────────────────────────────────────────────────────┐.#

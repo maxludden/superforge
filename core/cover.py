@@ -4,7 +4,8 @@ from json import dump
 from mongoengine import Document
 from mongoengine.fields import IntField, StringField
 
-from core.atlas import BASE, max_title, sg
+from core.base import BASE
+from core.atlas import max_title, sg
 from core.log import errwrap, log
 
 #.

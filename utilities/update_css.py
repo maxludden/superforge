@@ -6,7 +6,7 @@ from time import sleep
 
 from tqdm.auto import tqdm
 
-from core.atlas import BASE
+from core.base import BASE
 from core.log import errwrap, log
 from utilities.yay import superyay, yay
 

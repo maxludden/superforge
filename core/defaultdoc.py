@@ -24,7 +24,8 @@ import core.metadata as meta
 import core.myaml as myaml
 import core.section as sec
 import core.titlepage as titlepg
-from core.atlas import BASE, sg
+from core.base import BASE
+from core.atlas import max_title, sg
 from core.log import errwrap, log
 
 

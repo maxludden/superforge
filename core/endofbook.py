@@ -10,7 +10,8 @@ from mongoengine.fields import IntField, StringField
 from num2words import num2words
 from tqdm.auto import tqdm
 
-from core.atlas import BASE, max_title, sg
+from core.base import BASE
+from core.atlas import max_title, sg
 from core.book import Book
 from core.log import errwrap, log
 

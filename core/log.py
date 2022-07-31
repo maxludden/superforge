@@ -10,6 +10,7 @@ from typing import Optional
 from loguru import logger
 from tqdm.auto import tqdm, trange
 from pymongo import monitoring
+from core.base import BASE
 
 
 
@@ -26,7 +27,22 @@ from pymongo import monitoring
 #.############################################################
 
 
-RUN_PATH = "/Users/maxludden/dev/py/superforge/json/run.json"
+
+
+#>┌─────────────────────────────────────────────────────────────────┐<#
+#>│                           Chapter                               │<#
+#>└─────────────────────────────────────────────────────────────────┘<#
+
+def generate_root():
+    if platform() == "Linux":
+        ROOT = "home"
+    else:
+        ROOT = "Users"  # < Mac
+    return ROOT
+ROOT = generate_root()
+BASE =f'/{ROOT}/maxludden/dev/py/superforge'
+
+RUN_PATH = f"{BASE}/superforge/json/run.json"
 LOG_DIR = "logs/"
 MAIN_LOG = "logs.log.md"
 LOGGING_LOG = "logs/logging.log"
@@ -47,19 +63,6 @@ arc_bottom_left='╰'
 arc_bottom_right='╯'
 console_set = "INFO"
 # console_set = "DEBUG"
-
-#>┌─────────────────────────────────────────────────────────────────┐<#
-#>│                           Chapter                               │<#
-#>└─────────────────────────────────────────────────────────────────┘<#
-
-def generate_root():
-    if platform() == "Linux":
-        ROOT = "home"
-    else:
-        ROOT = "Users"  # < Mac
-    return ROOT
-ROOT = generate_root()
-BASE =f'/{ROOT}/maxludden/dev/py/superforge'
 
 def get_last_run():
     """Retrieves the last run.
@@ -259,7 +262,7 @@ if console_set == "INFO":
                 filter=console_info_flt
             ),
             dict(
-                sink="/Users/maxludden/dev/py/superforge/logs/supergene.log",
+                sink=f"{BASE}/logs/supergene.log",
                 colorize=False,
                 format="Run {extra[run]} │ {time:hh:mm:ss:SSS A} │ {file.name: ^13} │  Line {line: ^5} │ {level: <8}ﰲ  {message}",
                 level = "DEBUG",
@@ -269,8 +272,7 @@ if console_set == "INFO":
         ],
         
         extra = {
-            "run": current_run,
-            "htmlmsg": " "
+            "run": current_run
         }
     )
 elif console_set== "DEBUG":
@@ -296,7 +298,7 @@ elif console_set== "DEBUG":
                 filter=console_debug_flt
             ),
             dict(
-                sink="/Users/maxludden/dev/py/superforge/logs/supergene.log",
+                sink=f"{BASE}/logs/supergene.log",
                 colorize=False,
                 format="Run {extra[run]} | {time:hh:mm:ss:SSS A} | {file.name: ^13} |  Line {line: ^5} | {level: <8}ﰲ  {message}",
                 level = "DEBUG",
@@ -403,11 +405,11 @@ def pwrap(line: str):
     return f"<p>{line}</p>"
 
 def multiline(record):
-     return str(record.message).strip()
+    return str(record.message).strip()
 
 logger = log.bind(scope="main")
 logger.add(
-    sink="/Users/maxludden/dev/py/superforge/logs/log.md",
+    sink=f"{BASE}/logs/log.md",
     colorize=False,
     level="DEBUG",
     format=md_fmt,
@@ -417,7 +419,7 @@ logger.add(
 logger.patch(multiline)
 
 def fix_tags():
-    LOG = "/Users/maxludden/dev/py/superforge/logs/log.md"
+    LOG = f"{BASE}/logs/log.md"
 
     with open (LOG, 'r') as infile:
         md = infile.read()
@@ -514,19 +516,19 @@ def errwrap(*, entry=True, exit=True, level="DEBUG", test: bool=False):
 class CommandLogger(monitoring.CommandListener):
     def started(self, event):
         log.debug("Command {0.command_name} with request id "
-                  "{0.request_id} started on server "
-                  "{0.connection_id}".format(event))
+            "{0.request_id} started on server "
+            "{0.connection_id}".format(event))
 
     def succeeded(self, event):
         log.debug("Command {0.command_name} with request id "
-                  "{0.request_id} on server {0.connection_id} "
-                  "succeeded in {0.duration_micros} "
-                  "microseconds".format(event))
+            "{0.request_id} on server {0.connection_id} "
+            "succeeded in {0.duration_micros} "
+            "microseconds".format(event))
 
     def failed(self, event):
         log.debug("Command {0.command_name} with request id "
-                  "{0.request_id} on server {0.connection_id} "
-                  "failed in {0.duration_micros} "
-                  "microseconds".format(event))
-                  
+            "{0.request_id} on server {0.connection_id} "
+            "failed in {0.duration_micros} "
+            "microseconds".format(event))
+            
 monitoring.register(CommandLogger())

@@ -17,7 +17,8 @@ from bs4 import BeautifulSoup
 import requests
 
 import core.chapter as chapter_
-from core.atlas import BASE, sg
+from core.base import BASE
+from core.atlas import max_title, sg
 from core.log import errwrap, log
 from core.yay import finished
 

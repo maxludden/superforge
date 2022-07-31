@@ -10,10 +10,12 @@ from tqdm.auto import tqdm, trange
 from alive_progress import alive_bar
 
 try:
-    from core.atlas import BASE, sg
+    from core.base import BASE
+    from core.atlas import max_title, sg
     from core.log import errwrap, log
 except ImportError:
-    from atlas import BASE, sg
+    from base import BASE
+    from atlas import sg
     from log import errwrap, log
     
 # .┌─────────────────────────────────────────────────────────────────┐.#

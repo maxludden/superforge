@@ -4,7 +4,8 @@ from mongoengine.fields import IntField, StringField
 from tqdm.auto import tqdm, trange
 from alive_progress import alive_bar
 
-from core.atlas import BASE, errwrap, max_title, sg
+from core.base import BASE
+from core.atlas import max_title, sg
 from core.book import Book
 from core.log import log, errwrap
 import core.myaml as myaml

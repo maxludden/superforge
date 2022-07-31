@@ -8,7 +8,7 @@ from prettytable import PrettyTable
 from loremipsum import get_sentences
 import argparse
 
-from core.atlas import BASE
+from core.base import BASE
 from core.log import log
 
 #. Flags
