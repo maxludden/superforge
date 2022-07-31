@@ -1,198 +1,12 @@
+# *SUPERFORGE* Log
+            
+<img src=f"{BASE}/books/book01/Images/gem.gif" alt="gem" width="120" height="60" />
 
-<br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:428:1">
-    <div class="card-debug">
-        <div class="header-debug">
-            Run 1673 | 6:15:01 AM | log.py | Line 428
-        </div>
-        <div class="container-debug">
-            <pre>            </pre>
-        </div>
-    </div>
-</a>
-
-<br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:62:1">
-    <div class="card-debug">
-        <div class="header-debug">
-            Run 1673 | 6:15:01 AM | atlas.py | Line 62
-        </div>
-        <div class="container-debug">
-            <pre>
-URI retrieved from .env:
-<code>None</code>            </pre>
-        </div>
-    </div>
-</a>
-
-<br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:92:1">
-    <div class="card-debug">
-        <div class="header-debug">
-            Run 1673 | 6:15:01 AM | atlas.py | Line 92
-        </div>
-        <div class="container-debug">
-            <pre>
-Retrieved connection URI: None            </pre>
-        </div>
-    </div>
-</a>
 
  <br> <br> 
  
  
- ## Run 1679
-<br>
-<img src=f"/Users/maxludden/dev/py/superforge/books/book01/Images/gem.gif" alt="gem" id="gem" width="120" height="60" />
-
-
-<br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:97:1">
-    <div class="card-debug">
-        <div class="header-debug">
-            Run 1673 | 6:15:01 AM | atlas.py | Line 97
-        </div>
-        <div class="container-debug">
-            <pre>
-Connected to LOCALDB            </pre>
-        </div>
-    </div>
-</a>
-
-<br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:428:1">
-    <div class="card-debug">
-        <div class="header-debug">
-            Run 1677 | 6:15:01 AM | log.py | Line 428
-        </div>
-        <div class="container-debug">
-            <pre>            </pre>
-        </div>
-    </div>
-</a>
-
-<br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:62:1">
-    <div class="card-debug">
-        <div class="header-debug">
-            Run 1677 | 6:15:01 AM | atlas.py | Line 62
-        </div>
-        <div class="container-debug">
-            <pre>
-URI retrieved from .env:
-<code>None</code>            </pre>
-        </div>
-    </div>
-</a>
-
-<br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:92:1">
-    <div class="card-debug">
-        <div class="header-debug">
-            Run 1677 | 6:15:01 AM | atlas.py | Line 92
-        </div>
-        <div class="container-debug">
-            <pre>
-Retrieved connection URI: None            </pre>
-        </div>
-    </div>
-</a>
-
-<br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:516:1">
-    <div class="card-debug">
-        <div class="header-debug">
-            Run 1672 | 6:15:01 AM | log.py | Line 516
-        </div>
-        <div class="container-debug">
-            <pre>
-Command createIndexes with request id -135128115 started on server ('localhost', 27017)            </pre>
-        </div>
-    </div>
-</a>
-
-<br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:521:1">
-    <div class="card-debug">
-        <div class="header-debug">
-            Run 1672 | 6:15:01 AM | log.py | Line 521
-        </div>
-        <div class="container-debug">
-            <pre>
-Command createIndexes with request id -135128115 on server ('localhost', 27017) succeeded in 1402 microseconds            </pre>
-        </div>
-    </div>
-</a>
-
-<br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:516:1">
-    <div class="card-debug">
-        <div class="header-debug">
-            Run 1672 | 6:15:01 AM | log.py | Line 516
-        </div>
-        <div class="container-debug">
-            <pre>
-Command find with request id -2086701613 started on server ('localhost', 27017)            </pre>
-        </div>
-    </div>
-</a>
-
-<br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:97:1">
-    <div class="card-debug">
-        <div class="header-debug">
-            Run 1677 | 6:15:01 AM | atlas.py | Line 97
-        </div>
-        <div class="container-debug">
-            <pre>
-Connected to LOCALDB            </pre>
-        </div>
-    </div>
-</a>
-
-<br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:521:1">
-    <div class="card-debug">
-        <div class="header-debug">
-            Run 1672 | 6:15:01 AM | log.py | Line 521
-        </div>
-        <div class="container-debug">
-            <pre>
-Command find with request id -2086701613 on server ('localhost', 27017) succeeded in 2647 microseconds            </pre>
-        </div>
-    </div>
-</a>
-
-<br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:516:1">
-    <div class="card-debug">
-        <div class="header-debug">
-            Run 1673 | 6:15:01 AM | log.py | Line 516
-        </div>
-        <div class="container-debug">
-            <pre>
-Command createIndexes with request id -1084050863 started on server ('localhost', 27017)            </pre>
-        </div>
-    </div>
-</a>
-
-<br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:521:1">
-    <div class="card-debug">
-        <div class="header-debug">
-            Run 1673 | 6:15:01 AM | log.py | Line 521
-        </div>
-        <div class="container-debug">
-            <pre>
-Command createIndexes with request id -1084050863 on server ('localhost', 27017) succeeded in 1550 microseconds            </pre>
-        </div>
-    </div>
-</a>
-
- <br> <br> 
- 
- 
- ## Run 1679
+ ## Run 1686
 <br>
 <img src=f"/Users/maxludden/dev/py/superforge/books/book01/Images/gem.gif" alt="gem" id="gem" width="120" height="60" />
 
@@ -201,7 +15,7 @@ Command createIndexes with request id -1084050863 on server ('localhost', 27017)
 <a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:428:1">
     <div class="card-debug">
         <div class="header-debug">
-            Run 1674 | 6:15:01 AM | log.py | Line 428
+            Run 1685 | 5:15:45 PM | log.py | Line 428
         </div>
         <div class="container-debug">
             <pre>
@@ -211,119 +25,118 @@ Command createIndexes with request id -1084050863 on server ('localhost', 27017)
 </a>
 
 <br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:516:1">
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/myaml.py:22:1">
     <div class="card-debug">
         <div class="header-debug">
-            Run 1673 | 6:15:01 AM | log.py | Line 516
+            Run 1686 | 5:16:02 PM | myaml.py | Line 22
         </div>
         <div class="container-debug">
             <pre>
-Command find with request id 360556205 started on server ('localhost', 27017)            </pre>
+Imported CUnsafeLoader from yaml.            </pre>
         </div>
     </div>
 </a>
 
 <br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:62:1">
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/myaml.py:34:1">
     <div class="card-debug">
         <div class="header-debug">
-            Run 1674 | 6:15:01 AM | atlas.py | Line 62
+            Run 1686 | 5:16:02 PM | myaml.py | Line 34
         </div>
         <div class="container-debug">
             <pre>
-URI retrieved from .env:
-<code>None</code>            </pre>
+Imported CSafeLoader from yaml.            </pre>
         </div>
     </div>
 </a>
 
 <br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:92:1">
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/myaml.py:46:1">
     <div class="card-debug">
         <div class="header-debug">
-            Run 1674 | 6:15:01 AM | atlas.py | Line 92
+            Run 1686 | 5:16:02 PM | myaml.py | Line 46
         </div>
         <div class="container-debug">
             <pre>
-Retrieved connection URI: None            </pre>
+Imported CDumper from yaml.            </pre>
         </div>
     </div>
 </a>
 
 <br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:521:1">
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/myaml.py:58:1">
     <div class="card-debug">
         <div class="header-debug">
-            Run 1673 | 6:15:01 AM | log.py | Line 521
+            Run 1686 | 5:16:02 PM | myaml.py | Line 58
         </div>
         <div class="container-debug">
             <pre>
-Command find with request id 360556205 on server ('localhost', 27017) succeeded in 633 microseconds            </pre>
+Imported CDumper from yaml.            </pre>
         </div>
     </div>
 </a>
 
 <br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:516:1">
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/mt_get_text.py:135:1">
     <div class="card-debug">
         <div class="header-debug">
-            Run 1677 | 6:15:01 AM | log.py | Line 516
+            Run 1686 | 5:16:02 PM | mt_get_text.py | Line 135
         </div>
         <div class="container-debug">
             <pre>
-Command createIndexes with request id 1455892465 started on server ('localhost', 27017)            </pre>
+Function click_settings() took 0 seconds.            </pre>
         </div>
     </div>
 </a>
 
 <br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:521:1">
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/mt_get_text.py:135:1">
     <div class="card-debug">
         <div class="header-debug">
-            Run 1677 | 6:15:01 AM | log.py | Line 521
+            Run 1686 | 5:16:02 PM | mt_get_text.py | Line 135
         </div>
         <div class="container-debug">
             <pre>
-Command createIndexes with request id 1455892465 on server ('localhost', 27017) succeeded in 2117 microseconds            </pre>
+Function click_bad_words() took 0 seconds.            </pre>
         </div>
     </div>
 </a>
 
 <br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:516:1">
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/mt_get_text.py:135:1">
     <div class="card-debug">
         <div class="header-debug">
-            Run 1677 | 6:15:01 AM | log.py | Line 516
+            Run 1686 | 5:16:02 PM | mt_get_text.py | Line 135
         </div>
         <div class="container-debug">
             <pre>
-Command find with request id 1266683354 started on server ('localhost', 27017)            </pre>
+Function scrape_chapter_text() took 0 seconds.            </pre>
         </div>
     </div>
 </a>
 
 <br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:97:1">
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/mt_get_text.py:135:1">
     <div class="card-debug">
         <div class="header-debug">
-            Run 1674 | 6:15:01 AM | atlas.py | Line 97
+            Run 1686 | 5:16:02 PM | mt_get_text.py | Line 135
         </div>
         <div class="container-debug">
             <pre>
-Connected to LOCALDB            </pre>
+Function parse_chapter_text() took 0 seconds.            </pre>
         </div>
     </div>
 </a>
 
 <br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:521:1">
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/mt_get_text.py:135:1">
     <div class="card-debug">
         <div class="header-debug">
-            Run 1677 | 6:15:01 AM | log.py | Line 521
+            Run 1686 | 5:16:02 PM | mt_get_text.py | Line 135
         </div>
         <div class="container-debug">
             <pre>
-Command find with request id 1266683354 on server ('localhost', 27017) succeeded in 2949 microseconds            </pre>
+Function get_chapter_text() took 0 seconds.            </pre>
         </div>
     </div>
 </a>
@@ -331,7 +144,7 @@ Command find with request id 1266683354 on server ('localhost', 27017) succeeded
  <br> <br> 
  
  
- ## Run 1679
+ ## Run 1687
 <br>
 <img src=f"/Users/maxludden/dev/py/superforge/books/book01/Images/gem.gif" alt="gem" id="gem" width="120" height="60" />
 
@@ -340,7 +153,7 @@ Command find with request id 1266683354 on server ('localhost', 27017) succeeded
 <a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:428:1">
     <div class="card-debug">
         <div class="header-debug">
-            Run 1676 | 6:15:01 AM | log.py | Line 428
+            Run 1686 | 5:16:02 PM | log.py | Line 428
         </div>
         <div class="container-debug">
             <pre>
@@ -352,145 +165,143 @@ Command find with request id 1266683354 on server ('localhost', 27017) succeeded
 </a>
 
 <br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:62:1">
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/myaml.py:22:1">
     <div class="card-debug">
         <div class="header-debug">
-            Run 1676 | 6:15:01 AM | atlas.py | Line 62
+            Run 1687 | 5:16:13 PM | myaml.py | Line 22
         </div>
         <div class="container-debug">
             <pre>
-URI retrieved from .env:
-<code>None</code>            </pre>
+Imported CUnsafeLoader from yaml.            </pre>
         </div>
     </div>
 </a>
 
 <br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:92:1">
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/myaml.py:34:1">
     <div class="card-debug">
         <div class="header-debug">
-            Run 1676 | 6:15:01 AM | atlas.py | Line 92
+            Run 1687 | 5:16:13 PM | myaml.py | Line 34
         </div>
         <div class="container-debug">
             <pre>
-Retrieved connection URI: None            </pre>
+Imported CSafeLoader from yaml.            </pre>
         </div>
     </div>
 </a>
 
 <br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:516:1">
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/myaml.py:46:1">
     <div class="card-debug">
         <div class="header-debug">
-            Run 1674 | 6:15:01 AM | log.py | Line 516
+            Run 1687 | 5:16:13 PM | myaml.py | Line 46
         </div>
         <div class="container-debug">
             <pre>
-Command createIndexes with request id -1182835773 started on server ('localhost', 27017)            </pre>
+Imported CDumper from yaml.            </pre>
         </div>
     </div>
 </a>
 
 <br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:521:1">
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/myaml.py:58:1">
     <div class="card-debug">
         <div class="header-debug">
-            Run 1674 | 6:15:01 AM | log.py | Line 521
+            Run 1687 | 5:16:13 PM | myaml.py | Line 58
         </div>
         <div class="container-debug">
             <pre>
-Command createIndexes with request id -1182835773 on server ('localhost', 27017) succeeded in 732 microseconds            </pre>
+Imported CDumper from yaml.            </pre>
         </div>
     </div>
 </a>
 
 <br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/atlas.py:97:1">
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/mt_get_text.py:135:1">
     <div class="card-debug">
         <div class="header-debug">
-            Run 1676 | 6:15:01 AM | atlas.py | Line 97
+            Run 1687 | 5:16:13 PM | mt_get_text.py | Line 135
         </div>
         <div class="container-debug">
             <pre>
-Connected to LOCALDB            </pre>
+Function click_settings() took 0 seconds.            </pre>
         </div>
     </div>
 </a>
 
 <br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:516:1">
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/mt_get_text.py:135:1">
     <div class="card-debug">
         <div class="header-debug">
-            Run 1674 | 6:15:01 AM | log.py | Line 516
+            Run 1687 | 5:16:13 PM | mt_get_text.py | Line 135
         </div>
         <div class="container-debug">
             <pre>
-Command find with request id 2146653269 started on server ('localhost', 27017)            </pre>
+Function click_bad_words() took 0 seconds.            </pre>
         </div>
     </div>
 </a>
 
 <br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:521:1">
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/mt_get_text.py:135:1">
     <div class="card-debug">
         <div class="header-debug">
-            Run 1674 | 6:15:01 AM | log.py | Line 521
+            Run 1687 | 5:16:13 PM | mt_get_text.py | Line 135
         </div>
         <div class="container-debug">
             <pre>
-Command find with request id 2146653269 on server ('localhost', 27017) succeeded in 776 microseconds            </pre>
+Function scrape_chapter_text() took 0 seconds.            </pre>
         </div>
     </div>
 </a>
 
 <br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:516:1">
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/mt_get_text.py:135:1">
     <div class="card-debug">
         <div class="header-debug">
-            Run 1676 | 6:15:01 AM | log.py | Line 516
+            Run 1687 | 5:16:13 PM | mt_get_text.py | Line 135
         </div>
         <div class="container-debug">
             <pre>
-Command createIndexes with request id 819049871 started on server ('localhost', 27017)            </pre>
+Function parse_chapter_text() took 0 seconds.            </pre>
         </div>
     </div>
 </a>
 
 <br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:521:1">
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/mt_get_text.py:135:1">
     <div class="card-debug">
         <div class="header-debug">
-            Run 1676 | 6:15:01 AM | log.py | Line 521
+            Run 1687 | 5:16:13 PM | mt_get_text.py | Line 135
         </div>
         <div class="container-debug">
             <pre>
-Command createIndexes with request id 819049871 on server ('localhost', 27017) succeeded in 611 microseconds            </pre>
+Function get_chapter_text() took 0 seconds.            </pre>
         </div>
     </div>
 </a>
 
+ <br> <br> 
+ 
+ 
+ ## Run 1688
 <br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:516:1">
-    <div class="card-debug">
-        <div class="header-debug">
-            Run 1676 | 6:15:01 AM | log.py | Line 516
-        </div>
-        <div class="container-debug">
-            <pre>
-Command find with request id 1786355949 started on server ('localhost', 27017)            </pre>
-        </div>
-    </div>
-</a>
+<img src=f"/Users/maxludden/dev/py/superforge/books/book01/Images/gem.gif" alt="gem" id="gem" width="120" height="60" />
+
 
 <br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:521:1">
+<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:428:1">
     <div class="card-debug">
         <div class="header-debug">
-            Run 1676 | 6:15:01 AM | log.py | Line 521
+            Run 1687 | 5:16:13 PM | log.py | Line 428
         </div>
         <div class="container-debug">
             <pre>
-Command find with request id 1786355949 on server ('localhost', 27017) succeeded in 402 microseconds            </pre>
+
+
+
+
+            </pre>
         </div>
     </div>
 </a>

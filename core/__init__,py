@@ -13,6 +13,7 @@ __all__ = [
     "get_chapter",
     "log",
     "metadata",
+    "mt_get_text",
     "myaml",
     "section",
     "sort_json",
