@@ -18,7 +18,7 @@ from sg310.SG import badWords, fixDemigod, geno_r, status, removeDotCom
     
 
 LOG_PATH = "logs/supergene.log"
-DRIVERS_PATH = "driver/chromedriver"
+DRIVER_PATH = "driver/chromedriver"
 
 
 def get_chapter_dict(chapter: str) -> dict:

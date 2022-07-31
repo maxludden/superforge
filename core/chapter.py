@@ -14,7 +14,7 @@ from itertools import chain
 
 from icecream import ic
 from mongoengine import Document
-from mongoengine.fields import EnumField, IntField, StringField
+from mongoengine.fields import EnumField, IntField, StringField, URLField
 from pymongo import MongoClient
 from tqdm.auto import tqdm, trange
 from alive_progress import alive_bar
@@ -47,7 +47,8 @@ class Chapter(Document):
     html_path = StringField()
     md = StringField()
     html = StringField()
-    
+    url = URLField()
+    unparsed_text = StringField()
 
     # def __init__(self, *args, **kwargs):
     #     super().__init__(*args, **kwargs)
