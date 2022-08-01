@@ -149,3 +149,4 @@ for x in alive_it(final_result,title="Updating MongoDB"):
         log.debug(f"Updated chapter {doc.chapter}")
         
 sh("figlet 'Done!' | lolcat -a")
+ffrom

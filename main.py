@@ -48,7 +48,7 @@ with open("json/toc2.json", "r") as infile:
 
 unparsed_text = {}
 
-with ThreadPoolExecutor(max_workers=8) as executor:
+with ThreadPoolExecutor(max_workers=16) as executor:
     executor.map(get_chapter_text, chapter_gen())
 
 
