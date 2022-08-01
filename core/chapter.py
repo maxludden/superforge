@@ -187,31 +187,52 @@ def generate_book(chapter: int):
         `book` (int):
             The book of the given chapter
     """
-
     section = generate_section(chapter)
-    log.debug(f"Section: {section}")
-    if section == 1:
-        return 1
-    elif section == 2:
-        return 2
-    elif section == 3:
-        return 3
-    elif section == 4 | section == 5:
-        return 4
-    elif section == 6 | section == 7:
-        return 5
-    elif section == 8 | section == 9:
-        return 6
-    elif section == 10 | section == 11:
-        return 7
-    elif section == 12 | section == 13:
-        return 8
-    elif section == 14 | section == 15:
-        return 9
-    elif section == 16 | section == 17:
-        return 10
-    else:
-        raise ValueError("Invalid Section Input.", f"Section: {section}")
+    match section:
+        case 1:
+            return 1
+        case 2:
+            return 2
+        case 3:
+            return 3
+        case 4 | 5:
+            return 4
+        case 6 | 7:
+            return 5
+        case 8 | 9:
+            return 6
+        case 10 | 11:
+            return 7
+        case 12 | 13:
+            return 8
+        case 14 | 15:
+            return 9
+        case 16 | 17:
+            return 10
+    # section = generate_section(chapter)
+    # log.debug(f"Section: {section}")
+    # if section == 1:
+    #     return 1
+    # elif section == 2:
+    #     return 2
+    # elif section == 3:
+    #     return 3
+    # elif section == 4 | section == 5:
+    #     return 4
+    # elif section == 6 | section == 7:
+    #     return 5
+    # elif section == 8 | section == 9:
+    #     return 6
+    # elif section == 10 | section == 11:
+    #     return 7
+    # elif section == 12 | section == 13:
+    #     return 8
+    # elif section == 14 | section == 15:
+    #     return 9
+    # elif section == 16 | section == 17:
+    #     return 10
+    # else:
+    #     raise ValueError("Invalid Section Input.", f"Section: {section}")
 
 
 @errwrap()
