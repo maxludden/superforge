@@ -70,7 +70,7 @@ class Chapter(Document):
         
 class chapter_gen:
     '''
-    Iterator for chapter_numbers
+    Generator for chapter_numbers.
     '''
     def __init__(self, start: int = 1, end: int = 3462):
         self.start = start
@@ -81,9 +81,13 @@ class chapter_gen:
     def __next__(self):
         if self.chapter_number >= 3462:
             raise StopIteration
-        elif self.chapter_number == 3095:
+        elif self.chapter_number == 3094:
+            # Skipping chapter 3095
+            # 3094 + 1 + 1 = 3096
             self.chapter_number += 1
-        elif self.chapter_number == 3117:
+        elif self.chapter_number == 3116:
+            # Skipping chapter 3117
+            # 3116 + 1 + 1 = 3118
             self.chapter_number += 1
         else:
             self.chapter_number += 1
