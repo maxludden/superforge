@@ -1,7 +1,7 @@
 # core/mt_get_text.py
 
 from json import load, loads, dump, dumps
-from time import perf_counter
+from time import perf_counter_ns
 import concurrent.futures
 from functools import wraps
 
@@ -226,14 +226,16 @@ def parse_chapter_text(chapter: int, text: str) -> str:
         log.debug(f"Chapter {chapter}: Parsed chapter text.")
     return text
 
-
+count = 0
+timer = {}
 # @timer() 
 def get_chapter_text(chapter: int) -> str:
+    t1 = perf_counter_ns()
     CHAPTER = str(chapter)
     with open ("json/toc2.json", "r") as infile:
         toc = load(infile)
         chapter_url = toc[CHAPTER]["url"]
-        chapter = toc[CHAPTER]["chapter"]
+        chapter = int(toc[CHAPTER]["chapter"])
         chapter_title = toc[CHAPTER]["title"]
     driver = browser()
     driver.get(chapter_url)
@@ -265,6 +267,13 @@ def get_chapter_text(chapter: int) -> str:
     chapter_dicts.append(chapter_dict)
 
     driver.quit()
+    
+    t2 = perf_counter_ns()
+    elapsed_time = t2 - t1
+    timer = f"Chapter {chapter}: elapsed time: {elapsed_time}\n"
+    with open ('json/timer.text', 'a') as outfile:
+        outfile.write(timer)
+        
     return chapter_dict
 
 
