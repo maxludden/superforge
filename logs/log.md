@@ -6,157 +6,22 @@
  <br> <br> 
  
  
- ## Run 1686
+ ## Run 1722
 <br>
 <img src=f"/Users/maxludden/dev/py/superforge/books/book01/Images/gem.gif" alt="gem" id="gem" width="120" height="60" />
 
 
 <br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:428:1">
-    <div class="card-debug">
-        <div class="header-debug">
-            Run 1685 | 5:15:45 PM | log.py | Line 428
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:428:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 1721 | 10:03:21 PM | log.py | Line 428
         </div>
-        <div class="container-debug">
+        \<div class="container-debug">
             <pre>
-            </pre>
-        </div>
-    </div>
-</a>
-
-<br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/myaml.py:22:1">
-    <div class="card-debug">
-        <div class="header-debug">
-            Run 1686 | 5:16:02 PM | myaml.py | Line 22
-        </div>
-        <div class="container-debug">
-            <pre>
-Imported CUnsafeLoader from yaml.            </pre>
-        </div>
-    </div>
-</a>
-
-<br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/myaml.py:34:1">
-    <div class="card-debug">
-        <div class="header-debug">
-            Run 1686 | 5:16:02 PM | myaml.py | Line 34
-        </div>
-        <div class="container-debug">
-            <pre>
-Imported CSafeLoader from yaml.            </pre>
-        </div>
-    </div>
-</a>
-
-<br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/myaml.py:46:1">
-    <div class="card-debug">
-        <div class="header-debug">
-            Run 1686 | 5:16:02 PM | myaml.py | Line 46
-        </div>
-        <div class="container-debug">
-            <pre>
-Imported CDumper from yaml.            </pre>
-        </div>
-    </div>
-</a>
-
-<br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/myaml.py:58:1">
-    <div class="card-debug">
-        <div class="header-debug">
-            Run 1686 | 5:16:02 PM | myaml.py | Line 58
-        </div>
-        <div class="container-debug">
-            <pre>
-Imported CDumper from yaml.            </pre>
-        </div>
-    </div>
-</a>
-
-<br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/mt_get_text.py:135:1">
-    <div class="card-debug">
-        <div class="header-debug">
-            Run 1686 | 5:16:02 PM | mt_get_text.py | Line 135
-        </div>
-        <div class="container-debug">
-            <pre>
-Function click_settings() took 0 seconds.            </pre>
-        </div>
-    </div>
-</a>
-
-<br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/mt_get_text.py:135:1">
-    <div class="card-debug">
-        <div class="header-debug">
-            Run 1686 | 5:16:02 PM | mt_get_text.py | Line 135
-        </div>
-        <div class="container-debug">
-            <pre>
-Function click_bad_words() took 0 seconds.            </pre>
-        </div>
-    </div>
-</a>
-
-<br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/mt_get_text.py:135:1">
-    <div class="card-debug">
-        <div class="header-debug">
-            Run 1686 | 5:16:02 PM | mt_get_text.py | Line 135
-        </div>
-        <div class="container-debug">
-            <pre>
-Function scrape_chapter_text() took 0 seconds.            </pre>
-        </div>
-    </div>
-</a>
-
-<br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/mt_get_text.py:135:1">
-    <div class="card-debug">
-        <div class="header-debug">
-            Run 1686 | 5:16:02 PM | mt_get_text.py | Line 135
-        </div>
-        <div class="container-debug">
-            <pre>
-Function parse_chapter_text() took 0 seconds.            </pre>
-        </div>
-    </div>
-</a>
-
-<br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/mt_get_text.py:135:1">
-    <div class="card-debug">
-        <div class="header-debug">
-            Run 1686 | 5:16:02 PM | mt_get_text.py | Line 135
-        </div>
-        <div class="container-debug">
-            <pre>
-Function get_chapter_text() took 0 seconds.            </pre>
-        </div>
-    </div>
-</a>
-
- <br> <br> 
- 
- 
- ## Run 1687
-<br>
-<img src=f"/Users/maxludden/dev/py/superforge/books/book01/Images/gem.gif" alt="gem" id="gem" width="120" height="60" />
 
 
-<br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:428:1">
-    <div class="card-debug">
-        <div class="header-debug">
-            Run 1686 | 5:16:02 PM | log.py | Line 428
-        </div>
-        <div class="container-debug">
-            <pre>
+
 
 
             </pre>
@@ -165,142 +30,98 @@ Function get_chapter_text() took 0 seconds.            </pre>
 </a>
 
 <br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/myaml.py:22:1">
-    <div class="card-debug">
-        <div class="header-debug">
-            Run 1687 | 5:16:13 PM | myaml.py | Line 22
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/mt_get_text.py:150:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 1721 | 10:03:25 PM | mt_get_text.py | Line 150
         </div>
-        <div class="container-debug">
+        \<div class="container-debug">
             <pre>
-Imported CUnsafeLoader from yaml.            </pre>
+Chapter 5: Clicked settings button.
+            </pre>
         </div>
     </div>
 </a>
 
 <br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/myaml.py:34:1">
-    <div class="card-debug">
-        <div class="header-debug">
-            Run 1687 | 5:16:13 PM | myaml.py | Line 34
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/mt_get_text.py:150:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 1721 | 10:03:26 PM | mt_get_text.py | Line 150
         </div>
-        <div class="container-debug">
+        \<div class="container-debug">
             <pre>
-Imported CSafeLoader from yaml.            </pre>
+Chapter 3: Clicked settings button.
+            </pre>
         </div>
     </div>
 </a>
 
 <br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/myaml.py:46:1">
-    <div class="card-debug">
-        <div class="header-debug">
-            Run 1687 | 5:16:13 PM | myaml.py | Line 46
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/mt_get_text.py:150:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 1721 | 10:03:26 PM | mt_get_text.py | Line 150
         </div>
-        <div class="container-debug">
+        \<div class="container-debug">
             <pre>
-Imported CDumper from yaml.            </pre>
+Chapter 2: Clicked settings button.
+            </pre>
         </div>
     </div>
 </a>
 
 <br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/myaml.py:58:1">
-    <div class="card-debug">
-        <div class="header-debug">
-            Run 1687 | 5:16:13 PM | myaml.py | Line 58
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/mt_get_text.py:150:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 1721 | 10:03:26 PM | mt_get_text.py | Line 150
         </div>
-        <div class="container-debug">
+        \<div class="container-debug">
             <pre>
-Imported CDumper from yaml.            </pre>
+Chapter 4: Clicked settings button.
+            </pre>
         </div>
     </div>
 </a>
 
 <br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/mt_get_text.py:135:1">
-    <div class="card-debug">
-        <div class="header-debug">
-            Run 1687 | 5:16:13 PM | mt_get_text.py | Line 135
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/mt_get_text.py:164:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 1721 | 10:03:27 PM | mt_get_text.py | Line 164
         </div>
-        <div class="container-debug">
+        \<div class="container-debug">
             <pre>
-Function click_settings() took 0 seconds.            </pre>
+Chapter 5: Clicked bad words button.
+            </pre>
         </div>
     </div>
 </a>
 
 <br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/mt_get_text.py:135:1">
-    <div class="card-debug">
-        <div class="header-debug">
-            Run 1687 | 5:16:13 PM | mt_get_text.py | Line 135
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/mt_get_text.py:164:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 1721 | 10:03:27 PM | mt_get_text.py | Line 164
         </div>
-        <div class="container-debug">
+        \<div class="container-debug">
             <pre>
-Function click_bad_words() took 0 seconds.            </pre>
+Chapter 3: Clicked bad words button.
+            </pre>
         </div>
     </div>
 </a>
 
 <br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/mt_get_text.py:135:1">
-    <div class="card-debug">
-        <div class="header-debug">
-            Run 1687 | 5:16:13 PM | mt_get_text.py | Line 135
+\<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/mt_get_text.py:188:1">
+    \<div class="card-debug">
+        \<div class="header-debug">
+            Run 1721 | 10:03:27 PM | mt_get_text.py | Line 188
         </div>
-        <div class="container-debug">
+        \<div class="container-debug">
             <pre>
-Function scrape_chapter_text() took 0 seconds.            </pre>
-        </div>
-    </div>
-</a>
-
-<br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/mt_get_text.py:135:1">
-    <div class="card-debug">
-        <div class="header-debug">
-            Run 1687 | 5:16:13 PM | mt_get_text.py | Line 135
-        </div>
-        <div class="container-debug">
-            <pre>
-Function parse_chapter_text() took 0 seconds.            </pre>
-        </div>
-    </div>
-</a>
-
-<br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/mt_get_text.py:135:1">
-    <div class="card-debug">
-        <div class="header-debug">
-            Run 1687 | 5:16:13 PM | mt_get_text.py | Line 135
-        </div>
-        <div class="container-debug">
-            <pre>
-Function get_chapter_text() took 0 seconds.            </pre>
-        </div>
-    </div>
-</a>
-
- <br> <br> 
- 
- 
- ## Run 1688
-<br>
-<img src=f"/Users/maxludden/dev/py/superforge/books/book01/Images/gem.gif" alt="gem" id="gem" width="120" height="60" />
-
-
-<br>
-<a class="debug" href="vscode://file//Users/maxludden/dev/py/superforge/core/log.py:428:1">
-    <div class="card-debug">
-        <div class="header-debug">
-            Run 1687 | 5:16:13 PM | log.py | Line 428
-        </div>
-        <div class="container-debug">
-            <pre>
-
-
-
-
+Chapter 5: Found chapter text.
             </pre>
         </div>
     </div>

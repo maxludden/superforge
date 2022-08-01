@@ -12,6 +12,7 @@ from multiprocessing import Pool, Queue, Process
 from functools import partial
 from itertools import chain
 
+
 from icecream import ic
 from mongoengine import Document
 from mongoengine.fields import EnumField, IntField, StringField, URLField
@@ -67,10 +68,27 @@ class Chapter(Document):
         html = f"\n \nHTML:\n  \n{self.html}"
         return f"\n \n{yaml_doc}{md}{text}{html}"
         
-    
-        
-
-
+class chapter_gen:
+    '''
+    Iterator for chapter_numbers
+    '''
+    def __init__(self, start: int = 1, end: int = 3462):
+        self.start = start
+        self.end = end
+        self.chapter_number = start
+    def __iter__(self):
+        return self
+    def __next__(self):
+        if self.chapter_number >= 3462:
+            raise StopIteration
+        elif self.chapter_number == 3095:
+            self.chapter_number += 1
+        elif self.chapter_number == 3117:
+            self.chapter_number += 1
+        else:
+            self.chapter_number += 1
+            return self.chapter_number
+                
 @errwrap()
 def generate_section(chapter: int):
     """

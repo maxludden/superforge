@@ -73,30 +73,16 @@ class UnableToParseChapterText(Exception):
         return f"UnableToParseChapterText: Chapter {self.chapter}: {self.msg}"
 
 #> Setup
-# Declare chapter generator
-def chapter_gen():
-    """
-    Generate's a list of chapter to be processed.
 
-    Yields:
-        `chapter` (int):
-                Chapter number to be processed.
-    """
-    chapter_range = range(1, 3463)
-    for x in chapter_range:
-        if x == 3095:
-            continue
-        elif x == 3117:
-            continue
-        else:
-            yield x
 
 NUM_THREADS = 24
 chapter_dicts = []
 
 # read toc2
-with open("json/toc2.json", "r") as infile:
-    toc = load(infile)
+def read_toc():
+    with open("json/toc2.json", "r") as infile:
+        toc = dict((load(infile)))
+    return toc
 
 # Function Timer Decorator
 def timer(*, entry: bool = True, exit: bool = True, level="DEBUG"):
@@ -119,15 +105,12 @@ def timer(*, entry: bool = True, exit: bool = True, level="DEBUG"):
             timer_log = log.opt(depth=1)
             t1 = perf_counter()
             if entry:
-                timer_log(
-                    level,
-                    f"Entered {name}() at {t1})\n<code>args: {args}\nkwargs: {kwargs}</code>",
+                timer_log.log (level,f"Entered {name}() at {t1})\n<code>args: {args}\nkwargs: {kwargs}</code>",
                 )
             result = func(*args, **kwargs)
             t2 = perf_counter()
             if exit:
-                timer_log.log(
-                    level, f"Exiting {name}() @ {t2}<code>\nresult:\n<{result}</code>"
+                timer_log.log(level, f"Exiting {name}() @ {t2}<code>\nresult:\n<{result}</code>"
                 )
             return result
 
@@ -141,21 +124,24 @@ def timer(*, entry: bool = True, exit: bool = True, level="DEBUG"):
 #> Driver
 # called by get_chapter_text()
 def browser():
-    driver = webdriver.Chrome(headless=True)
+    chromeoptions = webdriver.ChromeOptions().add_argument("--headless")
+    driver = webdriver.Chrome(options=chromeoptions)
     return driver
 
 # called by get_chapter_text()
+
 def get_chapter_dict(chapter: int) -> dict:
-    chapter_dict = toc[chapter]
+    toc = read_toc()
+    chapter_dict = toc[str(chapter)]
     return chapter_dict
 
 
-@timer() # called by get_chapter_text()
+ # called by get_chapter_text()
 def click_settings(driver, chapter: int):
     # Wait for Settings Button to load, then click it
     try:
         settings_button = WebDriverWait(driver, 10).until(
-            EC.presence_of_all_elements_located((By.LINK_TEXT, "SETTING"))
+            EC.presence_of_element_located((By.LINK_TEXT, "SETTING"))
         )
         settings_button.click()
     except NoSuchElementException:
@@ -164,7 +150,7 @@ def click_settings(driver, chapter: int):
         log.debug(f"Chapter {chapter}: Clicked settings button.")
 
 
-@timer() # called by get_chapter_text()
+# @timer() # called by get_chapter_text()
 def click_bad_words(driver, chapter: int):
     # Click Bad Words Button
     try:
@@ -178,7 +164,7 @@ def click_bad_words(driver, chapter: int):
         log.debug(f"Chapter {chapter}: Clicked bad words button.")
 
 
-@timer()# called by get_chapter_text()
+# @timer()# called by get_chapter_text()
 def scrape_chapter_text(driver, chapter: int) -> str:
     # Wait for text to load; then get it
     try:
@@ -203,7 +189,7 @@ def scrape_chapter_text(driver, chapter: int) -> str:
     return text
 
 
-@timer() # called by get_chapter_text()
+# @timer() # called by get_chapter_text()
 def parse_chapter_text(chapter: int, text: str) -> str:
     # Get Chapter_Dict
     chapter_dict = get_chapter_dict(chapter)
@@ -222,7 +208,9 @@ def parse_chapter_text(chapter: int, text: str) -> str:
                 new_text_split.append(line)
                 continue
             if x == 2:
-                if "Nyoi-Bo" in line | "nyoi-bo" in line:
+                if "Nyoi-Bo" in line:
+                    line = ""
+                elif "nyoi-bo" in line:
                     line = ""
                 elif str(chapter) in line:
                     line = ""
@@ -239,12 +227,14 @@ def parse_chapter_text(chapter: int, text: str) -> str:
     return text
 
 
-@timer() 
+# @timer() 
 def get_chapter_text(chapter: int) -> str:
-    chapter_dict = get_chapter_dict(chapter)
-    chapter_url = chapter_dict["url"]
-    chapter = int(chapter_dict["chapter"])
-    chapter_title = chapter_dict["title"]
+    CHAPTER = str(chapter)
+    with open ("json/toc2.json", "r") as infile:
+        toc = load(infile)
+        chapter_url = toc[CHAPTER]["url"]
+        chapter = toc[CHAPTER]["chapter"]
+        chapter_title = toc[CHAPTER]["title"]
     driver = browser()
     driver.get(chapter_url)
 
