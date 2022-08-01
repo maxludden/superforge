@@ -48,8 +48,9 @@ with open("json/toc2.json", "r") as infile:
 
 unparsed_text = {}
 
-with ThreadPoolExecutor(max_workers=28) as executor:
-    executor.map(get_chapter_text, chapter_gen(start=2316))
+with alive_bar(795, title="Downloading chapters", dual_line=True) as bar:
+    with ThreadPoolExecutor(max_workers=20) as executor:
+        executor.map(get_chapter_text, chapter_gen(start=3096, end=3116))
 
 
 
